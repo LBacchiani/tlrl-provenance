@@ -1,0 +1,130 @@
+{
+  "algorithm_scope": {
+    "deepltl_primary_algorithms": [
+      "formula_conditioned_recurrent_ppo"
+    ],
+    "not_primary_for_letter_env_ppo_without_separate_frozen_extension": [
+      "dqn"
+    ],
+    "reason": "This protocol governs the PPO pillar of the LetterEnv benchmark only. DQN is a separate, self-contained pillar (see benchmarks/letter_env/DQN_PROTOCOL.md) with its own frozen plan and gate; the two are not mixed here."
+  },
+  "benchmark_id": "deepltl-letterenv-official-eval-50",
+  "created_local_date": "2026-09-05",
+  "eligibility_checks": [
+    "all_50_official_formulas_evaluated",
+    "no_formula_dropped_after_outcome_inspection",
+    "five_confirmatory_training_seeds_finished_or_reported_intention_to_train",
+    "official_and_independent_verdicts_for_every_episode",
+    "zero_missing_records_after_merge",
+    "zero_duplicate_records_after_merge",
+    "confirmatory_seed_namespaces_disjoint_from_development_pilot",
+    "confirmatory_seed_namespaces_disjoint_from_letter_env_dqn_pillar",
+    "launch_time_eval_seed_bases_recorded_and_checked_against_development_eval_seed_bases_and_training_seeds",
+    "semantic_engine_version_and_source_digest_embedded",
+    "failures_censoring_and_environment_terminations_retained"
+  ],
+  "evaluation": {
+    "deterministic_policy": true,
+    "primary_final_policy_audit": {
+      "episodes_per_formula_per_seed": 20,
+      "formula_count": 50,
+      "training_seed_count": 5,
+      "total_episodes": 5000
+    },
+    "secondary_checkpoint_trajectory_audit": {
+      "checkpoint_selection_rule": [
+        "initialization_checkpoint",
+        "nearest_available_to_1.0M_steps",
+        "nearest_available_to_2.0M_steps",
+        "nearest_available_to_3.0M_steps",
+        "nearest_available_to_4.0M_steps",
+        "latest_evaluation_checkpoint"
+      ],
+      "episodes_per_formula_per_checkpoint_per_seed": 3,
+      "formula_count": 50,
+      "interpretation": "secondary_descriptive_not_powered_for_small_within_formula_evidence_learning_correlations",
+      "training_seed_count": 5,
+      "total_episodes_if_all_checkpoints_present": 4500
+    }
+  },
+  "formula_corpus": {
+    "atoms": [
+      "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l"
+    ],
+    "count": 50,
+    "families_descriptive_only": [
+      "eventually_chain",
+      "until_chain",
+      "other"
+    ],
+    "selection_rule": "all official DeepLTL LetterEnv-v0 evaluation formulas -- the same frozen 50-formula corpus used by the letter_env DQN pillar (evidence/letter_env/validation/letter_env_corpus_freeze.json)"
+  },
+  "interpretation_guardrails": {
+    "eventually_chain_zero_necessity_can_be_formula_predictable": true,
+    "formula_family_effects_are_descriptive_not_policy_quality": true,
+    "policy_learning_claims_hold_formula_fixed": true,
+    "primary_interpretation": "P_sat says whether the formula was satisfied; semantic provenance explains what kind of satisfaction or failure occurred.",
+    "cross_algorithm_comparison_caveat": "This PPO pillar and the DQN pillar share the same environment, curriculum object, and formula corpus, but are not claimed to be trained to equivalent absolute competence -- see benchmarks/letter_env/DQN_PROTOCOL.md and PPO_PROTOCOL.md for each pillar's own curriculum-stage history. Cross-algorithm findings should be reported per-pillar with that context, not collapsed into a single number."
+  },
+  "portfolio_algorithmic_diversity_rule": {
+    "paper_level_minimum_distinct_deep_rl_algorithms": 2,
+    "preferred_distinct_deep_rl_algorithms": 3,
+    "where_applicable": [
+      "ppo",
+      "dqn"
+    ]
+  },
+  "recorded_quantities": [
+    "training_seed",
+    "checkpoint_path",
+    "checkpoint_sha256",
+    "checkpoint_steps",
+    "formula_id",
+    "formula_text",
+    "formula_family",
+    "evaluation_seed",
+    "scenario_seed",
+    "generated_map_canonical_sha256",
+    "return_sum",
+    "steps",
+    "terminated",
+    "truncated",
+    "official_success",
+    "official_violation",
+    "independent_temporal_verdict",
+    "official_independent_mismatch",
+    "atom_counts",
+    "possible_evidence_count",
+    "necessary_evidence_count",
+    "possible_evidence_per_step",
+    "necessary_evidence_per_step",
+    "zero_necessary_success",
+    "failure_class"
+  ],
+  "scope": "paper_eligible_protocol_not_confirmatory_result",
+  "training": {
+    "batch_size": 256,
+    "steps_per_process": 128,
+    "batch_steps": 2048,
+    "batch_rounded_expected_steps": 5001216,
+    "confirmatory_training_seeds": [
+      940001,
+      940002,
+      940003,
+      940004,
+      940005
+    ],
+    "development_seed_excluded_from_primary": 940000,
+    "device": "gpu",
+    "gpu_assignment": "CUDA_VISIBLE_DEVICES=1 for every seed -- this project dedicates GPU0 to the letter_env DQN pillar and GPU1 to this PPO pillar, unlike deepltl_point's confirmatory campaign which cycled across both GPUs. Seeds run sequentially (max_concurrent=1) on GPU1, not concurrently, to avoid the GPU-contention throughput collapse already observed and documented once this session (see DQN_PROTOCOL.md's stall investigation) -- five PPO processes sharing one GPU concurrently would very plausibly reproduce the same failure mode deliberately rather than by accident.",
+    "discount": 0.94,
+    "gae_lambda": 0.95,
+    "entropy_coefficient": 0.01,
+    "epochs": 8,
+    "learning_rate": 0.0003,
+    "num_processes": 16,
+    "primary_policy_selection_rule": "latest_evaluation_checkpoint_per_seed",
+    "target_steps": 5000000,
+    "target_steps_note": "DeepLTL's own run_letter.py default is 15,000,000 steps. 5,000,000 is a deliberate, documented reduced budget, the same deviation already made for the same reason by deepltl_point's own PPO campaign, and matched here to the letter_env DQN pillar's budget for comparability."
+  }
+}

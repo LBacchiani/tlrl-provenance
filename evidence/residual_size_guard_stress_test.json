@@ -1,0 +1,46 @@
+{
+  "schema_version": "residual-size-guard-stress-test/1",
+  "purpose": "Checks how close real corpus formulas come to the residual-size guard under adversarial synthetic traces, whether deliberately adversarial formula constructions can drive it further, and that forcing the guard is reported as an explicit, marked fallback rather than a proven OPEN.",
+  "corpus_worst_case": {
+    "per_corpus": {
+      "deepltl_point": {
+        "max_residual_nodes": 12,
+        "worst_formula": "(!yellow U (green & (!magenta U blue)))",
+        "horizon": 1000,
+        "num_formulas": 50
+      },
+      "letter_env": {
+        "max_residual_nodes": 12,
+        "worst_formula": "(!j U (g & (!h U a)))",
+        "horizon": 75,
+        "num_formulas": 50
+      },
+      "flatworld": {
+        "max_residual_nodes": 22,
+        "worst_formula": "(!(blue & green & aqua) U (red & (!(blue & green) U (blue & aqua))))",
+        "horizon": 500,
+        "num_formulas": 49
+      }
+    },
+    "overall_max_residual_nodes": 22,
+    "guard_threshold": 2000
+  },
+  "adversarial_constructions": {
+    "wide_iff_chain_of_eventually": {
+      "atoms": 80,
+      "steps": 2000,
+      "max_residual_nodes": 239
+    },
+    "wide_conjunction_of_until_held_open": {
+      "clauses": 60,
+      "steps": 2000,
+      "max_residual_nodes": 239
+    }
+  },
+  "forced_guard_check": {
+    "status": "open",
+    "decision_origin": "residual_size_guard",
+    "decision_complete": false,
+    "correctly_marked_as_guard_fallback": true
+  }
+}

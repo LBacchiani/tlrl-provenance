@@ -1,0 +1,424 @@
+{
+  "schema_version": "deepltl-point-stochastic-execution-stress-test/1",
+  "purpose": "Checks whether the audit's fail-closed official/independent agreement guarantee (assess_point_episode) holds under deterministic=False (stochastic) policy execution, which the confirmatory campaigns never use. Not a claim about stochastic P_sat or a replacement confirmatory result.",
+  "checkpoint": {
+    "experiment": "v3_confirm_ppo_5m_seed_920001",
+    "training_seed": 920001,
+    "checkpoint_steps": 4980736,
+    "checkpoint_sha256": "73d9e912532692c5d203c3ecf725014e13d583959b190551b48f8484af40cea4"
+  },
+  "deterministic": false,
+  "num_formulas": 10,
+  "episodes_per_formula": 5,
+  "num_episodes_attempted": 50,
+  "num_episodes_completed_without_assertion_failure": 50,
+  "num_assertion_failures": 0,
+  "disposition_counts": {
+    "decided_satisfaction": 41,
+    "decided_violation": 3,
+    "censored": 6
+  },
+  "failures": [],
+  "per_episode": [
+    {
+      "task_id": "deepltl_point_000",
+      "steps": 388,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_000",
+      "steps": 519,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_000",
+      "steps": 452,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_000",
+      "steps": 116,
+      "official_success": false,
+      "official_violation": true,
+      "prefix_status": "definitely_violated",
+      "disposition": "decided_violation"
+    },
+    {
+      "task_id": "deepltl_point_000",
+      "steps": 373,
+      "official_success": false,
+      "official_violation": true,
+      "prefix_status": "definitely_violated",
+      "disposition": "decided_violation"
+    },
+    {
+      "task_id": "deepltl_point_001",
+      "steps": 942,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_001",
+      "steps": 769,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_001",
+      "steps": 679,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_001",
+      "steps": 485,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_001",
+      "steps": 606,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_002",
+      "steps": 255,
+      "official_success": false,
+      "official_violation": true,
+      "prefix_status": "definitely_violated",
+      "disposition": "decided_violation"
+    },
+    {
+      "task_id": "deepltl_point_002",
+      "steps": 345,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_002",
+      "steps": 218,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_002",
+      "steps": 395,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_002",
+      "steps": 225,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_003",
+      "steps": 456,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_003",
+      "steps": 483,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_003",
+      "steps": 379,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_003",
+      "steps": 688,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_003",
+      "steps": 917,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_004",
+      "steps": 1000,
+      "official_success": false,
+      "official_violation": false,
+      "prefix_status": "open",
+      "disposition": "censored"
+    },
+    {
+      "task_id": "deepltl_point_004",
+      "steps": 1000,
+      "official_success": false,
+      "official_violation": false,
+      "prefix_status": "open",
+      "disposition": "censored"
+    },
+    {
+      "task_id": "deepltl_point_004",
+      "steps": 1000,
+      "official_success": false,
+      "official_violation": false,
+      "prefix_status": "open",
+      "disposition": "censored"
+    },
+    {
+      "task_id": "deepltl_point_004",
+      "steps": 360,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_004",
+      "steps": 1000,
+      "official_success": false,
+      "official_violation": false,
+      "prefix_status": "open",
+      "disposition": "censored"
+    },
+    {
+      "task_id": "deepltl_point_005",
+      "steps": 1000,
+      "official_success": false,
+      "official_violation": false,
+      "prefix_status": "open",
+      "disposition": "censored"
+    },
+    {
+      "task_id": "deepltl_point_005",
+      "steps": 354,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_005",
+      "steps": 203,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_005",
+      "steps": 337,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_005",
+      "steps": 189,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_006",
+      "steps": 295,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_006",
+      "steps": 358,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_006",
+      "steps": 368,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_006",
+      "steps": 156,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_006",
+      "steps": 246,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_007",
+      "steps": 195,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_007",
+      "steps": 222,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_007",
+      "steps": 380,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_007",
+      "steps": 153,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_007",
+      "steps": 397,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_008",
+      "steps": 267,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_008",
+      "steps": 362,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_008",
+      "steps": 1000,
+      "official_success": false,
+      "official_violation": false,
+      "prefix_status": "open",
+      "disposition": "censored"
+    },
+    {
+      "task_id": "deepltl_point_008",
+      "steps": 655,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_008",
+      "steps": 539,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_009",
+      "steps": 235,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_009",
+      "steps": 413,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_009",
+      "steps": 285,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_009",
+      "steps": 337,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    },
+    {
+      "task_id": "deepltl_point_009",
+      "steps": 216,
+      "official_success": true,
+      "official_violation": false,
+      "prefix_status": "definitely_satisfied",
+      "disposition": "decided_satisfaction"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "artifacts": {
+    "log": {
+      "relative_path": ".runtime/deep-ltl/experiments/ppo/PointLtl2-v0/v3_dev_ppo_5m_seed_910001/910001/log.csv",
+      "sha256": "cf4828b60345524ee12f000dc8f65929ed3c19da86fb905a9328f3a1c9578eb8",
+      "size_bytes": 526839
+    },
+    "ltl_net": {
+      "relative_path": ".runtime/deep-ltl/experiments/ppo/PointLtl2-v0/v3_dev_ppo_5m_seed_910001/910001/ltl_net.pth",
+      "sha256": "c3e579ff6f651fc31bc9b082885bfdb12e6fd5e660ad74e183316dd3ee1d40b2",
+      "size_bytes": 32968
+    },
+    "status": {
+      "relative_path": ".runtime/deep-ltl/experiments/ppo/PointLtl2-v0/v3_dev_ppo_5m_seed_910001/910001/status.pth",
+      "sha256": "2f482b1437ca3727d4f3258e3266cda27e5160c8941cdb3d0f74064fd36d2188",
+      "size_bytes": 649923
+    },
+    "stderr": {
+      "relative_path": ".runtime/deep-ltl/experiments/ppo/PointLtl2-v0/v3_dev_ppo_5m_seed_910001/910001/launch.stderr.log",
+      "sha256": "577bad9f21a172851b4ffc49310644aeab1be34f9feb45f41929be8afaf71ab0",
+      "size_bytes": 722
+    },
+    "stdout": {
+      "relative_path": ".runtime/deep-ltl/experiments/ppo/PointLtl2-v0/v3_dev_ppo_5m_seed_910001/910001/launch.stdout.log",
+      "sha256": "28b6b0402d4808eae4c24ff303695f3439cbaaafaf5b6479619c48604a2eeb4b",
+      "size_bytes": 24495
+    },
+    "vocab": {
+      "relative_path": ".runtime/deep-ltl/experiments/ppo/PointLtl2-v0/v3_dev_ppo_5m_seed_910001/910001/vocab.pkl",
+      "sha256": "f0c0b079daa6c60d1b3bef1acc3a1d1e95fe95770bb936f2627c05acabf74baa",
+      "size_bytes": 304
+    }
+  },
+  "contamination_controls": {
+    "confirmatory_usefulness_evaluation_authorized": false,
+    "development_training_only": true,
+    "semantic_usefulness_endpoint_inspected_during_training": false
+  },
+  "curriculum_stage": 6,
+  "eval_checkpoints": [
+    {
+      "name": "0.pth",
+      "sha256": "8d836dd244785a6b63920314d45dfb4a158af56812484430b9af3522f17f3ed2",
+      "size_bytes": 214466
+    },
+    {
+      "name": "262144.pth",
+      "sha256": "1d7096104300d6d88952c220e602f431ddb6c8b72484a8f88b6fa572b0fddac6",
+      "size_bytes": 214882
+    },
+    {
+      "name": "524288.pth",
+      "sha256": "f397ab031dcbcd76e0982c634a1b83057e3c1c639f71a9e9cd462119d64916b8",
+      "size_bytes": 214882
+    },
+    {
+      "name": "786432.pth",
+      "sha256": "9b004e4754e8ad0e565f283b50d0e5335972dd09c15080006589f592700ddf14",
+      "size_bytes": 214882
+    },
+    {
+      "name": "1048576.pth",
+      "sha256": "c0d2c46009105a3f07e8f841e81eef0d3183bbcf66a278f7e9eca57b3dba4421",
+      "size_bytes": 215938
+    },
+    {
+      "name": "1310720.pth",
+      "sha256": "5e45c1decf688787a0e4794c227b657396d3070b865a15e6fa7cc6ccc052a5e5",
+      "size_bytes": 215938
+    },
+    {
+      "name": "1572864.pth",
+      "sha256": "f066a6735c4c0e4d620664b9c7d96d921a409dbb81c54407ee6277da93997011",
+      "size_bytes": 215938
+    },
+    {
+      "name": "1835008.pth",
+      "sha256": "661c65bf3d59fc99d09965d1063c6e1d5716eff73a7252dac73cd26af89124f0",
+      "size_bytes": 215938
+    },
+    {
+      "name": "2097152.pth",
+      "sha256": "37c7697732b2619a9523986611401bd70ee9bef7c63b791525290c41719c3fc6",
+      "size_bytes": 215938
+    },
+    {
+      "name": "2359296.pth",
+      "sha256": "5a9a04a7fc2e99cd79977ba25ae2fc98093d0766a1c43446d1b209a6dc17f750",
+      "size_bytes": 215938
+    },
+    {
+      "name": "2621440.pth",
+      "sha256": "03f1e0ae6ffd723e52c6ac740f1abdcb3c33a0d22bf806739acbcfb4f7ff052c",
+      "size_bytes": 215938
+    },
+    {
+      "name": "2883584.pth",
+      "sha256": "f961512e495c506a58123230855ce3fa9eebec14baeb4d91cfc2eb9cb5745e14",
+      "size_bytes": 215938
+    },
+    {
+      "name": "3145728.pth",
+      "sha256": "6b8595e1897b0408b20b5cc5d07a00398a1d355c38846027ae321959606b23f2",
+      "size_bytes": 215938
+    },
+    {
+      "name": "3407872.pth",
+      "sha256": "ddccf6cdbab6470db31db1391a02fd12334ad75dcd1d0880b0b48299d69f41e0",
+      "size_bytes": 215938
+    },
+    {
+      "name": "3670016.pth",
+      "sha256": "05983976c884673a156ccc22182f77a4114c1681f5e0cc765da57bdf2ed94252",
+      "size_bytes": 215938
+    },
+    {
+      "name": "3932160.pth",
+      "sha256": "293a37cfda7f3fcd736c5de2636553fa9f245751d4c3b17e840fa33f5ddd1a4d",
+      "size_bytes": 215938
+    },
+    {
+      "name": "4194304.pth",
+      "sha256": "7e35f132bfad582ad697928ec2571f439ac79d46995ff9e468f7a51ab0bc84be",
+      "size_bytes": 215938
+    },
+    {
+      "name": "4456448.pth",
+      "sha256": "f1bf52b4f206f0c9d10abbbde446ad7891e0d424303a4a830d03e1e06a3b5f75",
+      "size_bytes": 215938
+    },
+    {
+      "name": "4718592.pth",
+      "sha256": "0ac779935dbc8cc66baa2b068572b8f3c3fcd88d30057a5405799b9dd58dbf62",
+      "size_bytes": 215938
+    },
+    {
+      "name": "4980736.pth",
+      "sha256": "00a6040880ad9047f7ac51b8a7a5f09acadfb2aa3ec1767589511063df12f4f6",
+      "size_bytes": 215938
+    }
+  ],
+  "experiment_name": "v3_dev_ppo_5m_seed_910001",
+  "final_steps": 5046272,
+  "last_training_log_row": {
+    "adr": "0.3586537018780839",
+    "arps": "0.002388380461567599",
+    "avg_goal_success": "{((-42, frozenset()), (frozenset({yellow}), frozenset({blue, green, magenta, }))) x 60: 0.8333333333333334, ((frozenset({green, yellow}), frozenset()), (frozenset({green, yellow}), frozenset({magenta})), (frozenset({blue, green}), frozenset({magenta}))) x 0: 1.0, ((frozenset({magenta, yellow}), frozenset()), (frozenset({green, magenta}), frozenset({blue})), (frozenset({yellow, magenta}), frozenset({blue}))) x 0: 1.0, ((frozenset({magenta}), frozenset()), (frozenset({magenta, yellow}), frozenset()), (frozenset({green, yellow}), frozenset())) x 0: 1.0, ((frozenset({magenta}), frozenset({yellow})), (frozenset({yellow}), frozenset({blue, green})), (frozenset({blue}), frozenset())) x 0: 0.0, ((frozenset({green, yellow}), frozenset({blue, magenta})), (frozenset({magenta, yellow}), frozenset()), (frozenset({green, yellow}), frozenset({blue}))) x 0: 1.0, ((frozenset({blue}), frozenset({magenta})), (frozenset({green, yellow}), frozenset()), (frozenset({blue, magenta}), frozenset())) x 0: 1.0, ((frozenset({green, magenta}), frozenset({blue, yellow})), (frozenset({blue}), frozenset()), (frozenset({yellow}), frozenset())) x 0: 1.0, ((frozenset({green, magenta}), frozenset()), (frozenset({blue}), frozenset({yellow})), (frozenset({blue}), frozenset())) x 0: 1.0, ((frozenset({green, yellow}), frozenset()), (frozenset({magenta}), frozenset({blue})), (frozenset({green, magenta}), frozenset())) x 0: 1.0, ((frozenset({green, magenta}), frozenset({yellow})), (frozenset({yellow}), frozenset()), (frozenset({green}), frozenset())) x 0: 1.0, ((-42, frozenset({blue})), (frozenset({green}), frozenset({yellow, blue, magenta, }))) x 60: 1.0, ((frozenset({blue, magenta}), frozenset()), (frozenset({blue}), frozenset({yellow})), (frozenset({yellow, magenta}), frozenset())) x 0: 1.0, ((frozenset({blue, magenta}), frozenset()), (frozenset({blue, yellow}), frozenset()), (frozenset({green}), frozenset({magenta}))) x 0: 1.0, ((-42, frozenset({blue, green})), (frozenset({yellow}), frozenset({blue, green, magenta, }))) x 60: 1.0, ((frozenset({blue}), frozenset({yellow})), (frozenset({magenta}), frozenset({green, yellow})), (frozenset({blue, magenta}), frozenset({green, yellow}))) x 0: 1.0, ((-42, frozenset()), (frozenset({green}), frozenset({yellow, blue, magenta, }))) x 60: 1.0, ((frozenset({blue, magenta}), frozenset()), (frozenset({magenta}), frozenset()), (frozenset({blue, green}), frozenset())) x 0: 1.0, ((frozenset({yellow, magenta}), frozenset({blue, green})), (frozenset({blue}), frozenset()), (frozenset({green, magenta}), frozenset())) x 0: 1.0, ((frozenset({yellow}), frozenset({magenta})), (frozenset({blue}), frozenset({green})), (frozenset({blue, green}), frozenset())) x 0: 0.0, ((frozenset({blue}), frozenset()), (frozenset({green}), frozenset()), (frozenset({blue}), frozenset({magenta, yellow}))) x 0: 0.0, ((frozenset({yellow}), frozenset({magenta})), (frozenset({green}), frozenset({blue, magenta})), (frozenset({green}), frozenset({blue, magenta}))) x 0: 1.0, ((-42, frozenset()), (frozenset({magenta}), frozenset({blue, green, yellow, }))) x 60: 0.75, ((frozenset({green, magenta}), frozenset({blue})), (frozenset({blue}), frozenset()), (frozenset({blue, magenta}), frozenset({green}))) x 0: 1.0, ((-42, frozenset({magenta})), (frozenset({blue}), frozenset({yellow, green, magenta, }))) x 60: 1.0, ((frozenset({yellow, magenta}), frozenset()), (frozenset({magenta, yellow}), frozenset({blue, green})), (frozenset({green, magenta}), frozenset())) x 0: 1.0, ((frozenset({yellow, magenta}), frozenset()), (frozenset({green, yellow}), frozenset()), (frozenset({blue, green}), frozenset())) x 0: 1.0, ((frozenset({green, yellow}), frozenset({blue})), (frozenset({green}), frozenset()), (frozenset({green, yellow}), frozenset({blue}))) x 0: 1.0, ((frozenset({blue, magenta}), frozenset()), (frozenset({magenta, yellow}), frozenset()), (frozenset({yellow}), frozenset({blue}))) x 0: 1.0, ((frozenset({magenta}), frozenset({blue, green, yellow})), (frozenset({blue, yellow}), frozenset({green})), (frozenset({green}), frozenset())) x 0: 1.0, ((frozenset({blue, yellow}), frozenset({green, magenta})), (frozenset({green, yellow}), frozenset({magenta})), (frozenset({blue, magenta}), frozenset())) x 0: 1.0, ((-42, frozenset({magenta})), (frozenset({yellow}), frozenset({blue, green, magenta, }))) x 60: 1.0, ((-42, frozenset({green})), (frozenset({blue}), frozenset({yellow, green, magenta, }))) x 60: 0.6666666666666666, ((frozenset({blue}), frozenset({green})), (frozenset({blue, green}), frozenset({magenta, yellow})), (frozenset({blue, magenta}), frozenset({yellow}))) x 0: 1.0, ((frozenset({yellow}), frozenset({blue, green, magenta})), (frozenset({green}), frozenset({blue, magenta})), (frozenset({blue, green}), frozenset())) x 0: 1.0, ((frozenset({blue}), frozenset({yellow, green, magenta})), (frozenset({green, yellow}), frozenset({magenta})), (frozenset({green}), frozenset({blue}))) x 0: 0.0, ((frozenset({green, yellow}), frozenset({blue, magenta})), (frozenset({green, magenta}), frozenset()), (frozenset({blue, green}), frozenset())) x 0: 1.0, ((frozenset({magenta}), frozenset({blue, green})), (frozenset({blue}), frozenset({green})), (frozenset({yellow}), frozenset({green, magenta}))) x 0: 1.0, ((frozenset({green}), frozenset({yellow, blue, magenta})), (frozenset({green}), frozenset({magenta, blue, yellow})), (frozenset({blue, yellow}), frozenset())) x 0: 1.0, ((frozenset({blue}), frozenset({yellow, green, magenta})), (frozenset({green, magenta}), frozenset()), (frozenset({green}), frozenset({blue}))) x 0: 1.0, ((frozenset({blue}), frozenset({yellow})), (frozenset({blue, yellow}), frozenset()), (frozenset({magenta}), frozenset({green}))) x 0: 1.0, ((-42, frozenset({green, yellow})), (frozenset({blue}), frozenset({yellow, green, magenta, }))) x 60: 0.5, ((frozenset({green, yellow}), frozenset()), (frozenset({green, yellow}), frozenset({magenta})), (frozenset({yellow}), frozenset({blue, magenta}))) x 0: 1.0, ((frozenset({blue}), frozenset()), (frozenset({blue}), frozenset({magenta, green, yellow})), (frozenset({blue, yellow}), frozenset())) x 0: 1.0, ((frozenset({blue, magenta}), frozenset({yellow})), (frozenset({magenta, yellow}), frozenset({green})), (frozenset({blue, magenta}), frozenset({green}))) x 0: 1.0, ((frozenset({blue, yellow}), frozenset({green, magenta})), (frozenset({green, magenta}), frozenset()), (frozenset({blue, yellow}), frozenset())) x 0: 1.0, ((frozenset({blue, yellow}), frozenset({green, magenta})), (frozenset({green}), frozenset()), (frozenset({blue, yellow}), frozenset())) x 0: 1.0, ((frozenset({green}), frozenset({blue, yellow})), (frozenset({magenta}), frozenset({blue, yellow})), (frozenset({green, yellow}), frozenset())) x 0: 1.0, ((frozenset({magenta}), frozenset({blue, green})), (frozenset({blue, magenta}), frozenset()), (frozenset({yellow}), frozenset())) x 0: 1.0, ((frozenset({blue, magenta}), frozenset({yellow})), (frozenset({green, yellow}), frozenset()), (frozenset({magenta}), frozenset({blue}))) x 0: 1.0, ((frozenset({blue, green}), frozenset()), (frozenset({blue}), frozenset()), (frozenset({blue}), frozenset({green, yellow}))) x 0: 1.0, ((frozenset({blue, magenta}), frozenset({green, yellow})), (frozenset({magenta}), frozenset({green, yellow})), (frozenset({blue, yellow}), frozenset({green}))) x 0: 1.0, ((frozenset({green}), frozenset({blue, magenta})), (frozenset({blue}), frozenset({yellow})), (frozenset({blue}), frozenset({magenta}))) x 0: 1.0, ((-42, frozenset({yellow})), (frozenset({blue}), frozenset({yellow, green, magenta, }))) x 60: 0.5, ((-42, frozenset({green, magenta})), (frozenset({yellow}), frozenset({blue, green, magenta, }))) x 60: 1.0, ((frozenset({blue, green}), frozenset({magenta, yellow})), (frozenset({blue, yellow}), frozenset({magenta})), (frozenset({green, yellow}), frozenset({magenta}))) x 0: 1.0, ((frozenset({green, yellow}), frozenset({blue, magenta})), (frozenset({blue}), frozenset()), (frozenset({green}), frozenset({magenta}))) x 0: 1.0, ((frozenset({yellow}), frozenset()), (frozenset({magenta}), frozenset({blue, green})), (frozenset({green}), frozenset({blue, yellow}))) x 0: 1.0, ((frozenset({blue}), frozenset()), (frozenset({yellow, magenta}), frozenset({green})), (frozenset({green}), frozenset())) x 0: 1.0, ((frozenset({yellow}), frozenset()), (frozenset({magenta}), frozenset({green})), (frozenset({blue, green}), frozenset({yellow}))) x 0: 1.0, ((frozenset({magenta}), frozenset({green, yellow})), (frozenset({green}), frozenset()), (frozenset({blue}), frozenset({magenta, yellow}))) x 0: 0.0, ((frozenset({blue}), frozenset()), (frozenset({magenta}), frozenset()), (frozenset({blue}), frozenset({green, yellow}))) x 0: 0.0, ((-42, frozenset({magenta, yellow})), (frozenset({blue}), frozenset({yellow, green, magenta, }))) x 60: 1.0, ((frozenset({magenta}), frozenset()), (frozenset({blue}), frozenset({green})), (frozenset({magenta}), frozenset({green, yellow}))) x 0: 1.0, ((-42, frozenset({green})), (frozenset({yellow}), frozenset({blue, green, magenta, }))) x 60: 0.0, ((frozenset({green}), frozenset({yellow, magenta})), (frozenset({blue, yellow}), frozenset()), (frozenset({green, yellow}), frozenset({magenta}))) x 0: 1.0, ((frozenset({yellow}), frozenset({blue, green})), (frozenset({yellow}), frozenset({green})), (frozenset({blue, yellow}), frozenset({green, magenta}))) x 0: 1.0, ((frozenset({blue, magenta}), frozenset({green, yellow})), (frozenset({yellow, magenta}), frozenset({green})), (frozenset({green}), frozenset({blue}))) x 0: 1.0, ((frozenset({blue}), frozenset()), (frozenset({blue, yellow}), frozenset({magenta})), (frozenset({blue, green}), frozenset({magenta}))) x 0: 1.0, ((frozenset({green}), frozenset({yellow, blue, magenta})), (frozenset({blue, magenta}), frozenset({yellow})), (frozenset({blue, magenta}), frozenset({yellow}))) x 0: 1.0, ((frozenset({yellow}), frozenset({green})), (frozenset({magenta}), frozenset({blue})), (frozenset({green, magenta}), frozenset())) x 0: 1.0, ((frozenset({blue, magenta}), frozenset()), (frozenset({green, magenta}), frozenset({yellow})), (frozenset({green, yellow}), frozenset({blue}))) x 0: 1.0, ((frozenset({yellow}), frozenset({green})), (frozenset({green, magenta}), frozenset()), (frozenset({blue, magenta}), frozenset())) x 0: 1.0, ((frozenset({green}), frozenset({blue})), (frozenset({blue, yellow}), frozenset({magenta})), (frozenset({blue, magenta}), frozenset())) x 0: 1.0, ((-42, frozenset({yellow})), (frozenset({magenta}), frozenset({blue, green, yellow, }))) x 60: 0.0, ((frozenset({yellow}), frozenset({blue})), (frozenset({yellow}), frozenset({blue, green, magenta})), (frozenset({blue, green}), frozenset({magenta}))) x 0: 1.0, ((-42, frozenset({green, magenta})), (frozenset({blue}), frozenset({yellow, green, magenta, }))) x 60: 1.0, ((frozenset({yellow}), frozenset()), (frozenset({green}), frozenset({magenta})), (frozenset({magenta}), frozenset({blue, yellow}))) x 0: 0.0, ((-42, frozenset({blue, magenta})), (frozenset({yellow}), frozenset({blue, green, magenta, }))) x 60: 0.0, ((frozenset({yellow}), frozenset({blue, green, magenta})), (frozenset({green}), frozenset({blue, magenta})), (frozenset({magenta, yellow}), frozenset({blue}))) x 0: 1.0, ((-42, frozenset({green, yellow})), (frozenset({magenta}), frozenset({blue, green, yellow, }))) x 60: 1.0, ((frozenset({magenta}), frozenset({green})), (frozenset({green, magenta}), frozenset({blue, yellow})), (frozenset({blue, yellow}), frozenset())) x 0: 1.0, ((-42, frozenset()), (frozenset({blue}), frozenset({yellow, green, magenta, }))) x 60: 1.0, ((frozenset({green, magenta}), frozenset({blue})), (frozenset({green}), frozenset()), (frozenset({magenta}), frozenset({yellow}))) x 0: 1.0, ((frozenset({yellow}), frozenset({blue})), (frozenset({blue, green}), frozenset()), (frozenset({green}), frozenset())) x 0: 1.0, ((frozenset({yellow}), frozenset()), (frozenset({blue}), frozenset()), (frozenset({green}), frozenset({yellow}))) x 0: 1.0, ((frozenset({yellow, magenta}), frozenset({blue, green})), (frozenset({blue}), frozenset()), (frozenset({blue}), frozenset({yellow}))) x 0: 0.0, ((frozenset({blue, magenta}), frozenset({green, yellow})), (frozenset({yellow}), frozenset({green})), (frozenset({blue, green}), frozenset({magenta}))) x 0: 1.0, ((frozenset({green}), frozenset({blue})), (frozenset({green}), frozenset({blue})), (frozenset({green}), frozenset({yellow, magenta, blue}))) x 0: 1.0, ((-42, frozenset({blue})), (frozenset({yellow}), frozenset({blue, green, magenta, }))) x 60: 0.0, ((frozenset({magenta}), frozenset({yellow})), (frozenset({magenta}), frozenset({blue, green, yellow})), (frozenset({magenta}), frozenset({blue, green, yellow}))) x 0: 1.0, ((frozenset({green}), frozenset({yellow, magenta})), (frozenset({green, magenta}), frozenset()), (frozenset({yellow}), frozenset())) x 0: 1.0, ((frozenset({blue, yellow}), frozenset()), (frozenset({green, yellow}), frozenset({magenta})), (frozenset({green}), frozenset({blue}))) x 0: 1.0, ((frozenset({magenta}), frozenset()), (frozenset({yellow}), frozenset()), (frozenset({yellow}), frozenset({blue, magenta}))) x 0: 1.0, ((frozenset({blue, yellow}), frozenset({magenta})), (frozenset({green}), frozenset()), (frozenset({blue}), frozenset({magenta, yellow}))) x 0: 0.0, ((frozenset({magenta}), frozenset({blue})), (frozenset({yellow}), frozenset({blue, green})), (frozenset({blue}), frozenset())) x 0: 1.0, ((frozenset({magenta}), frozenset({blue, yellow})), (frozenset({blue, magenta}), frozenset({green})), (frozenset({green, yellow}), frozenset())) x 0: 1.0, ((frozenset({blue}), frozenset()), (frozenset({magenta}), frozenset()), (frozenset({green, yellow}), frozenset({blue}))) x 0: 1.0, ((frozenset({green}), frozenset({magenta})), (frozenset({yellow}), frozenset({blue, magenta})), (frozenset({magenta}), frozenset())) x 0: 0.0, ((frozenset({blue, magenta}), frozenset()), (frozenset({blue}), frozenset()), (frozenset({green}), frozenset({magenta}))) x 0: 1.0, ((frozenset({yellow}), frozenset({blue, magenta})), (frozenset({green}), frozenset({blue, magenta})), (frozenset({blue, green}), frozenset({magenta}))) x 0: 1.0, ((frozenset({blue, magenta}), frozenset({green, yellow})), (frozenset({green}), frozenset()), (frozenset({yellow, magenta}), frozenset({blue}))) x 0: 1.0, ((-42, frozenset({blue, yellow})), (frozenset({magenta}), frozenset({blue, green, yellow, }))) x 60: 0.0, ((-42, frozenset({blue, yellow})), (frozenset({green}), frozenset({yellow, blue, magenta, }))) x 60: 1.0, ((frozenset({blue, yellow}), frozenset({green, magenta})), (frozenset({blue, magenta}), frozenset()), (frozenset({blue, magenta}), frozenset({green}))) x 0: 1.0, ((frozenset({yellow}), frozenset({magenta})), (frozenset({blue, magenta}), frozenset({green})), (frozenset({blue, green}), frozenset({yellow}))) x 0: 1.0, ((frozenset({green}), frozenset({magenta, blue, yellow})), (frozenset({blue, green}), frozenset({magenta})), (frozenset({blue, yellow}), frozenset())) x 0: 1.0, ((frozenset({green, magenta}), frozenset({yellow})), (frozenset({blue}), frozenset()), (frozenset({blue, magenta}), frozenset({yellow}))) x 0: 1.0, ((-42, frozenset({yellow})), (frozenset({green}), frozenset({yellow, blue, magenta, }))) x 60: 0.5, ((frozenset({blue, yellow}), frozenset()), (frozenset({yellow}), frozenset({green})), (frozenset({magenta, yellow}), frozenset())) x 0: 1.0, ((frozenset({magenta}), frozenset({blue, yellow})), (frozenset({blue, yellow}), frozenset({green})), (frozenset({magenta}), frozenset())) x 0: 1.0, ((-42, frozenset({blue, magenta})), (frozenset({green}), frozenset({yellow, blue, magenta, }))) x 60: 0.0, ((frozenset({yellow, magenta}), frozenset()), (frozenset({yellow}), frozenset()), (frozenset({green}), frozenset())) x 0: 1.0, ((frozenset({blue, green}), frozenset()), (frozenset({magenta}), frozenset({yellow})), (frozenset({green}), frozenset())) x 0: 1.0, ((frozenset({blue, magenta}), frozenset({green, yellow})), (frozenset({yellow}), frozenset({green})), (frozenset({blue}), frozenset({green}))) x 0: 1.0, ((-42, frozenset({magenta, yellow})), (frozenset({green}), frozenset({yellow, blue, magenta, }))) x 60: 0.5, ((frozenset({blue}), frozenset({yellow, green, magenta})), (frozenset({blue, magenta}), frozenset()), (frozenset({yellow}), frozenset({green}))) x 0: 1.0, ((frozenset({magenta, yellow}), frozenset({blue})), (frozenset({blue}), frozenset()), (frozenset({magenta}), frozenset())) x 0: 1.0, ((frozenset({blue, green}), frozenset()), (frozenset({yellow}), frozenset()), (frozenset({green}), frozenset())) x 0: 0.0, ((frozenset({blue, yellow}), frozenset({magenta})), (frozenset({blue, green}), frozenset()), (frozenset({green}), frozenset())) x 0: 1.0, ((frozenset({green}), frozenset({magenta})), (frozenset({green}), frozenset({magenta, yellow})), (frozenset({green, magenta}), frozenset())) x 0: 1.0, ((frozenset({yellow}), frozenset({blue, green, magenta})), (frozenset({yellow}), frozenset()), (frozenset({yellow}), frozenset())) x 0: 1.0, ((frozenset({blue, yellow}), frozenset({green})), (frozenset({green, magenta}), frozenset()), (frozenset({blue, green}), frozenset({yellow}))) x 0: 1.0, ((frozenset({yellow}), frozenset({green, magenta})), (frozenset({blue, yellow}), frozenset({magenta})), (frozenset({blue, green}), frozenset({magenta}))) x 0: 1.0, ((frozenset({blue, magenta}), frozenset()), (frozenset({green, magenta}), frozenset()), (frozenset({magenta}), frozenset())) x 0: 1.0, ((frozenset({blue, green}), frozenset({magenta})), (frozenset({blue, yellow}), frozenset()), (frozenset({blue}), frozenset())) x 0: 1.0, ((frozenset({magenta}), frozenset({blue, green})), (frozenset({green, yellow}), frozenset()), (frozenset({magenta}), frozenset())) x 0: 1.0, ((frozenset({green, magenta}), frozenset({blue, yellow})), (frozenset({green}), frozenset({blue, yellow})), (frozenset({green, magenta}), frozenset({blue, yellow}))) x 0: 1.0, ((frozenset({magenta}), frozenset({yellow})), (frozenset({green}), frozenset({blue, yellow})), (frozenset({green, magenta}), frozenset({blue}))) x 0: 1.0, ((frozenset({green, yellow}), frozenset({blue, magenta})), (frozenset({magenta}), frozenset()), (frozenset({green}), frozenset())) x 0: 1.0, ((frozenset({green, yellow}), frozenset()), (frozenset({green}), frozenset({blue, magenta})), (frozenset({yellow}), frozenset({blue, magenta}))) x 0: 1.0, ((frozenset({yellow}), frozenset({blue, green, magenta})), (frozenset({magenta}), frozenset({blue, green})), (frozenset({yellow}), frozenset({blue, green}))) x 0: 0.0, ((frozenset({magenta}), frozenset({blue, yellow})), (frozenset({magenta}), frozenset({blue, green, yellow})), (frozenset({green}), frozenset({blue, yellow}))) x 0: 1.0, ((frozenset({blue, green}), frozenset({magenta})), (frozenset({blue, green}), frozenset({magenta})), (frozenset({yellow, magenta}), frozenset())) x 0: 1.0, ((frozenset({blue, green}), frozenset({yellow, magenta})), (frozenset({green, magenta}), frozenset()), (frozenset({blue, magenta}), frozenset())) x 0: 0.0, ((frozenset({magenta}), frozenset({blue, green, yellow})), (frozenset({green, magenta}), frozenset()), (frozenset({blue}), frozenset({yellow}))) x 0: 1.0, ((frozenset({blue, green}), frozenset()), (frozenset({green, yellow}), frozenset()), (frozenset({magenta, yellow}), frozenset({blue}))) x 0: 1.0, ((frozenset({green, magenta}), frozenset({blue, yellow})), (frozenset({yellow}), frozenset()), (frozenset({green, magenta}), frozenset({blue}))) x 0: 0.0, ((frozenset({magenta}), frozenset({blue, green})), (frozenset({blue, magenta}), frozenset()), (frozenset({yellow, magenta}), frozenset({green}))) x 0: 1.0, ((frozenset({yellow}), frozenset()), (frozenset({blue}), frozenset({magenta})), (frozenset({blue, yellow}), frozenset())) x 0: 1.0, ((frozenset({magenta}), frozenset()), (frozenset({blue, yellow}), frozenset({green})), (frozenset({yellow, magenta}), frozenset())) x 0: 1.0, ((frozenset({magenta}), frozenset({green, yellow})), (frozenset({blue, yellow}), frozenset({green})), (frozenset({magenta, yellow}), frozenset())) x 0: 0.0, ((frozenset({blue, green}), frozenset({yellow})), (frozenset({green}), frozenset({yellow})), (frozenset({blue, magenta}), frozenset())) x 0: 1.0, ((frozenset({blue, green}), frozenset({yellow, magenta})), (frozenset({blue, magenta}), frozenset()), (frozenset({blue, magenta}), frozenset({green, yellow}))) x 0: 1.0, ((frozenset({green, yellow}), frozenset()), (frozenset({blue, magenta}), frozenset()), (frozenset({blue}), frozenset({green, yellow}))) x 0: 1.0, ((frozenset({green, magenta}), frozenset()), (frozenset({magenta}), frozenset()), (frozenset({yellow}), frozenset({green}))) x 0: 1.0, ((frozenset({green}), frozenset({blue, yellow})), (frozenset({blue}), frozenset({magenta})), (frozenset({magenta}), frozenset())) x 0: 1.0, ((frozenset({blue, yellow}), frozenset({green, magenta})), (frozenset({blue, magenta}), frozenset({green})), (frozenset({magenta}), frozenset({green, yellow}))) x 0: 1.0, ((frozenset({blue}), frozenset({yellow, magenta})), (frozenset({yellow}), frozenset({green, magenta})), (frozenset({blue}), frozenset())) x 0: 1.0, ((frozenset({blue}), frozenset({yellow})), (frozenset({blue, yellow}), frozenset({green, magenta})), (frozenset({yellow}), frozenset({green}))) x 0: 1.0, ((frozenset({blue, green}), frozenset({magenta, yellow})), (frozenset({magenta, yellow}), frozenset()), (frozenset({blue}), frozenset())) x 0: 1.0, ((frozenset({blue, magenta}), frozenset()), (frozenset({blue, magenta}), frozenset({yellow})), (frozenset({yellow, magenta}), frozenset())) x 0: 1.0, ((frozenset({green}), frozenset()), (frozenset({blue, yellow}), frozenset({magenta})), (frozenset({green}), frozenset({magenta}))) x 0: 1.0, ((frozenset({green}), frozenset({magenta, blue, yellow})), (frozenset({blue, magenta}), frozenset({yellow})), (frozenset({green}), frozenset())) x 0: 1.0, ((frozenset({yellow}), frozenset({green})), (frozenset({green, magenta}), frozenset({blue})), (frozenset({green, magenta}), frozenset({blue, yellow}))) x 0: 1.0, ((frozenset({yellow, magenta}), frozenset({blue, green})), (frozenset({blue}), frozenset()), (frozenset({green, yellow}), frozenset({magenta}))) x 0: 1.0, ((frozenset({blue}), frozenset({yellow, green, magenta})), (frozenset({green, yellow}), frozenset()), (frozenset({blue, green}), frozenset())) x 0: 1.0}",
+    "entropy": "1.6800610795617104",
+    "grad_norm": "0.04138172424977431",
+    "num_steps": "5046272",
+    "num_steps_per_episode_mean": "355.875",
+    "num_steps_per_episode_std": "198.08510090637043",
+    "policy_loss": "0.005980819827527739",
+    "remaining": "0:00:00",
+    "return_per_episode_mean": "0.7119565217391305",
+    "return_per_episode_std": "0.6826009069065472",
+    "sps": "216.60626476075805",
+    "success_per_episode_mean": "0.842391304347826",
+    "success_per_episode_std": "0.36437370199699426",
+    "value": "0.5769221242517233",
+    "value_loss": "0.005982389353448525",
+    "violation_per_episode_mean": "0.11956521739130435",
+    "violation_per_episode_std": "0.32445242514346306"
+  },
+  "latest_eval_checkpoint": "4980736.pth",
+  "launch_path": "evidence/deepltl_point_ppo_5m_development_pilot_launch.json",
+  "launch_sha256": "a749b37105d410474a3ddfdd28a18772817edcf8788355c92ac266e53f9d06f6",
+  "manifest_path": "evidence/deepltl_point_ppo_5m_development_pilot_manifest.json",
+  "manifest_sha256": "75e8ab3eccd5f43fd29acb0022b8feff006ac0ddeee938c4e3e8a24d0290b157",
+  "num_eval_checkpoints": 20,
+  "num_updates": 77,
+  "pid": 67072,
+  "recorded_epoch_seconds": 1788191668.5269146,
+  "schema_version": "tlrl-deepltl-point-ppo-development-pilot-completion/1",
+  "scope": "development_training_only_no_confirmatory_usefulness_evaluation",
+  "seed": 910001,
+  "status": "completed",
+  "target_steps": 5000000,
+  "training_status_last_write_epoch_seconds": 1788191119.6487355
+}

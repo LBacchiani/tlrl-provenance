@@ -1,0 +1,68 @@
+{
+  "algorithm": "formula_conditioned_recurrent_ppo",
+  "artifacts": {
+    "experiment_config": {
+      "relative_path": "experiments/ppo/PointLtl2-v0/v3_runtime_smoke_utf8/experiment_config.json",
+      "sha256": "f10f7d7ffdccd547154e6d4d131042aef0c266ad016b285bb9ee4800b2b951ec",
+      "size_bytes": 1481
+    },
+    "initial_eval_checkpoint": {
+      "relative_path": "experiments/ppo/PointLtl2-v0/v3_runtime_smoke_utf8/900003/eval/0.pth",
+      "sha256": "46883c88044e3b2ae5bb7f7c8b978a07448d21923e8d88acb484c312d52989bc",
+      "size_bytes": 214466
+    },
+    "log": {
+      "relative_path": "experiments/ppo/PointLtl2-v0/v3_runtime_smoke_utf8/900003/log.csv",
+      "sha256": "a0389ed2acddd8512bfae20a56c389ec746e511455cf9bf25c5601ac42060ead",
+      "size_bytes": 572
+    },
+    "ltl_net": {
+      "relative_path": "experiments/ppo/PointLtl2-v0/v3_runtime_smoke_utf8/900003/ltl_net.pth",
+      "sha256": "421c7403a2be71e98cefef7aa10622252e52758839d14af67fe98b1596e28d21",
+      "size_bytes": 32968
+    },
+    "status": {
+      "relative_path": "experiments/ppo/PointLtl2-v0/v3_runtime_smoke_utf8/900003/status.pth",
+      "sha256": "bfa423d52230d3ec9d1d63599b6338627f07279944cfa55ed64121894e35eee3",
+      "size_bytes": 649859
+    },
+    "vocab": {
+      "relative_path": "experiments/ppo/PointLtl2-v0/v3_runtime_smoke_utf8/900003/vocab.pkl",
+      "sha256": "562243f9cb721fd8898eeaaa217ea36a8b001dfe27e650a6cc926543b089dd12",
+      "size_bytes": 304
+    }
+  },
+  "checkpoint_complete": true,
+  "csv_log_rows": 1,
+  "environment_id": "PointLtl2-v0",
+  "environment_seeds": [
+    90000300,
+    90000301
+  ],
+  "experiment_name": "v3_runtime_smoke_utf8",
+  "methodology_outcomes_inspected": false,
+  "num_processes": 2,
+  "num_steps": 2048,
+  "num_updates": 1,
+  "patched_runtime_sources": {
+    "cross_platform_file_logger": "363d1a205f60c41a5a773e542f4d37fe3807152f294de97ea6e07c4b11026c8f",
+    "rabinizer_bridge": "6d834f4ce7299b93a1ec6e507869ecf31206807f3ff6a9247edf3d858640b6bd"
+  },
+  "runtime": {
+    "cuda_available": true,
+    "cuda_device_count": 2,
+    "cuda_devices": [
+      "NVIDIA RTX 6000 Ada Generation",
+      "NVIDIA RTX 6000 Ada Generation"
+    ],
+    "cuda_runtime": "12.1",
+    "python": "3.10.21",
+    "python_utf8_mode_required": true,
+    "torch": "2.2.2+cu121"
+  },
+  "schema_version": "tlrl-deepltl-point-ppo-gpu-smoke/1",
+  "scope": "development_only_runtime_smoke_no_utility_evaluation",
+  "seed": 900003,
+  "status": "passed",
+  "upstream_commit": "3157200b5910cd7f5c493ffba8913994f2207eaf"
+}

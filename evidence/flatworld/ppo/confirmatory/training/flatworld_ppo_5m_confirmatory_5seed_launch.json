@@ -1,0 +1,151 @@
+{
+  "campaign_id": "flatworld_ppo_5m_confirmatory_5seed",
+  "campaign_manifest_path": "evidence/flatworld/ppo/confirmatory/training/flatworld_ppo_5m_confirmatory_5seed_manifest.json",
+  "campaign_manifest_sha256": "dcb8a80dd90f07797fe831690851d2530a041749ff4584215d1c8a876c683a0e",
+  "completed": {
+    "960001": {
+      "epoch_seconds": 1789154001.282652,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 26388,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960001\\960001",
+      "seed": 960001
+    },
+    "960002": {
+      "epoch_seconds": 1789197275.279791,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 81564,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960002\\960002",
+      "seed": 960002
+    },
+    "960003": {
+      "epoch_seconds": 1789242832.117543,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 8088,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960003\\960003",
+      "seed": 960003
+    },
+    "960004": {
+      "epoch_seconds": 1789291837.960056,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 78756,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960004\\960004",
+      "seed": 960004
+    },
+    "960005": {
+      "epoch_seconds": 1789338082.9434934,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 112192,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960005\\960005",
+      "seed": 960005
+    }
+  },
+  "events": [
+    {
+      "epoch_seconds": 1789115947.6902635,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 26388,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960001\\960001",
+      "seed": 960001
+    },
+    {
+      "epoch_seconds": 1789154001.282652,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 26388,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960001\\960001",
+      "seed": 960001
+    },
+    {
+      "epoch_seconds": 1789154001.3335326,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 81564,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960002\\960002",
+      "seed": 960002
+    },
+    {
+      "epoch_seconds": 1789197275.279791,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 81564,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960002\\960002",
+      "seed": 960002
+    },
+    {
+      "epoch_seconds": 1789197275.380268,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 8088,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960003\\960003",
+      "seed": 960003
+    },
+    {
+      "epoch_seconds": 1789242832.117543,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 8088,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960003\\960003",
+      "seed": 960003
+    },
+    {
+      "epoch_seconds": 1789242832.1694672,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 78756,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960004\\960004",
+      "seed": 960004
+    },
+    {
+      "epoch_seconds": 1789291837.960056,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 78756,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960004\\960004",
+      "seed": 960004
+    },
+    {
+      "epoch_seconds": 1789291838.0421376,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 112192,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960005\\960005",
+      "seed": 960005
+    },
+    {
+      "epoch_seconds": 1789338082.9434934,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 112192,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_confirm_ppo_5m_flatworld_seed_960005\\960005",
+      "seed": 960005
+    }
+  ],
+  "pending": [],
+  "running": {},
+  "schema_version": "tlrl-flatworld-ppo-confirmatory-launch/1",
+  "seed_manifests": {
+    "960001": "evidence/flatworld/ppo/confirmatory/training/flatworld_ppo_5m_confirmatory_5seed_seed_960001_manifest.json",
+    "960002": "evidence/flatworld/ppo/confirmatory/training/flatworld_ppo_5m_confirmatory_5seed_seed_960002_manifest.json",
+    "960003": "evidence/flatworld/ppo/confirmatory/training/flatworld_ppo_5m_confirmatory_5seed_seed_960003_manifest.json",
+    "960004": "evidence/flatworld/ppo/confirmatory/training/flatworld_ppo_5m_confirmatory_5seed_seed_960004_manifest.json",
+    "960005": "evidence/flatworld/ppo/confirmatory/training/flatworld_ppo_5m_confirmatory_5seed_seed_960005_manifest.json"
+  },
+  "status": "completed",
+  "updated_epoch_seconds": 1789338082.9436011
+}

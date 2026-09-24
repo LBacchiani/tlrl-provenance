@@ -1,0 +1,61 @@
+{
+    "model_config": {
+        "name": "LetterEnv-v0",
+        "config": {
+            "actor": {
+                "layers": [
+                    64,
+                    64,
+                    64
+                ],
+                "activation": "ReLU",
+                "state_dependent_std": false
+            },
+            "critic": {
+                "layers": [
+                    64,
+                    64
+                ],
+                "activation": "Tanh"
+            },
+            "ltl_embedding_dim": 32,
+            "num_rnn_layers": 1,
+            "env_net": {
+                "channels": [
+                    16,
+                    32,
+                    64
+                ],
+                "kernel_size": [
+                    2,
+                    2
+                ],
+                "activation": "ReLU"
+            },
+            "set_net": {
+                "layers": [
+                    32,
+                    32
+                ],
+                "activation": "ReLU"
+            }
+        }
+    },
+    "curriculum": "LetterEnv-v0",
+    "log_csv": true,
+    "log_wandb": false,
+    "save": true,
+    "ppo": {
+        "epochs": 8,
+        "batch_size": 256,
+        "steps_per_process": 128,
+        "discount": 0.94,
+        "lr": 0.0003,
+        "gae_lambda": 0.95,
+        "entropy_coef": 0.01,
+        "value_loss_coef": 0.5,
+        "max_grad_norm": 0.5,
+        "optim_eps": 1e-08,
+        "clip_eps": 0.2
+    }
+}

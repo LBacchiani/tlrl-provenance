@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# tlrl-provenance
+# ---------------------------------------------------------------------------
+# Third-party runtime provisioned by `python scripts/setup_runtime.py`
+# (never redistributed here): Rabinizer 4 (GPL-3.0, Java) and the DeepLTL checkout.
+/rabinizer-4/
+/.runtime/
+# Scratch output of scripts/reproduce_audit.py
+/reproduction/
+# Stored compressed (.jsonl.gz, GitHub's 100 MB file limit); inflated on demand
+# by scripts/setup_runtime.py and verified against its SHA-256 sidecar.
+/evidence/deepltl_point/confirmatory/semantic/deepltl_point_full_confirmatory_semantic_records.jsonl
+*.jsonl.part
+# Training logs under experiments/ are part of the retained record.
+!/experiments/**/*.log

@@ -1,0 +1,18 @@
+{
+  "confirmatory_usefulness_evaluation_authorized": false,
+  "expected_final_steps_due_to_batch_boundary": 5001216,
+  "experiment_name": "v3_dev_ppo_5m_letter_env_seed_940000",
+  "launched_epoch_seconds": 1788536640.6280513,
+  "manifest_path": "evidence/letter_env/ppo/development/training/letter_env_ppo_5m_development_pilot_manifest.json",
+  "manifest_sha256": "690c4779b1c0645a8020539f825f911227ca5106a96d7ced804c4969d3fd3149",
+  "pid": 41800,
+  "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_dev_ppo_5m_letter_env_seed_940000\\940000",
+  "schema_version": "tlrl-letter-env-ppo-development-pilot-launch/1",
+  "scope": "development_training_only_no_confirmatory_usefulness_evaluation",
+  "seed": 940000,
+  "status": "launched",
+  "stderr_path": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_dev_ppo_5m_letter_env_seed_940000\\940000\\launch.stderr.log",
+  "stdout_path": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_dev_ppo_5m_letter_env_seed_940000\\940000\\launch.stdout.log",
+  "target_steps": 5000000,
+  "utility_outcomes_inspected_before_launch": false
+}

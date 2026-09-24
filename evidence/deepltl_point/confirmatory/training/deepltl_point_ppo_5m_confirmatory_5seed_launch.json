@@ -1,0 +1,91 @@
+{
+  "campaign_id": "deepltl_point_ppo_5m_confirmatory_5seed",
+  "campaign_manifest_path": "evidence/deepltl_point_ppo_5m_confirmatory_5seed_manifest.json",
+  "campaign_manifest_sha256": "b0ca293b8d36abee9b2bff74a6ae32866f646fac90296e182b3a90ba98edf98a",
+  "completed": {
+    "920001": {
+      "epoch_seconds": 1788237382.221704,
+      "event": "completed",
+      "gpu": "0",
+      "pid": 77004,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920001\\920001",
+      "seed": 920001
+    },
+    "920003": {
+      "epoch_seconds": 1788237442.331607,
+      "event": "failed",
+      "gpu": "0",
+      "pid": 52468,
+      "returncode": 3221226505,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920003\\920003",
+      "seed": 920003
+    }
+  },
+  "events": [
+    {
+      "epoch_seconds": 1788208927.368779,
+      "event": "launched",
+      "gpu": "0",
+      "pid": 77004,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920001\\920001",
+      "seed": 920001
+    },
+    {
+      "epoch_seconds": 1788208927.3989334,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 83196,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920002\\920002",
+      "seed": 920002
+    },
+    {
+      "epoch_seconds": 1788237382.221704,
+      "event": "completed",
+      "gpu": "0",
+      "pid": 77004,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920001\\920001",
+      "seed": 920001
+    },
+    {
+      "epoch_seconds": 1788237382.2981122,
+      "event": "launched",
+      "gpu": "0",
+      "pid": 52468,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920003\\920003",
+      "seed": 920003
+    },
+    {
+      "epoch_seconds": 1788237442.331607,
+      "event": "failed",
+      "gpu": "0",
+      "pid": 52468,
+      "returncode": 3221226505,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920003\\920003",
+      "seed": 920003
+    }
+  ],
+  "pending": [
+    920004,
+    920005
+  ],
+  "running": {
+    "920002": {
+      "gpu": "1",
+      "launched_epoch_seconds": 1788208927.3989334,
+      "pid": 83196,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920002\\920002"
+    }
+  },
+  "schema_version": "tlrl-deepltl-point-ppo-confirmatory-launch/1",
+  "seed_manifests": {
+    "920001": "evidence/deepltl_point_ppo_5m_confirmatory_5seed_seed_920001_manifest.json",
+    "920002": "evidence/deepltl_point_ppo_5m_confirmatory_5seed_seed_920002_manifest.json",
+    "920003": "evidence/deepltl_point_ppo_5m_confirmatory_5seed_seed_920003_manifest.json",
+    "920004": "evidence/deepltl_point_ppo_5m_confirmatory_5seed_seed_920004_manifest.json",
+    "920005": "evidence/deepltl_point_ppo_5m_confirmatory_5seed_seed_920005_manifest.json"
+  },
+  "status": "running",
+  "updated_epoch_seconds": 1788237442.331607
+}

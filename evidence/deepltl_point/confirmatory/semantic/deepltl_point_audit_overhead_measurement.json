@@ -1,0 +1,243 @@
+{
+  "schema_version": "deepltl-point-audit-overhead-measurement/1",
+  "checkpoint": {
+    "experiment": "v3_confirm_ppo_5m_seed_920001",
+    "training_seed": 920001,
+    "checkpoint_steps": 4980736,
+    "checkpoint_sha256": "73d9e912532692c5d203c3ecf725014e13d583959b190551b48f8484af40cea4"
+  },
+  "device": "cpu",
+  "num_episodes": 30,
+  "num_formulas": 10,
+  "episodes_per_formula": 3,
+  "rollout_seconds": {
+    "mean": 3.328366216667928,
+    "median": 3.151374749999377,
+    "min": 0.9306725999922492,
+    "max": 13.16406830001506
+  },
+  "audit_seconds": {
+    "mean": 0.8370890266630643,
+    "median": 0.6597943999950076,
+    "min": 0.250560399988899,
+    "max": 4.559932899981504
+  },
+  "audit_to_rollout_ratio": {
+    "mean": 0.3729555336766141,
+    "median": 0.2086600058212743,
+    "min": 0.05085703293949964,
+    "max": 2.373103278408992
+  },
+  "per_episode": [
+    {
+      "task_id": "deepltl_point_000",
+      "steps": 159,
+      "rollout_seconds": 3.170509799994761,
+      "audit_seconds": 0.5774024999991525,
+      "audit_to_rollout_ratio": 0.1821166110258062
+    },
+    {
+      "task_id": "deepltl_point_000",
+      "steps": 344,
+      "rollout_seconds": 1.7776592000154778,
+      "audit_seconds": 1.497716899990337,
+      "audit_to_rollout_ratio": 0.8425219524514578
+    },
+    {
+      "task_id": "deepltl_point_000",
+      "steps": 257,
+      "rollout_seconds": 1.8243839000060689,
+      "audit_seconds": 0.5293730999983381,
+      "audit_to_rollout_ratio": 0.2901654087150063
+    },
+    {
+      "task_id": "deepltl_point_001",
+      "steps": 206,
+      "rollout_seconds": 3.565768600004958,
+      "audit_seconds": 0.28444930000114255,
+      "audit_to_rollout_ratio": 0.07977222638640855
+    },
+    {
+      "task_id": "deepltl_point_001",
+      "steps": 504,
+      "rollout_seconds": 4.09349190001376,
+      "audit_seconds": 0.6646961999940686,
+      "audit_to_rollout_ratio": 0.16237877495050967
+    },
+    {
+      "task_id": "deepltl_point_001",
+      "steps": 325,
+      "rollout_seconds": 1.8538225000083912,
+      "audit_seconds": 0.250560399988899,
+      "audit_to_rollout_ratio": 0.13515878677045126
+    },
+    {
+      "task_id": "deepltl_point_002",
+      "steps": 199,
+      "rollout_seconds": 3.704458899999736,
+      "audit_seconds": 0.7262288999918383,
+      "audit_to_rollout_ratio": 0.1960418294806537
+    },
+    {
+      "task_id": "deepltl_point_002",
+      "steps": 126,
+      "rollout_seconds": 0.9306725999922492,
+      "audit_seconds": 0.38245200001983903,
+      "audit_to_rollout_ratio": 0.4109415061999506
+    },
+    {
+      "task_id": "deepltl_point_002",
+      "steps": 241,
+      "rollout_seconds": 1.8478488999826368,
+      "audit_seconds": 0.9003801999788266,
+      "audit_to_rollout_ratio": 0.4872585631797529
+    },
+    {
+      "task_id": "deepltl_point_003",
+      "steps": 612,
+      "rollout_seconds": 7.588860100018792,
+      "audit_seconds": 0.42627309999079444,
+      "audit_to_rollout_ratio": 0.05617089976263219
+    },
+    {
+      "task_id": "deepltl_point_003",
+      "steps": 209,
+      "rollout_seconds": 1.5481016999983694,
+      "audit_seconds": 0.5721884999948088,
+      "audit_to_rollout_ratio": 0.36960653166094415
+    },
+    {
+      "task_id": "deepltl_point_003",
+      "steps": 292,
+      "rollout_seconds": 2.1663729999854695,
+      "audit_seconds": 0.30353269999613985,
+      "audit_to_rollout_ratio": 0.14011100581394603
+    },
+    {
+      "task_id": "deepltl_point_004",
+      "steps": 241,
+      "rollout_seconds": 4.165504699980374,
+      "audit_seconds": 0.3082280999806244,
+      "audit_to_rollout_ratio": 0.07399537923509643
+    },
+    {
+      "task_id": "deepltl_point_004",
+      "steps": 506,
+      "rollout_seconds": 4.500400800025091,
+      "audit_seconds": 0.6751771999988705,
+      "audit_to_rollout_ratio": 0.15002601545958003
+    },
+    {
+      "task_id": "deepltl_point_004",
+      "steps": 403,
+      "rollout_seconds": 3.542805800010683,
+      "audit_seconds": 0.6548925999959465,
+      "audit_to_rollout_ratio": 0.1848513965947475
+    },
+    {
+      "task_id": "deepltl_point_005",
+      "steps": 334,
+      "rollout_seconds": 3.998756399989361,
+      "audit_seconds": 0.8855765000043903,
+      "audit_to_rollout_ratio": 0.22146297784149752
+    },
+    {
+      "task_id": "deepltl_point_005",
+      "steps": 640,
+      "rollout_seconds": 1.921506299986504,
+      "audit_seconds": 4.559932899981504,
+      "audit_to_rollout_ratio": 2.373103278408992
+    },
+    {
+      "task_id": "deepltl_point_005",
+      "steps": 409,
+      "rollout_seconds": 2.9098101000126917,
+      "audit_seconds": 1.0047123999975156,
+      "audit_to_rollout_ratio": 0.3452845256098098
+    },
+    {
+      "task_id": "deepltl_point_006",
+      "steps": 199,
+      "rollout_seconds": 3.2585546000045724,
+      "audit_seconds": 1.0583817999868188,
+      "audit_to_rollout_ratio": 0.3248010022558265
+    },
+    {
+      "task_id": "deepltl_point_006",
+      "steps": 255,
+      "rollout_seconds": 1.4627552999882028,
+      "audit_seconds": 1.0197782999894116,
+      "audit_to_rollout_ratio": 0.6971626081256627
+    },
+    {
+      "task_id": "deepltl_point_006",
+      "steps": 217,
+      "rollout_seconds": 1.337650500005111,
+      "audit_seconds": 1.315065400005551,
+      "audit_to_rollout_ratio": 0.9831158437876906
+    },
+    {
+      "task_id": "deepltl_point_007",
+      "steps": 233,
+      "rollout_seconds": 3.927493399998639,
+      "audit_seconds": 0.8690686000045389,
+      "audit_to_rollout_ratio": 0.22127818216189493
+    },
+    {
+      "task_id": "deepltl_point_007",
+      "steps": 1000,
+      "rollout_seconds": 13.16406830001506,
+      "audit_seconds": 0.7491861000016797,
+      "audit_to_rollout_ratio": 0.05691144127540136
+    },
+    {
+      "task_id": "deepltl_point_007",
+      "steps": 252,
+      "rollout_seconds": 3.1322397000039928,
+      "audit_seconds": 1.318585200002417,
+      "audit_to_rollout_ratio": 0.4209719964920744
+    },
+    {
+      "task_id": "deepltl_point_008",
+      "steps": 481,
+      "rollout_seconds": 5.575602500000969,
+      "audit_seconds": 0.2835586000001058,
+      "audit_to_rollout_ratio": 0.05085703293949964
+    },
+    {
+      "task_id": "deepltl_point_008",
+      "steps": 431,
+      "rollout_seconds": 2.8880455000035,
+      "audit_seconds": 0.3183171999990009,
+      "audit_to_rollout_ratio": 0.11021890063664687
+    },
+    {
+      "task_id": "deepltl_point_008",
+      "steps": 427,
+      "rollout_seconds": 4.2528716000088025,
+      "audit_seconds": 0.6369897999975365,
+      "audit_to_rollout_ratio": 0.14977875184292375
+    },
+    {
+      "task_id": "deepltl_point_009",
+      "steps": 124,
+      "rollout_seconds": 3.2114948999951594,
+      "audit_seconds": 0.5382802000094671,
+      "audit_to_rollout_ratio": 0.16761047947181185
+    },
+    {
+      "task_id": "deepltl_point_009",
+      "steps": 161,
+      "rollout_seconds": 1.0552979999920353,
+      "audit_seconds": 0.30761940000229515,
+      "audit_to_rollout_ratio": 0.2915000312751629
+    },
+    {
+      "task_id": "deepltl_point_009",
+      "steps": 220,
+      "rollout_seconds": 1.4741769999964163,
+      "audit_seconds": 1.4940666999900714,
+      "audit_to_rollout_ratio": 1.0134920704865857
+    }
+  ]
+}

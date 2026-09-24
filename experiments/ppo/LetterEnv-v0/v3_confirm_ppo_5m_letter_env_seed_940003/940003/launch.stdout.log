@@ -1,0 +1,688 @@
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+[32mCurriculum stage: 0[39m
+Using seeds: [94000300, 94000301, 94000302, 94000303, 94000304, 94000305, 94000306, 94000307, 94000308, 94000309, 94000310, 94000311, 94000312, 94000313, 94000314, 94000315]
+Environments loaded.
+Number of assignments: 13
+Observation shape: (7, 7, 13)
+Num LTLNet params: 27584
+ExperimentConfig(name='v3_confirm_ppo_5m_letter_env_seed_940003', env='LetterEnv-v0', num_steps=5000000, seed=940003, save_dir='experiments', log_interval=5, save_interval=20, eval_interval=200000, num_procs=16, device='cuda', ltl_sampler=None)
+Num parameters: 191030
+rμ: -0.14 | rσ: 0.97 | sμ: 16.25 | sσ: 17.33 | Pμ: 0.42 | Pσ: 0.49 | Vμ: 0.55 | Vσ: 0.50 | num_steps: 10240 | entropy: 1.37 | value: -0.09 | policy_loss: -0.04 | value_loss: 0.19 | grad_norm: 0.23 | arps: -0.04 | adr: -0.08 | sps: 121.21 | remaining: 11:26:05
+rμ: -0.02 | rσ: 0.99 | sμ: 17.71 | sσ: 19.28 | Pμ: 0.48 | Pσ: 0.50 | Vμ: 0.50 | Vσ: 0.50 | num_steps: 20480 | entropy: 1.34 | value: -0.05 | policy_loss: -0.06 | value_loss: 0.19 | grad_norm: 0.41 | arps: -0.01 | adr: 0.01 | sps: 104.30 | remaining: 13:15:44
+rμ: 0.33 | rσ: 0.94 | sμ: 16.52 | sσ: 16.18 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 30720 | entropy: 1.26 | value: 0.06 | policy_loss: -0.12 | value_loss: 0.18 | grad_norm: 0.61 | arps: 0.10 | adr: 0.20 | sps: 91.38 | remaining: 15:06:18
+rμ: -0.03 | rσ: 0.98 | sμ: 17.42 | sσ: 18.43 | Pμ: 0.46 | Pσ: 0.50 | Vμ: 0.49 | Vσ: 0.50 | num_steps: 40960 | entropy: 1.22 | value: 0.03 | policy_loss: 0.00 | value_loss: 0.18 | grad_norm: 0.36 | arps: -0.02 | adr: -0.05 | sps: 114.74 | remaining: 12:00:19
+Saved training status
+rμ: -0.32 | rσ: 0.94 | sμ: 16.49 | sσ: 15.30 | Pμ: 0.33 | Pσ: 0.47 | Vμ: 0.65 | Vσ: 0.48 | num_steps: 51200 | entropy: 1.17 | value: -0.03 | policy_loss: 0.12 | value_loss: 0.21 | grad_norm: 0.50 | arps: -0.05 | adr: -0.17 | sps: 117.76 | remaining: 11:40:26
+rμ: 0.07 | rσ: 0.98 | sμ: 18.60 | sσ: 19.44 | Pμ: 0.52 | Pσ: 0.50 | Vμ: 0.45 | Vσ: 0.50 | num_steps: 61440 | entropy: 1.10 | value: 0.03 | policy_loss: -0.03 | value_loss: 0.17 | grad_norm: 0.45 | arps: 0.02 | adr: 0.04 | sps: 103.45 | remaining: 13:15:36
+rμ: -0.15 | rσ: 0.97 | sμ: 26.78 | sσ: 22.52 | Pμ: 0.41 | Pσ: 0.49 | Vμ: 0.56 | Vσ: 0.50 | num_steps: 71680 | entropy: 1.10 | value: 0.04 | policy_loss: 0.11 | value_loss: 0.14 | grad_norm: 0.38 | arps: 0.02 | adr: -0.04 | sps: 101.26 | remaining: 13:31:08
+rμ: -0.04 | rσ: 0.96 | sμ: 22.71 | sσ: 21.53 | Pμ: 0.45 | Pσ: 0.50 | Vμ: 0.48 | Vσ: 0.50 | num_steps: 81920 | entropy: 1.07 | value: -0.01 | policy_loss: -0.03 | value_loss: 0.13 | grad_norm: 0.37 | arps: 0.01 | adr: -0.03 | sps: 119.03 | remaining: 11:28:36
+Saved training status
+rμ: -0.22 | rσ: 0.95 | sμ: 20.21 | sσ: 20.68 | Pμ: 0.37 | Pσ: 0.48 | Vμ: 0.58 | Vσ: 0.49 | num_steps: 92160 | entropy: 1.01 | value: -0.01 | policy_loss: 0.04 | value_loss: 0.15 | grad_norm: 0.47 | arps: -0.03 | adr: -0.18 | sps: 104.60 | remaining: 13:02:00
+rμ: 0.00 | rσ: 0.98 | sμ: 20.25 | sσ: 20.16 | Pμ: 0.48 | Pσ: 0.50 | Vμ: 0.48 | Vσ: 0.50 | num_steps: 102400 | entropy: 1.02 | value: -0.10 | policy_loss: -0.12 | value_loss: 0.18 | grad_norm: 0.59 | arps: 0.03 | adr: 0.04 | sps: 117.45 | remaining: 11:35:00
+rμ: -0.07 | rσ: 0.97 | sμ: 23.00 | sσ: 21.38 | Pμ: 0.43 | Pσ: 0.50 | Vμ: 0.51 | Vσ: 0.50 | num_steps: 112640 | entropy: 0.98 | value: -0.03 | policy_loss: -0.03 | value_loss: 0.13 | grad_norm: 0.31 | arps: 0.01 | adr: -0.01 | sps: 103.06 | remaining: 13:10:21
+rμ: 0.12 | rσ: 0.98 | sμ: 16.72 | sσ: 16.78 | Pμ: 0.55 | Pσ: 0.50 | Vμ: 0.43 | Vσ: 0.50 | num_steps: 122880 | entropy: 0.92 | value: 0.01 | policy_loss: -0.10 | value_loss: 0.18 | grad_norm: 0.44 | arps: 0.01 | adr: 0.06 | sps: 118.22 | remaining: 11:27:33
+Saved training status
+rμ: 0.09 | rσ: 0.92 | sμ: 29.84 | sσ: 25.16 | Pμ: 0.47 | Pσ: 0.50 | Vμ: 0.38 | Vσ: 0.49 | num_steps: 133120 | entropy: 0.89 | value: -0.01 | policy_loss: -0.08 | value_loss: 0.09 | grad_norm: 0.34 | arps: -0.01 | adr: 0.03 | sps: 108.03 | remaining: 12:30:50
+rμ: 0.33 | rσ: 0.86 | sμ: 26.80 | sσ: 27.16 | Pμ: 0.59 | Pσ: 0.49 | Vμ: 0.26 | Vσ: 0.44 | num_steps: 143360 | entropy: 0.85 | value: 0.03 | policy_loss: -0.09 | value_loss: 0.09 | grad_norm: 0.35 | arps: 0.06 | adr: 0.19 | sps: 100.53 | remaining: 13:25:09
+rμ: -0.03 | rσ: 0.97 | sμ: 17.15 | sσ: 19.87 | Pμ: 0.46 | Pσ: 0.50 | Vμ: 0.49 | Vσ: 0.50 | num_steps: 153600 | entropy: 0.83 | value: -0.03 | policy_loss: -0.05 | value_loss: 0.19 | grad_norm: 0.46 | arps: -0.01 | adr: -0.03 | sps: 111.29 | remaining: 12:05:48
+rμ: 0.06 | rσ: 0.97 | sμ: 20.43 | sσ: 21.29 | Pμ: 0.51 | Pσ: 0.50 | Vμ: 0.44 | Vσ: 0.50 | num_steps: 163840 | entropy: 0.91 | value: 0.00 | policy_loss: -0.04 | value_loss: 0.16 | grad_norm: 0.41 | arps: 0.02 | adr: 0.04 | sps: 105.04 | remaining: 12:47:20
+Saved training status
+rμ: 0.02 | rσ: 0.97 | sμ: 22.02 | sσ: 21.88 | Pμ: 0.48 | Pσ: 0.50 | Vμ: 0.46 | Vσ: 0.50 | num_steps: 174080 | entropy: 0.86 | value: -0.00 | policy_loss: -0.05 | value_loss: 0.13 | grad_norm: 0.43 | arps: -0.00 | adr: 0.01 | sps: 118.51 | remaining: 11:18:41
+rμ: 0.00 | rσ: 0.95 | sμ: 25.44 | sσ: 23.24 | Pμ: 0.46 | Pσ: 0.50 | Vμ: 0.46 | Vσ: 0.50 | num_steps: 184320 | entropy: 0.92 | value: -0.03 | policy_loss: -0.06 | value_loss: 0.15 | grad_norm: 0.41 | arps: 0.02 | adr: 0.02 | sps: 111.92 | remaining: 11:57:07
+rμ: -0.24 | rσ: 0.87 | sμ: 29.97 | sσ: 28.02 | Pμ: 0.29 | Pσ: 0.45 | Vμ: 0.53 | Vσ: 0.50 | num_steps: 194560 | entropy: 0.95 | value: -0.05 | policy_loss: 0.03 | value_loss: 0.09 | grad_norm: 0.29 | arps: -0.02 | adr: -0.10 | sps: 97.09 | remaining: 13:44:52
+Stage 0 not completed.
+MEAN: 0.44519230769230766, THRESHOLD: 0.95
+rμ: 0.20 | rσ: 0.93 | sμ: 25.33 | sσ: 23.51 | Pμ: 0.56 | Pσ: 0.50 | Vμ: 0.35 | Vσ: 0.48 | num_steps: 204800 | entropy: 0.91 | value: 0.04 | policy_loss: -0.10 | value_loss: 0.12 | grad_norm: 0.41 | arps: -0.01 | adr: 0.06 | sps: 118.06 | remaining: 11:16:57
+Saved training status
+rμ: 0.08 | rσ: 0.92 | sμ: 26.71 | sσ: 25.89 | Pμ: 0.47 | Pσ: 0.50 | Vμ: 0.39 | Vσ: 0.49 | num_steps: 215040 | entropy: 0.96 | value: 0.02 | policy_loss: 0.00 | value_loss: 0.10 | grad_norm: 0.29 | arps: 0.06 | adr: 0.08 | sps: 126.92 | remaining: 10:28:21
+rμ: -0.14 | rσ: 0.93 | sμ: 27.38 | sσ: 23.73 | Pμ: 0.37 | Pσ: 0.48 | Vμ: 0.51 | Vσ: 0.50 | num_steps: 225280 | entropy: 0.88 | value: -0.06 | policy_loss: -0.04 | value_loss: 0.11 | grad_norm: 0.35 | arps: -0.04 | adr: -0.08 | sps: 118.79 | remaining: 11:09:54
+rμ: -0.01 | rσ: 0.96 | sμ: 24.22 | sσ: 22.89 | Pμ: 0.45 | Pσ: 0.50 | Vμ: 0.47 | Vσ: 0.50 | num_steps: 235520 | entropy: 0.90 | value: 0.05 | policy_loss: 0.03 | value_loss: 0.13 | grad_norm: 0.40 | arps: 0.01 | adr: 0.00 | sps: 120.02 | remaining: 11:01:37
+rμ: 0.06 | rσ: 0.96 | sμ: 24.44 | sσ: 22.51 | Pμ: 0.49 | Pσ: 0.50 | Vμ: 0.43 | Vσ: 0.50 | num_steps: 245760 | entropy: 0.84 | value: 0.02 | policy_loss: -0.09 | value_loss: 0.12 | grad_norm: 0.41 | arps: -0.01 | adr: -0.03 | sps: 111.98 | remaining: 11:47:38
+Saved training status
+rμ: 0.28 | rσ: 0.85 | sμ: 35.74 | sσ: 28.27 | Pμ: 0.53 | Pσ: 0.50 | Vμ: 0.26 | Vσ: 0.44 | num_steps: 256000 | entropy: 0.86 | value: 0.06 | policy_loss: -0.02 | value_loss: 0.08 | grad_norm: 0.29 | arps: 0.07 | adr: 0.16 | sps: 129.36 | remaining: 10:11:12
+rμ: -0.02 | rσ: 0.97 | sμ: 20.78 | sσ: 21.34 | Pμ: 0.46 | Pσ: 0.50 | Vμ: 0.48 | Vσ: 0.50 | num_steps: 266240 | entropy: 0.92 | value: -0.02 | policy_loss: -0.07 | value_loss: 0.14 | grad_norm: 0.39 | arps: -0.02 | adr: -0.02 | sps: 99.91 | remaining: 13:09:40
+rμ: 0.01 | rσ: 0.98 | sμ: 20.79 | sσ: 19.49 | Pμ: 0.48 | Pσ: 0.50 | Vμ: 0.47 | Vσ: 0.50 | num_steps: 276480 | entropy: 0.92 | value: 0.04 | policy_loss: -0.05 | value_loss: 0.16 | grad_norm: 0.45 | arps: -0.04 | adr: -0.06 | sps: 116.42 | remaining: 11:16:12
+rμ: -0.22 | rσ: 0.92 | sμ: 25.66 | sσ: 25.85 | Pμ: 0.34 | Pσ: 0.47 | Vμ: 0.55 | Vσ: 0.50 | num_steps: 286720 | entropy: 0.93 | value: -0.06 | policy_loss: -0.02 | value_loss: 0.10 | grad_norm: 0.35 | arps: -0.05 | adr: -0.15 | sps: 105.85 | remaining: 12:22:09
+Saved training status
+rμ: -0.43 | rσ: 0.85 | sμ: 24.81 | sσ: 21.48 | Pμ: 0.24 | Pσ: 0.43 | Vμ: 0.67 | Vσ: 0.47 | num_steps: 296960 | entropy: 0.92 | value: -0.10 | policy_loss: 0.07 | value_loss: 0.12 | grad_norm: 0.37 | arps: -0.09 | adr: -0.20 | sps: 114.09 | remaining: 11:27:02
+rμ: 0.07 | rσ: 0.97 | sμ: 20.48 | sσ: 21.19 | Pμ: 0.51 | Pσ: 0.50 | Vμ: 0.44 | Vσ: 0.50 | num_steps: 307200 | entropy: 0.86 | value: 0.06 | policy_loss: -0.01 | value_loss: 0.17 | grad_norm: 0.48 | arps: 0.00 | adr: 0.04 | sps: 107.84 | remaining: 12:05:15
+rμ: 0.12 | rσ: 0.96 | sμ: 19.41 | sσ: 20.50 | Pμ: 0.53 | Pσ: 0.50 | Vμ: 0.41 | Vσ: 0.49 | num_steps: 317440 | entropy: 0.87 | value: -0.01 | policy_loss: -0.08 | value_loss: 0.17 | grad_norm: 0.52 | arps: 0.06 | adr: 0.07 | sps: 102.26 | remaining: 12:43:11
+rμ: 0.14 | rσ: 0.98 | sμ: 14.52 | sσ: 15.62 | Pμ: 0.56 | Pσ: 0.50 | Vμ: 0.42 | Vσ: 0.49 | num_steps: 327680 | entropy: 0.93 | value: 0.04 | policy_loss: -0.08 | value_loss: 0.19 | grad_norm: 0.49 | arps: 0.03 | adr: 0.07 | sps: 98.03 | remaining: 13:14:20
+Saved training status
+rμ: 0.17 | rσ: 0.97 | sμ: 17.89 | sσ: 17.84 | Pμ: 0.57 | Pσ: 0.50 | Vμ: 0.40 | Vσ: 0.49 | num_steps: 337920 | entropy: 0.89 | value: 0.06 | policy_loss: -0.05 | value_loss: 0.18 | grad_norm: 0.54 | arps: 0.04 | adr: 0.11 | sps: 114.27 | remaining: 11:19:57
+rμ: -0.08 | rσ: 0.96 | sμ: 25.65 | sσ: 24.26 | Pμ: 0.42 | Pσ: 0.49 | Vμ: 0.51 | Vσ: 0.50 | num_steps: 348160 | entropy: 0.96 | value: 0.04 | policy_loss: 0.07 | value_loss: 0.14 | grad_norm: 0.42 | arps: -0.01 | adr: -0.04 | sps: 105.75 | remaining: 12:13:08
+rμ: 0.17 | rσ: 0.97 | sμ: 16.80 | sσ: 17.88 | Pμ: 0.57 | Pσ: 0.50 | Vμ: 0.40 | Vσ: 0.49 | num_steps: 358400 | entropy: 0.95 | value: -0.00 | policy_loss: -0.10 | value_loss: 0.17 | grad_norm: 0.48 | arps: 0.07 | adr: 0.12 | sps: 118.35 | remaining: 10:53:39
+rμ: 0.08 | rσ: 0.98 | sμ: 17.03 | sσ: 19.47 | Pμ: 0.53 | Pσ: 0.50 | Vμ: 0.45 | Vσ: 0.50 | num_steps: 368640 | entropy: 0.87 | value: 0.08 | policy_loss: 0.02 | value_loss: 0.20 | grad_norm: 0.54 | arps: 0.04 | adr: 0.07 | sps: 108.17 | remaining: 11:53:35
+Saved training status
+rμ: 0.15 | rσ: 0.96 | sμ: 20.89 | sσ: 20.02 | Pμ: 0.55 | Pσ: 0.50 | Vμ: 0.40 | Vσ: 0.49 | num_steps: 378880 | entropy: 0.94 | value: 0.06 | policy_loss: -0.03 | value_loss: 0.15 | grad_norm: 0.41 | arps: 0.06 | adr: 0.11 | sps: 106.75 | remaining: 12:01:27
+rμ: 0.26 | rσ: 0.91 | sμ: 25.55 | sσ: 24.60 | Pμ: 0.58 | Pσ: 0.49 | Vμ: 0.32 | Vσ: 0.47 | num_steps: 389120 | entropy: 0.88 | value: 0.01 | policy_loss: -0.21 | value_loss: 0.13 | grad_norm: 0.48 | arps: -0.00 | adr: 0.02 | sps: 108.70 | remaining: 11:47:00
+rμ: 0.08 | rσ: 0.97 | sμ: 22.31 | sσ: 21.82 | Pμ: 0.51 | Pσ: 0.50 | Vμ: 0.43 | Vσ: 0.50 | num_steps: 399360 | entropy: 0.91 | value: -0.02 | policy_loss: -0.11 | value_loss: 0.14 | grad_norm: 0.40 | arps: 0.01 | adr: 0.06 | sps: 114.04 | remaining: 11:12:21
+Stage 0 not completed.
+MEAN: 0.704486036838978, THRESHOLD: 0.95
+rμ: 0.10 | rσ: 0.96 | sμ: 19.83 | sσ: 21.17 | Pμ: 0.52 | Pσ: 0.50 | Vμ: 0.42 | Vσ: 0.49 | num_steps: 409600 | entropy: 0.91 | value: 0.05 | policy_loss: 0.03 | value_loss: 0.15 | grad_norm: 0.42 | arps: 0.07 | adr: 0.11 | sps: 94.58 | remaining: 13:28:55
+Saved training status
+rμ: 0.21 | rσ: 0.95 | sμ: 19.54 | sσ: 19.09 | Pμ: 0.58 | Pσ: 0.49 | Vμ: 0.37 | Vσ: 0.48 | num_steps: 419840 | entropy: 0.88 | value: 0.09 | policy_loss: -0.03 | value_loss: 0.16 | grad_norm: 0.40 | arps: 0.04 | adr: 0.11 | sps: 85.93 | remaining: 14:48:20
+rμ: -0.06 | rσ: 0.97 | sμ: 22.49 | sσ: 20.46 | Pμ: 0.44 | Pσ: 0.50 | Vμ: 0.50 | Vσ: 0.50 | num_steps: 430080 | entropy: 0.84 | value: -0.04 | policy_loss: -0.05 | value_loss: 0.15 | grad_norm: 0.44 | arps: -0.01 | adr: -0.03 | sps: 84.01 | remaining: 15:06:38
+rμ: -0.01 | rσ: 0.98 | sμ: 20.29 | sσ: 21.82 | Pμ: 0.48 | Pσ: 0.50 | Vμ: 0.49 | Vσ: 0.50 | num_steps: 440320 | entropy: 0.88 | value: 0.06 | policy_loss: 0.03 | value_loss: 0.16 | grad_norm: 0.47 | arps: -0.01 | adr: 0.02 | sps: 82.88 | remaining: 15:16:57
+rμ: 0.12 | rσ: 0.96 | sμ: 21.23 | sσ: 21.09 | Pμ: 0.53 | Pσ: 0.50 | Vμ: 0.41 | Vσ: 0.49 | num_steps: 450560 | entropy: 0.88 | value: 0.05 | policy_loss: -0.08 | value_loss: 0.15 | grad_norm: 0.51 | arps: -0.00 | adr: 0.03 | sps: 95.38 | remaining: 13:14:57
+Saved training status
+rμ: 0.04 | rσ: 0.98 | sμ: 19.24 | sσ: 18.62 | Pμ: 0.50 | Pσ: 0.50 | Vμ: 0.46 | Vσ: 0.50 | num_steps: 460800 | entropy: 0.89 | value: 0.06 | policy_loss: -0.02 | value_loss: 0.15 | grad_norm: 0.47 | arps: -0.04 | adr: -0.02 | sps: 105.44 | remaining: 11:57:28
+rμ: 0.31 | rσ: 0.90 | sμ: 22.61 | sσ: 21.66 | Pμ: 0.61 | Pσ: 0.49 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 471040 | entropy: 0.81 | value: 0.06 | policy_loss: -0.13 | value_loss: 0.14 | grad_norm: 0.49 | arps: 0.05 | adr: 0.16 | sps: 107.85 | remaining: 11:39:53
+rμ: 0.05 | rσ: 0.97 | sμ: 19.79 | sσ: 19.99 | Pμ: 0.50 | Pσ: 0.50 | Vμ: 0.45 | Vσ: 0.50 | num_steps: 481280 | entropy: 0.84 | value: 0.04 | policy_loss: -0.05 | value_loss: 0.18 | grad_norm: 0.44 | arps: 0.03 | adr: 0.02 | sps: 103.77 | remaining: 12:05:46
+rμ: 0.09 | rσ: 0.99 | sμ: 20.00 | sσ: 18.93 | Pμ: 0.54 | Pσ: 0.50 | Vμ: 0.44 | Vσ: 0.50 | num_steps: 491520 | entropy: 0.86 | value: 0.03 | policy_loss: -0.05 | value_loss: 0.15 | grad_norm: 0.49 | arps: 0.01 | adr: 0.05 | sps: 122.47 | remaining: 10:13:34
+Saved training status
+rμ: 0.06 | rσ: 0.97 | sμ: 21.60 | sσ: 21.77 | Pμ: 0.51 | Pσ: 0.50 | Vμ: 0.44 | Vσ: 0.50 | num_steps: 501760 | entropy: 0.84 | value: 0.02 | policy_loss: -0.00 | value_loss: 0.14 | grad_norm: 0.42 | arps: 0.05 | adr: 0.09 | sps: 114.94 | remaining: 10:52:13
+rμ: 0.27 | rσ: 0.90 | sμ: 25.06 | sσ: 25.46 | Pμ: 0.58 | Pσ: 0.49 | Vμ: 0.31 | Vσ: 0.46 | num_steps: 512000 | entropy: 0.73 | value: 0.05 | policy_loss: -0.10 | value_loss: 0.12 | grad_norm: 0.37 | arps: 0.05 | adr: 0.13 | sps: 94.78 | remaining: 13:09:09
+rμ: 0.06 | rσ: 0.98 | sμ: 20.88 | sσ: 20.26 | Pμ: 0.51 | Pσ: 0.50 | Vμ: 0.45 | Vσ: 0.50 | num_steps: 522240 | entropy: 0.80 | value: 0.06 | policy_loss: -0.00 | value_loss: 0.16 | grad_norm: 0.40 | arps: 0.01 | adr: 0.02 | sps: 103.13 | remaining: 12:03:39
+rμ: 0.31 | rσ: 0.92 | sμ: 15.50 | sσ: 19.56 | Pμ: 0.63 | Pσ: 0.48 | Vμ: 0.31 | Vσ: 0.46 | num_steps: 532480 | entropy: 0.68 | value: 0.06 | policy_loss: -0.15 | value_loss: 0.19 | grad_norm: 0.45 | arps: 0.06 | adr: 0.20 | sps: 100.14 | remaining: 12:23:32
+Saved training status
+rμ: 0.22 | rσ: 0.96 | sμ: 16.74 | sσ: 19.35 | Pμ: 0.60 | Pσ: 0.49 | Vμ: 0.37 | Vσ: 0.48 | num_steps: 542720 | entropy: 0.81 | value: 0.06 | policy_loss: -0.08 | value_loss: 0.19 | grad_norm: 0.45 | arps: 0.07 | adr: 0.13 | sps: 124.44 | remaining: 9:56:59
+rμ: 0.21 | rσ: 0.96 | sμ: 13.94 | sσ: 17.26 | Pμ: 0.59 | Pσ: 0.49 | Vμ: 0.38 | Vσ: 0.49 | num_steps: 552960 | entropy: 0.71 | value: 0.12 | policy_loss: -0.04 | value_loss: 0.23 | grad_norm: 0.53 | arps: 0.02 | adr: 0.12 | sps: 100.91 | remaining: 12:14:29
+rμ: 0.15 | rσ: 0.98 | sμ: 17.89 | sσ: 17.28 | Pμ: 0.56 | Pσ: 0.50 | Vμ: 0.41 | Vσ: 0.49 | num_steps: 563200 | entropy: 0.72 | value: 0.02 | policy_loss: -0.09 | value_loss: 0.17 | grad_norm: 0.44 | arps: 0.04 | adr: 0.08 | sps: 102.52 | remaining: 12:01:17
+rμ: 0.25 | rσ: 0.92 | sμ: 23.31 | sσ: 22.82 | Pμ: 0.58 | Pσ: 0.49 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 573440 | entropy: 0.72 | value: 0.06 | policy_loss: -0.10 | value_loss: 0.12 | grad_norm: 0.44 | arps: 0.03 | adr: 0.09 | sps: 117.84 | remaining: 10:26:03
+Saved training status
+rμ: 0.27 | rσ: 0.93 | sμ: 18.63 | sσ: 20.29 | Pμ: 0.60 | Pσ: 0.49 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 583680 | entropy: 0.82 | value: 0.09 | policy_loss: -0.08 | value_loss: 0.14 | grad_norm: 0.40 | arps: 0.06 | adr: 0.15 | sps: 101.04 | remaining: 12:08:28
+rμ: -0.01 | rσ: 0.96 | sμ: 20.94 | sσ: 22.65 | Pμ: 0.46 | Pσ: 0.50 | Vμ: 0.47 | Vσ: 0.50 | num_steps: 593920 | entropy: 0.94 | value: 0.05 | policy_loss: 0.03 | value_loss: 0.16 | grad_norm: 0.35 | arps: -0.02 | adr: -0.00 | sps: 107.71 | remaining: 11:21:45
+rμ: 0.27 | rσ: 0.93 | sμ: 23.34 | sσ: 23.19 | Pμ: 0.60 | Pσ: 0.49 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 604160 | entropy: 0.90 | value: 0.10 | policy_loss: 0.01 | value_loss: 0.13 | grad_norm: 0.35 | arps: 0.09 | adr: 0.20 | sps: 117.54 | remaining: 10:23:17
+Stage 0 not completed.
+MEAN: 0.6627878787878788, THRESHOLD: 0.95
+rμ: 0.13 | rσ: 0.95 | sμ: 20.82 | sσ: 22.51 | Pμ: 0.53 | Pσ: 0.50 | Vμ: 0.40 | Vσ: 0.49 | num_steps: 614400 | entropy: 0.89 | value: 0.09 | policy_loss: 0.02 | value_loss: 0.14 | grad_norm: 0.38 | arps: 0.05 | adr: 0.08 | sps: 86.30 | remaining: 14:06:56
+Saved training status
+rμ: 0.28 | rσ: 0.92 | sμ: 27.60 | sσ: 25.22 | Pμ: 0.60 | Pσ: 0.49 | Vμ: 0.32 | Vσ: 0.47 | num_steps: 624640 | entropy: 0.84 | value: 0.13 | policy_loss: 0.02 | value_loss: 0.10 | grad_norm: 0.34 | arps: 0.06 | adr: 0.15 | sps: 96.37 | remaining: 12:36:40
+rμ: 0.25 | rσ: 0.95 | sμ: 18.40 | sσ: 19.95 | Pμ: 0.61 | Pσ: 0.49 | Vμ: 0.36 | Vσ: 0.48 | num_steps: 634880 | entropy: 0.77 | value: 0.14 | policy_loss: -0.06 | value_loss: 0.17 | grad_norm: 0.42 | arps: 0.05 | adr: 0.12 | sps: 83.22 | remaining: 14:34:11
+rμ: 0.31 | rσ: 0.90 | sμ: 21.83 | sσ: 22.56 | Pμ: 0.61 | Pσ: 0.49 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 645120 | entropy: 0.78 | value: 0.08 | policy_loss: -0.10 | value_loss: 0.14 | grad_norm: 0.42 | arps: 0.03 | adr: 0.16 | sps: 86.36 | remaining: 14:00:29
+rμ: 0.33 | rσ: 0.91 | sμ: 20.82 | sσ: 21.25 | Pμ: 0.64 | Pσ: 0.48 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 655360 | entropy: 0.83 | value: 0.16 | policy_loss: 0.01 | value_loss: 0.14 | grad_norm: 0.37 | arps: 0.08 | adr: 0.20 | sps: 83.75 | remaining: 14:24:34
+Saved training status
+rμ: -0.15 | rσ: 0.97 | sμ: 18.34 | sσ: 19.16 | Pμ: 0.40 | Pσ: 0.49 | Vμ: 0.55 | Vσ: 0.50 | num_steps: 665600 | entropy: 0.88 | value: -0.02 | policy_loss: 0.04 | value_loss: 0.18 | grad_norm: 0.38 | arps: -0.06 | adr: -0.10 | sps: 129.13 | remaining: 9:19:26
+rμ: 0.22 | rσ: 0.91 | sμ: 25.67 | sσ: 24.26 | Pμ: 0.54 | Pσ: 0.50 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 675840 | entropy: 0.75 | value: 0.02 | policy_loss: -0.11 | value_loss: 0.12 | grad_norm: 0.41 | arps: 0.05 | adr: 0.13 | sps: 95.22 | remaining: 12:36:54
+rμ: 0.18 | rσ: 0.94 | sμ: 19.60 | sσ: 21.11 | Pμ: 0.55 | Pσ: 0.50 | Vμ: 0.37 | Vσ: 0.48 | num_steps: 686080 | entropy: 0.78 | value: 0.06 | policy_loss: -0.03 | value_loss: 0.13 | grad_norm: 0.36 | arps: 0.02 | adr: 0.12 | sps: 98.50 | remaining: 12:09:55
+rμ: 0.15 | rσ: 0.97 | sμ: 23.79 | sσ: 21.04 | Pμ: 0.56 | Pσ: 0.50 | Vμ: 0.41 | Vσ: 0.49 | num_steps: 696320 | entropy: 0.89 | value: -0.02 | policy_loss: -0.05 | value_loss: 0.13 | grad_norm: 0.39 | arps: 0.11 | adr: 0.17 | sps: 82.76 | remaining: 14:26:44
+Saved training status
+rμ: 0.29 | rσ: 0.90 | sμ: 21.83 | sσ: 23.49 | Pμ: 0.60 | Pσ: 0.49 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 706560 | entropy: 0.78 | value: 0.12 | policy_loss: -0.05 | value_loss: 0.13 | grad_norm: 0.33 | arps: 0.10 | adr: 0.15 | sps: 115.28 | remaining: 10:20:45
+rμ: 0.22 | rσ: 0.94 | sμ: 20.09 | sσ: 21.83 | Pμ: 0.57 | Pσ: 0.50 | Vμ: 0.35 | Vσ: 0.48 | num_steps: 716800 | entropy: 0.85 | value: 0.10 | policy_loss: -0.05 | value_loss: 0.15 | grad_norm: 0.39 | arps: -0.00 | adr: 0.07 | sps: 86.63 | remaining: 13:44:00
+rμ: 0.37 | rσ: 0.92 | sμ: 15.10 | sσ: 16.32 | Pμ: 0.68 | Pσ: 0.47 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 727040 | entropy: 0.79 | value: 0.15 | policy_loss: -0.10 | value_loss: 0.21 | grad_norm: 0.47 | arps: 0.08 | adr: 0.23 | sps: 89.39 | remaining: 13:16:40
+rμ: 0.07 | rσ: 0.98 | sμ: 17.82 | sσ: 18.87 | Pμ: 0.52 | Pσ: 0.50 | Vμ: 0.45 | Vσ: 0.50 | num_steps: 737280 | entropy: 0.86 | value: 0.05 | policy_loss: -0.01 | value_loss: 0.17 | grad_norm: 0.42 | arps: 0.01 | adr: 0.02 | sps: 103.69 | remaining: 11:25:11
+Saved training status
+rμ: 0.26 | rσ: 0.91 | sμ: 20.98 | sσ: 23.99 | Pμ: 0.58 | Pσ: 0.49 | Vμ: 0.32 | Vσ: 0.47 | num_steps: 747520 | entropy: 0.83 | value: 0.12 | policy_loss: -0.03 | value_loss: 0.14 | grad_norm: 0.32 | arps: 0.05 | adr: 0.15 | sps: 95.18 | remaining: 12:24:37
+rμ: 0.54 | rσ: 0.82 | sμ: 18.10 | sσ: 20.47 | Pμ: 0.75 | Pσ: 0.43 | Vμ: 0.21 | Vσ: 0.41 | num_steps: 757760 | entropy: 0.65 | value: 0.19 | policy_loss: -0.09 | value_loss: 0.13 | grad_norm: 0.46 | arps: 0.14 | adr: 0.33 | sps: 93.43 | remaining: 12:36:43
+rμ: 0.22 | rσ: 0.88 | sμ: 31.49 | sσ: 26.39 | Pμ: 0.53 | Pσ: 0.50 | Vμ: 0.31 | Vσ: 0.46 | num_steps: 768000 | entropy: 0.91 | value: 0.14 | policy_loss: 0.09 | value_loss: 0.09 | grad_norm: 0.35 | arps: 0.06 | adr: 0.13 | sps: 102.62 | remaining: 11:27:20
+rμ: 0.09 | rσ: 0.93 | sμ: 24.10 | sσ: 25.53 | Pμ: 0.48 | Pσ: 0.50 | Vμ: 0.39 | Vσ: 0.49 | num_steps: 778240 | entropy: 0.96 | value: 0.04 | policy_loss: -0.04 | value_loss: 0.12 | grad_norm: 0.32 | arps: -0.00 | adr: 0.03 | sps: 92.47 | remaining: 12:40:54
+Saved training status
+rμ: 0.20 | rσ: 0.97 | sμ: 15.96 | sσ: 17.58 | Pμ: 0.59 | Pσ: 0.49 | Vμ: 0.39 | Vσ: 0.49 | num_steps: 788480 | entropy: 0.84 | value: 0.13 | policy_loss: -0.01 | value_loss: 0.18 | grad_norm: 0.40 | arps: 0.05 | adr: 0.11 | sps: 121.07 | remaining: 9:39:44
+rμ: 0.12 | rσ: 0.98 | sμ: 14.82 | sσ: 16.98 | Pμ: 0.55 | Pσ: 0.50 | Vμ: 0.43 | Vσ: 0.49 | num_steps: 798720 | entropy: 0.81 | value: 0.14 | policy_loss: 0.03 | value_loss: 0.21 | grad_norm: 0.45 | arps: 0.01 | adr: 0.06 | sps: 85.51 | remaining: 13:38:50
+rμ: 0.40 | rσ: 0.90 | sμ: 16.81 | sσ: 18.10 | Pμ: 0.68 | Pσ: 0.47 | Vμ: 0.29 | Vσ: 0.45 | num_steps: 808960 | entropy: 0.77 | value: 0.13 | policy_loss: -0.10 | value_loss: 0.16 | grad_norm: 0.42 | arps: 0.12 | adr: 0.25 | sps: 96.41 | remaining: 12:04:29
+Stage 0 not completed.
+MEAN: 0.46343178621659636, THRESHOLD: 0.95
+rμ: 0.27 | rσ: 0.92 | sμ: 20.59 | sσ: 21.83 | Pμ: 0.60 | Pσ: 0.49 | Vμ: 0.32 | Vσ: 0.47 | num_steps: 819200 | entropy: 0.81 | value: 0.07 | policy_loss: -0.13 | value_loss: 0.15 | grad_norm: 0.42 | arps: 0.03 | adr: 0.13 | sps: 92.42 | remaining: 12:33:58
+Saved training status
+rμ: 0.33 | rσ: 0.88 | sμ: 24.04 | sσ: 24.81 | Pμ: 0.61 | Pσ: 0.49 | Vμ: 0.28 | Vσ: 0.45 | num_steps: 829440 | entropy: 0.86 | value: 0.11 | policy_loss: 0.02 | value_loss: 0.10 | grad_norm: 0.30 | arps: 0.10 | adr: 0.21 | sps: 98.21 | remaining: 11:47:45
+rμ: 0.44 | rσ: 0.86 | sμ: 20.34 | sσ: 22.91 | Pμ: 0.68 | Pσ: 0.47 | Vμ: 0.24 | Vσ: 0.43 | num_steps: 839680 | entropy: 0.75 | value: 0.17 | policy_loss: -0.01 | value_loss: 0.12 | grad_norm: 0.29 | arps: 0.15 | adr: 0.30 | sps: 109.36 | remaining: 10:34:01
+rμ: -0.01 | rσ: 0.98 | sμ: 15.65 | sσ: 17.56 | Pμ: 0.48 | Pσ: 0.50 | Vμ: 0.49 | Vσ: 0.50 | num_steps: 849920 | entropy: 0.92 | value: -0.01 | policy_loss: -0.05 | value_loss: 0.19 | grad_norm: 0.47 | arps: -0.00 | adr: -0.01 | sps: 104.55 | remaining: 11:01:33
+rμ: 0.20 | rσ: 0.97 | sμ: 13.07 | sσ: 15.56 | Pμ: 0.59 | Pσ: 0.49 | Vμ: 0.39 | Vσ: 0.49 | num_steps: 860160 | entropy: 0.66 | value: 0.06 | policy_loss: -0.11 | value_loss: 0.22 | grad_norm: 0.43 | arps: -0.00 | adr: 0.11 | sps: 89.82 | remaining: 12:48:12
+Saved training status
+rμ: 0.34 | rσ: 0.93 | sμ: 11.80 | sσ: 14.08 | Pμ: 0.67 | Pσ: 0.47 | Vμ: 0.32 | Vσ: 0.47 | num_steps: 870400 | entropy: 0.55 | value: 0.19 | policy_loss: -0.11 | value_loss: 0.22 | grad_norm: 0.51 | arps: 0.09 | adr: 0.20 | sps: 87.50 | remaining: 13:06:33
+rμ: 0.18 | rσ: 0.95 | sμ: 17.56 | sσ: 20.43 | Pμ: 0.56 | Pσ: 0.50 | Vμ: 0.37 | Vσ: 0.48 | num_steps: 880640 | entropy: 0.84 | value: 0.05 | policy_loss: -0.04 | value_loss: 0.17 | grad_norm: 0.35 | arps: 0.09 | adr: 0.15 | sps: 99.82 | remaining: 11:27:47
+rμ: 0.59 | rσ: 0.80 | sμ: 12.60 | sσ: 15.25 | Pμ: 0.79 | Pσ: 0.41 | Vμ: 0.20 | Vσ: 0.40 | num_steps: 890880 | entropy: 0.54 | value: 0.13 | policy_loss: -0.26 | value_loss: 0.22 | grad_norm: 0.62 | arps: 0.18 | adr: 0.40 | sps: 100.07 | remaining: 11:24:24
+rμ: 0.29 | rσ: 0.93 | sμ: 20.41 | sσ: 20.99 | Pμ: 0.62 | Pσ: 0.48 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 901120 | entropy: 0.83 | value: 0.17 | policy_loss: 0.02 | value_loss: 0.14 | grad_norm: 0.29 | arps: 0.03 | adr: 0.13 | sps: 95.70 | remaining: 11:53:49
+Saved training status
+rμ: 0.28 | rσ: 0.91 | sμ: 23.29 | sσ: 23.37 | Pμ: 0.59 | Pσ: 0.49 | Vμ: 0.31 | Vσ: 0.46 | num_steps: 911360 | entropy: 0.72 | value: 0.17 | policy_loss: 0.06 | value_loss: 0.13 | grad_norm: 0.31 | arps: 0.08 | adr: 0.19 | sps: 87.38 | remaining: 12:59:53
+rμ: 0.31 | rσ: 0.93 | sμ: 17.38 | sσ: 18.81 | Pμ: 0.64 | Pσ: 0.48 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 921600 | entropy: 0.83 | value: 0.07 | policy_loss: -0.13 | value_loss: 0.17 | grad_norm: 0.37 | arps: 0.09 | adr: 0.17 | sps: 92.53 | remaining: 12:14:36
+rμ: -0.06 | rσ: 0.98 | sμ: 16.90 | sσ: 16.50 | Pμ: 0.45 | Pσ: 0.50 | Vμ: 0.51 | Vσ: 0.50 | num_steps: 931840 | entropy: 0.89 | value: -0.07 | policy_loss: -0.10 | value_loss: 0.19 | grad_norm: 0.49 | arps: -0.02 | adr: -0.03 | sps: 84.78 | remaining: 13:19:45
+rμ: 0.19 | rσ: 0.97 | sμ: 14.45 | sσ: 19.13 | Pμ: 0.58 | Pσ: 0.49 | Vμ: 0.39 | Vσ: 0.49 | num_steps: 942080 | entropy: 0.74 | value: 0.15 | policy_loss: 0.05 | value_loss: 0.17 | grad_norm: 0.38 | arps: 0.06 | adr: 0.13 | sps: 85.81 | remaining: 13:08:09
+Saved training status
+rμ: 0.26 | rσ: 0.93 | sμ: 21.66 | sσ: 21.95 | Pμ: 0.60 | Pσ: 0.49 | Vμ: 0.34 | Vσ: 0.47 | num_steps: 952320 | entropy: 0.85 | value: 0.09 | policy_loss: -0.06 | value_loss: 0.14 | grad_norm: 0.42 | arps: 0.05 | adr: 0.11 | sps: 85.21 | remaining: 13:11:43
+rμ: 0.49 | rσ: 0.83 | sμ: 18.07 | sσ: 22.84 | Pμ: 0.71 | Pσ: 0.45 | Vμ: 0.22 | Vσ: 0.41 | num_steps: 962560 | entropy: 0.76 | value: 0.17 | policy_loss: -0.04 | value_loss: 0.14 | grad_norm: 0.35 | arps: 0.14 | adr: 0.33 | sps: 102.08 | remaining: 10:59:11
+rμ: 0.37 | rσ: 0.90 | sμ: 20.05 | sσ: 21.55 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.29 | Vσ: 0.45 | num_steps: 972800 | entropy: 0.83 | value: 0.09 | policy_loss: -0.16 | value_loss: 0.15 | grad_norm: 0.41 | arps: 0.06 | adr: 0.20 | sps: 123.24 | remaining: 9:04:37
+rμ: 0.31 | rσ: 0.90 | sμ: 27.69 | sσ: 23.50 | Pμ: 0.61 | Pσ: 0.49 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 983040 | entropy: 0.87 | value: 0.20 | policy_loss: 0.10 | value_loss: 0.10 | grad_norm: 0.33 | arps: 0.08 | adr: 0.17 | sps: 96.69 | remaining: 11:32:26
+Saved training status
+rμ: 0.37 | rσ: 0.91 | sμ: 12.72 | sσ: 15.59 | Pμ: 0.67 | Pσ: 0.47 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 993280 | entropy: 0.64 | value: 0.21 | policy_loss: 0.00 | value_loss: 0.21 | grad_norm: 0.43 | arps: 0.13 | adr: 0.27 | sps: 82.65 | remaining: 13:27:59
+rμ: 0.50 | rσ: 0.83 | sμ: 15.13 | sσ: 19.43 | Pμ: 0.72 | Pσ: 0.45 | Vμ: 0.22 | Vσ: 0.41 | num_steps: 1003520 | entropy: 0.67 | value: 0.13 | policy_loss: -0.16 | value_loss: 0.15 | grad_norm: 0.53 | arps: 0.12 | adr: 0.32 | sps: 103.90 | remaining: 10:41:04
+rμ: 0.51 | rσ: 0.83 | sμ: 19.06 | sσ: 20.10 | Pμ: 0.73 | Pσ: 0.44 | Vμ: 0.22 | Vσ: 0.42 | num_steps: 1013760 | entropy: 0.83 | value: 0.24 | policy_loss: -0.04 | value_loss: 0.13 | grad_norm: 0.37 | arps: 0.11 | adr: 0.25 | sps: 110.94 | remaining: 9:58:52
+Stage 0 not completed.
+MEAN: 0.6687835048246947, THRESHOLD: 0.95
+rμ: 0.58 | rσ: 0.78 | sμ: 20.96 | sσ: 22.83 | Pμ: 0.75 | Pσ: 0.43 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 1024000 | entropy: 0.80 | value: 0.20 | policy_loss: -0.04 | value_loss: 0.12 | grad_norm: 0.35 | arps: 0.16 | adr: 0.34 | sps: 96.51 | remaining: 11:26:39
+Saved training status
+rμ: 0.19 | rσ: 0.97 | sμ: 13.17 | sσ: 17.12 | Pμ: 0.58 | Pσ: 0.49 | Vμ: 0.39 | Vσ: 0.49 | num_steps: 1034240 | entropy: 0.92 | value: 0.18 | policy_loss: 0.05 | value_loss: 0.21 | grad_norm: 0.41 | arps: 0.07 | adr: 0.11 | sps: 102.05 | remaining: 10:47:41
+rμ: 0.54 | rσ: 0.83 | sμ: 11.78 | sσ: 14.09 | Pμ: 0.76 | Pσ: 0.43 | Vμ: 0.22 | Vσ: 0.41 | num_steps: 1044480 | entropy: 0.66 | value: 0.21 | policy_loss: -0.15 | value_loss: 0.17 | grad_norm: 0.45 | arps: 0.15 | adr: 0.37 | sps: 102.80 | remaining: 10:41:17
+rμ: 0.38 | rσ: 0.89 | sμ: 20.37 | sσ: 21.52 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.28 | Vσ: 0.45 | num_steps: 1054720 | entropy: 0.88 | value: 0.15 | policy_loss: -0.05 | value_loss: 0.15 | grad_norm: 0.43 | arps: 0.07 | adr: 0.22 | sps: 95.22 | remaining: 11:30:32
+rμ: 0.39 | rσ: 0.89 | sμ: 16.69 | sσ: 20.17 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.27 | Vσ: 0.45 | num_steps: 1064960 | entropy: 0.73 | value: 0.13 | policy_loss: -0.04 | value_loss: 0.17 | grad_norm: 0.41 | arps: 0.13 | adr: 0.27 | sps: 97.10 | remaining: 11:15:23
+Saved training status
+rμ: 0.61 | rσ: 0.77 | sμ: 16.46 | sσ: 18.55 | Pμ: 0.78 | Pσ: 0.41 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 1075200 | entropy: 0.71 | value: 0.21 | policy_loss: -0.10 | value_loss: 0.13 | grad_norm: 0.41 | arps: 0.14 | adr: 0.34 | sps: 101.33 | remaining: 10:45:33
+rμ: 0.29 | rσ: 0.92 | sμ: 18.43 | sσ: 20.62 | Pμ: 0.61 | Pσ: 0.49 | Vμ: 0.32 | Vσ: 0.47 | num_steps: 1085440 | entropy: 0.80 | value: 0.19 | policy_loss: 0.03 | value_loss: 0.16 | grad_norm: 0.42 | arps: 0.06 | adr: 0.14 | sps: 87.18 | remaining: 12:28:22
+rμ: 0.39 | rσ: 0.90 | sμ: 13.62 | sσ: 17.73 | Pμ: 0.67 | Pσ: 0.47 | Vμ: 0.29 | Vσ: 0.45 | num_steps: 1095680 | entropy: 0.79 | value: 0.23 | policy_loss: -0.01 | value_loss: 0.17 | grad_norm: 0.45 | arps: 0.09 | adr: 0.22 | sps: 96.53 | remaining: 11:14:07
+rμ: 0.36 | rσ: 0.91 | sμ: 13.25 | sσ: 17.92 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 1105920 | entropy: 0.76 | value: 0.15 | policy_loss: -0.10 | value_loss: 0.21 | grad_norm: 0.46 | arps: 0.12 | adr: 0.24 | sps: 92.49 | remaining: 11:41:41
+Saved training status
+rμ: 0.31 | rσ: 0.94 | sμ: 12.95 | sσ: 17.00 | Pμ: 0.64 | Pσ: 0.48 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 1116160 | entropy: 0.64 | value: 0.21 | policy_loss: 0.02 | value_loss: 0.20 | grad_norm: 0.52 | arps: 0.07 | adr: 0.19 | sps: 95.38 | remaining: 11:18:39
+rμ: 0.42 | rσ: 0.88 | sμ: 18.86 | sσ: 20.81 | Pμ: 0.69 | Pσ: 0.46 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1126400 | entropy: 0.67 | value: 0.14 | policy_loss: -0.09 | value_loss: 0.13 | grad_norm: 0.39 | arps: 0.11 | adr: 0.23 | sps: 85.10 | remaining: 12:38:35
+rμ: 0.39 | rσ: 0.88 | sμ: 17.43 | sσ: 20.34 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1136640 | entropy: 0.69 | value: 0.12 | policy_loss: -0.16 | value_loss: 0.15 | grad_norm: 0.47 | arps: 0.08 | adr: 0.20 | sps: 98.95 | remaining: 10:50:43
+rμ: 0.49 | rσ: 0.83 | sμ: 16.84 | sσ: 21.27 | Pμ: 0.71 | Pσ: 0.45 | Vμ: 0.22 | Vσ: 0.41 | num_steps: 1146880 | entropy: 0.81 | value: 0.24 | policy_loss: 0.02 | value_loss: 0.14 | grad_norm: 0.36 | arps: 0.14 | adr: 0.31 | sps: 100.96 | remaining: 10:36:05
+Saved training status
+rμ: 0.36 | rσ: 0.91 | sμ: 16.29 | sσ: 18.03 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 1157120 | entropy: 0.91 | value: 0.15 | policy_loss: -0.10 | value_loss: 0.15 | grad_norm: 0.44 | arps: 0.08 | adr: 0.17 | sps: 98.87 | remaining: 10:47:46
+rμ: 0.37 | rσ: 0.88 | sμ: 22.09 | sσ: 22.15 | Pμ: 0.64 | Pσ: 0.48 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1167360 | entropy: 0.88 | value: 0.13 | policy_loss: -0.09 | value_loss: 0.13 | grad_norm: 0.37 | arps: 0.08 | adr: 0.22 | sps: 91.03 | remaining: 11:41:41
+rμ: 0.44 | rσ: 0.86 | sμ: 23.85 | sσ: 22.53 | Pμ: 0.68 | Pσ: 0.47 | Vμ: 0.24 | Vσ: 0.43 | num_steps: 1177600 | entropy: 0.91 | value: 0.21 | policy_loss: -0.00 | value_loss: 0.10 | grad_norm: 0.30 | arps: 0.04 | adr: 0.15 | sps: 94.97 | remaining: 11:10:48
+rμ: 0.23 | rσ: 0.95 | sμ: 15.75 | sσ: 18.00 | Pμ: 0.59 | Pσ: 0.49 | Vμ: 0.37 | Vσ: 0.48 | num_steps: 1187840 | entropy: 0.85 | value: 0.07 | policy_loss: -0.12 | value_loss: 0.16 | grad_norm: 0.44 | arps: 0.04 | adr: 0.13 | sps: 89.42 | remaining: 11:50:33
+Saved training status
+rμ: 0.46 | rσ: 0.87 | sμ: 14.23 | sσ: 16.38 | Pμ: 0.72 | Pσ: 0.45 | Vμ: 0.26 | Vσ: 0.44 | num_steps: 1198080 | entropy: 0.77 | value: 0.23 | policy_loss: -0.04 | value_loss: 0.15 | grad_norm: 0.43 | arps: 0.11 | adr: 0.29 | sps: 91.48 | remaining: 11:32:39
+rμ: 0.33 | rσ: 0.92 | sμ: 16.22 | sσ: 20.23 | Pμ: 0.64 | Pσ: 0.48 | Vμ: 0.31 | Vσ: 0.46 | num_steps: 1208320 | entropy: 0.81 | value: 0.15 | policy_loss: -0.06 | value_loss: 0.16 | grad_norm: 0.35 | arps: 0.05 | adr: 0.19 | sps: 101.41 | remaining: 10:23:09
+rμ: 0.36 | rσ: 0.90 | sμ: 18.56 | sσ: 21.43 | Pμ: 0.65 | Pσ: 0.48 | Vμ: 0.29 | Vσ: 0.46 | num_steps: 1218560 | entropy: 0.85 | value: 0.10 | policy_loss: -0.13 | value_loss: 0.15 | grad_norm: 0.42 | arps: 0.05 | adr: 0.23 | sps: 86.20 | remaining: 12:11:09
+Stage 0 not completed.
+MEAN: 0.6667315406549856, THRESHOLD: 0.95
+rμ: 0.37 | rσ: 0.91 | sμ: 15.33 | sσ: 17.06 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 1228800 | entropy: 0.79 | value: 0.21 | policy_loss: 0.02 | value_loss: 0.17 | grad_norm: 0.47 | arps: 0.09 | adr: 0.22 | sps: 117.42 | remaining: 8:55:15
+Saved training status
+rμ: 0.19 | rσ: 0.96 | sμ: 15.93 | sσ: 18.34 | Pμ: 0.57 | Pσ: 0.49 | Vμ: 0.38 | Vσ: 0.49 | num_steps: 1239040 | entropy: 0.89 | value: 0.07 | policy_loss: -0.01 | value_loss: 0.18 | grad_norm: 0.40 | arps: 0.05 | adr: 0.14 | sps: 97.25 | remaining: 10:44:32
+rμ: 0.54 | rσ: 0.82 | sμ: 16.62 | sσ: 17.56 | Pμ: 0.75 | Pσ: 0.43 | Vμ: 0.21 | Vσ: 0.41 | num_steps: 1249280 | entropy: 0.83 | value: 0.20 | policy_loss: -0.08 | value_loss: 0.15 | grad_norm: 0.37 | arps: 0.13 | adr: 0.32 | sps: 109.51 | remaining: 9:30:49
+rμ: 0.22 | rσ: 0.96 | sμ: 18.57 | sσ: 19.50 | Pμ: 0.59 | Pσ: 0.49 | Vμ: 0.37 | Vσ: 0.48 | num_steps: 1259520 | entropy: 0.93 | value: 0.10 | policy_loss: -0.04 | value_loss: 0.17 | grad_norm: 0.46 | arps: 0.04 | adr: 0.10 | sps: 111.85 | remaining: 9:17:22
+rμ: 0.39 | rσ: 0.89 | sμ: 17.43 | sσ: 20.33 | Pμ: 0.67 | Pσ: 0.47 | Vμ: 0.28 | Vσ: 0.45 | num_steps: 1269760 | entropy: 0.74 | value: 0.19 | policy_loss: 0.00 | value_loss: 0.13 | grad_norm: 0.35 | arps: 0.09 | adr: 0.22 | sps: 96.52 | remaining: 10:44:07
+Saved training status
+rμ: 0.39 | rσ: 0.88 | sμ: 19.76 | sσ: 22.30 | Pμ: 0.65 | Pσ: 0.48 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1280000 | entropy: 0.78 | value: 0.19 | policy_loss: -0.04 | value_loss: 0.12 | grad_norm: 0.38 | arps: 0.08 | adr: 0.20 | sps: 96.86 | remaining: 10:40:07
+rμ: 0.38 | rσ: 0.90 | sμ: 16.18 | sσ: 19.41 | Pμ: 0.67 | Pσ: 0.47 | Vμ: 0.29 | Vσ: 0.45 | num_steps: 1290240 | entropy: 0.78 | value: 0.16 | policy_loss: -0.10 | value_loss: 0.15 | grad_norm: 0.43 | arps: 0.07 | adr: 0.18 | sps: 106.43 | remaining: 9:40:57
+rμ: 0.58 | rσ: 0.77 | sμ: 19.96 | sσ: 22.81 | Pμ: 0.76 | Pσ: 0.43 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 1300480 | entropy: 0.80 | value: 0.19 | policy_loss: -0.06 | value_loss: 0.10 | grad_norm: 0.37 | arps: 0.15 | adr: 0.33 | sps: 95.15 | remaining: 10:48:00
+rμ: 0.29 | rσ: 0.93 | sμ: 13.26 | sσ: 18.36 | Pμ: 0.62 | Pσ: 0.48 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 1310720 | entropy: 0.81 | value: 0.10 | policy_loss: -0.13 | value_loss: 0.20 | grad_norm: 0.61 | arps: 0.05 | adr: 0.18 | sps: 111.04 | remaining: 9:13:45
+Saved training status
+rμ: 0.59 | rσ: 0.79 | sμ: 15.53 | sσ: 17.71 | Pμ: 0.78 | Pσ: 0.42 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 1320960 | entropy: 0.80 | value: 0.25 | policy_loss: -0.06 | value_loss: 0.14 | grad_norm: 0.37 | arps: 0.16 | adr: 0.37 | sps: 108.73 | remaining: 9:23:56
+rμ: 0.47 | rσ: 0.88 | sμ: 14.78 | sσ: 16.28 | Pμ: 0.73 | Pσ: 0.45 | Vμ: 0.26 | Vσ: 0.44 | num_steps: 1331200 | entropy: 0.76 | value: 0.20 | policy_loss: -0.10 | value_loss: 0.15 | grad_norm: 0.45 | arps: 0.10 | adr: 0.26 | sps: 89.57 | remaining: 11:22:38
+rμ: 0.58 | rσ: 0.78 | sμ: 15.21 | sσ: 18.53 | Pμ: 0.76 | Pσ: 0.42 | Vμ: 0.18 | Vσ: 0.39 | num_steps: 1341440 | entropy: 0.72 | value: 0.25 | policy_loss: -0.08 | value_loss: 0.13 | grad_norm: 0.39 | arps: 0.13 | adr: 0.37 | sps: 91.42 | remaining: 11:07:00
+rμ: 0.31 | rσ: 0.92 | sμ: 18.04 | sσ: 19.08 | Pμ: 0.63 | Pσ: 0.48 | Vμ: 0.32 | Vσ: 0.47 | num_steps: 1351680 | entropy: 0.89 | value: 0.21 | policy_loss: 0.03 | value_loss: 0.16 | grad_norm: 0.45 | arps: 0.08 | adr: 0.17 | sps: 127.99 | remaining: 7:55:05
+Saved training status
+rμ: 0.28 | rσ: 0.93 | sμ: 18.76 | sσ: 20.94 | Pμ: 0.61 | Pσ: 0.49 | Vμ: 0.33 | Vσ: 0.47 | num_steps: 1361920 | entropy: 0.87 | value: 0.13 | policy_loss: -0.02 | value_loss: 0.15 | grad_norm: 0.38 | arps: 0.06 | adr: 0.16 | sps: 82.58 | remaining: 12:14:14
+rμ: 0.40 | rσ: 0.88 | sμ: 20.51 | sσ: 20.97 | Pμ: 0.67 | Pσ: 0.47 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1372160 | entropy: 0.82 | value: 0.13 | policy_loss: -0.09 | value_loss: 0.12 | grad_norm: 0.40 | arps: 0.10 | adr: 0.22 | sps: 92.51 | remaining: 10:53:35
+rμ: 0.37 | rσ: 0.91 | sμ: 17.22 | sσ: 19.03 | Pμ: 0.67 | Pσ: 0.47 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 1382400 | entropy: 0.82 | value: 0.21 | policy_loss: -0.02 | value_loss: 0.15 | grad_norm: 0.44 | arps: 0.07 | adr: 0.19 | sps: 106.22 | remaining: 9:27:37
+rμ: 0.41 | rσ: 0.87 | sμ: 17.44 | sσ: 21.45 | Pμ: 0.68 | Pσ: 0.47 | Vμ: 0.26 | Vσ: 0.44 | num_steps: 1392640 | entropy: 0.82 | value: 0.23 | policy_loss: 0.04 | value_loss: 0.12 | grad_norm: 0.39 | arps: 0.08 | adr: 0.24 | sps: 90.90 | remaining: 11:01:23
+Saved training status
+rμ: -0.06 | rσ: 0.96 | sμ: 17.54 | sσ: 21.42 | Pμ: 0.44 | Pσ: 0.50 | Vμ: 0.50 | Vσ: 0.50 | num_steps: 1402880 | entropy: 0.89 | value: 0.04 | policy_loss: 0.06 | value_loss: 0.14 | grad_norm: 0.29 | arps: 0.01 | adr: -0.03 | sps: 99.35 | remaining: 10:03:27
+rμ: 0.05 | rσ: 0.96 | sμ: 17.09 | sσ: 21.50 | Pμ: 0.49 | Pσ: 0.50 | Vμ: 0.44 | Vσ: 0.50 | num_steps: 1413120 | entropy: 0.82 | value: 0.01 | policy_loss: 0.02 | value_loss: 0.16 | grad_norm: 0.36 | arps: 0.06 | adr: 0.08 | sps: 93.14 | remaining: 10:41:51
+rμ: 0.35 | rσ: 0.91 | sμ: 15.66 | sσ: 19.77 | Pμ: 0.65 | Pσ: 0.48 | Vμ: 0.30 | Vσ: 0.46 | num_steps: 1423360 | entropy: 0.74 | value: 0.14 | policy_loss: -0.02 | value_loss: 0.13 | grad_norm: 0.39 | arps: 0.11 | adr: 0.24 | sps: 120.02 | remaining: 8:16:40
+Stage 0 not completed.
+MEAN: 0.7984749455337691, THRESHOLD: 0.95
+rμ: 0.56 | rσ: 0.80 | sμ: 17.45 | sσ: 19.80 | Pμ: 0.76 | Pσ: 0.43 | Vμ: 0.20 | Vσ: 0.40 | num_steps: 1433600 | entropy: 0.74 | value: 0.22 | policy_loss: -0.13 | value_loss: 0.12 | grad_norm: 0.46 | arps: 0.07 | adr: 0.28 | sps: 100.09 | remaining: 9:53:50
+Saved training status
+rμ: 0.36 | rσ: 0.90 | sμ: 15.97 | sσ: 18.17 | Pμ: 0.65 | Pσ: 0.48 | Vμ: 0.29 | Vσ: 0.46 | num_steps: 1443840 | entropy: 0.74 | value: 0.13 | policy_loss: -0.03 | value_loss: 0.14 | grad_norm: 0.40 | arps: 0.10 | adr: 0.23 | sps: 85.73 | remaining: 11:31:18
+rμ: 0.50 | rσ: 0.86 | sμ: 14.44 | sσ: 16.55 | Pμ: 0.74 | Pσ: 0.44 | Vμ: 0.24 | Vσ: 0.43 | num_steps: 1454080 | entropy: 0.77 | value: 0.26 | policy_loss: -0.04 | value_loss: 0.16 | grad_norm: 0.46 | arps: 0.14 | adr: 0.30 | sps: 96.29 | remaining: 10:13:44
+rμ: 0.46 | rσ: 0.87 | sμ: 16.98 | sσ: 20.06 | Pμ: 0.71 | Pσ: 0.45 | Vμ: 0.25 | Vσ: 0.44 | num_steps: 1464320 | entropy: 0.81 | value: 0.25 | policy_loss: 0.04 | value_loss: 0.16 | grad_norm: 0.39 | arps: 0.14 | adr: 0.30 | sps: 92.75 | remaining: 10:35:21
+rμ: 0.45 | rσ: 0.85 | sμ: 23.27 | sσ: 24.01 | Pμ: 0.69 | Pσ: 0.46 | Vμ: 0.24 | Vσ: 0.42 | num_steps: 1474560 | entropy: 0.74 | value: 0.14 | policy_loss: -0.09 | value_loss: 0.11 | grad_norm: 0.45 | arps: 0.10 | adr: 0.24 | sps: 111.05 | remaining: 8:49:05
+Saved training status
+rμ: 0.36 | rσ: 0.92 | sμ: 13.42 | sσ: 17.03 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.31 | Vσ: 0.46 | num_steps: 1484800 | entropy: 0.79 | value: 0.24 | policy_loss: 0.05 | value_loss: 0.19 | grad_norm: 0.40 | arps: 0.08 | adr: 0.24 | sps: 104.42 | remaining: 9:21:03
+rμ: 0.49 | rσ: 0.85 | sμ: 20.01 | sσ: 22.36 | Pμ: 0.72 | Pσ: 0.45 | Vμ: 0.24 | Vσ: 0.43 | num_steps: 1495040 | entropy: 0.66 | value: 0.14 | policy_loss: -0.12 | value_loss: 0.12 | grad_norm: 0.45 | arps: 0.11 | adr: 0.29 | sps: 113.22 | remaining: 8:35:56
+rμ: 0.69 | rσ: 0.68 | sμ: 15.71 | sσ: 19.52 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 1505280 | entropy: 0.66 | value: 0.30 | policy_loss: -0.08 | value_loss: 0.11 | grad_norm: 0.42 | arps: 0.18 | adr: 0.43 | sps: 93.36 | remaining: 10:23:53
+rμ: 0.54 | rσ: 0.80 | sμ: 18.92 | sσ: 22.59 | Pμ: 0.73 | Pσ: 0.44 | Vμ: 0.19 | Vσ: 0.40 | num_steps: 1515520 | entropy: 0.68 | value: 0.17 | policy_loss: -0.10 | value_loss: 0.11 | grad_norm: 0.47 | arps: 0.13 | adr: 0.34 | sps: 103.31 | remaining: 9:22:07
+Saved training status
+rμ: 0.36 | rσ: 0.89 | sμ: 22.76 | sσ: 21.88 | Pμ: 0.64 | Pσ: 0.48 | Vμ: 0.28 | Vσ: 0.45 | num_steps: 1525760 | entropy: 0.79 | value: 0.16 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.38 | arps: 0.07 | adr: 0.20 | sps: 87.93 | remaining: 10:58:30
+rμ: 0.44 | rσ: 0.88 | sμ: 17.45 | sσ: 18.17 | Pμ: 0.70 | Pσ: 0.46 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1536000 | entropy: 0.81 | value: 0.16 | policy_loss: -0.06 | value_loss: 0.16 | grad_norm: 0.51 | arps: 0.13 | adr: 0.29 | sps: 113.90 | remaining: 8:26:52
+rμ: 0.38 | rσ: 0.87 | sμ: 23.17 | sσ: 23.86 | Pμ: 0.64 | Pσ: 0.48 | Vμ: 0.26 | Vσ: 0.44 | num_steps: 1546240 | entropy: 0.88 | value: 0.11 | policy_loss: -0.04 | value_loss: 0.10 | grad_norm: 0.37 | arps: 0.09 | adr: 0.21 | sps: 88.80 | remaining: 10:48:15
+rμ: 0.54 | rσ: 0.83 | sμ: 13.62 | sσ: 16.58 | Pμ: 0.76 | Pσ: 0.43 | Vμ: 0.22 | Vσ: 0.41 | num_steps: 1556480 | entropy: 0.80 | value: 0.36 | policy_loss: 0.02 | value_loss: 0.13 | grad_norm: 0.42 | arps: 0.12 | adr: 0.33 | sps: 96.80 | remaining: 9:52:51
+Saved training status
+rμ: 0.48 | rσ: 0.86 | sμ: 13.04 | sσ: 15.43 | Pμ: 0.73 | Pσ: 0.44 | Vμ: 0.25 | Vσ: 0.43 | num_steps: 1566720 | entropy: 0.82 | value: 0.38 | policy_loss: 0.04 | value_loss: 0.16 | grad_norm: 0.40 | arps: 0.09 | adr: 0.29 | sps: 95.47 | remaining: 9:59:22
+rμ: 0.45 | rσ: 0.89 | sμ: 13.72 | sσ: 17.15 | Pμ: 0.72 | Pσ: 0.45 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1576960 | entropy: 0.81 | value: 0.23 | policy_loss: -0.03 | value_loss: 0.15 | grad_norm: 0.33 | arps: 0.12 | adr: 0.32 | sps: 96.68 | remaining: 9:50:07
+rμ: 0.59 | rσ: 0.77 | sμ: 19.04 | sσ: 20.23 | Pμ: 0.76 | Pσ: 0.42 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 1587200 | entropy: 0.78 | value: 0.34 | policy_loss: 0.07 | value_loss: 0.12 | grad_norm: 0.39 | arps: 0.14 | adr: 0.34 | sps: 102.39 | remaining: 9:15:29
+rμ: 0.62 | rσ: 0.75 | sμ: 17.92 | sσ: 19.80 | Pμ: 0.79 | Pσ: 0.41 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 1597440 | entropy: 0.76 | value: 0.32 | policy_loss: 0.03 | value_loss: 0.11 | grad_norm: 0.38 | arps: 0.14 | adr: 0.38 | sps: 94.72 | remaining: 9:58:42
+Saved training status
+rμ: 0.74 | rσ: 0.65 | sμ: 17.98 | sσ: 21.22 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.11 | Vσ: 0.31 | num_steps: 1607680 | entropy: 0.78 | value: 0.35 | policy_loss: 0.01 | value_loss: 0.09 | grad_norm: 0.37 | arps: 0.21 | adr: 0.45 | sps: 92.23 | remaining: 10:12:59
+rμ: 0.43 | rσ: 0.89 | sμ: 15.58 | sσ: 17.29 | Pμ: 0.71 | Pσ: 0.45 | Vμ: 0.28 | Vσ: 0.45 | num_steps: 1617920 | entropy: 0.85 | value: 0.25 | policy_loss: -0.01 | value_loss: 0.16 | grad_norm: 0.38 | arps: 0.07 | adr: 0.24 | sps: 90.74 | remaining: 10:21:13
+rμ: 0.35 | rσ: 0.92 | sμ: 13.56 | sσ: 16.35 | Pμ: 0.66 | Pσ: 0.47 | Vμ: 0.31 | Vσ: 0.46 | num_steps: 1628160 | entropy: 0.78 | value: 0.12 | policy_loss: -0.08 | value_loss: 0.16 | grad_norm: 0.42 | arps: 0.12 | adr: 0.23 | sps: 100.82 | remaining: 9:17:23
+Stage 0 not completed.
+MEAN: 0.706920384951881, THRESHOLD: 0.95
+rμ: 0.48 | rσ: 0.86 | sμ: 14.92 | sσ: 17.99 | Pμ: 0.72 | Pσ: 0.45 | Vμ: 0.24 | Vσ: 0.43 | num_steps: 1638400 | entropy: 0.83 | value: 0.24 | policy_loss: -0.03 | value_loss: 0.15 | grad_norm: 0.45 | arps: 0.15 | adr: 0.32 | sps: 109.25 | remaining: 8:32:51
+Saved training status
+rμ: 0.49 | rσ: 0.85 | sμ: 12.55 | sσ: 15.84 | Pμ: 0.73 | Pσ: 0.44 | Vμ: 0.24 | Vσ: 0.43 | num_steps: 1648640 | entropy: 0.79 | value: 0.34 | policy_loss: 0.08 | value_loss: 0.16 | grad_norm: 0.43 | arps: 0.16 | adr: 0.35 | sps: 101.60 | remaining: 9:09:45
+rμ: 0.42 | rσ: 0.89 | sμ: 13.40 | sσ: 16.49 | Pμ: 0.69 | Pσ: 0.46 | Vμ: 0.28 | Vσ: 0.45 | num_steps: 1658880 | entropy: 0.82 | value: 0.32 | policy_loss: 0.05 | value_loss: 0.15 | grad_norm: 0.39 | arps: 0.07 | adr: 0.25 | sps: 106.66 | remaining: 8:42:03
+rμ: 0.44 | rσ: 0.88 | sμ: 12.46 | sσ: 15.14 | Pμ: 0.71 | Pσ: 0.45 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1669120 | entropy: 0.78 | value: 0.31 | policy_loss: 0.04 | value_loss: 0.16 | grad_norm: 0.34 | arps: 0.11 | adr: 0.29 | sps: 113.96 | remaining: 8:07:07
+rμ: 0.47 | rσ: 0.88 | sμ: 14.04 | sσ: 17.10 | Pμ: 0.73 | Pσ: 0.45 | Vμ: 0.26 | Vσ: 0.44 | num_steps: 1679360 | entropy: 0.80 | value: 0.28 | policy_loss: -0.01 | value_loss: 0.14 | grad_norm: 0.37 | arps: 0.10 | adr: 0.25 | sps: 114.64 | remaining: 8:02:45
+Saved training status
+rμ: 0.59 | rσ: 0.80 | sμ: 14.33 | sσ: 16.54 | Pμ: 0.79 | Pσ: 0.41 | Vμ: 0.20 | Vσ: 0.40 | num_steps: 1689600 | entropy: 0.78 | value: 0.31 | policy_loss: -0.00 | value_loss: 0.12 | grad_norm: 0.41 | arps: 0.14 | adr: 0.37 | sps: 102.96 | remaining: 8:55:52
+rμ: 0.52 | rσ: 0.84 | sμ: 12.27 | sσ: 16.06 | Pμ: 0.75 | Pσ: 0.43 | Vμ: 0.23 | Vσ: 0.42 | num_steps: 1699840 | entropy: 0.79 | value: 0.39 | policy_loss: 0.02 | value_loss: 0.17 | grad_norm: 0.38 | arps: 0.12 | adr: 0.32 | sps: 111.16 | remaining: 8:14:49
+rμ: 0.43 | rσ: 0.88 | sμ: 13.09 | sσ: 16.97 | Pμ: 0.70 | Pσ: 0.46 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1710080 | entropy: 0.87 | value: 0.33 | policy_loss: 0.09 | value_loss: 0.17 | grad_norm: 0.46 | arps: 0.14 | adr: 0.28 | sps: 105.27 | remaining: 8:40:53
+rμ: 0.18 | rσ: 0.97 | sμ: 14.43 | sσ: 14.76 | Pμ: 0.58 | Pσ: 0.49 | Vμ: 0.40 | Vσ: 0.49 | num_steps: 1720320 | entropy: 0.94 | value: 0.22 | policy_loss: 0.11 | value_loss: 0.22 | grad_norm: 0.44 | arps: 0.07 | adr: 0.12 | sps: 109.75 | remaining: 8:18:03
+Saved training status
+rμ: 0.41 | rσ: 0.89 | sμ: 15.81 | sσ: 18.19 | Pμ: 0.68 | Pσ: 0.47 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1730560 | entropy: 0.90 | value: 0.23 | policy_loss: -0.02 | value_loss: 0.14 | grad_norm: 0.41 | arps: 0.12 | adr: 0.25 | sps: 115.35 | remaining: 7:52:22
+rμ: 0.55 | rσ: 0.82 | sμ: 12.16 | sσ: 16.21 | Pμ: 0.76 | Pσ: 0.43 | Vμ: 0.21 | Vσ: 0.41 | num_steps: 1740800 | entropy: 0.76 | value: 0.32 | policy_loss: -0.00 | value_loss: 0.15 | grad_norm: 0.44 | arps: 0.20 | adr: 0.39 | sps: 112.50 | remaining: 8:02:51
+rμ: 0.47 | rσ: 0.84 | sμ: 21.12 | sσ: 21.55 | Pμ: 0.70 | Pσ: 0.46 | Vμ: 0.23 | Vσ: 0.42 | num_steps: 1751040 | entropy: 0.86 | value: 0.19 | policy_loss: 0.01 | value_loss: 0.10 | grad_norm: 0.38 | arps: 0.11 | adr: 0.28 | sps: 111.00 | remaining: 8:07:48
+rμ: 0.28 | rσ: 0.94 | sμ: 15.50 | sσ: 19.14 | Pμ: 0.61 | Pσ: 0.49 | Vμ: 0.34 | Vσ: 0.47 | num_steps: 1761280 | entropy: 0.79 | value: 0.10 | policy_loss: -0.05 | value_loss: 0.18 | grad_norm: 0.47 | arps: 0.07 | adr: 0.19 | sps: 122.06 | remaining: 7:22:14
+Saved training status
+rμ: 0.59 | rσ: 0.75 | sμ: 19.66 | sσ: 22.53 | Pμ: 0.75 | Pσ: 0.43 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 1771520 | entropy: 0.77 | value: 0.22 | policy_loss: -0.04 | value_loss: 0.10 | grad_norm: 0.37 | arps: 0.15 | adr: 0.37 | sps: 112.17 | remaining: 7:59:42
+rμ: 0.59 | rσ: 0.79 | sμ: 11.73 | sσ: 14.80 | Pμ: 0.78 | Pσ: 0.41 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 1781760 | entropy: 0.80 | value: 0.46 | policy_loss: 0.14 | value_loss: 0.15 | grad_norm: 0.34 | arps: 0.15 | adr: 0.40 | sps: 106.48 | remaining: 8:23:43
+rμ: 0.58 | rσ: 0.77 | sμ: 15.55 | sσ: 19.83 | Pμ: 0.76 | Pσ: 0.43 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 1792000 | entropy: 0.74 | value: 0.35 | policy_loss: 0.06 | value_loss: 0.11 | grad_norm: 0.30 | arps: 0.15 | adr: 0.36 | sps: 122.87 | remaining: 7:15:08
+rμ: 0.42 | rσ: 0.90 | sμ: 10.60 | sσ: 15.91 | Pμ: 0.70 | Pσ: 0.46 | Vμ: 0.28 | Vσ: 0.45 | num_steps: 1802240 | entropy: 0.82 | value: 0.33 | policy_loss: 0.05 | value_loss: 0.20 | grad_norm: 0.40 | arps: 0.13 | adr: 0.30 | sps: 100.11 | remaining: 8:52:22
+Saved training status
+rμ: 0.51 | rσ: 0.82 | sμ: 18.07 | sσ: 20.89 | Pμ: 0.72 | Pσ: 0.45 | Vμ: 0.21 | Vσ: 0.41 | num_steps: 1812480 | entropy: 0.84 | value: 0.21 | policy_loss: -0.05 | value_loss: 0.12 | grad_norm: 0.40 | arps: 0.10 | adr: 0.29 | sps: 112.59 | remaining: 7:51:50
+rμ: 0.43 | rσ: 0.89 | sμ: 9.98 | sσ: 14.46 | Pμ: 0.70 | Pσ: 0.46 | Vμ: 0.27 | Vσ: 0.44 | num_steps: 1822720 | entropy: 0.73 | value: 0.31 | policy_loss: -0.01 | value_loss: 0.19 | grad_norm: 0.54 | arps: 0.12 | adr: 0.28 | sps: 97.43 | remaining: 9:03:32
+================================================================================
+Stage 0 completed.
+================================================================================
+rμ: 0.52 | rσ: 0.85 | sμ: 10.71 | sσ: 15.05 | Pμ: 0.75 | Pσ: 0.43 | Vμ: 0.23 | Vσ: 0.42 | num_steps: 1832960 | entropy: 0.82 | value: 0.47 | policy_loss: 0.09 | value_loss: 0.17 | grad_norm: 0.36 | arps: 0.16 | adr: 0.33 | sps: 90.84 | remaining: 9:41:04
+Stage 1 not completed.
+MEAN: 0.8495670995670994, THRESHOLD: 0.95
+rμ: 0.75 | rσ: 0.64 | sμ: 10.89 | sσ: 14.60 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.11 | Vσ: 0.31 | num_steps: 1843200 | entropy: 0.88 | value: 0.47 | policy_loss: 0.01 | value_loss: 0.10 | grad_norm: 0.32 | arps: 0.20 | adr: 0.51 | sps: 108.67 | remaining: 8:04:09
+Saved training status
+rμ: 0.68 | rσ: 0.72 | sμ: 11.02 | sσ: 13.51 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 1853440 | entropy: 0.85 | value: 0.43 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.30 | arps: 0.24 | adr: 0.48 | sps: 87.98 | remaining: 9:56:04
+rμ: 0.65 | rσ: 0.76 | sμ: 9.58 | sσ: 13.08 | Pμ: 0.82 | Pσ: 0.39 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 1863680 | entropy: 0.81 | value: 0.45 | policy_loss: 0.03 | value_loss: 0.12 | grad_norm: 0.33 | arps: 0.19 | adr: 0.46 | sps: 88.73 | remaining: 9:49:06
+rμ: 0.75 | rσ: 0.65 | sμ: 10.79 | sσ: 13.39 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 1873920 | entropy: 0.78 | value: 0.47 | policy_loss: 0.03 | value_loss: 0.10 | grad_norm: 0.30 | arps: 0.21 | adr: 0.49 | sps: 91.86 | remaining: 9:27:11
+rμ: 0.65 | rσ: 0.75 | sμ: 10.45 | sσ: 14.27 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 1884160 | entropy: 0.85 | value: 0.42 | policy_loss: 0.04 | value_loss: 0.12 | grad_norm: 0.36 | arps: 0.20 | adr: 0.46 | sps: 96.68 | remaining: 8:57:09
+Saved training status
+rμ: 0.72 | rσ: 0.69 | sμ: 9.05 | sσ: 11.80 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 1894400 | entropy: 0.82 | value: 0.50 | policy_loss: 0.05 | value_loss: 0.12 | grad_norm: 0.36 | arps: 0.23 | adr: 0.52 | sps: 94.36 | remaining: 9:08:31
+rμ: 0.69 | rσ: 0.73 | sμ: 8.37 | sσ: 11.25 | Pμ: 0.84 | Pσ: 0.36 | Vμ: 0.16 | Vσ: 0.36 | num_steps: 1904640 | entropy: 0.80 | value: 0.47 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.32 | arps: 0.28 | adr: 0.52 | sps: 89.97 | remaining: 9:33:25
+rμ: 0.82 | rσ: 0.55 | sμ: 9.56 | sσ: 13.38 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 1914880 | entropy: 0.82 | value: 0.55 | policy_loss: -0.02 | value_loss: 0.08 | grad_norm: 0.31 | arps: 0.24 | adr: 0.57 | sps: 86.21 | remaining: 9:56:24
+rμ: 0.69 | rσ: 0.71 | sμ: 9.13 | sσ: 12.21 | Pμ: 0.84 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 1925120 | entropy: 0.81 | value: 0.53 | policy_loss: 0.07 | value_loss: 0.13 | grad_norm: 0.32 | arps: 0.22 | adr: 0.50 | sps: 89.69 | remaining: 9:31:24
+Saved training status
+rμ: 0.71 | rσ: 0.70 | sμ: 9.67 | sσ: 11.81 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 1935360 | entropy: 0.83 | value: 0.51 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.32 | arps: 0.19 | adr: 0.50 | sps: 117.97 | remaining: 7:12:58
+rμ: 0.77 | rσ: 0.63 | sμ: 9.21 | sσ: 12.29 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.11 | Vσ: 0.32 | num_steps: 1945600 | entropy: 0.78 | value: 0.51 | policy_loss: 0.00 | value_loss: 0.10 | grad_norm: 0.30 | arps: 0.22 | adr: 0.54 | sps: 106.34 | remaining: 7:58:42
+rμ: 0.72 | rσ: 0.69 | sμ: 9.52 | sσ: 12.35 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 1955840 | entropy: 0.80 | value: 0.52 | policy_loss: 0.10 | value_loss: 0.13 | grad_norm: 0.33 | arps: 0.24 | adr: 0.53 | sps: 84.36 | remaining: 10:01:24
+rμ: 0.74 | rσ: 0.67 | sμ: 8.87 | sσ: 11.69 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 1966080 | entropy: 0.83 | value: 0.56 | policy_loss: 0.02 | value_loss: 0.13 | grad_norm: 0.29 | arps: 0.23 | adr: 0.53 | sps: 86.68 | remaining: 9:43:23
+Saved training status
+rμ: 0.74 | rσ: 0.67 | sμ: 9.47 | sσ: 12.30 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 1976320 | entropy: 0.84 | value: 0.50 | policy_loss: 0.02 | value_loss: 0.11 | grad_norm: 0.28 | arps: 0.22 | adr: 0.52 | sps: 87.54 | remaining: 9:35:39
+rμ: 0.58 | rσ: 0.81 | sμ: 8.39 | sσ: 11.67 | Pμ: 0.79 | Pσ: 0.41 | Vμ: 0.21 | Vσ: 0.40 | num_steps: 1986560 | entropy: 0.80 | value: 0.48 | policy_loss: 0.14 | value_loss: 0.17 | grad_norm: 0.36 | arps: 0.19 | adr: 0.45 | sps: 78.23 | remaining: 10:42:02
+rμ: 0.64 | rσ: 0.75 | sμ: 9.18 | sσ: 13.79 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 1996800 | entropy: 0.86 | value: 0.50 | policy_loss: 0.12 | value_loss: 0.14 | grad_norm: 0.36 | arps: 0.22 | adr: 0.47 | sps: 90.08 | remaining: 9:15:40
+rμ: 0.80 | rσ: 0.59 | sμ: 8.97 | sσ: 13.46 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.09 | Vσ: 0.29 | num_steps: 2007040 | entropy: 0.84 | value: 0.51 | policy_loss: 0.03 | value_loss: 0.09 | grad_norm: 0.29 | arps: 0.29 | adr: 0.60 | sps: 89.72 | remaining: 9:15:57
+Saved training status
+rμ: 0.65 | rσ: 0.75 | sμ: 9.31 | sσ: 13.87 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 2017280 | entropy: 0.85 | value: 0.53 | policy_loss: 0.12 | value_loss: 0.15 | grad_norm: 0.32 | arps: 0.22 | adr: 0.48 | sps: 87.16 | remaining: 9:30:20
+rμ: 0.66 | rσ: 0.74 | sμ: 8.68 | sσ: 12.53 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 2027520 | entropy: 0.79 | value: 0.52 | policy_loss: 0.07 | value_loss: 0.15 | grad_norm: 0.37 | arps: 0.21 | adr: 0.49 | sps: 100.81 | remaining: 8:11:25
+rμ: 0.83 | rσ: 0.56 | sμ: 7.70 | sσ: 10.21 | Pμ: 0.91 | Pσ: 0.28 | Vμ: 0.08 | Vσ: 0.28 | num_steps: 2037760 | entropy: 0.78 | value: 0.60 | policy_loss: 0.03 | value_loss: 0.10 | grad_norm: 0.31 | arps: 0.31 | adr: 0.63 | sps: 90.97 | remaining: 9:02:44
+Stage 1 not completed.
+MEAN: 0.8571428571428571, THRESHOLD: 0.95
+rμ: 0.77 | rσ: 0.63 | sμ: 7.58 | sσ: 11.77 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.11 | Vσ: 0.31 | num_steps: 2048000 | entropy: 0.81 | value: 0.56 | policy_loss: 0.05 | value_loss: 0.10 | grad_norm: 0.32 | arps: 0.30 | adr: 0.60 | sps: 89.69 | remaining: 9:08:31
+Saved training status
+rμ: 0.75 | rσ: 0.65 | sμ: 7.94 | sσ: 10.25 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 2058240 | entropy: 0.81 | value: 0.57 | policy_loss: 0.06 | value_loss: 0.11 | grad_norm: 0.31 | arps: 0.24 | adr: 0.55 | sps: 80.66 | remaining: 10:07:49
+rμ: 0.74 | rσ: 0.67 | sμ: 7.81 | sσ: 11.32 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 2068480 | entropy: 0.80 | value: 0.57 | policy_loss: 0.08 | value_loss: 0.12 | grad_norm: 0.35 | arps: 0.28 | adr: 0.57 | sps: 83.05 | remaining: 9:48:19
+rμ: 0.72 | rσ: 0.69 | sμ: 7.12 | sσ: 9.21 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 2078720 | entropy: 0.77 | value: 0.59 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.29 | arps: 0.24 | adr: 0.53 | sps: 98.19 | remaining: 8:15:50
+rμ: 0.68 | rσ: 0.72 | sμ: 8.32 | sσ: 12.72 | Pμ: 0.83 | Pσ: 0.37 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 2088960 | entropy: 0.80 | value: 0.54 | policy_loss: 0.10 | value_loss: 0.15 | grad_norm: 0.29 | arps: 0.23 | adr: 0.53 | sps: 88.29 | remaining: 9:09:32
+Saved training status
+rμ: 0.77 | rσ: 0.64 | sμ: 7.19 | sσ: 9.09 | Pμ: 0.89 | Pσ: 0.32 | Vμ: 0.11 | Vσ: 0.32 | num_steps: 2099200 | entropy: 0.81 | value: 0.62 | policy_loss: 0.07 | value_loss: 0.13 | grad_norm: 0.28 | arps: 0.26 | adr: 0.58 | sps: 93.12 | remaining: 8:39:12
+rμ: 0.80 | rσ: 0.58 | sμ: 7.80 | sσ: 13.15 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.09 | Vσ: 0.28 | num_steps: 2109440 | entropy: 0.85 | value: 0.58 | policy_loss: 0.10 | value_loss: 0.10 | grad_norm: 0.29 | arps: 0.31 | adr: 0.63 | sps: 84.13 | remaining: 9:32:36
+rμ: 0.76 | rσ: 0.64 | sμ: 6.74 | sσ: 9.38 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 2119680 | entropy: 0.78 | value: 0.60 | policy_loss: 0.03 | value_loss: 0.13 | grad_norm: 0.33 | arps: 0.27 | adr: 0.60 | sps: 80.45 | remaining: 9:56:43
+rμ: 0.79 | rσ: 0.61 | sμ: 6.33 | sσ: 8.30 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 2129920 | entropy: 0.76 | value: 0.62 | policy_loss: 0.01 | value_loss: 0.11 | grad_norm: 0.26 | arps: 0.29 | adr: 0.60 | sps: 88.81 | remaining: 8:58:37
+Saved training status
+rμ: 0.75 | rσ: 0.66 | sμ: 7.72 | sσ: 11.78 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 2140160 | entropy: 0.84 | value: 0.59 | policy_loss: 0.09 | value_loss: 0.13 | grad_norm: 0.36 | arps: 0.25 | adr: 0.57 | sps: 85.36 | remaining: 9:18:23
+rμ: 0.73 | rσ: 0.68 | sμ: 7.22 | sσ: 11.22 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 2150400 | entropy: 0.83 | value: 0.57 | policy_loss: 0.07 | value_loss: 0.11 | grad_norm: 0.30 | arps: 0.26 | adr: 0.55 | sps: 77.54 | remaining: 10:12:31
+rμ: 0.78 | rσ: 0.63 | sμ: 6.50 | sσ: 8.39 | Pμ: 0.89 | Pσ: 0.32 | Vμ: 0.11 | Vσ: 0.31 | num_steps: 2160640 | entropy: 0.75 | value: 0.64 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.32 | arps: 0.28 | adr: 0.60 | sps: 87.35 | remaining: 9:01:46
+rμ: 0.76 | rσ: 0.64 | sμ: 7.39 | sσ: 11.08 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 2170880 | entropy: 0.81 | value: 0.58 | policy_loss: 0.05 | value_loss: 0.14 | grad_norm: 0.30 | arps: 0.28 | adr: 0.59 | sps: 82.35 | remaining: 9:32:33
+Saved training status
+rμ: 0.73 | rσ: 0.68 | sμ: 6.60 | sσ: 10.67 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 2181120 | entropy: 0.77 | value: 0.62 | policy_loss: 0.08 | value_loss: 0.14 | grad_norm: 0.29 | arps: 0.27 | adr: 0.57 | sps: 73.66 | remaining: 10:37:47
+rμ: 0.77 | rσ: 0.63 | sμ: 6.36 | sσ: 7.75 | Pμ: 0.89 | Pσ: 0.32 | Vμ: 0.11 | Vσ: 0.32 | num_steps: 2191360 | entropy: 0.76 | value: 0.64 | policy_loss: 0.06 | value_loss: 0.14 | grad_norm: 0.26 | arps: 0.28 | adr: 0.60 | sps: 78.75 | remaining: 9:54:23
+rμ: 0.70 | rσ: 0.70 | sμ: 6.97 | sσ: 10.49 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 2201600 | entropy: 0.84 | value: 0.56 | policy_loss: 0.09 | value_loss: 0.14 | grad_norm: 0.30 | arps: 0.27 | adr: 0.55 | sps: 87.48 | remaining: 8:53:08
+rμ: 0.79 | rσ: 0.61 | sμ: 6.74 | sσ: 9.54 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 2211840 | entropy: 0.75 | value: 0.60 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.23 | arps: 0.29 | adr: 0.61 | sps: 87.53 | remaining: 8:50:52
+Saved training status
+rμ: 0.84 | rσ: 0.54 | sμ: 5.33 | sσ: 6.24 | Pμ: 0.92 | Pσ: 0.27 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2222080 | entropy: 0.71 | value: 0.66 | policy_loss: -0.00 | value_loss: 0.11 | grad_norm: 0.28 | arps: 0.33 | adr: 0.68 | sps: 83.36 | remaining: 9:15:25
+rμ: 0.84 | rσ: 0.54 | sμ: 6.96 | sσ: 9.82 | Pμ: 0.92 | Pσ: 0.28 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2232320 | entropy: 0.79 | value: 0.63 | policy_loss: 0.02 | value_loss: 0.10 | grad_norm: 0.26 | arps: 0.31 | adr: 0.63 | sps: 90.96 | remaining: 8:27:07
+rμ: 0.77 | rσ: 0.64 | sμ: 5.92 | sσ: 8.37 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.11 | Vσ: 0.32 | num_steps: 2242560 | entropy: 0.79 | value: 0.61 | policy_loss: 0.07 | value_loss: 0.12 | grad_norm: 0.26 | arps: 0.31 | adr: 0.62 | sps: 104.00 | remaining: 7:21:53
+Stage 1 not completed.
+MEAN: 0.8755952380952381, THRESHOLD: 0.95
+rμ: 0.79 | rσ: 0.61 | sμ: 5.61 | sσ: 7.50 | Pμ: 0.90 | Pσ: 0.31 | Vμ: 0.10 | Vσ: 0.31 | num_steps: 2252800 | entropy: 0.75 | value: 0.66 | policy_loss: 0.06 | value_loss: 0.12 | grad_norm: 0.25 | arps: 0.32 | adr: 0.64 | sps: 86.36 | remaining: 8:50:11
+Saved training status
+rμ: 0.76 | rσ: 0.64 | sμ: 5.03 | sσ: 5.81 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 2263040 | entropy: 0.73 | value: 0.67 | policy_loss: 0.04 | value_loss: 0.15 | grad_norm: 0.29 | arps: 0.31 | adr: 0.63 | sps: 78.18 | remaining: 9:43:26
+rμ: 0.76 | rσ: 0.65 | sμ: 6.21 | sσ: 7.77 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 2273280 | entropy: 0.77 | value: 0.65 | policy_loss: 0.09 | value_loss: 0.15 | grad_norm: 0.28 | arps: 0.27 | adr: 0.60 | sps: 97.74 | remaining: 7:44:56
+rμ: 0.77 | rσ: 0.63 | sμ: 5.42 | sσ: 6.60 | Pμ: 0.89 | Pσ: 0.32 | Vμ: 0.11 | Vσ: 0.32 | num_steps: 2283520 | entropy: 0.69 | value: 0.66 | policy_loss: 0.05 | value_loss: 0.12 | grad_norm: 0.23 | arps: 0.29 | adr: 0.62 | sps: 112.44 | remaining: 6:42:39
+rμ: 0.81 | rσ: 0.59 | sμ: 5.39 | sσ: 6.92 | Pμ: 0.91 | Pσ: 0.29 | Vμ: 0.09 | Vσ: 0.29 | num_steps: 2293760 | entropy: 0.75 | value: 0.70 | policy_loss: 0.04 | value_loss: 0.12 | grad_norm: 0.20 | arps: 0.33 | adr: 0.65 | sps: 102.80 | remaining: 7:18:45
+Saved training status
+rμ: 0.79 | rσ: 0.60 | sμ: 5.88 | sσ: 8.91 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 2304000 | entropy: 0.75 | value: 0.62 | policy_loss: 0.03 | value_loss: 0.10 | grad_norm: 0.28 | arps: 0.27 | adr: 0.63 | sps: 86.59 | remaining: 8:38:55
+rμ: 0.83 | rσ: 0.56 | sμ: 4.73 | sσ: 5.39 | Pμ: 0.92 | Pσ: 0.28 | Vμ: 0.08 | Vσ: 0.28 | num_steps: 2314240 | entropy: 0.71 | value: 0.72 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.24 | arps: 0.33 | adr: 0.68 | sps: 102.61 | remaining: 7:16:13
+rμ: 0.81 | rσ: 0.58 | sμ: 5.59 | sσ: 6.93 | Pμ: 0.91 | Pσ: 0.29 | Vμ: 0.09 | Vσ: 0.29 | num_steps: 2324480 | entropy: 0.74 | value: 0.66 | policy_loss: 0.02 | value_loss: 0.11 | grad_norm: 0.27 | arps: 0.30 | adr: 0.65 | sps: 91.47 | remaining: 8:07:30
+rμ: 0.85 | rσ: 0.53 | sμ: 5.27 | sσ: 5.92 | Pμ: 0.92 | Pσ: 0.27 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2334720 | entropy: 0.73 | value: 0.71 | policy_loss: 0.02 | value_loss: 0.09 | grad_norm: 0.20 | arps: 0.32 | adr: 0.68 | sps: 93.23 | remaining: 7:56:29
+Saved training status
+rμ: 0.76 | rσ: 0.65 | sμ: 5.18 | sσ: 5.95 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 2344960 | entropy: 0.75 | value: 0.68 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.26 | arps: 0.30 | adr: 0.61 | sps: 85.38 | remaining: 8:38:17
+rμ: 0.73 | rσ: 0.68 | sμ: 5.30 | sσ: 7.42 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 2355200 | entropy: 0.78 | value: 0.63 | policy_loss: 0.05 | value_loss: 0.15 | grad_norm: 0.32 | arps: 0.27 | adr: 0.60 | sps: 82.76 | remaining: 8:52:39
+rμ: 0.78 | rσ: 0.62 | sμ: 5.26 | sσ: 6.86 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.11 | Vσ: 0.31 | num_steps: 2365440 | entropy: 0.74 | value: 0.67 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.32 | arps: 0.31 | adr: 0.64 | sps: 79.14 | remaining: 9:14:50
+rμ: 0.80 | rσ: 0.61 | sμ: 5.29 | sσ: 6.40 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 2375680 | entropy: 0.75 | value: 0.68 | policy_loss: 0.03 | value_loss: 0.13 | grad_norm: 0.25 | arps: 0.33 | adr: 0.64 | sps: 85.41 | remaining: 8:32:05
+Saved training status
+rμ: 0.85 | rσ: 0.52 | sμ: 5.04 | sσ: 6.42 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2385920 | entropy: 0.73 | value: 0.69 | policy_loss: -0.01 | value_loss: 0.10 | grad_norm: 0.20 | arps: 0.35 | adr: 0.71 | sps: 82.13 | remaining: 8:50:29
+rμ: 0.84 | rσ: 0.54 | sμ: 5.24 | sσ: 6.99 | Pμ: 0.92 | Pσ: 0.27 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2396160 | entropy: 0.71 | value: 0.68 | policy_loss: 0.02 | value_loss: 0.10 | grad_norm: 0.26 | arps: 0.34 | adr: 0.68 | sps: 84.80 | remaining: 8:31:44
+rμ: 0.79 | rσ: 0.61 | sμ: 5.11 | sσ: 6.50 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.10 | Vσ: 0.31 | num_steps: 2406400 | entropy: 0.70 | value: 0.69 | policy_loss: 0.05 | value_loss: 0.15 | grad_norm: 0.25 | arps: 0.32 | adr: 0.64 | sps: 96.73 | remaining: 7:26:53
+rμ: 0.80 | rσ: 0.60 | sμ: 5.05 | sσ: 5.76 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 2416640 | entropy: 0.72 | value: 0.71 | policy_loss: 0.03 | value_loss: 0.12 | grad_norm: 0.27 | arps: 0.29 | adr: 0.64 | sps: 74.40 | remaining: 9:38:40
+Saved training status
+rμ: 0.84 | rσ: 0.54 | sμ: 5.84 | sσ: 9.26 | Pμ: 0.91 | Pσ: 0.28 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2426880 | entropy: 0.73 | value: 0.68 | policy_loss: 0.07 | value_loss: 0.09 | grad_norm: 0.30 | arps: 0.34 | adr: 0.67 | sps: 86.77 | remaining: 8:14:14
+rμ: 0.81 | rσ: 0.59 | sμ: 5.64 | sσ: 7.86 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.09 | Vσ: 0.29 | num_steps: 2437120 | entropy: 0.72 | value: 0.70 | policy_loss: 0.05 | value_loss: 0.12 | grad_norm: 0.21 | arps: 0.30 | adr: 0.64 | sps: 79.33 | remaining: 8:58:25
+rμ: 0.85 | rσ: 0.52 | sμ: 5.41 | sσ: 6.64 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2447360 | entropy: 0.75 | value: 0.70 | policy_loss: 0.04 | value_loss: 0.10 | grad_norm: 0.23 | arps: 0.32 | adr: 0.68 | sps: 75.62 | remaining: 9:22:36
+Stage 1 not completed.
+MEAN: 0.9061302681992337, THRESHOLD: 0.95
+rμ: 0.84 | rσ: 0.54 | sμ: 5.98 | sσ: 8.86 | Pμ: 0.92 | Pσ: 0.27 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2457600 | entropy: 0.73 | value: 0.65 | policy_loss: 0.06 | value_loss: 0.09 | grad_norm: 0.22 | arps: 0.33 | adr: 0.67 | sps: 76.98 | remaining: 9:10:28
+Saved training status
+rμ: 0.83 | rσ: 0.56 | sμ: 5.35 | sσ: 8.05 | Pμ: 0.91 | Pσ: 0.28 | Vμ: 0.08 | Vσ: 0.28 | num_steps: 2467840 | entropy: 0.69 | value: 0.71 | policy_loss: 0.06 | value_loss: 0.11 | grad_norm: 0.25 | arps: 0.31 | adr: 0.68 | sps: 75.56 | remaining: 9:18:29
+rμ: 0.79 | rσ: 0.61 | sμ: 4.69 | sσ: 7.00 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 2478080 | entropy: 0.67 | value: 0.72 | policy_loss: 0.06 | value_loss: 0.14 | grad_norm: 0.23 | arps: 0.34 | adr: 0.66 | sps: 86.23 | remaining: 8:07:27
+rμ: 0.84 | rσ: 0.54 | sμ: 5.00 | sσ: 6.33 | Pμ: 0.92 | Pσ: 0.27 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2488320 | entropy: 0.67 | value: 0.72 | policy_loss: -0.01 | value_loss: 0.09 | grad_norm: 0.21 | arps: 0.32 | adr: 0.68 | sps: 80.33 | remaining: 8:41:05
+rμ: 0.85 | rσ: 0.53 | sμ: 5.04 | sσ: 5.72 | Pμ: 0.92 | Pσ: 0.26 | Vμ: 0.08 | Vσ: 0.26 | num_steps: 2498560 | entropy: 0.69 | value: 0.73 | policy_loss: 0.00 | value_loss: 0.10 | grad_norm: 0.20 | arps: 0.34 | adr: 0.69 | sps: 76.75 | remaining: 9:03:13
+Saved training status
+rμ: 0.83 | rσ: 0.56 | sμ: 5.09 | sσ: 7.29 | Pμ: 0.91 | Pσ: 0.28 | Vμ: 0.09 | Vσ: 0.28 | num_steps: 2508800 | entropy: 0.70 | value: 0.70 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.22 | arps: 0.34 | adr: 0.68 | sps: 87.15 | remaining: 7:56:25
+rμ: 0.82 | rσ: 0.57 | sμ: 4.72 | sσ: 5.52 | Pμ: 0.91 | Pσ: 0.29 | Vμ: 0.09 | Vσ: 0.29 | num_steps: 2519040 | entropy: 0.71 | value: 0.72 | policy_loss: 0.06 | value_loss: 0.13 | grad_norm: 0.23 | arps: 0.34 | adr: 0.68 | sps: 80.29 | remaining: 8:34:59
+rμ: 0.84 | rσ: 0.53 | sμ: 4.39 | sσ: 6.03 | Pμ: 0.92 | Pσ: 0.27 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2529280 | entropy: 0.67 | value: 0.75 | policy_loss: 0.02 | value_loss: 0.11 | grad_norm: 0.24 | arps: 0.36 | adr: 0.71 | sps: 85.47 | remaining: 8:01:46
+rμ: 0.88 | rσ: 0.48 | sμ: 4.87 | sσ: 6.35 | Pμ: 0.94 | Pσ: 0.24 | Vμ: 0.06 | Vσ: 0.24 | num_steps: 2539520 | entropy: 0.69 | value: 0.74 | policy_loss: 0.01 | value_loss: 0.08 | grad_norm: 0.20 | arps: 0.35 | adr: 0.73 | sps: 81.73 | remaining: 8:21:46
+Saved training status
+rμ: 0.75 | rσ: 0.66 | sμ: 4.76 | sσ: 6.34 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 2549760 | entropy: 0.72 | value: 0.71 | policy_loss: 0.08 | value_loss: 0.18 | grad_norm: 0.23 | arps: 0.32 | adr: 0.62 | sps: 92.27 | remaining: 7:22:36
+rμ: 0.80 | rσ: 0.59 | sμ: 5.08 | sσ: 8.08 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.10 | Vσ: 0.29 | num_steps: 2560000 | entropy: 0.72 | value: 0.68 | policy_loss: 0.08 | value_loss: 0.12 | grad_norm: 0.26 | arps: 0.32 | adr: 0.67 | sps: 93.75 | remaining: 7:13:46
+rμ: 0.81 | rσ: 0.58 | sμ: 4.85 | sσ: 6.10 | Pμ: 0.91 | Pσ: 0.29 | Vμ: 0.09 | Vσ: 0.29 | num_steps: 2570240 | entropy: 0.72 | value: 0.74 | policy_loss: 0.05 | value_loss: 0.12 | grad_norm: 0.23 | arps: 0.31 | adr: 0.66 | sps: 78.90 | remaining: 8:33:14
+rμ: 0.80 | rσ: 0.60 | sμ: 4.66 | sσ: 6.18 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 2580480 | entropy: 0.66 | value: 0.74 | policy_loss: 0.02 | value_loss: 0.13 | grad_norm: 0.23 | arps: 0.31 | adr: 0.66 | sps: 73.61 | remaining: 9:07:50
+Saved training status
+rμ: 0.87 | rσ: 0.50 | sμ: 4.87 | sσ: 6.62 | Pμ: 0.93 | Pσ: 0.25 | Vμ: 0.07 | Vσ: 0.25 | num_steps: 2590720 | entropy: 0.70 | value: 0.75 | policy_loss: 0.04 | value_loss: 0.09 | grad_norm: 0.21 | arps: 0.34 | adr: 0.71 | sps: 87.33 | remaining: 7:39:48
+rμ: 0.86 | rσ: 0.52 | sμ: 4.55 | sσ: 5.08 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2600960 | entropy: 0.71 | value: 0.75 | policy_loss: 0.05 | value_loss: 0.11 | grad_norm: 0.21 | arps: 0.34 | adr: 0.71 | sps: 75.49 | remaining: 8:49:40
+rμ: 0.85 | rσ: 0.52 | sμ: 4.52 | sσ: 5.92 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2611200 | entropy: 0.65 | value: 0.74 | policy_loss: 0.02 | value_loss: 0.10 | grad_norm: 0.20 | arps: 0.37 | adr: 0.72 | sps: 78.74 | remaining: 8:25:36
+rμ: 0.82 | rσ: 0.57 | sμ: 5.13 | sσ: 7.28 | Pμ: 0.91 | Pσ: 0.29 | Vμ: 0.09 | Vσ: 0.29 | num_steps: 2621440 | entropy: 0.71 | value: 0.71 | policy_loss: 0.04 | value_loss: 0.11 | grad_norm: 0.21 | arps: 0.33 | adr: 0.67 | sps: 81.46 | remaining: 8:06:37
+Saved training status
+rμ: 0.85 | rσ: 0.53 | sμ: 4.89 | sσ: 6.85 | Pμ: 0.92 | Pσ: 0.27 | Vμ: 0.08 | Vσ: 0.26 | num_steps: 2631680 | entropy: 0.68 | value: 0.72 | policy_loss: 0.05 | value_loss: 0.11 | grad_norm: 0.28 | arps: 0.33 | adr: 0.70 | sps: 79.77 | remaining: 8:14:50
+rμ: 0.82 | rσ: 0.57 | sμ: 4.42 | sσ: 4.66 | Pμ: 0.91 | Pσ: 0.28 | Vμ: 0.09 | Vσ: 0.28 | num_steps: 2641920 | entropy: 0.66 | value: 0.75 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.24 | arps: 0.34 | adr: 0.69 | sps: 80.70 | remaining: 8:06:58
+rμ: 0.83 | rσ: 0.56 | sμ: 4.56 | sσ: 5.99 | Pμ: 0.91 | Pσ: 0.28 | Vμ: 0.08 | Vσ: 0.28 | num_steps: 2652160 | entropy: 0.67 | value: 0.74 | policy_loss: 0.08 | value_loss: 0.12 | grad_norm: 0.27 | arps: 0.35 | adr: 0.70 | sps: 100.55 | remaining: 6:29:10
+Stage 1 not completed.
+MEAN: 0.8817365269461078, THRESHOLD: 0.95
+rμ: 0.82 | rσ: 0.57 | sμ: 4.48 | sσ: 5.84 | Pμ: 0.91 | Pσ: 0.28 | Vμ: 0.09 | Vσ: 0.28 | num_steps: 2662400 | entropy: 0.69 | value: 0.74 | policy_loss: 0.08 | value_loss: 0.13 | grad_norm: 0.21 | arps: 0.36 | adr: 0.70 | sps: 99.90 | remaining: 6:29:58
+Saved training status
+rμ: 0.87 | rσ: 0.49 | sμ: 4.59 | sσ: 6.29 | Pμ: 0.93 | Pσ: 0.25 | Vμ: 0.06 | Vσ: 0.24 | num_steps: 2672640 | entropy: 0.68 | value: 0.74 | policy_loss: 0.02 | value_loss: 0.08 | grad_norm: 0.20 | arps: 0.35 | adr: 0.72 | sps: 77.94 | remaining: 8:17:40
+rμ: 0.89 | rσ: 0.45 | sμ: 5.10 | sσ: 6.46 | Pμ: 0.95 | Pσ: 0.22 | Vμ: 0.05 | Vσ: 0.22 | num_steps: 2682880 | entropy: 0.76 | value: 0.73 | policy_loss: 0.04 | value_loss: 0.08 | grad_norm: 0.21 | arps: 0.37 | adr: 0.73 | sps: 87.48 | remaining: 7:21:26
+rμ: 0.83 | rσ: 0.56 | sμ: 4.88 | sσ: 6.02 | Pμ: 0.92 | Pσ: 0.28 | Vμ: 0.08 | Vσ: 0.28 | num_steps: 2693120 | entropy: 0.69 | value: 0.73 | policy_loss: 0.05 | value_loss: 0.12 | grad_norm: 0.25 | arps: 0.30 | adr: 0.67 | sps: 87.96 | remaining: 7:17:06
+rμ: 0.80 | rσ: 0.60 | sμ: 4.35 | sσ: 4.93 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 2703360 | entropy: 0.68 | value: 0.74 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.22 | arps: 0.33 | adr: 0.67 | sps: 89.27 | remaining: 7:08:45
+Saved training status
+rμ: 0.85 | rσ: 0.52 | sμ: 4.10 | sσ: 3.66 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2713600 | entropy: 0.63 | value: 0.77 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.21 | arps: 0.37 | adr: 0.72 | sps: 92.76 | remaining: 6:50:48
+rμ: 0.81 | rσ: 0.59 | sμ: 4.04 | sσ: 4.96 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.10 | Vσ: 0.29 | num_steps: 2723840 | entropy: 0.63 | value: 0.77 | policy_loss: 0.03 | value_loss: 0.14 | grad_norm: 0.21 | arps: 0.34 | adr: 0.68 | sps: 94.11 | remaining: 6:43:05
+rμ: 0.86 | rσ: 0.51 | sμ: 4.01 | sσ: 4.13 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2734080 | entropy: 0.61 | value: 0.77 | policy_loss: 0.03 | value_loss: 0.12 | grad_norm: 0.24 | arps: 0.37 | adr: 0.73 | sps: 92.58 | remaining: 6:47:54
+rμ: 0.83 | rσ: 0.56 | sμ: 4.29 | sσ: 4.99 | Pμ: 0.91 | Pσ: 0.28 | Vμ: 0.09 | Vσ: 0.28 | num_steps: 2744320 | entropy: 0.68 | value: 0.75 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.22 | arps: 0.36 | adr: 0.70 | sps: 83.06 | remaining: 7:32:36
+Saved training status
+rμ: 0.85 | rσ: 0.53 | sμ: 4.21 | sσ: 5.11 | Pμ: 0.92 | Pσ: 0.27 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2754560 | entropy: 0.67 | value: 0.75 | policy_loss: 0.04 | value_loss: 0.11 | grad_norm: 0.20 | arps: 0.35 | adr: 0.72 | sps: 107.38 | remaining: 5:48:31
+rμ: 0.85 | rσ: 0.53 | sμ: 4.44 | sσ: 5.70 | Pμ: 0.92 | Pσ: 0.26 | Vμ: 0.08 | Vσ: 0.26 | num_steps: 2764800 | entropy: 0.63 | value: 0.76 | policy_loss: 0.04 | value_loss: 0.10 | grad_norm: 0.23 | arps: 0.35 | adr: 0.71 | sps: 90.53 | remaining: 6:51:31
+rμ: 0.86 | rσ: 0.51 | sμ: 4.11 | sσ: 5.25 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2775040 | entropy: 0.60 | value: 0.77 | policy_loss: 0.04 | value_loss: 0.10 | grad_norm: 0.21 | arps: 0.37 | adr: 0.73 | sps: 81.92 | remaining: 7:32:41
+rμ: 0.87 | rσ: 0.50 | sμ: 4.26 | sσ: 6.15 | Pμ: 0.93 | Pσ: 0.25 | Vμ: 0.07 | Vσ: 0.25 | num_steps: 2785280 | entropy: 0.66 | value: 0.77 | policy_loss: 0.04 | value_loss: 0.09 | grad_norm: 0.23 | arps: 0.34 | adr: 0.73 | sps: 93.96 | remaining: 6:32:49
+Saved training status
+rμ: 0.87 | rσ: 0.49 | sμ: 4.42 | sσ: 5.43 | Pμ: 0.93 | Pσ: 0.25 | Vμ: 0.07 | Vσ: 0.25 | num_steps: 2795520 | entropy: 0.65 | value: 0.75 | policy_loss: 0.04 | value_loss: 0.09 | grad_norm: 0.21 | arps: 0.35 | adr: 0.72 | sps: 99.40 | remaining: 6:09:38
+rμ: 0.88 | rσ: 0.48 | sμ: 4.03 | sσ: 3.82 | Pμ: 0.94 | Pσ: 0.24 | Vμ: 0.06 | Vσ: 0.24 | num_steps: 2805760 | entropy: 0.62 | value: 0.79 | policy_loss: 0.03 | value_loss: 0.10 | grad_norm: 0.22 | arps: 0.37 | adr: 0.74 | sps: 81.11 | remaining: 7:30:52
+rμ: 0.87 | rσ: 0.49 | sμ: 4.15 | sσ: 4.19 | Pμ: 0.94 | Pσ: 0.25 | Vμ: 0.06 | Vσ: 0.25 | num_steps: 2816000 | entropy: 0.60 | value: 0.78 | policy_loss: 0.04 | value_loss: 0.10 | grad_norm: 0.17 | arps: 0.35 | adr: 0.74 | sps: 77.44 | remaining: 7:50:03
+rμ: 0.89 | rσ: 0.45 | sμ: 4.30 | sσ: 4.64 | Pμ: 0.95 | Pσ: 0.22 | Vμ: 0.05 | Vσ: 0.22 | num_steps: 2826240 | entropy: 0.61 | value: 0.76 | policy_loss: 0.01 | value_loss: 0.09 | grad_norm: 0.27 | arps: 0.38 | adr: 0.75 | sps: 84.63 | remaining: 7:08:05
+Saved training status
+rμ: 0.82 | rσ: 0.57 | sμ: 3.81 | sσ: 3.98 | Pμ: 0.91 | Pσ: 0.29 | Vμ: 0.09 | Vσ: 0.29 | num_steps: 2836480 | entropy: 0.60 | value: 0.79 | policy_loss: 0.06 | value_loss: 0.15 | grad_norm: 0.20 | arps: 0.36 | adr: 0.71 | sps: 71.71 | remaining: 8:22:49
+rμ: 0.83 | rσ: 0.55 | sμ: 3.82 | sσ: 4.12 | Pμ: 0.92 | Pσ: 0.28 | Vμ: 0.08 | Vσ: 0.28 | num_steps: 2846720 | entropy: 0.62 | value: 0.77 | policy_loss: 0.04 | value_loss: 0.14 | grad_norm: 0.24 | arps: 0.36 | adr: 0.71 | sps: 85.55 | remaining: 6:59:30
+rμ: 0.84 | rσ: 0.54 | sμ: 4.03 | sσ: 4.27 | Pμ: 0.92 | Pσ: 0.27 | Vμ: 0.08 | Vσ: 0.27 | num_steps: 2856960 | entropy: 0.64 | value: 0.77 | policy_loss: 0.06 | value_loss: 0.12 | grad_norm: 0.24 | arps: 0.36 | adr: 0.72 | sps: 100.18 | remaining: 5:56:31
+Stage 1 not completed.
+MEAN: 0.9100817438692098, THRESHOLD: 0.95
+rμ: 0.85 | rσ: 0.53 | sμ: 4.06 | sσ: 4.25 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2867200 | entropy: 0.61 | value: 0.78 | policy_loss: 0.00 | value_loss: 0.10 | grad_norm: 0.20 | arps: 0.34 | adr: 0.71 | sps: 76.59 | remaining: 7:44:08
+Saved training status
+rμ: 0.87 | rσ: 0.49 | sμ: 4.29 | sσ: 5.54 | Pμ: 0.93 | Pσ: 0.25 | Vμ: 0.06 | Vσ: 0.24 | num_steps: 2877440 | entropy: 0.61 | value: 0.78 | policy_loss: 0.03 | value_loss: 0.09 | grad_norm: 0.19 | arps: 0.35 | adr: 0.73 | sps: 76.91 | remaining: 7:39:57
+rμ: 0.85 | rσ: 0.52 | sμ: 4.06 | sσ: 5.73 | Pμ: 0.92 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2887680 | entropy: 0.62 | value: 0.78 | policy_loss: 0.06 | value_loss: 0.11 | grad_norm: 0.23 | arps: 0.37 | adr: 0.72 | sps: 75.45 | remaining: 7:46:35
+rμ: 0.88 | rσ: 0.48 | sμ: 3.71 | sσ: 3.48 | Pμ: 0.94 | Pσ: 0.24 | Vμ: 0.06 | Vσ: 0.24 | num_steps: 2897920 | entropy: 0.58 | value: 0.79 | policy_loss: 0.02 | value_loss: 0.09 | grad_norm: 0.16 | arps: 0.39 | adr: 0.75 | sps: 79.81 | remaining: 7:18:56
+rμ: 0.87 | rσ: 0.49 | sμ: 4.05 | sσ: 4.98 | Pμ: 0.94 | Pσ: 0.25 | Vμ: 0.06 | Vσ: 0.24 | num_steps: 2908160 | entropy: 0.58 | value: 0.78 | policy_loss: 0.02 | value_loss: 0.10 | grad_norm: 0.16 | arps: 0.38 | adr: 0.75 | sps: 84.22 | remaining: 6:53:57
+Saved training status
+rμ: 0.87 | rσ: 0.49 | sμ: 3.77 | sσ: 3.81 | Pμ: 0.93 | Pσ: 0.25 | Vμ: 0.07 | Vσ: 0.25 | num_steps: 2918400 | entropy: 0.54 | value: 0.82 | policy_loss: 0.02 | value_loss: 0.10 | grad_norm: 0.21 | arps: 0.36 | adr: 0.74 | sps: 75.47 | remaining: 7:39:43
+rμ: 0.87 | rσ: 0.49 | sμ: 4.03 | sσ: 4.85 | Pμ: 0.93 | Pσ: 0.25 | Vμ: 0.07 | Vσ: 0.25 | num_steps: 2928640 | entropy: 0.61 | value: 0.79 | policy_loss: 0.03 | value_loss: 0.09 | grad_norm: 0.22 | arps: 0.37 | adr: 0.73 | sps: 85.90 | remaining: 6:41:54
+rμ: 0.86 | rσ: 0.50 | sμ: 3.85 | sσ: 3.66 | Pμ: 0.93 | Pσ: 0.25 | Vμ: 0.07 | Vσ: 0.25 | num_steps: 2938880 | entropy: 0.61 | value: 0.79 | policy_loss: 0.01 | value_loss: 0.10 | grad_norm: 0.17 | arps: 0.37 | adr: 0.74 | sps: 75.81 | remaining: 7:33:06
+rμ: 0.85 | rσ: 0.52 | sμ: 3.90 | sσ: 3.71 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 2949120 | entropy: 0.63 | value: 0.80 | policy_loss: 0.03 | value_loss: 0.11 | grad_norm: 0.19 | arps: 0.36 | adr: 0.72 | sps: 76.02 | remaining: 7:29:37
+Saved training status
+rμ: 0.90 | rσ: 0.43 | sμ: 3.82 | sσ: 3.41 | Pμ: 0.95 | Pσ: 0.21 | Vμ: 0.05 | Vσ: 0.21 | num_steps: 2959360 | entropy: 0.60 | value: 0.82 | policy_loss: 0.01 | value_loss: 0.07 | grad_norm: 0.17 | arps: 0.38 | adr: 0.77 | sps: 81.23 | remaining: 6:58:42
+rμ: 0.87 | rσ: 0.50 | sμ: 3.91 | sσ: 6.13 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.06 | Vσ: 0.25 | num_steps: 2969600 | entropy: 0.61 | value: 0.77 | policy_loss: 0.04 | value_loss: 0.11 | grad_norm: 0.23 | arps: 0.39 | adr: 0.75 | sps: 80.38 | remaining: 7:01:00
+rμ: 0.88 | rσ: 0.47 | sμ: 4.23 | sσ: 4.89 | Pμ: 0.94 | Pσ: 0.24 | Vμ: 0.06 | Vσ: 0.24 | num_steps: 2979840 | entropy: 0.62 | value: 0.79 | policy_loss: 0.02 | value_loss: 0.10 | grad_norm: 0.19 | arps: 0.37 | adr: 0.74 | sps: 81.47 | remaining: 6:53:15
+rμ: 0.82 | rσ: 0.57 | sμ: 3.98 | sσ: 5.07 | Pμ: 0.91 | Pσ: 0.29 | Vμ: 0.09 | Vσ: 0.29 | num_steps: 2990080 | entropy: 0.61 | value: 0.76 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.21 | arps: 0.35 | adr: 0.70 | sps: 74.56 | remaining: 7:29:16
+Saved training status
+rμ: 0.86 | rσ: 0.51 | sμ: 3.52 | sσ: 3.04 | Pμ: 0.93 | Pσ: 0.26 | Vμ: 0.07 | Vσ: 0.26 | num_steps: 3000320 | entropy: 0.57 | value: 0.81 | policy_loss: 0.01 | value_loss: 0.11 | grad_norm: 0.17 | arps: 0.38 | adr: 0.74 | sps: 86.59 | remaining: 6:24:54
+================================================================================
+Stage 1 completed.
+================================================================================
+rμ: 0.93 | rσ: 0.36 | sμ: 3.97 | sσ: 3.79 | Pμ: 0.97 | Pσ: 0.18 | Vμ: 0.03 | Vσ: 0.18 | num_steps: 3010560 | entropy: 0.59 | value: 0.81 | policy_loss: -0.01 | value_loss: 0.06 | grad_norm: 0.14 | arps: 0.41 | adr: 0.79 | sps: 78.59 | remaining: 7:01:54
+rμ: 0.62 | rσ: 0.78 | sμ: 7.89 | sσ: 6.83 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3020800 | entropy: 0.67 | value: 0.60 | policy_loss: 0.01 | value_loss: 0.17 | grad_norm: 0.27 | arps: 0.06 | adr: 0.39 | sps: 85.66 | remaining: 6:25:05
+rμ: 0.58 | rσ: 0.82 | sμ: 7.91 | sσ: 6.80 | Pμ: 0.79 | Pσ: 0.41 | Vμ: 0.21 | Vσ: 0.41 | num_steps: 3031040 | entropy: 0.69 | value: 0.59 | policy_loss: 0.07 | value_loss: 0.18 | grad_norm: 0.28 | arps: 0.07 | adr: 0.38 | sps: 83.08 | remaining: 6:35:00
+Saved training status
+rμ: 0.65 | rσ: 0.76 | sμ: 7.98 | sσ: 6.38 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3041280 | entropy: 0.64 | value: 0.60 | policy_loss: 0.04 | value_loss: 0.16 | grad_norm: 0.22 | arps: 0.09 | adr: 0.43 | sps: 79.49 | remaining: 6:50:39
+rμ: 0.62 | rσ: 0.78 | sμ: 7.38 | sσ: 6.33 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3051520 | entropy: 0.63 | value: 0.63 | policy_loss: 0.04 | value_loss: 0.17 | grad_norm: 0.26 | arps: 0.08 | adr: 0.41 | sps: 83.02 | remaining: 6:31:09
+rμ: 0.65 | rσ: 0.75 | sμ: 7.93 | sσ: 8.40 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3061760 | entropy: 0.64 | value: 0.58 | policy_loss: -0.01 | value_loss: 0.14 | grad_norm: 0.27 | arps: 0.08 | adr: 0.43 | sps: 85.99 | remaining: 6:15:39
+Stage 2 not completed.
+MEAN: 0.8241758241758241, THRESHOLD: 0.95
+rμ: 0.65 | rσ: 0.76 | sμ: 7.52 | sσ: 5.95 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 3072000 | entropy: 0.64 | value: 0.63 | policy_loss: -0.01 | value_loss: 0.15 | grad_norm: 0.23 | arps: 0.06 | adr: 0.41 | sps: 80.21 | remaining: 6:40:36
+Saved training status
+rμ: 0.74 | rσ: 0.67 | sμ: 7.57 | sσ: 5.56 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 3082240 | entropy: 0.58 | value: 0.65 | policy_loss: 0.00 | value_loss: 0.14 | grad_norm: 0.24 | arps: 0.11 | adr: 0.50 | sps: 75.01 | remaining: 7:06:07
+rμ: 0.65 | rσ: 0.75 | sμ: 8.66 | sσ: 8.50 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3092480 | entropy: 0.70 | value: 0.58 | policy_loss: 0.06 | value_loss: 0.13 | grad_norm: 0.35 | arps: 0.08 | adr: 0.43 | sps: 87.63 | remaining: 6:02:46
+rμ: 0.53 | rσ: 0.85 | sμ: 7.56 | sσ: 5.91 | Pμ: 0.77 | Pσ: 0.42 | Vμ: 0.23 | Vσ: 0.42 | num_steps: 3102720 | entropy: 0.68 | value: 0.59 | policy_loss: 0.04 | value_loss: 0.16 | grad_norm: 0.22 | arps: 0.03 | adr: 0.32 | sps: 85.77 | remaining: 6:08:40
+rμ: 0.60 | rσ: 0.80 | sμ: 7.33 | sσ: 5.79 | Pμ: 0.80 | Pσ: 0.40 | Vμ: 0.20 | Vσ: 0.40 | num_steps: 3112960 | entropy: 0.66 | value: 0.59 | policy_loss: 0.03 | value_loss: 0.17 | grad_norm: 0.31 | arps: 0.07 | adr: 0.40 | sps: 80.70 | remaining: 6:29:43
+Saved training status
+rμ: 0.65 | rσ: 0.76 | sμ: 8.19 | sσ: 7.30 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3123200 | entropy: 0.66 | value: 0.61 | policy_loss: 0.07 | value_loss: 0.17 | grad_norm: 0.29 | arps: 0.08 | adr: 0.43 | sps: 78.89 | remaining: 6:36:31
+rμ: 0.62 | rσ: 0.78 | sμ: 7.94 | sσ: 7.54 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3133440 | entropy: 0.64 | value: 0.62 | policy_loss: 0.05 | value_loss: 0.16 | grad_norm: 0.28 | arps: 0.06 | adr: 0.40 | sps: 85.18 | remaining: 6:05:12
+rμ: 0.73 | rσ: 0.69 | sμ: 7.50 | sσ: 5.65 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 3143680 | entropy: 0.58 | value: 0.63 | policy_loss: 0.02 | value_loss: 0.15 | grad_norm: 0.25 | arps: 0.12 | adr: 0.50 | sps: 77.25 | remaining: 6:40:31
+rμ: 0.67 | rσ: 0.74 | sμ: 7.92 | sσ: 5.59 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 3153920 | entropy: 0.62 | value: 0.64 | policy_loss: 0.03 | value_loss: 0.15 | grad_norm: 0.22 | arps: 0.08 | adr: 0.43 | sps: 94.24 | remaining: 5:26:29
+Saved training status
+rμ: 0.64 | rσ: 0.77 | sμ: 8.40 | sσ: 8.89 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 3164160 | entropy: 0.60 | value: 0.59 | policy_loss: 0.01 | value_loss: 0.13 | grad_norm: 0.27 | arps: 0.06 | adr: 0.40 | sps: 81.32 | remaining: 6:16:14
+rμ: 0.68 | rσ: 0.74 | sμ: 7.32 | sσ: 4.98 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 3174400 | entropy: 0.59 | value: 0.65 | policy_loss: 0.01 | value_loss: 0.15 | grad_norm: 0.25 | arps: 0.09 | adr: 0.44 | sps: 83.96 | remaining: 6:02:22
+rμ: 0.52 | rσ: 0.86 | sμ: 7.97 | sσ: 7.12 | Pμ: 0.76 | Pσ: 0.43 | Vμ: 0.24 | Vσ: 0.43 | num_steps: 3184640 | entropy: 0.63 | value: 0.55 | policy_loss: 0.06 | value_loss: 0.20 | grad_norm: 0.29 | arps: 0.04 | adr: 0.33 | sps: 98.17 | remaining: 5:08:12
+rμ: 0.66 | rσ: 0.75 | sμ: 7.86 | sσ: 6.01 | Pμ: 0.83 | Pσ: 0.37 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 3194880 | entropy: 0.63 | value: 0.62 | policy_loss: 0.04 | value_loss: 0.15 | grad_norm: 0.32 | arps: 0.10 | adr: 0.44 | sps: 76.99 | remaining: 6:30:47
+Saved training status
+rμ: 0.63 | rσ: 0.78 | sμ: 8.37 | sσ: 6.85 | Pμ: 0.82 | Pσ: 0.39 | Vμ: 0.18 | Vσ: 0.39 | num_steps: 3205120 | entropy: 0.63 | value: 0.61 | policy_loss: 0.06 | value_loss: 0.16 | grad_norm: 0.29 | arps: 0.08 | adr: 0.41 | sps: 81.91 | remaining: 6:05:13
+rμ: 0.63 | rσ: 0.78 | sμ: 7.58 | sσ: 6.44 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3215360 | entropy: 0.59 | value: 0.60 | policy_loss: -0.00 | value_loss: 0.17 | grad_norm: 0.22 | arps: 0.08 | adr: 0.41 | sps: 76.52 | remaining: 6:28:42
+rμ: 0.63 | rσ: 0.77 | sμ: 7.73 | sσ: 7.75 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.18 | Vσ: 0.39 | num_steps: 3225600 | entropy: 0.62 | value: 0.62 | policy_loss: 0.06 | value_loss: 0.16 | grad_norm: 0.26 | arps: 0.07 | adr: 0.41 | sps: 88.12 | remaining: 5:35:36
+rμ: 0.62 | rσ: 0.78 | sμ: 8.61 | sσ: 8.36 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3235840 | entropy: 0.64 | value: 0.60 | policy_loss: 0.04 | value_loss: 0.15 | grad_norm: 0.28 | arps: 0.06 | adr: 0.39 | sps: 93.31 | remaining: 5:15:06
+Saved training status
+rμ: 0.67 | rσ: 0.74 | sμ: 8.32 | sσ: 6.49 | Pμ: 0.83 | Pσ: 0.37 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 3246080 | entropy: 0.64 | value: 0.63 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.22 | arps: 0.06 | adr: 0.41 | sps: 85.14 | remaining: 5:43:20
+rμ: 0.58 | rσ: 0.81 | sμ: 7.09 | sσ: 5.20 | Pμ: 0.79 | Pσ: 0.41 | Vμ: 0.21 | Vσ: 0.41 | num_steps: 3256320 | entropy: 0.60 | value: 0.61 | policy_loss: 0.06 | value_loss: 0.21 | grad_norm: 0.28 | arps: 0.07 | adr: 0.39 | sps: 90.17 | remaining: 5:22:18
+rμ: 0.61 | rσ: 0.79 | sμ: 7.90 | sσ: 5.89 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3266560 | entropy: 0.63 | value: 0.59 | policy_loss: 0.08 | value_loss: 0.19 | grad_norm: 0.28 | arps: 0.10 | adr: 0.42 | sps: 84.66 | remaining: 5:41:14
+Stage 2 not completed.
+MEAN: 0.8091603053435115, THRESHOLD: 0.95
+rμ: 0.62 | rσ: 0.78 | sμ: 7.74 | sσ: 7.54 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3276800 | entropy: 0.67 | value: 0.61 | policy_loss: 0.02 | value_loss: 0.15 | grad_norm: 0.26 | arps: 0.06 | adr: 0.40 | sps: 71.14 | remaining: 6:43:42
+Saved training status
+rμ: 0.61 | rσ: 0.79 | sμ: 7.71 | sσ: 7.82 | Pμ: 0.80 | Pσ: 0.40 | Vμ: 0.19 | Vσ: 0.40 | num_steps: 3287040 | entropy: 0.61 | value: 0.61 | policy_loss: 0.05 | value_loss: 0.16 | grad_norm: 0.29 | arps: 0.07 | adr: 0.40 | sps: 75.69 | remaining: 6:17:12
+rμ: 0.63 | rσ: 0.78 | sμ: 7.40 | sσ: 7.01 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.18 | Vσ: 0.39 | num_steps: 3297280 | entropy: 0.66 | value: 0.62 | policy_loss: 0.06 | value_loss: 0.16 | grad_norm: 0.23 | arps: 0.07 | adr: 0.41 | sps: 71.83 | remaining: 6:35:04
+rμ: 0.58 | rσ: 0.81 | sμ: 7.97 | sσ: 6.67 | Pμ: 0.79 | Pσ: 0.41 | Vμ: 0.21 | Vσ: 0.41 | num_steps: 3307520 | entropy: 0.66 | value: 0.57 | policy_loss: 0.05 | value_loss: 0.16 | grad_norm: 0.28 | arps: 0.05 | adr: 0.37 | sps: 83.02 | remaining: 5:39:45
+rμ: 0.70 | rσ: 0.71 | sμ: 7.56 | sσ: 5.64 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 3317760 | entropy: 0.61 | value: 0.63 | policy_loss: -0.01 | value_loss: 0.13 | grad_norm: 0.23 | arps: 0.09 | adr: 0.45 | sps: 91.80 | remaining: 5:05:24
+Saved training status
+rμ: 0.72 | rσ: 0.69 | sμ: 8.36 | sσ: 7.70 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 3328000 | entropy: 0.58 | value: 0.64 | policy_loss: -0.01 | value_loss: 0.12 | grad_norm: 0.26 | arps: 0.10 | adr: 0.46 | sps: 79.83 | remaining: 5:49:04
+rμ: 0.77 | rσ: 0.64 | sμ: 8.23 | sσ: 6.99 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 3338240 | entropy: 0.62 | value: 0.64 | policy_loss: -0.00 | value_loss: 0.10 | grad_norm: 0.25 | arps: 0.11 | adr: 0.51 | sps: 81.62 | remaining: 5:39:19
+rμ: 0.65 | rσ: 0.76 | sμ: 7.56 | sσ: 5.76 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3348480 | entropy: 0.59 | value: 0.62 | policy_loss: 0.01 | value_loss: 0.15 | grad_norm: 0.23 | arps: 0.08 | adr: 0.42 | sps: 83.27 | remaining: 5:30:33
+rμ: 0.67 | rσ: 0.74 | sμ: 7.16 | sσ: 5.33 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 3358720 | entropy: 0.56 | value: 0.65 | policy_loss: 0.02 | value_loss: 0.16 | grad_norm: 0.24 | arps: 0.10 | adr: 0.46 | sps: 80.74 | remaining: 5:38:48
+Saved training status
+rμ: 0.57 | rσ: 0.82 | sμ: 7.93 | sσ: 6.70 | Pμ: 0.79 | Pσ: 0.41 | Vμ: 0.21 | Vσ: 0.41 | num_steps: 3368960 | entropy: 0.64 | value: 0.60 | policy_loss: 0.08 | value_loss: 0.19 | grad_norm: 0.27 | arps: 0.07 | adr: 0.37 | sps: 84.61 | remaining: 5:21:16
+rμ: 0.65 | rσ: 0.75 | sμ: 8.38 | sσ: 8.72 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3379200 | entropy: 0.65 | value: 0.61 | policy_loss: 0.05 | value_loss: 0.14 | grad_norm: 0.31 | arps: 0.09 | adr: 0.42 | sps: 92.27 | remaining: 4:52:45
+rμ: 0.57 | rσ: 0.82 | sμ: 8.13 | sσ: 7.86 | Pμ: 0.78 | Pσ: 0.41 | Vμ: 0.21 | Vσ: 0.41 | num_steps: 3389440 | entropy: 0.62 | value: 0.57 | policy_loss: 0.05 | value_loss: 0.16 | grad_norm: 0.31 | arps: 0.06 | adr: 0.37 | sps: 77.18 | remaining: 5:47:47
+rμ: 0.59 | rσ: 0.81 | sμ: 8.28 | sσ: 8.21 | Pμ: 0.79 | Pσ: 0.41 | Vμ: 0.21 | Vσ: 0.40 | num_steps: 3399680 | entropy: 0.63 | value: 0.58 | policy_loss: 0.05 | value_loss: 0.18 | grad_norm: 0.26 | arps: 0.06 | adr: 0.38 | sps: 78.96 | remaining: 5:37:47
+Saved training status
+rμ: 0.55 | rσ: 0.84 | sμ: 8.02 | sσ: 7.76 | Pμ: 0.77 | Pσ: 0.42 | Vμ: 0.23 | Vσ: 0.42 | num_steps: 3409920 | entropy: 0.63 | value: 0.57 | policy_loss: 0.06 | value_loss: 0.18 | grad_norm: 0.28 | arps: 0.05 | adr: 0.35 | sps: 85.57 | remaining: 5:09:42
+rμ: 0.76 | rσ: 0.65 | sμ: 7.77 | sσ: 6.87 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 3420160 | entropy: 0.61 | value: 0.64 | policy_loss: -0.05 | value_loss: 0.11 | grad_norm: 0.26 | arps: 0.12 | adr: 0.52 | sps: 80.35 | remaining: 5:27:41
+rμ: 0.66 | rσ: 0.75 | sμ: 8.19 | sσ: 7.22 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3430400 | entropy: 0.62 | value: 0.61 | policy_loss: 0.04 | value_loss: 0.17 | grad_norm: 0.31 | arps: 0.08 | adr: 0.43 | sps: 70.16 | remaining: 6:12:51
+rμ: 0.62 | rσ: 0.78 | sμ: 7.28 | sσ: 5.07 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3440640 | entropy: 0.57 | value: 0.63 | policy_loss: 0.05 | value_loss: 0.18 | grad_norm: 0.28 | arps: 0.07 | adr: 0.40 | sps: 86.96 | remaining: 4:58:52
+Saved training status
+rμ: 0.67 | rσ: 0.75 | sμ: 7.17 | sσ: 5.72 | Pμ: 0.83 | Pσ: 0.37 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 3450880 | entropy: 0.60 | value: 0.64 | policy_loss: 0.07 | value_loss: 0.17 | grad_norm: 0.30 | arps: 0.09 | adr: 0.46 | sps: 82.61 | remaining: 5:12:31
+rμ: 0.61 | rσ: 0.79 | sμ: 7.90 | sσ: 7.31 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3461120 | entropy: 0.66 | value: 0.62 | policy_loss: 0.07 | value_loss: 0.16 | grad_norm: 0.28 | arps: 0.07 | adr: 0.39 | sps: 86.10 | remaining: 4:57:53
+rμ: 0.67 | rσ: 0.75 | sμ: 7.32 | sσ: 4.84 | Pμ: 0.83 | Pσ: 0.37 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 3471360 | entropy: 0.59 | value: 0.63 | policy_loss: -0.00 | value_loss: 0.16 | grad_norm: 0.29 | arps: 0.08 | adr: 0.43 | sps: 87.07 | remaining: 4:52:35
+Stage 2 not completed.
+MEAN: 0.8429752066115702, THRESHOLD: 0.95
+rμ: 0.69 | rσ: 0.73 | sμ: 8.58 | sσ: 8.66 | Pμ: 0.84 | Pσ: 0.36 | Vμ: 0.16 | Vσ: 0.36 | num_steps: 3481600 | entropy: 0.64 | value: 0.58 | policy_loss: 0.01 | value_loss: 0.13 | grad_norm: 0.24 | arps: 0.10 | adr: 0.45 | sps: 88.55 | remaining: 4:45:47
+Saved training status
+rμ: 0.56 | rσ: 0.83 | sμ: 7.27 | sσ: 5.69 | Pμ: 0.78 | Pσ: 0.41 | Vμ: 0.22 | Vσ: 0.41 | num_steps: 3491840 | entropy: 0.63 | value: 0.60 | policy_loss: 0.10 | value_loss: 0.20 | grad_norm: 0.28 | arps: 0.07 | adr: 0.37 | sps: 85.04 | remaining: 4:55:35
+rμ: 0.60 | rσ: 0.80 | sμ: 7.68 | sσ: 6.00 | Pμ: 0.80 | Pσ: 0.40 | Vμ: 0.20 | Vσ: 0.40 | num_steps: 3502080 | entropy: 0.63 | value: 0.59 | policy_loss: 0.07 | value_loss: 0.17 | grad_norm: 0.29 | arps: 0.08 | adr: 0.41 | sps: 76.67 | remaining: 5:25:38
+rμ: 0.67 | rσ: 0.74 | sμ: 7.93 | sσ: 7.24 | Pμ: 0.83 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 3512320 | entropy: 0.63 | value: 0.62 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.23 | arps: 0.08 | adr: 0.44 | sps: 86.40 | remaining: 4:46:58
+rμ: 0.68 | rσ: 0.73 | sμ: 7.62 | sσ: 6.66 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 3522560 | entropy: 0.61 | value: 0.64 | policy_loss: 0.03 | value_loss: 0.16 | grad_norm: 0.21 | arps: 0.09 | adr: 0.45 | sps: 82.61 | remaining: 4:58:04
+Saved training status
+rμ: 0.63 | rσ: 0.78 | sμ: 7.58 | sσ: 5.91 | Pμ: 0.82 | Pσ: 0.39 | Vμ: 0.18 | Vσ: 0.39 | num_steps: 3532800 | entropy: 0.65 | value: 0.60 | policy_loss: 0.00 | value_loss: 0.16 | grad_norm: 0.23 | arps: 0.07 | adr: 0.41 | sps: 78.36 | remaining: 5:12:03
+rμ: 0.75 | rσ: 0.66 | sμ: 7.53 | sσ: 6.72 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 3543040 | entropy: 0.61 | value: 0.66 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.17 | arps: 0.12 | adr: 0.51 | sps: 81.73 | remaining: 4:57:06
+rμ: 0.68 | rσ: 0.74 | sμ: 7.88 | sσ: 5.63 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 3553280 | entropy: 0.65 | value: 0.63 | policy_loss: 0.06 | value_loss: 0.15 | grad_norm: 0.20 | arps: 0.08 | adr: 0.44 | sps: 78.42 | remaining: 5:07:29
+rμ: 0.71 | rσ: 0.71 | sμ: 7.62 | sσ: 5.50 | Pμ: 0.85 | Pσ: 0.35 | Vμ: 0.15 | Vσ: 0.35 | num_steps: 3563520 | entropy: 0.62 | value: 0.65 | policy_loss: 0.01 | value_loss: 0.13 | grad_norm: 0.22 | arps: 0.08 | adr: 0.46 | sps: 83.00 | remaining: 4:48:27
+Saved training status
+rμ: 0.71 | rσ: 0.71 | sμ: 7.51 | sσ: 4.69 | Pμ: 0.85 | Pσ: 0.35 | Vμ: 0.15 | Vσ: 0.35 | num_steps: 3573760 | entropy: 0.59 | value: 0.66 | policy_loss: 0.03 | value_loss: 0.14 | grad_norm: 0.23 | arps: 0.10 | adr: 0.47 | sps: 80.29 | remaining: 4:56:03
+rμ: 0.70 | rσ: 0.72 | sμ: 7.77 | sσ: 5.87 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 3584000 | entropy: 0.60 | value: 0.65 | policy_loss: 0.01 | value_loss: 0.12 | grad_norm: 0.25 | arps: 0.07 | adr: 0.44 | sps: 75.35 | remaining: 5:13:12
+rμ: 0.65 | rσ: 0.75 | sμ: 7.73 | sσ: 7.37 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3594240 | entropy: 0.64 | value: 0.60 | policy_loss: 0.04 | value_loss: 0.15 | grad_norm: 0.22 | arps: 0.08 | adr: 0.44 | sps: 94.07 | remaining: 4:09:04
+rμ: 0.73 | rσ: 0.68 | sμ: 7.57 | sσ: 4.97 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 3604480 | entropy: 0.60 | value: 0.66 | policy_loss: 0.04 | value_loss: 0.16 | grad_norm: 0.24 | arps: 0.11 | adr: 0.50 | sps: 90.93 | remaining: 4:15:47
+Saved training status
+rμ: 0.64 | rσ: 0.76 | sμ: 8.00 | sσ: 7.82 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 3614720 | entropy: 0.64 | value: 0.63 | policy_loss: 0.05 | value_loss: 0.16 | grad_norm: 0.31 | arps: 0.07 | adr: 0.41 | sps: 104.92 | remaining: 3:40:03
+rμ: 0.64 | rσ: 0.76 | sμ: 7.33 | sσ: 5.29 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 3624960 | entropy: 0.60 | value: 0.62 | policy_loss: 0.03 | value_loss: 0.17 | grad_norm: 0.22 | arps: 0.08 | adr: 0.42 | sps: 90.81 | remaining: 4:12:22
+rμ: 0.61 | rσ: 0.79 | sμ: 7.21 | sσ: 5.76 | Pμ: 0.80 | Pσ: 0.40 | Vμ: 0.20 | Vσ: 0.40 | num_steps: 3635200 | entropy: 0.61 | value: 0.61 | policy_loss: 0.04 | value_loss: 0.18 | grad_norm: 0.25 | arps: 0.08 | adr: 0.41 | sps: 82.61 | remaining: 4:35:20
+rμ: 0.73 | rσ: 0.68 | sμ: 8.44 | sσ: 7.82 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 3645440 | entropy: 0.66 | value: 0.65 | policy_loss: 0.01 | value_loss: 0.11 | grad_norm: 0.20 | arps: 0.09 | adr: 0.47 | sps: 78.38 | remaining: 4:48:02
+Saved training status
+rμ: 0.60 | rσ: 0.80 | sμ: 7.14 | sσ: 6.34 | Pμ: 0.80 | Pσ: 0.40 | Vμ: 0.20 | Vσ: 0.40 | num_steps: 3655680 | entropy: 0.62 | value: 0.62 | policy_loss: 0.11 | value_loss: 0.20 | grad_norm: 0.28 | arps: 0.09 | adr: 0.41 | sps: 78.44 | remaining: 4:45:39
+rμ: 0.65 | rσ: 0.76 | sμ: 7.04 | sσ: 4.70 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3665920 | entropy: 0.55 | value: 0.67 | policy_loss: 0.02 | value_loss: 0.16 | grad_norm: 0.17 | arps: 0.08 | adr: 0.42 | sps: 75.39 | remaining: 4:54:55
+rμ: 0.59 | rσ: 0.80 | sμ: 7.12 | sσ: 4.90 | Pμ: 0.80 | Pσ: 0.40 | Vμ: 0.20 | Vσ: 0.40 | num_steps: 3676160 | entropy: 0.60 | value: 0.62 | policy_loss: 0.03 | value_loss: 0.18 | grad_norm: 0.23 | arps: 0.08 | adr: 0.39 | sps: 88.75 | remaining: 4:08:36
+Stage 2 not completed.
+MEAN: 0.8538461538461538, THRESHOLD: 0.95
+rμ: 0.71 | rσ: 0.71 | sμ: 8.00 | sσ: 6.97 | Pμ: 0.85 | Pσ: 0.35 | Vμ: 0.15 | Vσ: 0.35 | num_steps: 3686400 | entropy: 0.62 | value: 0.64 | policy_loss: 0.03 | value_loss: 0.13 | grad_norm: 0.22 | arps: 0.08 | adr: 0.45 | sps: 83.02 | remaining: 4:23:42
+Saved training status
+rμ: 0.66 | rσ: 0.76 | sμ: 7.79 | sσ: 6.59 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3696640 | entropy: 0.57 | value: 0.62 | policy_loss: 0.05 | value_loss: 0.17 | grad_norm: 0.20 | arps: 0.09 | adr: 0.43 | sps: 94.76 | remaining: 3:49:14
+rμ: 0.73 | rσ: 0.68 | sμ: 7.20 | sσ: 4.64 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 3706880 | entropy: 0.57 | value: 0.67 | policy_loss: 0.02 | value_loss: 0.14 | grad_norm: 0.23 | arps: 0.11 | adr: 0.50 | sps: 93.04 | remaining: 3:51:38
+rμ: 0.65 | rσ: 0.76 | sμ: 7.53 | sσ: 6.39 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 3717120 | entropy: 0.62 | value: 0.64 | policy_loss: 0.03 | value_loss: 0.15 | grad_norm: 0.26 | arps: 0.06 | adr: 0.41 | sps: 70.36 | remaining: 5:03:52
+rμ: 0.64 | rσ: 0.77 | sμ: 7.42 | sσ: 6.06 | Pμ: 0.82 | Pσ: 0.39 | Vμ: 0.18 | Vσ: 0.39 | num_steps: 3727360 | entropy: 0.61 | value: 0.63 | policy_loss: 0.06 | value_loss: 0.18 | grad_norm: 0.31 | arps: 0.07 | adr: 0.42 | sps: 72.76 | remaining: 4:51:30
+Saved training status
+rμ: 0.66 | rσ: 0.75 | sμ: 7.20 | sσ: 5.95 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3737600 | entropy: 0.62 | value: 0.63 | policy_loss: 0.05 | value_loss: 0.18 | grad_norm: 0.26 | arps: 0.10 | adr: 0.45 | sps: 77.33 | remaining: 4:32:05
+rμ: 0.67 | rσ: 0.74 | sμ: 7.95 | sσ: 7.16 | Pμ: 0.83 | Pσ: 0.37 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 3747840 | entropy: 0.64 | value: 0.62 | policy_loss: 0.06 | value_loss: 0.16 | grad_norm: 0.29 | arps: 0.09 | adr: 0.46 | sps: 84.45 | remaining: 4:07:06
+rμ: 0.71 | rσ: 0.71 | sμ: 7.72 | sσ: 7.95 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 3758080 | entropy: 0.62 | value: 0.65 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.21 | arps: 0.09 | adr: 0.47 | sps: 81.38 | remaining: 4:14:20
+rμ: 0.65 | rσ: 0.76 | sμ: 7.33 | sσ: 5.30 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 3768320 | entropy: 0.64 | value: 0.65 | policy_loss: 0.08 | value_loss: 0.16 | grad_norm: 0.25 | arps: 0.09 | adr: 0.43 | sps: 86.83 | remaining: 3:56:24
+Saved training status
+rμ: 0.60 | rσ: 0.80 | sμ: 8.00 | sσ: 7.33 | Pμ: 0.80 | Pσ: 0.40 | Vμ: 0.20 | Vσ: 0.40 | num_steps: 3778560 | entropy: 0.67 | value: 0.61 | policy_loss: 0.08 | value_loss: 0.18 | grad_norm: 0.27 | arps: 0.07 | adr: 0.39 | sps: 77.71 | remaining: 4:21:57
+rμ: 0.65 | rσ: 0.76 | sμ: 7.65 | sσ: 7.00 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3788800 | entropy: 0.61 | value: 0.63 | policy_loss: -0.00 | value_loss: 0.13 | grad_norm: 0.26 | arps: 0.05 | adr: 0.41 | sps: 76.57 | remaining: 4:23:37
+rμ: 0.68 | rσ: 0.73 | sμ: 7.24 | sσ: 5.63 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 3799040 | entropy: 0.57 | value: 0.65 | policy_loss: 0.05 | value_loss: 0.17 | grad_norm: 0.24 | arps: 0.10 | adr: 0.46 | sps: 85.44 | remaining: 3:54:15
+rμ: 0.62 | rσ: 0.79 | sμ: 7.56 | sσ: 6.42 | Pμ: 0.81 | Pσ: 0.39 | Vμ: 0.19 | Vσ: 0.39 | num_steps: 3809280 | entropy: 0.58 | value: 0.65 | policy_loss: 0.05 | value_loss: 0.17 | grad_norm: 0.32 | arps: 0.07 | adr: 0.40 | sps: 80.17 | remaining: 4:07:32
+Saved training status
+rμ: 0.71 | rσ: 0.71 | sμ: 7.31 | sσ: 6.00 | Pμ: 0.85 | Pσ: 0.35 | Vμ: 0.15 | Vσ: 0.35 | num_steps: 3819520 | entropy: 0.59 | value: 0.68 | policy_loss: 0.04 | value_loss: 0.12 | grad_norm: 0.22 | arps: 0.08 | adr: 0.47 | sps: 83.02 | remaining: 3:56:58
+rμ: 0.65 | rσ: 0.75 | sμ: 7.65 | sσ: 7.91 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3829760 | entropy: 0.62 | value: 0.63 | policy_loss: 0.07 | value_loss: 0.15 | grad_norm: 0.28 | arps: 0.07 | adr: 0.44 | sps: 80.77 | remaining: 4:01:28
+rμ: 0.67 | rσ: 0.74 | sμ: 6.82 | sσ: 4.96 | Pμ: 0.83 | Pσ: 0.37 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 3840000 | entropy: 0.54 | value: 0.65 | policy_loss: -0.02 | value_loss: 0.14 | grad_norm: 0.24 | arps: 0.08 | adr: 0.45 | sps: 84.98 | remaining: 3:47:29
+rμ: 0.70 | rσ: 0.72 | sμ: 7.04 | sσ: 5.28 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 3850240 | entropy: 0.55 | value: 0.64 | policy_loss: 0.02 | value_loss: 0.17 | grad_norm: 0.27 | arps: 0.11 | adr: 0.49 | sps: 83.24 | remaining: 3:50:12
+Saved training status
+rμ: 0.73 | rσ: 0.68 | sμ: 6.95 | sσ: 5.09 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 3860480 | entropy: 0.54 | value: 0.67 | policy_loss: 0.03 | value_loss: 0.14 | grad_norm: 0.26 | arps: 0.11 | adr: 0.50 | sps: 78.41 | remaining: 4:02:13
+rμ: 0.65 | rσ: 0.76 | sμ: 7.67 | sσ: 5.92 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3870720 | entropy: 0.59 | value: 0.63 | policy_loss: 0.08 | value_loss: 0.17 | grad_norm: 0.23 | arps: 0.08 | adr: 0.43 | sps: 76.71 | remaining: 4:05:22
+rμ: 0.70 | rσ: 0.71 | sμ: 7.21 | sσ: 5.56 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 3880960 | entropy: 0.59 | value: 0.65 | policy_loss: 0.05 | value_loss: 0.16 | grad_norm: 0.25 | arps: 0.11 | adr: 0.49 | sps: 73.47 | remaining: 4:13:52
+Stage 2 not completed.
+MEAN: 0.8201438848920863, THRESHOLD: 0.95
+rμ: 0.64 | rσ: 0.77 | sμ: 7.32 | sσ: 6.21 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 3891200 | entropy: 0.59 | value: 0.64 | policy_loss: 0.07 | value_loss: 0.17 | grad_norm: 0.23 | arps: 0.09 | adr: 0.43 | sps: 91.02 | remaining: 3:23:01
+Saved training status
+rμ: 0.76 | rσ: 0.65 | sμ: 7.72 | sσ: 6.97 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 3901440 | entropy: 0.58 | value: 0.68 | policy_loss: 0.03 | value_loss: 0.13 | grad_norm: 0.25 | arps: 0.12 | adr: 0.51 | sps: 82.27 | remaining: 3:42:32
+rμ: 0.70 | rσ: 0.72 | sμ: 8.08 | sσ: 7.53 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 3911680 | entropy: 0.63 | value: 0.63 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.26 | arps: 0.09 | adr: 0.45 | sps: 83.42 | remaining: 3:37:26
+rμ: 0.76 | rσ: 0.65 | sμ: 8.00 | sσ: 6.85 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 3921920 | entropy: 0.59 | value: 0.67 | policy_loss: 0.03 | value_loss: 0.13 | grad_norm: 0.21 | arps: 0.12 | adr: 0.51 | sps: 92.66 | remaining: 3:13:55
+rμ: 0.70 | rσ: 0.71 | sμ: 7.68 | sσ: 7.20 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 3932160 | entropy: 0.59 | value: 0.65 | policy_loss: 0.03 | value_loss: 0.13 | grad_norm: 0.29 | arps: 0.09 | adr: 0.46 | sps: 85.85 | remaining: 3:27:18
+Saved training status
+rμ: 0.64 | rσ: 0.77 | sμ: 6.58 | sσ: 4.57 | Pμ: 0.82 | Pσ: 0.38 | Vμ: 0.18 | Vσ: 0.38 | num_steps: 3942400 | entropy: 0.56 | value: 0.66 | policy_loss: 0.06 | value_loss: 0.18 | grad_norm: 0.20 | arps: 0.08 | adr: 0.43 | sps: 77.10 | remaining: 3:48:37
+rμ: 0.72 | rσ: 0.70 | sμ: 6.82 | sσ: 5.44 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 3952640 | entropy: 0.57 | value: 0.69 | policy_loss: 0.04 | value_loss: 0.14 | grad_norm: 0.17 | arps: 0.10 | adr: 0.49 | sps: 83.99 | remaining: 3:27:50
+rμ: 0.65 | rσ: 0.76 | sμ: 7.97 | sσ: 6.28 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 3962880 | entropy: 0.65 | value: 0.67 | policy_loss: 0.06 | value_loss: 0.14 | grad_norm: 0.21 | arps: 0.08 | adr: 0.41 | sps: 78.69 | remaining: 3:39:40
+rμ: 0.64 | rσ: 0.77 | sμ: 7.50 | sσ: 6.55 | Pμ: 0.82 | Pσ: 0.39 | Vμ: 0.18 | Vσ: 0.39 | num_steps: 3973120 | entropy: 0.63 | value: 0.62 | policy_loss: 0.07 | value_loss: 0.18 | grad_norm: 0.23 | arps: 0.08 | adr: 0.43 | sps: 82.62 | remaining: 3:27:09
+Saved training status
+rμ: 0.73 | rσ: 0.68 | sμ: 6.90 | sσ: 5.38 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 3983360 | entropy: 0.59 | value: 0.66 | policy_loss: 0.03 | value_loss: 0.16 | grad_norm: 0.29 | arps: 0.13 | adr: 0.52 | sps: 78.13 | remaining: 3:36:52
+rμ: 0.67 | rσ: 0.74 | sμ: 7.35 | sσ: 6.14 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 3993600 | entropy: 0.61 | value: 0.65 | policy_loss: 0.03 | value_loss: 0.16 | grad_norm: 0.23 | arps: 0.08 | adr: 0.45 | sps: 79.83 | remaining: 3:30:06
+rμ: 0.76 | rσ: 0.65 | sμ: 7.72 | sσ: 5.71 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 4003840 | entropy: 0.59 | value: 0.67 | policy_loss: 0.00 | value_loss: 0.10 | grad_norm: 0.20 | arps: 0.11 | adr: 0.51 | sps: 79.00 | remaining: 3:30:08
+rμ: 0.67 | rσ: 0.74 | sμ: 6.91 | sσ: 4.70 | Pμ: 0.83 | Pσ: 0.37 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 4014080 | entropy: 0.59 | value: 0.68 | policy_loss: 0.06 | value_loss: 0.18 | grad_norm: 0.37 | arps: 0.09 | adr: 0.45 | sps: 77.70 | remaining: 3:31:29
+Saved training status
+rμ: 0.68 | rσ: 0.73 | sμ: 7.36 | sσ: 5.43 | Pμ: 0.84 | Pσ: 0.36 | Vμ: 0.16 | Vσ: 0.36 | num_steps: 4024320 | entropy: 0.58 | value: 0.65 | policy_loss: -0.01 | value_loss: 0.13 | grad_norm: 0.24 | arps: 0.07 | adr: 0.44 | sps: 92.60 | remaining: 2:55:36
+rμ: 0.69 | rσ: 0.73 | sμ: 7.61 | sσ: 5.51 | Pμ: 0.84 | Pσ: 0.36 | Vμ: 0.16 | Vσ: 0.36 | num_steps: 4034560 | entropy: 0.62 | value: 0.65 | policy_loss: 0.07 | value_loss: 0.16 | grad_norm: 0.20 | arps: 0.10 | adr: 0.46 | sps: 80.43 | remaining: 3:20:03
+rμ: 0.69 | rσ: 0.73 | sμ: 8.30 | sσ: 6.68 | Pμ: 0.84 | Pσ: 0.36 | Vμ: 0.16 | Vσ: 0.36 | num_steps: 4044800 | entropy: 0.61 | value: 0.64 | policy_loss: 0.05 | value_loss: 0.17 | grad_norm: 0.21 | arps: 0.10 | adr: 0.44 | sps: 82.55 | remaining: 3:12:51
+rμ: 0.71 | rσ: 0.70 | sμ: 7.49 | sσ: 6.66 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4055040 | entropy: 0.60 | value: 0.66 | policy_loss: 0.02 | value_loss: 0.13 | grad_norm: 0.22 | arps: 0.10 | adr: 0.47 | sps: 79.27 | remaining: 3:18:41
+Saved training status
+rμ: 0.70 | rσ: 0.71 | sμ: 7.52 | sσ: 5.23 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 4065280 | entropy: 0.59 | value: 0.66 | policy_loss: 0.03 | value_loss: 0.15 | grad_norm: 0.26 | arps: 0.10 | adr: 0.47 | sps: 76.41 | remaining: 3:23:53
+rμ: 0.73 | rσ: 0.68 | sμ: 7.62 | sσ: 6.70 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4075520 | entropy: 0.58 | value: 0.65 | policy_loss: 0.00 | value_loss: 0.14 | grad_norm: 0.23 | arps: 0.11 | adr: 0.49 | sps: 81.10 | remaining: 3:09:59
+rμ: 0.72 | rσ: 0.69 | sμ: 7.51 | sσ: 6.98 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 4085760 | entropy: 0.58 | value: 0.64 | policy_loss: 0.03 | value_loss: 0.14 | grad_norm: 0.23 | arps: 0.11 | adr: 0.50 | sps: 79.36 | remaining: 3:12:00
+Stage 2 not completed.
+MEAN: 0.8526315789473684, THRESHOLD: 0.95
+rμ: 0.71 | rσ: 0.71 | sμ: 7.60 | sσ: 6.26 | Pμ: 0.85 | Pσ: 0.35 | Vμ: 0.15 | Vσ: 0.35 | num_steps: 4096000 | entropy: 0.60 | value: 0.67 | policy_loss: 0.06 | value_loss: 0.15 | grad_norm: 0.22 | arps: 0.11 | adr: 0.48 | sps: 84.32 | remaining: 2:58:40
+Saved training status
+rμ: 0.71 | rσ: 0.70 | sμ: 7.06 | sσ: 5.16 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4106240 | entropy: 0.55 | value: 0.66 | policy_loss: 0.02 | value_loss: 0.15 | grad_norm: 0.24 | arps: 0.11 | adr: 0.49 | sps: 86.92 | remaining: 2:51:22
+rμ: 0.72 | rσ: 0.70 | sμ: 7.32 | sσ: 5.11 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4116480 | entropy: 0.59 | value: 0.66 | policy_loss: 0.03 | value_loss: 0.14 | grad_norm: 0.24 | arps: 0.10 | adr: 0.48 | sps: 82.85 | remaining: 2:57:44
+rμ: 0.70 | rσ: 0.71 | sμ: 7.08 | sσ: 7.54 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4126720 | entropy: 0.64 | value: 0.65 | policy_loss: 0.08 | value_loss: 0.14 | grad_norm: 0.26 | arps: 0.12 | adr: 0.51 | sps: 82.17 | remaining: 2:57:07
+rμ: 0.74 | rσ: 0.67 | sμ: 7.37 | sσ: 5.78 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4136960 | entropy: 0.57 | value: 0.65 | policy_loss: -0.00 | value_loss: 0.13 | grad_norm: 0.27 | arps: 0.10 | adr: 0.50 | sps: 85.30 | remaining: 2:48:38
+Saved training status
+rμ: 0.72 | rσ: 0.70 | sμ: 7.25 | sσ: 6.17 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4147200 | entropy: 0.58 | value: 0.65 | policy_loss: 0.04 | value_loss: 0.14 | grad_norm: 0.22 | arps: 0.11 | adr: 0.49 | sps: 87.14 | remaining: 2:43:06
+rμ: 0.75 | rσ: 0.67 | sμ: 7.27 | sσ: 6.62 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4157440 | entropy: 0.55 | value: 0.68 | policy_loss: -0.01 | value_loss: 0.12 | grad_norm: 0.21 | arps: 0.10 | adr: 0.50 | sps: 81.56 | remaining: 2:52:09
+rμ: 0.75 | rσ: 0.66 | sμ: 7.22 | sσ: 5.55 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4167680 | entropy: 0.57 | value: 0.66 | policy_loss: 0.01 | value_loss: 0.11 | grad_norm: 0.20 | arps: 0.11 | adr: 0.51 | sps: 82.20 | remaining: 2:48:45
+rμ: 0.73 | rσ: 0.68 | sμ: 7.59 | sσ: 7.83 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4177920 | entropy: 0.57 | value: 0.65 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.22 | arps: 0.11 | adr: 0.50 | sps: 74.27 | remaining: 3:04:28
+Saved training status
+rμ: 0.74 | rσ: 0.67 | sμ: 7.65 | sσ: 6.43 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4188160 | entropy: 0.64 | value: 0.66 | policy_loss: 0.05 | value_loss: 0.14 | grad_norm: 0.28 | arps: 0.12 | adr: 0.52 | sps: 78.97 | remaining: 2:51:20
+rμ: 0.69 | rσ: 0.73 | sμ: 7.24 | sσ: 6.56 | Pμ: 0.84 | Pσ: 0.36 | Vμ: 0.16 | Vσ: 0.36 | num_steps: 4198400 | entropy: 0.60 | value: 0.65 | policy_loss: 0.03 | value_loss: 0.14 | grad_norm: 0.20 | arps: 0.10 | adr: 0.46 | sps: 77.05 | remaining: 2:53:23
+rμ: 0.68 | rσ: 0.73 | sμ: 7.14 | sσ: 5.06 | Pμ: 0.84 | Pσ: 0.36 | Vμ: 0.16 | Vσ: 0.36 | num_steps: 4208640 | entropy: 0.59 | value: 0.67 | policy_loss: 0.01 | value_loss: 0.14 | grad_norm: 0.23 | arps: 0.08 | adr: 0.46 | sps: 87.70 | remaining: 2:30:23
+rμ: 0.70 | rσ: 0.72 | sμ: 6.93 | sσ: 4.85 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 4218880 | entropy: 0.61 | value: 0.68 | policy_loss: 0.05 | value_loss: 0.15 | grad_norm: 0.22 | arps: 0.10 | adr: 0.48 | sps: 79.75 | remaining: 2:43:14
+Saved training status
+rμ: 0.75 | rσ: 0.66 | sμ: 7.31 | sσ: 5.71 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4229120 | entropy: 0.57 | value: 0.67 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.22 | arps: 0.10 | adr: 0.51 | sps: 83.18 | remaining: 2:34:27
+rμ: 0.70 | rσ: 0.71 | sμ: 7.18 | sσ: 6.10 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.35 | num_steps: 4239360 | entropy: 0.58 | value: 0.68 | policy_loss: 0.03 | value_loss: 0.14 | grad_norm: 0.24 | arps: 0.09 | adr: 0.47 | sps: 84.20 | remaining: 2:30:33
+rμ: 0.72 | rσ: 0.70 | sμ: 7.42 | sσ: 6.23 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4249600 | entropy: 0.58 | value: 0.66 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.19 | arps: 0.10 | adr: 0.48 | sps: 98.55 | remaining: 2:06:54
+rμ: 0.77 | rσ: 0.64 | sμ: 7.29 | sσ: 6.59 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.11 | Vσ: 0.32 | num_steps: 4259840 | entropy: 0.59 | value: 0.68 | policy_loss: 0.00 | value_loss: 0.10 | grad_norm: 0.22 | arps: 0.11 | adr: 0.52 | sps: 87.26 | remaining: 2:21:22
+Saved training status
+rμ: 0.72 | rσ: 0.69 | sμ: 7.72 | sσ: 6.17 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 4270080 | entropy: 0.61 | value: 0.66 | policy_loss: 0.05 | value_loss: 0.14 | grad_norm: 0.23 | arps: 0.11 | adr: 0.49 | sps: 73.23 | remaining: 2:46:07
+rμ: 0.69 | rσ: 0.72 | sμ: 7.27 | sσ: 5.84 | Pμ: 0.84 | Pσ: 0.36 | Vμ: 0.16 | Vσ: 0.36 | num_steps: 4280320 | entropy: 0.60 | value: 0.65 | policy_loss: 0.05 | value_loss: 0.16 | grad_norm: 0.24 | arps: 0.11 | adr: 0.48 | sps: 87.89 | remaining: 2:16:28
+rμ: 0.73 | rσ: 0.68 | sμ: 6.63 | sσ: 5.02 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 4290560 | entropy: 0.57 | value: 0.70 | policy_loss: 0.03 | value_loss: 0.15 | grad_norm: 0.22 | arps: 0.11 | adr: 0.51 | sps: 82.81 | remaining: 2:22:47
+Stage 2 not completed.
+MEAN: 0.826530612244898, THRESHOLD: 0.95
+rμ: 0.65 | rσ: 0.76 | sμ: 6.94 | sσ: 5.24 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.38 | num_steps: 4300800 | entropy: 0.59 | value: 0.66 | policy_loss: 0.08 | value_loss: 0.18 | grad_norm: 0.21 | arps: 0.10 | adr: 0.45 | sps: 75.81 | remaining: 2:33:42
+Saved training status
+rμ: 0.74 | rσ: 0.67 | sμ: 7.91 | sσ: 7.84 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4311040 | entropy: 0.59 | value: 0.66 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.21 | arps: 0.11 | adr: 0.50 | sps: 77.85 | remaining: 2:27:30
+rμ: 0.69 | rσ: 0.72 | sμ: 7.38 | sσ: 5.67 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 4321280 | entropy: 0.58 | value: 0.66 | policy_loss: 0.04 | value_loss: 0.15 | grad_norm: 0.24 | arps: 0.10 | adr: 0.47 | sps: 78.21 | remaining: 2:24:37
+rμ: 0.75 | rσ: 0.66 | sμ: 6.69 | sσ: 4.57 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 4331520 | entropy: 0.52 | value: 0.69 | policy_loss: -0.01 | value_loss: 0.13 | grad_norm: 0.24 | arps: 0.11 | adr: 0.52 | sps: 96.65 | remaining: 1:55:16
+rμ: 0.88 | rσ: 0.47 | sμ: 7.79 | sσ: 7.17 | Pμ: 0.94 | Pσ: 0.24 | Vμ: 0.06 | Vσ: 0.23 | num_steps: 4341760 | entropy: 0.52 | value: 0.71 | policy_loss: -0.01 | value_loss: 0.06 | grad_norm: 0.21 | arps: 0.14 | adr: 0.60 | sps: 76.63 | remaining: 2:23:10
+Saved training status
+rμ: 0.70 | rσ: 0.72 | sμ: 7.18 | sσ: 5.94 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 4352000 | entropy: 0.56 | value: 0.66 | policy_loss: 0.08 | value_loss: 0.16 | grad_norm: 0.23 | arps: 0.11 | adr: 0.48 | sps: 81.15 | remaining: 2:13:04
+rμ: 0.70 | rσ: 0.71 | sμ: 6.92 | sσ: 5.30 | Pμ: 0.85 | Pσ: 0.35 | Vμ: 0.15 | Vσ: 0.35 | num_steps: 4362240 | entropy: 0.55 | value: 0.68 | policy_loss: 0.03 | value_loss: 0.14 | grad_norm: 0.21 | arps: 0.09 | adr: 0.48 | sps: 77.39 | remaining: 2:17:21
+rμ: 0.77 | rσ: 0.64 | sμ: 7.22 | sσ: 6.21 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 4372480 | entropy: 0.57 | value: 0.66 | policy_loss: -0.05 | value_loss: 0.10 | grad_norm: 0.16 | arps: 0.10 | adr: 0.52 | sps: 79.46 | remaining: 2:11:37
+rμ: 0.75 | rσ: 0.66 | sμ: 7.59 | sσ: 5.84 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4382720 | entropy: 0.58 | value: 0.68 | policy_loss: 0.03 | value_loss: 0.12 | grad_norm: 0.17 | arps: 0.11 | adr: 0.51 | sps: 81.57 | remaining: 2:06:07
+Saved training status
+rμ: 0.72 | rσ: 0.69 | sμ: 7.06 | sσ: 5.22 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4392960 | entropy: 0.57 | value: 0.68 | policy_loss: -0.01 | value_loss: 0.14 | grad_norm: 0.19 | arps: 0.10 | adr: 0.48 | sps: 77.66 | remaining: 2:10:16
+rμ: 0.70 | rσ: 0.71 | sμ: 7.36 | sσ: 4.68 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 4403200 | entropy: 0.60 | value: 0.66 | policy_loss: 0.02 | value_loss: 0.14 | grad_norm: 0.20 | arps: 0.09 | adr: 0.46 | sps: 93.44 | remaining: 1:46:27
+rμ: 0.74 | rσ: 0.67 | sμ: 7.42 | sσ: 6.75 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4413440 | entropy: 0.57 | value: 0.69 | policy_loss: 0.01 | value_loss: 0.12 | grad_norm: 0.18 | arps: 0.10 | adr: 0.50 | sps: 95.30 | remaining: 1:42:35
+rμ: 0.69 | rσ: 0.72 | sμ: 7.39 | sσ: 5.75 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 4423680 | entropy: 0.62 | value: 0.67 | policy_loss: 0.05 | value_loss: 0.15 | grad_norm: 0.20 | arps: 0.09 | adr: 0.45 | sps: 80.51 | remaining: 1:59:18
+Saved training status
+rμ: 0.80 | rσ: 0.60 | sμ: 7.59 | sσ: 6.71 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 4433920 | entropy: 0.64 | value: 0.65 | policy_loss: 0.03 | value_loss: 0.11 | grad_norm: 0.18 | arps: 0.14 | adr: 0.56 | sps: 100.71 | remaining: 1:33:41
+rμ: 0.68 | rσ: 0.74 | sμ: 7.20 | sσ: 5.33 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 4444160 | entropy: 0.61 | value: 0.66 | policy_loss: 0.06 | value_loss: 0.15 | grad_norm: 0.24 | arps: 0.10 | adr: 0.46 | sps: 79.55 | remaining: 1:56:27
+rμ: 0.67 | rσ: 0.74 | sμ: 7.21 | sσ: 6.62 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 4454400 | entropy: 0.59 | value: 0.67 | policy_loss: 0.03 | value_loss: 0.15 | grad_norm: 0.23 | arps: 0.09 | adr: 0.46 | sps: 78.28 | remaining: 1:56:09
+rμ: 0.76 | rσ: 0.65 | sμ: 7.40 | sσ: 5.34 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 4464640 | entropy: 0.58 | value: 0.68 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.18 | arps: 0.12 | adr: 0.51 | sps: 90.03 | remaining: 1:39:06
+Saved training status
+rμ: 0.75 | rσ: 0.66 | sμ: 7.89 | sσ: 5.95 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 4474880 | entropy: 0.62 | value: 0.66 | policy_loss: 0.01 | value_loss: 0.12 | grad_norm: 0.19 | arps: 0.11 | adr: 0.50 | sps: 76.53 | remaining: 1:54:21
+rμ: 0.74 | rσ: 0.67 | sμ: 7.44 | sσ: 6.08 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4485120 | entropy: 0.61 | value: 0.68 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.19 | arps: 0.10 | adr: 0.50 | sps: 80.39 | remaining: 1:46:45
+rμ: 0.77 | rσ: 0.63 | sμ: 6.97 | sσ: 4.29 | Pμ: 0.89 | Pσ: 0.32 | Vμ: 0.11 | Vσ: 0.32 | num_steps: 4495360 | entropy: 0.58 | value: 0.70 | policy_loss: 0.02 | value_loss: 0.14 | grad_norm: 0.22 | arps: 0.13 | adr: 0.54 | sps: 74.17 | remaining: 1:53:24
+Stage 2 not completed.
+MEAN: 0.8791208791208791, THRESHOLD: 0.95
+rμ: 0.76 | rσ: 0.65 | sμ: 7.51 | sσ: 6.00 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 4505600 | entropy: 0.59 | value: 0.68 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.23 | arps: 0.12 | adr: 0.52 | sps: 85.53 | remaining: 1:36:20
+Saved training status
+rμ: 0.73 | rσ: 0.68 | sμ: 7.53 | sσ: 5.75 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 4515840 | entropy: 0.59 | value: 0.69 | policy_loss: 0.04 | value_loss: 0.14 | grad_norm: 0.20 | arps: 0.09 | adr: 0.48 | sps: 84.33 | remaining: 1:35:41
+rμ: 0.74 | rσ: 0.67 | sμ: 7.46 | sσ: 6.15 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4526080 | entropy: 0.59 | value: 0.66 | policy_loss: 0.02 | value_loss: 0.13 | grad_norm: 0.25 | arps: 0.11 | adr: 0.50 | sps: 82.30 | remaining: 1:35:58
+rμ: 0.77 | rσ: 0.64 | sμ: 7.51 | sσ: 6.01 | Pμ: 0.89 | Pσ: 0.32 | Vμ: 0.11 | Vσ: 0.32 | num_steps: 4536320 | entropy: 0.62 | value: 0.68 | policy_loss: 0.03 | value_loss: 0.13 | grad_norm: 0.18 | arps: 0.13 | adr: 0.53 | sps: 71.98 | remaining: 1:47:22
+rμ: 0.68 | rσ: 0.73 | sμ: 7.59 | sσ: 6.80 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 4546560 | entropy: 0.60 | value: 0.62 | policy_loss: 0.03 | value_loss: 0.15 | grad_norm: 0.21 | arps: 0.09 | adr: 0.45 | sps: 89.65 | remaining: 1:24:17
+Saved training status
+rμ: 0.75 | rσ: 0.66 | sμ: 7.14 | sσ: 5.00 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4556800 | entropy: 0.59 | value: 0.66 | policy_loss: 0.03 | value_loss: 0.12 | grad_norm: 0.17 | arps: 0.11 | adr: 0.50 | sps: 75.70 | remaining: 1:37:34
+rμ: 0.70 | rσ: 0.72 | sμ: 6.75 | sσ: 5.47 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 4567040 | entropy: 0.59 | value: 0.67 | policy_loss: 0.04 | value_loss: 0.15 | grad_norm: 0.22 | arps: 0.10 | adr: 0.48 | sps: 76.78 | remaining: 1:33:58
+rμ: 0.68 | rσ: 0.73 | sμ: 7.76 | sσ: 7.65 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.36 | num_steps: 4577280 | entropy: 0.58 | value: 0.65 | policy_loss: 0.07 | value_loss: 0.15 | grad_norm: 0.27 | arps: 0.09 | adr: 0.46 | sps: 85.01 | remaining: 1:22:52
+rμ: 0.81 | rσ: 0.59 | sμ: 7.49 | sσ: 5.76 | Pμ: 0.90 | Pσ: 0.30 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 4587520 | entropy: 0.62 | value: 0.67 | policy_loss: 0.02 | value_loss: 0.10 | grad_norm: 0.22 | arps: 0.12 | adr: 0.55 | sps: 84.61 | remaining: 1:21:14
+Saved training status
+rμ: 0.76 | rσ: 0.64 | sμ: 7.08 | sσ: 4.63 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 4597760 | entropy: 0.58 | value: 0.69 | policy_loss: -0.02 | value_loss: 0.10 | grad_norm: 0.18 | arps: 0.11 | adr: 0.51 | sps: 78.98 | remaining: 1:24:52
+rμ: 0.72 | rσ: 0.70 | sμ: 7.48 | sσ: 5.88 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4608000 | entropy: 0.56 | value: 0.64 | policy_loss: 0.05 | value_loss: 0.15 | grad_norm: 0.25 | arps: 0.11 | adr: 0.49 | sps: 85.91 | remaining: 1:16:02
+rμ: 0.74 | rσ: 0.67 | sμ: 6.62 | sσ: 4.47 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4618240 | entropy: 0.56 | value: 0.70 | policy_loss: 0.03 | value_loss: 0.13 | grad_norm: 0.19 | arps: 0.12 | adr: 0.52 | sps: 86.60 | remaining: 1:13:28
+rμ: 0.74 | rσ: 0.67 | sμ: 7.88 | sσ: 6.75 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4628480 | entropy: 0.62 | value: 0.67 | policy_loss: 0.06 | value_loss: 0.12 | grad_norm: 0.20 | arps: 0.09 | adr: 0.48 | sps: 74.65 | remaining: 1:22:56
+Saved training status
+rμ: 0.71 | rσ: 0.71 | sμ: 6.96 | sσ: 6.42 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.35 | num_steps: 4638720 | entropy: 0.59 | value: 0.68 | policy_loss: 0.06 | value_loss: 0.16 | grad_norm: 0.22 | arps: 0.11 | adr: 0.49 | sps: 69.61 | remaining: 1:26:30
+rμ: 0.75 | rσ: 0.66 | sμ: 6.94 | sσ: 5.57 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 4648960 | entropy: 0.57 | value: 0.69 | policy_loss: 0.02 | value_loss: 0.13 | grad_norm: 0.23 | arps: 0.11 | adr: 0.53 | sps: 75.49 | remaining: 1:17:29
+rμ: 0.78 | rσ: 0.63 | sμ: 6.98 | sσ: 4.81 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.11 | Vσ: 0.31 | num_steps: 4659200 | entropy: 0.55 | value: 0.69 | policy_loss: 0.02 | value_loss: 0.12 | grad_norm: 0.18 | arps: 0.13 | adr: 0.54 | sps: 74.89 | remaining: 1:15:50
+rμ: 0.75 | rσ: 0.66 | sμ: 7.67 | sσ: 5.73 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 4669440 | entropy: 0.57 | value: 0.69 | policy_loss: 0.04 | value_loss: 0.12 | grad_norm: 0.22 | arps: 0.10 | adr: 0.49 | sps: 83.17 | remaining: 1:06:14
+Saved training status
+rμ: 0.66 | rσ: 0.75 | sμ: 7.39 | sσ: 7.16 | Pμ: 0.83 | Pσ: 0.38 | Vμ: 0.17 | Vσ: 0.37 | num_steps: 4679680 | entropy: 0.58 | value: 0.64 | policy_loss: 0.07 | value_loss: 0.17 | grad_norm: 0.30 | arps: 0.09 | adr: 0.45 | sps: 75.58 | remaining: 1:10:38
+rμ: 0.73 | rσ: 0.68 | sμ: 7.65 | sσ: 6.68 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4689920 | entropy: 0.57 | value: 0.69 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.23 | arps: 0.11 | adr: 0.49 | sps: 74.69 | remaining: 1:09:11
+rμ: 0.79 | rσ: 0.62 | sμ: 7.17 | sσ: 4.95 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.11 | Vσ: 0.31 | num_steps: 4700160 | entropy: 0.57 | value: 0.70 | policy_loss: 0.05 | value_loss: 0.11 | grad_norm: 0.22 | arps: 0.13 | adr: 0.54 | sps: 77.43 | remaining: 1:04:32
+Stage 2 not completed.
+MEAN: 0.8641509433962264, THRESHOLD: 0.95
+rμ: 0.73 | rσ: 0.69 | sμ: 7.56 | sσ: 5.01 | Pμ: 0.86 | Pσ: 0.34 | Vμ: 0.14 | Vσ: 0.34 | num_steps: 4710400 | entropy: 0.61 | value: 0.66 | policy_loss: 0.10 | value_loss: 0.16 | grad_norm: 0.21 | arps: 0.12 | adr: 0.51 | sps: 80.68 | remaining: 0:59:49
+Saved training status
+rμ: 0.72 | rσ: 0.70 | sμ: 7.53 | sσ: 5.51 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4720640 | entropy: 0.56 | value: 0.67 | policy_loss: 0.04 | value_loss: 0.15 | grad_norm: 0.23 | arps: 0.10 | adr: 0.48 | sps: 84.57 | remaining: 0:55:03
+rμ: 0.74 | rσ: 0.68 | sμ: 6.89 | sσ: 5.36 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4730880 | entropy: 0.54 | value: 0.69 | policy_loss: 0.00 | value_loss: 0.12 | grad_norm: 0.20 | arps: 0.10 | adr: 0.50 | sps: 82.32 | remaining: 0:54:29
+rμ: 0.73 | rσ: 0.68 | sμ: 7.39 | sσ: 5.22 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4741120 | entropy: 0.61 | value: 0.67 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.24 | arps: 0.11 | adr: 0.50 | sps: 82.62 | remaining: 0:52:13
+rμ: 0.72 | rσ: 0.70 | sμ: 7.11 | sσ: 5.03 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4751360 | entropy: 0.58 | value: 0.69 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.18 | arps: 0.09 | adr: 0.48 | sps: 95.74 | remaining: 0:43:16
+Saved training status
+rμ: 0.69 | rσ: 0.72 | sμ: 6.71 | sσ: 5.13 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 4761600 | entropy: 0.59 | value: 0.68 | policy_loss: 0.06 | value_loss: 0.16 | grad_norm: 0.20 | arps: 0.11 | adr: 0.49 | sps: 87.92 | remaining: 0:45:11
+rμ: 0.70 | rσ: 0.71 | sμ: 7.29 | sσ: 6.20 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.36 | num_steps: 4771840 | entropy: 0.61 | value: 0.67 | policy_loss: 0.07 | value_loss: 0.16 | grad_norm: 0.27 | arps: 0.10 | adr: 0.48 | sps: 81.60 | remaining: 0:46:36
+rμ: 0.76 | rσ: 0.65 | sμ: 7.41 | sσ: 6.10 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 4782080 | entropy: 0.58 | value: 0.69 | policy_loss: 0.03 | value_loss: 0.12 | grad_norm: 0.17 | arps: 0.12 | adr: 0.52 | sps: 74.37 | remaining: 0:48:50
+rμ: 0.75 | rσ: 0.66 | sμ: 7.57 | sσ: 5.40 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 4792320 | entropy: 0.60 | value: 0.69 | policy_loss: 0.05 | value_loss: 0.12 | grad_norm: 0.22 | arps: 0.09 | adr: 0.49 | sps: 99.03 | remaining: 0:34:57
+Saved training status
+rμ: 0.72 | rσ: 0.69 | sμ: 7.23 | sσ: 6.07 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4802560 | entropy: 0.56 | value: 0.68 | policy_loss: 0.05 | value_loss: 0.14 | grad_norm: 0.21 | arps: 0.10 | adr: 0.50 | sps: 73.74 | remaining: 0:44:37
+rμ: 0.76 | rσ: 0.65 | sμ: 6.79 | sσ: 5.53 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 4812800 | entropy: 0.57 | value: 0.69 | policy_loss: 0.04 | value_loss: 0.13 | grad_norm: 0.20 | arps: 0.12 | adr: 0.53 | sps: 83.13 | remaining: 0:37:32
+rμ: 0.77 | rσ: 0.64 | sμ: 7.22 | sσ: 4.76 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 4823040 | entropy: 0.59 | value: 0.69 | policy_loss: 0.02 | value_loss: 0.13 | grad_norm: 0.21 | arps: 0.13 | adr: 0.53 | sps: 83.42 | remaining: 0:35:21
+rμ: 0.73 | rσ: 0.68 | sμ: 6.76 | sσ: 4.28 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4833280 | entropy: 0.54 | value: 0.70 | policy_loss: -0.01 | value_loss: 0.13 | grad_norm: 0.20 | arps: 0.10 | adr: 0.50 | sps: 84.42 | remaining: 0:32:54
+Saved training status
+rμ: 0.71 | rσ: 0.71 | sμ: 7.50 | sσ: 6.80 | Pμ: 0.85 | Pσ: 0.36 | Vμ: 0.15 | Vσ: 0.35 | num_steps: 4843520 | entropy: 0.59 | value: 0.68 | policy_loss: 0.06 | value_loss: 0.14 | grad_norm: 0.19 | arps: 0.09 | adr: 0.48 | sps: 79.18 | remaining: 0:32:56
+rμ: 0.74 | rσ: 0.67 | sμ: 7.06 | sσ: 5.43 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4853760 | entropy: 0.59 | value: 0.68 | policy_loss: 0.07 | value_loss: 0.15 | grad_norm: 0.21 | arps: 0.12 | adr: 0.52 | sps: 71.17 | remaining: 0:34:14
+rμ: 0.67 | rσ: 0.74 | sμ: 7.67 | sσ: 7.53 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 4864000 | entropy: 0.64 | value: 0.67 | policy_loss: 0.09 | value_loss: 0.16 | grad_norm: 0.19 | arps: 0.09 | adr: 0.45 | sps: 87.58 | remaining: 0:25:52
+rμ: 0.76 | rσ: 0.65 | sμ: 7.71 | sσ: 7.11 | Pμ: 0.88 | Pσ: 0.32 | Vμ: 0.12 | Vσ: 0.32 | num_steps: 4874240 | entropy: 0.60 | value: 0.68 | policy_loss: 0.01 | value_loss: 0.11 | grad_norm: 0.16 | arps: 0.11 | adr: 0.51 | sps: 80.56 | remaining: 0:26:01
+Saved training status
+rμ: 0.74 | rσ: 0.67 | sμ: 7.76 | sσ: 7.77 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4884480 | entropy: 0.63 | value: 0.66 | policy_loss: 0.07 | value_loss: 0.13 | grad_norm: 0.21 | arps: 0.11 | adr: 0.51 | sps: 70.36 | remaining: 0:27:21
+rμ: 0.76 | rσ: 0.65 | sμ: 6.70 | sσ: 4.42 | Pμ: 0.88 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 4894720 | entropy: 0.56 | value: 0.69 | policy_loss: 0.02 | value_loss: 0.14 | grad_norm: 0.20 | arps: 0.13 | adr: 0.54 | sps: 79.81 | remaining: 0:21:59
+rμ: 0.80 | rσ: 0.60 | sμ: 7.82 | sσ: 8.07 | Pμ: 0.90 | Pσ: 0.31 | Vμ: 0.10 | Vσ: 0.30 | num_steps: 4904960 | entropy: 0.58 | value: 0.66 | policy_loss: 0.01 | value_loss: 0.08 | grad_norm: 0.20 | arps: 0.11 | adr: 0.53 | sps: 94.04 | remaining: 0:16:50
+Stage 2 not completed.
+MEAN: 0.8591065292096219, THRESHOLD: 0.95
+rμ: 0.72 | rσ: 0.70 | sμ: 6.69 | sσ: 5.73 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4915200 | entropy: 0.57 | value: 0.67 | policy_loss: 0.05 | value_loss: 0.14 | grad_norm: 0.22 | arps: 0.11 | adr: 0.50 | sps: 85.60 | remaining: 0:16:30
+Saved training status
+rμ: 0.77 | rσ: 0.63 | sμ: 7.31 | sσ: 5.20 | Pμ: 0.89 | Pσ: 0.32 | Vμ: 0.11 | Vσ: 0.32 | num_steps: 4925440 | entropy: 0.56 | value: 0.68 | policy_loss: -0.02 | value_loss: 0.11 | grad_norm: 0.22 | arps: 0.11 | adr: 0.52 | sps: 82.94 | remaining: 0:14:58
+rμ: 0.74 | rσ: 0.67 | sμ: 6.78 | sσ: 4.81 | Pμ: 0.87 | Pσ: 0.34 | Vμ: 0.13 | Vσ: 0.34 | num_steps: 4935680 | entropy: 0.56 | value: 0.70 | policy_loss: 0.04 | value_loss: 0.14 | grad_norm: 0.21 | arps: 0.12 | adr: 0.51 | sps: 94.19 | remaining: 0:11:22
+rμ: 0.71 | rσ: 0.70 | sμ: 7.19 | sσ: 7.56 | Pμ: 0.85 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4945920 | entropy: 0.56 | value: 0.67 | policy_loss: 0.07 | value_loss: 0.14 | grad_norm: 0.23 | arps: 0.12 | adr: 0.49 | sps: 83.30 | remaining: 0:10:49
+rμ: 0.75 | rσ: 0.66 | sμ: 7.09 | sσ: 6.80 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.12 | Vσ: 0.33 | num_steps: 4956160 | entropy: 0.55 | value: 0.68 | policy_loss: 0.05 | value_loss: 0.13 | grad_norm: 0.23 | arps: 0.12 | adr: 0.52 | sps: 79.77 | remaining: 0:09:09
+Saved training status
+rμ: 0.72 | rσ: 0.70 | sμ: 7.07 | sσ: 5.76 | Pμ: 0.86 | Pσ: 0.35 | Vμ: 0.14 | Vσ: 0.35 | num_steps: 4966400 | entropy: 0.58 | value: 0.69 | policy_loss: 0.06 | value_loss: 0.12 | grad_norm: 0.16 | arps: 0.10 | adr: 0.48 | sps: 75.75 | remaining: 0:07:23
+rμ: 0.79 | rσ: 0.61 | sμ: 6.97 | sσ: 4.60 | Pμ: 0.89 | Pσ: 0.31 | Vμ: 0.11 | Vσ: 0.31 | num_steps: 4976640 | entropy: 0.54 | value: 0.70 | policy_loss: 0.03 | value_loss: 0.11 | grad_norm: 0.20 | arps: 0.13 | adr: 0.55 | sps: 84.41 | remaining: 0:04:36
+rμ: 0.68 | rσ: 0.73 | sμ: 6.95 | sσ: 5.59 | Pμ: 0.84 | Pσ: 0.37 | Vμ: 0.16 | Vσ: 0.37 | num_steps: 4986880 | entropy: 0.57 | value: 0.68 | policy_loss: 0.04 | value_loss: 0.14 | grad_norm: 0.21 | arps: 0.09 | adr: 0.46 | sps: 84.82 | remaining: 0:02:34
+rμ: 0.74 | rσ: 0.67 | sμ: 6.74 | sσ: 5.99 | Pμ: 0.87 | Pσ: 0.33 | Vμ: 0.13 | Vσ: 0.33 | num_steps: 4997120 | entropy: 0.52 | value: 0.68 | policy_loss: 0.03 | value_loss: 0.15 | grad_norm: 0.25 | arps: 0.12 | adr: 0.52 | sps: 71.15 | remaining: 0:00:40
+Saved training status
+Training took 15:37:28.

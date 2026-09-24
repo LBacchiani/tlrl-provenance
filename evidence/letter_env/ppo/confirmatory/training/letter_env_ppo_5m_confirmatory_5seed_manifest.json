@@ -1,0 +1,69 @@
+{
+  "benchmark_id": "deepltl-letterenv-official-eval-50",
+  "campaign_id": "letter_env_ppo_5m_confirmatory_5seed",
+  "contamination_controls": {
+    "development_seed_excluded": true,
+    "dqn_pillar_dependency": false,
+    "outcomes_inspected_before_launch": false,
+    "primary_policy_selection_rule": "latest_evaluation_checkpoint_per_seed"
+  },
+  "created_epoch_seconds": 1788589443.649198,
+  "launch_time_seed_namespace_check": {
+    "confirmatory_training_seeds": [
+      940001,
+      940002,
+      940003,
+      940004,
+      940005
+    ],
+    "development_training_seed": 940000,
+    "letter_env_dqn_pillar_seeds": [
+      930000,
+      930001,
+      930002,
+      930003,
+      930004,
+      930005
+    ],
+    "status": "passed"
+  },
+  "protocol_path": "evidence/letter_env/ppo/confirmatory/protocol/letter_env_ppo_paper_benchmark_protocol.json",
+  "protocol_sha256": "6d07bca62025645dd70e7c46ad3340daeb4b9bfad516f280cb95b798f93e6f89",
+  "runtime": {
+    "gpu_cycle": [
+      "1"
+    ],
+    "max_concurrent": 1,
+    "python": "3.14.2",
+    "python_executable": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deepltl-py310\\python.exe",
+    "rabinizer_jar": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\rabinizer-4\\lib\\rabinizer.jar",
+    "rabinizer_jar_sha256": "46efc53d769d1016c75b6b76f7cb2db259d4426053591993a62aa874f3ef486d"
+  },
+  "schema_version": "tlrl-letter-env-ppo-confirmatory-campaign/1",
+  "scope": "confirmatory_training_only_no_result_inspection",
+  "status": "frozen_before_launch",
+  "training": {
+    "algorithm": "formula_conditioned_recurrent_ppo",
+    "batch_size": 256,
+    "discount": 0.94,
+    "entropy_coefficient": 0.01,
+    "epochs": 8,
+    "expected_final_steps_due_to_batch_boundary": 5001216,
+    "gae_lambda": 0.95,
+    "learning_rate": 0.0003,
+    "num_processes": 16,
+    "seeds": [
+      940001,
+      940002,
+      940003,
+      940004,
+      940005
+    ],
+    "steps_per_process": 128,
+    "target_steps": 5000000
+  },
+  "upstream": {
+    "commit": "3157200b5910cd7f5c493ffba8913994f2207eaf",
+    "path": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "algorithm_scope": {
+    "deepltl_primary_algorithms": [
+      "formula_conditioned_recurrent_ppo"
+    ],
+    "not_primary_for_deepltl_without_separate_frozen_extension": [
+      "sac",
+      "dqn"
+    ],
+    "reason": "The local upstream DeepLTL clone exposes src/train/train_ppo.py only. Algorithmic diversity is handled at the portfolio level."
+  },
+  "benchmark_id": "deepltl-pointworld-official-eval-50",
+  "created_local_date": "2026-08-31",
+  "eligibility_checks": [
+    "all_50_official_formulas_evaluated",
+    "no_formula_dropped_after_outcome_inspection",
+    "five_confirmatory_training_seeds_finished_or_reported_intention_to_train",
+    "official_and_independent_verdicts_for_every_episode",
+    "zero_missing_records_after_merge",
+    "zero_duplicate_records_after_merge",
+    "confirmatory_seed_namespaces_disjoint_from_development_pilot",
+    "launch_time_eval_seed_bases_recorded_and_checked_against_development_eval_seed_bases_and_training_seeds",
+    "semantic_engine_version_and_source_digest_embedded",
+    "failures_censoring_and_environment_terminations_retained"
+  ],
+  "evaluation": {
+    "deterministic_policy": true,
+    "primary_final_policy_audit": {
+      "episodes_per_formula_per_seed": 20,
+      "formula_count": 50,
+      "training_seed_count": 5,
+      "total_episodes": 5000
+    },
+    "secondary_checkpoint_trajectory_audit": {
+      "checkpoint_selection_rule": [
+        "initialization_checkpoint",
+        "nearest_available_to_0.5M_steps",
+        "nearest_available_to_1.0M_steps",
+        "nearest_available_to_1.5M_steps",
+        "nearest_available_to_2.0M_steps",
+        "nearest_available_to_3.0M_steps",
+        "nearest_available_to_4.0M_steps",
+        "latest_evaluation_checkpoint"
+      ],
+      "episodes_per_formula_per_checkpoint_per_seed": 3,
+      "formula_count": 50,
+      "interpretation": "secondary_descriptive_not_powered_for_small_within_formula_evidence_learning_correlations",
+      "training_seed_count": 5,
+      "total_episodes_if_all_checkpoints_present": 6000
+    }
+  },
+  "formula_corpus": {
+    "atoms": [
+      "blue",
+      "green",
+      "magenta",
+      "yellow"
+    ],
+    "count": 50,
+    "families_descriptive_only": [
+      "eventually_chain",
+      "until_chain"
+    ],
+    "selection_rule": "all official DeepLTL PointLtl2-v0 evaluation formulas"
+  },
+  "interpretation_guardrails": {
+    "eventually_chain_zero_necessity_can_be_formula_predictable": true,
+    "formula_family_effects_are_descriptive_not_policy_quality": true,
+    "policy_learning_claims_hold_formula_fixed": true,
+    "primary_interpretation": "P_sat says whether the formula was satisfied; semantic provenance explains what kind of satisfaction or failure occurred."
+  },
+  "portfolio_algorithmic_diversity_rule": {
+    "paper_level_minimum_distinct_deep_rl_algorithms": 2,
+    "preferred_distinct_deep_rl_algorithms": 3,
+    "where_applicable": [
+      "ppo",
+      "sac",
+      "dqn"
+    ]
+  },
+  "recorded_quantities": [
+    "training_seed",
+    "checkpoint_path",
+    "checkpoint_sha256",
+    "checkpoint_steps",
+    "formula_id",
+    "formula_text",
+    "formula_family",
+    "evaluation_seed",
+    "return_sum",
+    "steps",
+    "terminated",
+    "truncated",
+    "official_success",
+    "official_violation",
+    "independent_temporal_verdict",
+    "official_independent_mismatch",
+    "atom_counts",
+    "possible_evidence_count",
+    "necessary_evidence_count",
+    "possible_evidence_per_step",
+    "necessary_evidence_per_step",
+    "zero_necessary_success",
+    "failure_class"
+  ],
+  "scope": "paper_eligible_protocol_not_confirmatory_result",
+  "training": {
+    "batch_size": 2048,
+    "batch_rounded_expected_steps": 5046272,
+    "confirmatory_training_seeds": [
+      920001,
+      920002,
+      920003,
+      920004,
+      920005
+    ],
+    "development_seed_excluded_from_primary": 910001,
+    "device": "gpu_when_available",
+    "discount": 0.998,
+    "entropy_coefficient": 0.003,
+    "epochs": 10,
+    "learning_rate": 0.0003,
+    "num_processes": 16,
+    "primary_policy_selection_rule": "latest_evaluation_checkpoint_per_seed",
+    "steps_per_process": 4096,
+    "target_steps": 5000000
+  }
+}

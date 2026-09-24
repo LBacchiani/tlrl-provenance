@@ -1,0 +1,14 @@
+# Frozen artifacts are hash-anchored (SHA-256 sidecars, embedded source digests):
+# their bytes must be identical on every platform, so never translate line endings.
+* text=auto eol=lf
+*.pth binary
+*.pkl binary
+*.gz binary
+*.jar binary
+evidence/** -text
+experiments/** -text
+src/**/*.json -text
+src/**/*.sha256 -text
+src/**/*.txt -text
+src/tlrl_provenance/*.py -text
+*.sha256 -text

@@ -1,0 +1,70 @@
+{
+  "checked_steps": 250,
+  "environment_id": "LetterEnv-v0",
+  "episodes_touched": 1,
+  "geometry_info_mismatches": 0,
+  "label_counts": {
+    "<empty>": 154,
+    "a": 4,
+    "b": 11,
+    "c": 13,
+    "d": 9,
+    "e": 13,
+    "f": 8,
+    "g": 9,
+    "h": 3,
+    "i": 12,
+    "j": 5,
+    "k": 6,
+    "l": 3
+  },
+  "positive_contact_probes": {
+    "a": [
+      "a"
+    ],
+    "b": [
+      "b"
+    ],
+    "c": [
+      "c"
+    ],
+    "d": [
+      "d"
+    ],
+    "e": [
+      "e"
+    ],
+    "f": [
+      "f"
+    ],
+    "g": [
+      "g"
+    ],
+    "h": [
+      "h"
+    ],
+    "i": [
+      "i"
+    ],
+    "j": [
+      "j"
+    ],
+    "k": [
+      "k"
+    ],
+    "l": [
+      "l"
+    ]
+  },
+  "requested_steps": 250,
+  "runtime": {
+    "gymnasium": "0.28.1",
+    "numpy": "1.23.5",
+    "python": "3.10.21"
+  },
+  "schema_version": "tlrl-letter-env-environment-smoke/1",
+  "scope": "development_only_schema_and_grounding_no_policy_no_utility",
+  "seed": 314159,
+  "status": "passed",
+  "upstream_commit": "3157200b5910cd7f5c493ffba8913994f2207eaf"
+}

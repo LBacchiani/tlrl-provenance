@@ -1,0 +1,18 @@
+{
+  "confirmatory_usefulness_evaluation_authorized": false,
+  "expected_final_steps_due_to_batch_boundary": 5046272,
+  "experiment_name": "v3_dev_ppo_5m_flatworld_seed_960000",
+  "launched_epoch_seconds": 1789035163.0655344,
+  "manifest_path": "evidence/flatworld/ppo/development/training/flatworld_ppo_5m_development_pilot_manifest.json",
+  "manifest_sha256": "4d7e9276f8b70afdb74ba8aeb8b23f23e370c14bbc7bc6594fbfc14117a70e3f",
+  "pid": 106424,
+  "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_dev_ppo_5m_flatworld_seed_960000\\960000",
+  "schema_version": "tlrl-flatworld-ppo-development-pilot-launch/1",
+  "scope": "development_training_only_no_confirmatory_usefulness_evaluation",
+  "seed": 960000,
+  "status": "launched",
+  "stderr_path": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_dev_ppo_5m_flatworld_seed_960000\\960000\\launch.stderr.log",
+  "stdout_path": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\FlatWorld-v0\\v3_dev_ppo_5m_flatworld_seed_960000\\960000\\launch.stdout.log",
+  "target_steps": 5000000,
+  "utility_outcomes_inspected_before_launch": false
+}

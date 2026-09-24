@@ -1,0 +1,44 @@
+{
+  "schema_version": "deepltl-point-grounding-noise-stress-test/1",
+  "purpose": "Measures how often synthetic per-step label noise changes the audited verdict, using 500 real frozen PointLTL episodes and no new rollouts. A sensitivity measurement, not a noise-detection or noise-recovery claim; exact-simulator grounding remains this project's only evaluated grounding source.",
+  "source_records": "deepltl_point_full_confirmatory_semantic_records.jsonl",
+  "source_records_sha256": "3e96946ffddd34a7404d3b12dbf7a2460c0a3f0bfde9ef6f23ec5d2dcf5758e5",
+  "sample_size": 500,
+  "trials_per_rate": 3,
+  "seed": 0,
+  "baseline_recomputation_mismatches": 0,
+  "results_by_noise_rate": {
+    "0.01": {
+      "noise_rate": 0.01,
+      "total_trials": 1500,
+      "verdict_flips": 282,
+      "verdict_flip_fraction": 0.188,
+      "prefix_status_flips": 312,
+      "prefix_status_flip_fraction": 0.208
+    },
+    "0.02": {
+      "noise_rate": 0.02,
+      "total_trials": 1500,
+      "verdict_flips": 374,
+      "verdict_flip_fraction": 0.24933333333333332,
+      "prefix_status_flips": 413,
+      "prefix_status_flip_fraction": 0.2753333333333333
+    },
+    "0.05": {
+      "noise_rate": 0.05,
+      "total_trials": 1500,
+      "verdict_flips": 563,
+      "verdict_flip_fraction": 0.37533333333333335,
+      "prefix_status_flips": 605,
+      "prefix_status_flip_fraction": 0.4033333333333333
+    },
+    "0.1": {
+      "noise_rate": 0.1,
+      "total_trials": 1500,
+      "verdict_flips": 630,
+      "verdict_flip_fraction": 0.42,
+      "prefix_status_flips": 681,
+      "prefix_status_flip_fraction": 0.454
+    }
+  }
+}

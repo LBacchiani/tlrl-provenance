@@ -1,0 +1,109 @@
+{
+  "algorithm_scope": {
+    "deepltl_primary_algorithms": [
+      "formula_conditioned_recurrent_ppo"
+    ],
+    "reason": "This protocol governs the PPO pillar of the FlatWorld benchmark."
+  },
+  "benchmark_id": "deepltl-flatworld-official-eval-49",
+  "created_local_date": "2026-09-09",
+  "eligibility_checks": [
+    "all_49_official_formulas_evaluated",
+    "no_formula_dropped_after_outcome_inspection",
+    "five_confirmatory_training_seeds_finished_or_reported_intention_to_train",
+    "official_and_independent_verdicts_for_every_episode",
+    "zero_missing_records_after_merge",
+    "zero_duplicate_records_after_merge",
+    "confirmatory_seed_namespaces_disjoint_from_development_pilot",
+    "launch_time_eval_seed_bases_recorded_and_checked_against_development_eval_seed_bases_and_training_seeds",
+    "semantic_engine_version_and_source_digest_embedded",
+    "failures_censoring_and_environment_terminations_retained"
+  ],
+  "evaluation": {
+    "deterministic_policy": true,
+    "primary_final_policy_audit": {
+      "episodes_per_formula_per_seed": 20,
+      "formula_count": 49,
+      "total_episodes": 4900,
+      "training_seed_count": 5
+    }
+  },
+  "formula_corpus": {
+    "atoms": [
+      "aqua",
+      "blue",
+      "green",
+      "magenta",
+      "orange",
+      "red",
+      "yellow"
+    ],
+    "count": 49,
+    "families_descriptive_only": [
+      "eventually_chain",
+      "until_chain",
+      "other"
+    ],
+    "selection_rule": "all official DeepLTL FlatWorld-v0 evaluation formulas from evidence/flatworld/validation/flatworld_corpus_freeze.json"
+  },
+  "interpretation_guardrails": {
+    "eventually_chain_zero_necessity_can_be_formula_predictable": true,
+    "formula_family_effects_are_descriptive_not_policy_quality": true,
+    "multiple_simultaneous_propositions_caveat": "Unlike LetterEnv (zero-or-one active proposition) and PointLtl2 (disjoint-by-construction zones), FlatWorld permits more than one proposition to be simultaneously true (overlapping circles). Necessary/possible evidence and disposition classification account for this directly; comparisons of raw atom-contact counts across benchmarks should not assume a shared zero-or-one contract.",
+    "policy_learning_claims_hold_formula_fixed": true,
+    "primary_interpretation": "P_sat says whether the formula was satisfied; semantic provenance explains what kind of satisfaction or failure occurred."
+  },
+  "recorded_quantities": [
+    "training_seed",
+    "checkpoint_path",
+    "checkpoint_sha256",
+    "checkpoint_steps",
+    "formula_id",
+    "formula_text",
+    "formula_family",
+    "evaluation_seed",
+    "scenario_seed",
+    "return_sum",
+    "steps",
+    "terminated",
+    "truncated",
+    "official_success",
+    "official_violation",
+    "independent_temporal_verdict",
+    "official_independent_mismatch",
+    "atom_counts",
+    "possible_evidence_count",
+    "necessary_evidence_count",
+    "possible_evidence_per_step",
+    "necessary_evidence_per_step",
+    "zero_necessary_success",
+    "failure_class",
+    "start_position"
+  ],
+  "scope": "paper_eligible_protocol_not_confirmatory_result",
+  "training": {
+    "batch_rounded_expected_steps": 5046272,
+    "batch_size": 2048,
+    "batch_steps": 65536,
+    "confirmatory_training_seeds": [
+      960001,
+      960002,
+      960003,
+      960004,
+      960005
+    ],
+    "development_seed_excluded_from_primary": 960000,
+    "device": "gpu",
+    "discount": 0.98,
+    "entropy_coefficient": 0.003,
+    "epochs": 10,
+    "gae_lambda": 0.95,
+    "gpu_assignment": "CUDA_VISIBLE_DEVICES=1 for every seed. Seeds run sequentially (max_concurrent=1) on GPU1, not concurrently, to avoid the GPU-contention throughput collapse already observed and documented in the separate LetterWorld benchmark.",
+    "learning_rate": 0.0003,
+    "num_processes": 16,
+    "primary_policy_selection_rule": "latest_evaluation_checkpoint_per_seed",
+    "steps_per_process": 4096,
+    "target_steps": 5000000,
+    "target_steps_note": "DeepLTL's own run_flatworld.py default is 15,000,000 steps. 5,000,000 is a deliberate, documented reduced budget, the same deviation already made for the same reason by deepltl_point's and letter_env's own PPO campaigns, and matched here to the FlatWorld value-based pillar's budget for comparability."
+  }
+}

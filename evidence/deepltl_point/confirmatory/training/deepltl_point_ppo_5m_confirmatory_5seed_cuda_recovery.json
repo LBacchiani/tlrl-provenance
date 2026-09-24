@@ -1,0 +1,148 @@
+{
+  "attached": {},
+  "campaign_id": "deepltl_point_ppo_5m_confirmatory_5seed",
+  "completed": {
+    "920001": {
+      "epoch_seconds": 1788247039.087724,
+      "event": "validated_original_completion",
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920001\\920001",
+      "steps": 5046272
+    },
+    "920002": {
+      "epoch_seconds": 1788268348.687829,
+      "event": "attached_seed_completed",
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920002\\920002",
+      "seed": 920002,
+      "steps": 5046272
+    },
+    "920003": {
+      "epoch_seconds": 1788330626.8334737,
+      "event": "completed",
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920003\\920003",
+      "seed": 920003,
+      "steps": 5046272
+    },
+    "920004": {
+      "epoch_seconds": 1788311898.2942684,
+      "event": "completed",
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920004\\920004",
+      "seed": 920004,
+      "steps": 5046272
+    },
+    "920005": {
+      "epoch_seconds": 1788277082.6882057,
+      "event": "completed",
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920005\\920005",
+      "seed": 920005,
+      "steps": 5046272
+    }
+  },
+  "events": [
+    {
+      "epoch_seconds": 1788247039.1046753,
+      "event": "launched_unaffected_seed",
+      "gpu": "0",
+      "pid": 43560,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920005\\920005",
+      "seed": 920005
+    },
+    {
+      "epoch_seconds": 1788268348.687829,
+      "event": "attached_seed_completed",
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920002\\920002",
+      "seed": 920002,
+      "steps": 5046272
+    },
+    {
+      "epoch_seconds": 1788268468.7723725,
+      "event": "launched_unaffected_seed",
+      "gpu": "1",
+      "pid": 53616,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920004\\920004",
+      "seed": 920004
+    },
+    {
+      "epoch_seconds": 1788277082.6882057,
+      "event": "completed",
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920005\\920005",
+      "seed": 920005,
+      "steps": 5046272
+    },
+    {
+      "epoch_seconds": 1788311898.2942684,
+      "event": "completed",
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920004\\920004",
+      "seed": 920004,
+      "steps": 5046272
+    },
+    {
+      "archived_attempt": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920003\\920003.failed-pretraining-nvcuda-1788237442",
+      "epoch_seconds": 1788311898.399935,
+      "event": "relaunched_pretraining_cuda_failure",
+      "gpu": "0",
+      "pid": 80372,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920003\\920003",
+      "seed": 920003
+    },
+    {
+      "epoch_seconds": 1788330626.8334737,
+      "event": "completed",
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920003\\920003",
+      "seed": 920003,
+      "steps": 5046272
+    }
+  ],
+  "failed_attempt_archive": {
+    "archive_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920003\\920003.failed-pretraining-nvcuda-1788237442",
+    "archived_epoch_seconds": 1788311898.3546448,
+    "files": [
+      {
+        "bytes": 214466,
+        "relative_path": "eval/0.pth",
+        "sha256": "1f8a139179e9c57360766124c39968dc2bf103f4334e0017cc7a4ce915613bee"
+      },
+      {
+        "bytes": 722,
+        "relative_path": "launch.stderr.log",
+        "sha256": "577bad9f21a172851b4ffc49310644aeab1be34f9feb45f41929be8afaf71ab0"
+      },
+      {
+        "bytes": 0,
+        "relative_path": "launch.stdout.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 304,
+        "relative_path": "vocab.pkl",
+        "sha256": "261c850a16aefc1555788d905a8db6dc509cc58bd6ef2603c773691764a3aaf7"
+      }
+    ],
+    "original_run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_confirm_ppo_5m_seed_920003\\920003"
+  },
+  "failures": {},
+  "gpu_context_cooldown_seconds": 120,
+  "original_launch_record": "evidence/deepltl_point_ppo_5m_confirmatory_5seed_launch.json",
+  "original_launch_sha256": "39066881bf87c21239d16098325ae59038225f70bbcef3173149573f958b2b34",
+  "pending_unaffected": [],
+  "reason": {
+    "classification": "infrastructure_failure_not_policy_outcome",
+    "exception_code": "0xc0000409",
+    "faulting_module": "nvcuda64.dll",
+    "seed": 920003,
+    "stage": "before_first_training_step",
+    "windows_event": "BEX64"
+  },
+  "retry_launched": true,
+  "running": {},
+  "schema_version": "tlrl-deepltl-point-ppo-cuda-recovery/1",
+  "scope": "operational_recovery_only_frozen_training_design_unchanged",
+  "status": "completed",
+  "updated_epoch_seconds": 1788330626.8512177,
+  "user_authorized_order": "complete unaffected seeds 920001/920002/920004/920005; then retry 920003"
+}

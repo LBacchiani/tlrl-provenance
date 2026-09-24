@@ -1,0 +1,369 @@
+{
+  "all_upstream_ldba_checks_valid": true,
+  "elapsed_seconds": 35.3528136999812,
+  "java_version": "java version \"25.0.1\" 2025-10-21 LTS\nJava(TM) SE Runtime Environment (build 25.0.1+8-LTS-27)\nJava HotSpot(TM) 64-Bit Server VM (build 25.0.1+8-LTS-27, mixed mode, sharing)",
+  "obsolete_flag_omitted": "-d",
+  "python_version": "3.10.21",
+  "rabinizer_flags": [
+    "-p",
+    "-e"
+  ],
+  "rabinizer_jar_sha256": "46efc53d769d1016c75b6b76f7cb2db259d4426053591993a62aa874f3ef486d",
+  "schema_version": "tlrl-deepltl-rabinizer-verification/1",
+  "scope": "development_only_formula_to_ldba_compatibility",
+  "status": "passed",
+  "task_count": 50,
+  "tasks": [
+    {
+      "formula_sha256": "f78ffc8fc977f372559e8f4fa080807fe1d695a69f01a0bcfb18695238b6acd7",
+      "hoa_sha256": "d5503de3aa1606ad2bbaa5dc4d5c5543f5378060c706ea81ec4defd3b1c68386",
+      "states": 4,
+      "task_id": "deepltl_point_000",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "68d9c9009c95adec43c54a1816b3c036da58c7de68081fbf824968eb6858014f",
+      "hoa_sha256": "6e42e7be3de9de2d1775ac8daf25bf81de6e031b00ccfcdd28e726e80d8ff8ff",
+      "states": 4,
+      "task_id": "deepltl_point_001",
+      "transitions": 9
+    },
+    {
+      "formula_sha256": "bcc4db7d997a806b3a1acf7015e3d420b3ecd80215abbdb05ce6e9ed5ab37fba",
+      "hoa_sha256": "4253485e268bc20b945d7f5c2373bd4a1ab233adef78fbc88fc99aab6d008d99",
+      "states": 4,
+      "task_id": "deepltl_point_002",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "f47b8b47d2b03cb19ae5a42eacfc2e8fc3e965f077b103be049b1da74d850934",
+      "hoa_sha256": "9c94868e33e687a9e0ea2bcf2d115eb378cc71f116fa3098ec526a44e09c84fc",
+      "states": 4,
+      "task_id": "deepltl_point_003",
+      "transitions": 9
+    },
+    {
+      "formula_sha256": "c74894668a4a6c58344e4014b280024f1ca6ba0a5929422662cef63abc00a923",
+      "hoa_sha256": "df4a0ca17f5d5b3386da21d4f7c6a9bc1e6b435f3976b502b71b1896033e6287",
+      "states": 4,
+      "task_id": "deepltl_point_004",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "43439b485b9b90e5f7ae2b89d54c55419dcd9dbd96bb052b8309e7627c756d27",
+      "hoa_sha256": "556d4447e44b8053f15ca79f04a809164c0f9f0d9709bd1c6cda4ee1fc697e46",
+      "states": 4,
+      "task_id": "deepltl_point_005",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "2cb12f7f764787b0c8645f377308ea0af7dcf516fdc73050209bdfca3958877a",
+      "hoa_sha256": "fc7d4ed5b4bbe671a78ed05bdb1a731bcaf855368fa3025133d69ee698cae00f",
+      "states": 4,
+      "task_id": "deepltl_point_006",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "b8e331b362112d9ee2edc68c53d0727eeddb2c0b688026f5f7b3251949b1cc28",
+      "hoa_sha256": "e63c53d1a9307a61e0e3917c73e61cb01c8dbca1802b60dac37e2ff58af732b7",
+      "states": 4,
+      "task_id": "deepltl_point_007",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "f9a8f926b57792b0c5c03d0b29265508d496cbae5b1251891876641d08b2f3f7",
+      "hoa_sha256": "71789ebeaa6e396c14555308c4a3747f78530f7812abb4cb1191b3bbd090c31e",
+      "states": 4,
+      "task_id": "deepltl_point_008",
+      "transitions": 9
+    },
+    {
+      "formula_sha256": "080c75fd143aebd67c4ed5975f0e33838b5b6d18b2536c7f7aeb9608d7c7fba1",
+      "hoa_sha256": "407a39c3ebdd1e511c61cbd68e88a460fe51309ff62f27b9820729420277f06f",
+      "states": 4,
+      "task_id": "deepltl_point_009",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "7461865e70f2c3b05a2d1336dc9d4440290cefd597620bfe964bd2a8d1f333c5",
+      "hoa_sha256": "d8a6dfe90d06819859bd95eb08349a7f18e4653344ff06ac592b2e7fd3b4a997",
+      "states": 4,
+      "task_id": "deepltl_point_010",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "080c75fd143aebd67c4ed5975f0e33838b5b6d18b2536c7f7aeb9608d7c7fba1",
+      "hoa_sha256": "407a39c3ebdd1e511c61cbd68e88a460fe51309ff62f27b9820729420277f06f",
+      "states": 4,
+      "task_id": "deepltl_point_011",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "5073f4dd49d889d0ccfd05b3a899ac0a311c52adb5fca59017be2dc91ff51a77",
+      "hoa_sha256": "730952a5354aac171cdc3e43e160e891f793b519c01d59f18be4bab7b5042d3d",
+      "states": 4,
+      "task_id": "deepltl_point_012",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "7461865e70f2c3b05a2d1336dc9d4440290cefd597620bfe964bd2a8d1f333c5",
+      "hoa_sha256": "d8a6dfe90d06819859bd95eb08349a7f18e4653344ff06ac592b2e7fd3b4a997",
+      "states": 4,
+      "task_id": "deepltl_point_013",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "3c738d472ae0fa0c4a6652c4bcf2eed565264aa0c34601cd95679c20f793493c",
+      "hoa_sha256": "87a4ab241c39c1c78355964d15e06f6fc72ebec299f007b021d39e43ace9e145",
+      "states": 4,
+      "task_id": "deepltl_point_014",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "839e19af357560295199e5fa6ea25882a109808146d207963742fa18927657f7",
+      "hoa_sha256": "dc77d663fa74d124f6ddd42a5c6d41de1fb2f5a10ad4c3a057674da6ed1d7ad5",
+      "states": 4,
+      "task_id": "deepltl_point_015",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "a1ea8e7579a014a7e157147511b272fca47f37d252665525338652c4c07cf404",
+      "hoa_sha256": "30798d389c15ea93c61067ff380bb533dc9f4d17babb4d4a36ff24e38e95cf0e",
+      "states": 4,
+      "task_id": "deepltl_point_016",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "dc8273f16fdbf673be9b0ef3a7fab85c7212fd7a7eb35c535c06354bf0bb1bc2",
+      "hoa_sha256": "3c48a2a83357ffe11666943d78dff3d97ca3e9ef3a812302e88212509aca9eaf",
+      "states": 4,
+      "task_id": "deepltl_point_017",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "a88f7f8c745b83f912742f916e82b640e5660f8a5a1636189ddddfc05e6cf29d",
+      "hoa_sha256": "76816d9a40f0f1c89ce33f9fdd33bb8bcce36e67c2895c8a95a914287f5fdda5",
+      "states": 4,
+      "task_id": "deepltl_point_018",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "18d5ef3d786c6d09d5f2625a7c3e8550a4bdc487d8f9c6981814b9158773ed58",
+      "hoa_sha256": "57fdd37e96ad826a65f5cc41fdddaf3f82f30929200f2f83007fdacdef5c7e86",
+      "states": 4,
+      "task_id": "deepltl_point_019",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "00a27c5088640bd720bcecb05a6d2d4ec58415a479a5e87ef322820010dcb944",
+      "hoa_sha256": "832ac6c2551de73703ca459e5ec9b4263ab56da1dae73e000cd8ef63f810cada",
+      "states": 4,
+      "task_id": "deepltl_point_020",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "5163e242ba3bebaaa215373d222e71837127b88c9d3383af55d3caebdbeec8d0",
+      "hoa_sha256": "deaedf209d45a186422f7817c35df40c49464c2b67b6dc8561ad75208523fc9f",
+      "states": 4,
+      "task_id": "deepltl_point_021",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "90d2f74361a714265700edc0a0454cda81904c2b89a7fbf72414df3f7dd6907e",
+      "hoa_sha256": "61a9517ccc80a5adddb9362ea6f467028140f8f766be65deb5662605506747d5",
+      "states": 4,
+      "task_id": "deepltl_point_022",
+      "transitions": 9
+    },
+    {
+      "formula_sha256": "2cb12f7f764787b0c8645f377308ea0af7dcf516fdc73050209bdfca3958877a",
+      "hoa_sha256": "fc7d4ed5b4bbe671a78ed05bdb1a731bcaf855368fa3025133d69ee698cae00f",
+      "states": 4,
+      "task_id": "deepltl_point_023",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "240aa4dbf44ef6746fdfae942bf2e3f1172c1d751b4be7d96f3adda53ab88a29",
+      "hoa_sha256": "162d027db69c4c3f0c51be4fcbd437823fb2551f393161119728e5d978fc03b0",
+      "states": 4,
+      "task_id": "deepltl_point_024",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "f49764a599a060999ff41e1a38ef6fd2dba7817de4670a663528ad7d83d89ae5",
+      "hoa_sha256": "e95e5d19f19637914a4c060f2838768d4a77be216395c937ccfb621962f14106",
+      "states": 4,
+      "task_id": "deepltl_point_025",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "18d5ef3d786c6d09d5f2625a7c3e8550a4bdc487d8f9c6981814b9158773ed58",
+      "hoa_sha256": "57fdd37e96ad826a65f5cc41fdddaf3f82f30929200f2f83007fdacdef5c7e86",
+      "states": 4,
+      "task_id": "deepltl_point_026",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "bce1808a4736726bf7d6e8d975bc92fa00f070c4d193fe50043eecea4b0a5926",
+      "hoa_sha256": "20197659aac05a467fdd2f212b7bab5dbd54693ae313ee490b98339a80b4c753",
+      "states": 4,
+      "task_id": "deepltl_point_027",
+      "transitions": 9
+    },
+    {
+      "formula_sha256": "2cb12f7f764787b0c8645f377308ea0af7dcf516fdc73050209bdfca3958877a",
+      "hoa_sha256": "fc7d4ed5b4bbe671a78ed05bdb1a731bcaf855368fa3025133d69ee698cae00f",
+      "states": 4,
+      "task_id": "deepltl_point_028",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "c29fb17945b5c3ed514a6af78f0945310f7de7aca5577049bdf475b0c4a85723",
+      "hoa_sha256": "794f678188c4e852afdffdc9d9f17339ca7a2dbe685ec43e95e5494253c65c77",
+      "states": 4,
+      "task_id": "deepltl_point_029",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "fff3e56a2da755f34b80a1abef68347e4b3959e3b227d020ffaa3f8108fa000c",
+      "hoa_sha256": "9c14274a542ca8ab0371472488f2a1cf6a3625bac4223a96af1829d09927ae6d",
+      "states": 4,
+      "task_id": "deepltl_point_030",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "88e594f21876a1ffacd288942860e2ddd5f92c9086e19c4916479670bc4771ed",
+      "hoa_sha256": "4c0dbbcf7a85267b5c5c9c2e3025f39b15c07e3495e51eb58aa0d2e1fe707ce6",
+      "states": 4,
+      "task_id": "deepltl_point_031",
+      "transitions": 9
+    },
+    {
+      "formula_sha256": "173220d96b930d051826dd1829553039f8a7638251db22514ab42fd774c8fa3f",
+      "hoa_sha256": "024d185d81ca60bab3f28c81d054af9f279b6db8bec5b1e4643914731f138e2b",
+      "states": 4,
+      "task_id": "deepltl_point_032",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "bcc4db7d997a806b3a1acf7015e3d420b3ecd80215abbdb05ce6e9ed5ab37fba",
+      "hoa_sha256": "4253485e268bc20b945d7f5c2373bd4a1ab233adef78fbc88fc99aab6d008d99",
+      "states": 4,
+      "task_id": "deepltl_point_033",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "f47b8b47d2b03cb19ae5a42eacfc2e8fc3e965f077b103be049b1da74d850934",
+      "hoa_sha256": "9c94868e33e687a9e0ea2bcf2d115eb378cc71f116fa3098ec526a44e09c84fc",
+      "states": 4,
+      "task_id": "deepltl_point_034",
+      "transitions": 9
+    },
+    {
+      "formula_sha256": "b90c10c7b3a5d8023134503c876ca7fe0152b6cf558ba93c6c84e279c6815332",
+      "hoa_sha256": "bc019fc9ffef0826c6a1d47823dc95772b5b67100a50fa621a7ce8a38a3d85e2",
+      "states": 4,
+      "task_id": "deepltl_point_035",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "3c738d472ae0fa0c4a6652c4bcf2eed565264aa0c34601cd95679c20f793493c",
+      "hoa_sha256": "87a4ab241c39c1c78355964d15e06f6fc72ebec299f007b021d39e43ace9e145",
+      "states": 4,
+      "task_id": "deepltl_point_036",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "647a46b1337ca5c7a2bf6721968ca876d3274e04152c7ffbb99ba9ee7b3e9383",
+      "hoa_sha256": "3e42880a9c464c71e2198b0edabde2ffa7078346a15e4611b52f9ab5b29aae3e",
+      "states": 4,
+      "task_id": "deepltl_point_037",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "1770cc423914c27c2d8e41cf8bf59977667595ed00477e06c6f3d378fa64d2bc",
+      "hoa_sha256": "c30a309d79dcf504e1f0b974b255362d23f5ece3876aae954c8bc223c86e9836",
+      "states": 4,
+      "task_id": "deepltl_point_038",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "2cb12f7f764787b0c8645f377308ea0af7dcf516fdc73050209bdfca3958877a",
+      "hoa_sha256": "fc7d4ed5b4bbe671a78ed05bdb1a731bcaf855368fa3025133d69ee698cae00f",
+      "states": 4,
+      "task_id": "deepltl_point_039",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "e69468af076e7b7b773732fd4774de8f923d4c2805a2d69dd1ae5bd81646455a",
+      "hoa_sha256": "c7a6607d684e96d3ea1894bcc332ec0fd79e7d693dc5dde09620026e734c7876",
+      "states": 4,
+      "task_id": "deepltl_point_040",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "d57cd5b65ceef0a07b634a222d36f197ad04f102c19fd62a21a29eeed7ad4eab",
+      "hoa_sha256": "9a8a528008ca817afb499c6350a2997957cfdd301fdd193a78cc9c6e6c645798",
+      "states": 4,
+      "task_id": "deepltl_point_041",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "df55de8be9fd97443ef286faff79d01067c120e97c255d91937d1c01e97005a2",
+      "hoa_sha256": "2d7c994847b88d737a58cfc135ff130ffb3569f696f49488255f054376784feb",
+      "states": 4,
+      "task_id": "deepltl_point_042",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "64b14ad0d5d667bf83d963e39ed634894333901eb13b8c12421ebe21c4bb0259",
+      "hoa_sha256": "b8cee566d23558422e9b9a08c255076e0218bcaa91d17eb5539e564e87131f24",
+      "states": 4,
+      "task_id": "deepltl_point_043",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "771c080aaadb7dd57d655955bc2e576332c3e08343f9c31a12b7735af702234c",
+      "hoa_sha256": "70294e24cd922f810d10a8af8b5b62c86adc3e697dba86137d7beb7d86a45968",
+      "states": 4,
+      "task_id": "deepltl_point_044",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "18d5ef3d786c6d09d5f2625a7c3e8550a4bdc487d8f9c6981814b9158773ed58",
+      "hoa_sha256": "57fdd37e96ad826a65f5cc41fdddaf3f82f30929200f2f83007fdacdef5c7e86",
+      "states": 4,
+      "task_id": "deepltl_point_045",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "b90c10c7b3a5d8023134503c876ca7fe0152b6cf558ba93c6c84e279c6815332",
+      "hoa_sha256": "bc019fc9ffef0826c6a1d47823dc95772b5b67100a50fa621a7ce8a38a3d85e2",
+      "states": 4,
+      "task_id": "deepltl_point_046",
+      "transitions": 10
+    },
+    {
+      "formula_sha256": "f47b8b47d2b03cb19ae5a42eacfc2e8fc3e965f077b103be049b1da74d850934",
+      "hoa_sha256": "9c94868e33e687a9e0ea2bcf2d115eb378cc71f116fa3098ec526a44e09c84fc",
+      "states": 4,
+      "task_id": "deepltl_point_047",
+      "transitions": 9
+    },
+    {
+      "formula_sha256": "7461865e70f2c3b05a2d1336dc9d4440290cefd597620bfe964bd2a8d1f333c5",
+      "hoa_sha256": "d8a6dfe90d06819859bd95eb08349a7f18e4653344ff06ac592b2e7fd3b4a997",
+      "states": 4,
+      "task_id": "deepltl_point_048",
+      "transitions": 11
+    },
+    {
+      "formula_sha256": "bcc4db7d997a806b3a1acf7015e3d420b3ecd80215abbdb05ce6e9ed5ab37fba",
+      "hoa_sha256": "4253485e268bc20b945d7f5c2373bd4a1ab233adef78fbc88fc99aab6d008d99",
+      "states": 4,
+      "task_id": "deepltl_point_049",
+      "transitions": 11
+    }
+  ],
+  "upstream_commit": "3157200b5910cd7f5c493ffba8913994f2207eaf"
+}

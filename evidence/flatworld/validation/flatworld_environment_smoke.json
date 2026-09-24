@@ -1,0 +1,48 @@
+{
+  "checked_steps": 250,
+  "environment_id": "FlatWorld-v0",
+  "episodes_touched": 1,
+  "geometry_info_mismatches": 0,
+  "label_counts": {
+    "<empty>": 152,
+    "aqua,blue": 5,
+    "aqua,blue,green": 26,
+    "blue": 30,
+    "blue,green": 29,
+    "green": 8
+  },
+  "positive_contact_probes": {
+    "aqua": [
+      "aqua"
+    ],
+    "blue": [
+      "blue"
+    ],
+    "green": [
+      "green"
+    ],
+    "magenta": [
+      "magenta"
+    ],
+    "orange": [
+      "orange"
+    ],
+    "red": [
+      "red"
+    ],
+    "yellow": [
+      "yellow"
+    ]
+  },
+  "requested_steps": 250,
+  "runtime": {
+    "gymnasium": "0.28.1",
+    "numpy": "1.23.5",
+    "python": "3.10.21"
+  },
+  "schema_version": "tlrl-flatworld-environment-smoke/1",
+  "scope": "development_only_schema_and_grounding_no_policy_no_utility",
+  "seed": 314159,
+  "status": "passed",
+  "upstream_commit": "3157200b5910cd7f5c493ffba8913994f2207eaf"
+}

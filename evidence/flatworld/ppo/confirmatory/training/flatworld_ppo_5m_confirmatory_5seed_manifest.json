@@ -1,0 +1,60 @@
+{
+  "benchmark_id": "deepltl-flatworld-official-eval-49",
+  "campaign_id": "flatworld_ppo_5m_confirmatory_5seed",
+  "contamination_controls": {
+    "development_seed_excluded": true,
+    "outcomes_inspected_before_launch": false,
+    "primary_policy_selection_rule": "latest_evaluation_checkpoint_per_seed"
+  },
+  "created_epoch_seconds": 1789115947.6000423,
+  "launch_time_seed_namespace_check": {
+    "confirmatory_training_seeds": [
+      960001,
+      960002,
+      960003,
+      960004,
+      960005
+    ],
+    "development_training_seed": 960000,
+    "status": "passed"
+  },
+  "protocol_path": "evidence/flatworld/ppo/confirmatory/protocol/flatworld_ppo_paper_benchmark_protocol.json",
+  "protocol_sha256": "3f29dfc7cafb92d47b93e70e6e92ed716fb24cf8bd2e16ed5908e856c08d9576",
+  "runtime": {
+    "gpu_cycle": [
+      "1"
+    ],
+    "max_concurrent": 1,
+    "python": "3.14.2",
+    "python_executable": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deepltl-py310\\python.exe",
+    "rabinizer_jar": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\rabinizer-4\\lib\\rabinizer.jar",
+    "rabinizer_jar_sha256": "46efc53d769d1016c75b6b76f7cb2db259d4426053591993a62aa874f3ef486d"
+  },
+  "schema_version": "tlrl-flatworld-ppo-confirmatory-campaign/1",
+  "scope": "confirmatory_training_only_no_result_inspection",
+  "status": "frozen_before_launch",
+  "training": {
+    "algorithm": "formula_conditioned_recurrent_ppo",
+    "batch_size": 2048,
+    "discount": 0.98,
+    "entropy_coefficient": 0.003,
+    "epochs": 10,
+    "expected_final_steps_due_to_batch_boundary": 5046272,
+    "gae_lambda": 0.95,
+    "learning_rate": 0.0003,
+    "num_processes": 16,
+    "seeds": [
+      960001,
+      960002,
+      960003,
+      960004,
+      960005
+    ],
+    "steps_per_process": 4096,
+    "target_steps": 5000000
+  },
+  "upstream": {
+    "commit": "3157200b5910cd7f5c493ffba8913994f2207eaf",
+    "path": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl"
+  }
+}

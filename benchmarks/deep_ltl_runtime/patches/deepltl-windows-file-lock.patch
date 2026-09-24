@@ -1,0 +1,73 @@
+diff --git a/src/utils/logging/file_logger.py b/src/utils/logging/file_logger.py
+index 57f0e6d..36c70ab 100644
+--- a/src/utils/logging/file_logger.py
++++ b/src/utils/logging/file_logger.py
+@@ -1,9 +1,15 @@
+ import argparse
+ import copy
+ import csv
+-import fcntl
+ import json
+ import os
++from contextlib import contextmanager
++
++try:
++    import fcntl
++except ImportError:  # Windows
++    fcntl = None
++    import msvcrt
+ 
+ import utils
+ from config import model_configs
+@@ -11,6 +17,23 @@ from utils.logging.json_encoder import JsonEncoder
+ from utils.logging.logger import Logger
+ 
+ 
++@contextmanager
++def exclusive_file_lock(handle):
++    if fcntl is not None:
++        fcntl.flock(handle, fcntl.LOCK_EX)
++    else:
++        handle.seek(0)
++        msvcrt.locking(handle.fileno(), msvcrt.LK_LOCK, 1)
++    try:
++        yield
++    finally:
++        if fcntl is not None:
++            fcntl.flock(handle, fcntl.LOCK_UN)
++        else:
++            handle.seek(0)
++            msvcrt.locking(handle.fileno(), msvcrt.LK_UNLCK, 1)
++
++
+ class FileLogger(Logger):
+     """
+     A simple logger that writes a CSV file.
+@@ -32,17 +55,16 @@ class FileLogger(Logger):
+     def log_config(self):
+         config_file = f'{self.log_path}/../experiment_config.json'
+         with open(config_file, 'a+') as f:
+-            fcntl.flock(f, fcntl.LOCK_EX)
+-            f.seek(0, os.SEEK_END)
+-            if f.tell() > 0:  # metadata file exists already
+-                f.seek(0)
+-                previous_config = json.load(f)
+-                json_config = json.loads(json.dumps(self.config_as_dict(), cls=JsonEncoder))
+-                if previous_config != json_config:
+-                    raise ValueError('Previous log with different config exists!')
+-            else:
+-                json.dump(self.config_as_dict(), f, indent=4, cls=JsonEncoder)
+-            fcntl.flock(f, fcntl.LOCK_UN)
++            with exclusive_file_lock(f):
++                f.seek(0, os.SEEK_END)
++                if f.tell() > 0:  # metadata file exists already
++                    f.seek(0)
++                    previous_config = json.load(f)
++                    json_config = json.loads(json.dumps(self.config_as_dict(), cls=JsonEncoder))
++                    if previous_config != json_config:
++                        raise ValueError('Previous log with different config exists!')
++                else:
++                    json.dump(self.config_as_dict(), f, indent=4, cls=JsonEncoder)
+ 
+     def config_as_dict(self) -> dict:
+         json_config = vars(copy.deepcopy(self.config))

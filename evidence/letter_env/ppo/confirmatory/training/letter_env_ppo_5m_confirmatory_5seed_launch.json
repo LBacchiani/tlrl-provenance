@@ -1,0 +1,116 @@
+{
+  "campaign_id": "letter_env_ppo_5m_confirmatory_5seed",
+  "campaign_manifest_path": "evidence/letter_env/ppo/confirmatory/training/letter_env_ppo_5m_confirmatory_5seed_manifest.json",
+  "campaign_manifest_sha256": "a5a9e89337ec7d69c803f32ab0ee698eba10ba2d8f3b52300fa02679f9162931",
+  "completed": {
+    "940001": {
+      "epoch_seconds": 1788644150.5145583,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 15840,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940001\\940001",
+      "seed": 940001
+    },
+    "940002": {
+      "epoch_seconds": 1788695796.0263999,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 4904,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940002\\940002",
+      "seed": 940002
+    },
+    "940003": {
+      "epoch_seconds": 1788752067.043863,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 82456,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940003\\940003",
+      "seed": 940003
+    }
+  },
+  "events": [
+    {
+      "epoch_seconds": 1788589443.7470467,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 15840,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940001\\940001",
+      "seed": 940001
+    },
+    {
+      "epoch_seconds": 1788644150.5145583,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 15840,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940001\\940001",
+      "seed": 940001
+    },
+    {
+      "epoch_seconds": 1788644150.5540984,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 4904,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940002\\940002",
+      "seed": 940002
+    },
+    {
+      "epoch_seconds": 1788695796.0263999,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 4904,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940002\\940002",
+      "seed": 940002
+    },
+    {
+      "epoch_seconds": 1788695796.071616,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 82456,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940003\\940003",
+      "seed": 940003
+    },
+    {
+      "epoch_seconds": 1788752067.043863,
+      "event": "completed",
+      "gpu": "1",
+      "pid": 82456,
+      "returncode": 0,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940003\\940003",
+      "seed": 940003
+    },
+    {
+      "epoch_seconds": 1788752067.099276,
+      "event": "launched",
+      "gpu": "1",
+      "pid": 87260,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940004\\940004",
+      "seed": 940004
+    }
+  ],
+  "pending": [
+    940005
+  ],
+  "running": {
+    "940004": {
+      "gpu": "1",
+      "launched_epoch_seconds": 1788752067.099276,
+      "pid": 87260,
+      "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\LetterEnv-v0\\v3_confirm_ppo_5m_letter_env_seed_940004\\940004"
+    }
+  },
+  "schema_version": "tlrl-letter-env-ppo-confirmatory-launch/1",
+  "seed_manifests": {
+    "940001": "evidence/letter_env/ppo/confirmatory/training/letter_env_ppo_5m_confirmatory_5seed_seed_940001_manifest.json",
+    "940002": "evidence/letter_env/ppo/confirmatory/training/letter_env_ppo_5m_confirmatory_5seed_seed_940002_manifest.json",
+    "940003": "evidence/letter_env/ppo/confirmatory/training/letter_env_ppo_5m_confirmatory_5seed_seed_940003_manifest.json",
+    "940004": "evidence/letter_env/ppo/confirmatory/training/letter_env_ppo_5m_confirmatory_5seed_seed_940004_manifest.json",
+    "940005": "evidence/letter_env/ppo/confirmatory/training/letter_env_ppo_5m_confirmatory_5seed_seed_940005_manifest.json"
+  },
+  "status": "running",
+  "updated_epoch_seconds": 1788795401.3650901
+}

@@ -1,0 +1,71 @@
+# Pinned benchmark environment (Python 3.10).
+# Frozen from the environment in which all checkpoints were trained and all
+# audits were run (Windows 11, CPython 3.10, torch 2.2.2).  On Linux/macOS pip
+# resolves the platform builds of the same versions.
+#
+# GPU training: install the CUDA build of torch instead of the default wheel,
+#   pip install torch==2.2.2 --index-url https://download.pytorch.org/whl/cu121
+# (auditing / reproducing the results needs no GPU).
+#
+# DeepLTL's `safety_gymnasium` is installed separately, from the pinned DeepLTL
+# checkout, by `python scripts/setup_runtime.py`.
+absl-py==2.5.0
+certifi==2026.7.22
+charset-normalizer==3.5.1
+click==8.5.0
+cloudpickle==3.1.2
+colorama==0.4.6
+contourpy==1.3.2
+cycler==0.12.1
+docker-pycreds==0.4.0
+docstring_parser==0.18.0
+Farama-Notifications==0.0.6
+filelock==3.32.4
+fonttools==4.63.0
+fsspec==2026.7.0
+gitdb==4.0.12
+GitPython==3.1.61
+glfw==2.10.2
+gymnasium==0.28.1
+gymnasium-robotics==1.2.2
+idna==3.19
+ImageIO==2.37.4
+jax-jumpy==1.0.0
+Jinja2==3.1.6
+joblib==1.3.2
+kiwisolver==1.5.1
+MarkupSafe==3.0.3
+matplotlib==3.8.3
+mpmath==1.4.1
+mujoco==2.3.3
+networkx==3.4.2
+numpy==1.23.5
+packaging==26.3
+pandas==2.2.1
+pettingzoo==1.24.3
+pillow==12.3.0
+platformdirs==4.11.5
+protobuf==5.29.6
+psutil==7.2.2
+pygame==2.1.0
+PyOpenGL==3.1.10
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+pytz==2026.3.post1
+PyYAML==6.0.3
+requests==2.34.2
+scipy==1.15.3
+seaborn==0.13.2
+sentry-sdk==2.68.1
+setproctitle==1.3.7
+simple_parsing==0.1.5
+six==1.17.0
+smmap==5.0.3
+sympy==1.12
+torch==2.2.2
+tqdm==4.66.2
+typing_extensions==4.16.0
+tzdata==2026.3
+urllib3==2.7.0
+wandb==0.17.7
+xmltodict==1.0.4

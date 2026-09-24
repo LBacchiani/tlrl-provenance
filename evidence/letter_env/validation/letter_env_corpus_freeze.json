@@ -1,0 +1,1549 @@
+{
+  "benchmark_id": "deepltl-letter-env-dqn",
+  "contamination_controls": {
+    "deepltl_point_policy_dependency": false,
+    "learned_policy_outcomes_inspected": false,
+    "training_authorized_by_this_artifact": false,
+    "v2_dependency": false
+  },
+  "dqn_implemented": false,
+  "formula_corpus": {
+    "atoms": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l"
+    ],
+    "count": 50,
+    "eventually_chain_count": 23,
+    "normalized_lf_sha256": "c91a1e4ec51b3181c08cb68460c47d48f9daf8dcbe242aa22bab26993c0b6268",
+    "packaged_byte_sha256": "423eb4bbd5737b6f7dee14f2cef0feab40b78a55c7ad415632b0817c49e7f4f4",
+    "selection": "all 50 published LetterEnv-v0 evaluation formulas in source order",
+    "source_path": "eval_datasets/LetterEnv-v0/tasks.txt",
+    "until_chain_count": 27,
+    "upstream_byte_sha256": "423eb4bbd5737b6f7dee14f2cef0feab40b78a55c7ad415632b0817c49e7f4f4"
+  },
+  "outcomes_inspected": false,
+  "pairing": {
+    "construction_source": "src/evaluation/create_eval_dataset.py writes both artifacts in loop iteration N",
+    "evaluation_source": "src/evaluation/eval_sync_env.py loads tasks and world paths by the same current index",
+    "paired_identity_sha256": "6df5446d64c205b22bebbdc4436ea608850831d95d1ef41d0d4963d924ee8783",
+    "rule": "formula line N is paired with world_info_N.pkl"
+  },
+  "pairs": [
+    {
+      "formula": "F (g & F (k & F h))",
+      "formula_atoms": [
+        "g",
+        "h",
+        "k"
+      ],
+      "formula_source_sha256": "e80aa30185677a2cc2f0be809876b15e8efb64666cfcf9fc752e696c3744906f",
+      "index": 0,
+      "task_id": "letter_env_000",
+      "world_canonical_sha256": "917854fca9f958ad2c28324110c581a74c661669f7198b1212ccdf63e944503e",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_0.pkl",
+      "world_pickle_sha256": "74aeb19f18b47b3863a25056ed329277edcd90abe7b9fc5abaf43842175ac411"
+    },
+    {
+      "formula": "F (a & F (h & F b))",
+      "formula_atoms": [
+        "a",
+        "b",
+        "h"
+      ],
+      "formula_source_sha256": "7fee4ce4acd868518c384b8bb1d273f5db5b18a8874ac562f8f9e98f44c5308d",
+      "index": 1,
+      "task_id": "letter_env_001",
+      "world_canonical_sha256": "27835266ee4cbf0cc67c40c780fce469204275254d985c99b7b01b1f0b886226",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_1.pkl",
+      "world_pickle_sha256": "aae9c63e4387c362953a1aa050a53d8844d28a1cd2ea7d3a9201fdcc65a40745"
+    },
+    {
+      "formula": "(!j U (g & (!h U a)))",
+      "formula_atoms": [
+        "a",
+        "g",
+        "h",
+        "j"
+      ],
+      "formula_source_sha256": "09de8eacf11f0270767db9f61c60cd40a53e0635c567880983975d9ca773bb0b",
+      "index": 2,
+      "task_id": "letter_env_002",
+      "world_canonical_sha256": "557deb9e2236a306837669ea60fe5a6370466f0bd5a9b37867bf02b2983a0aa5",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_2.pkl",
+      "world_pickle_sha256": "bf1aaa1061129f46f14b8e66562eb5ba91a28e31ca40d70e6007d5a3f709c270"
+    },
+    {
+      "formula": "(!d U (l & (!b U j)))",
+      "formula_atoms": [
+        "b",
+        "d",
+        "j",
+        "l"
+      ],
+      "formula_source_sha256": "778eff1f81f4d4eae6ad1ff863d8d23fa2a162c3d3503d87269835eff01599ff",
+      "index": 3,
+      "task_id": "letter_env_003",
+      "world_canonical_sha256": "64dc778c9d8569a99b0701c897418c1a18a78354a62371f5f0d3e32a1ba82863",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_3.pkl",
+      "world_pickle_sha256": "7287ff5f1f34a496625af2a6001000508fd55671896caaef8df1ab6f1fa44718"
+    },
+    {
+      "formula": "(!l U (a & (!i U k)))",
+      "formula_atoms": [
+        "a",
+        "i",
+        "k",
+        "l"
+      ],
+      "formula_source_sha256": "1f63ee63cd1dd92f07bdac3b5b59e2a3b66e46f908774602c89aff4190c7cdfd",
+      "index": 4,
+      "task_id": "letter_env_004",
+      "world_canonical_sha256": "4f5c47e8575264521e75fe4126228642c7275acbe2ee7b173679be18479cef34",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_4.pkl",
+      "world_pickle_sha256": "b6ea7b3f90a8bcc1e31149f5537e980fce624c174fdaf835d6f4c9a313127b34"
+    },
+    {
+      "formula": "F (d & F (k & F g))",
+      "formula_atoms": [
+        "d",
+        "g",
+        "k"
+      ],
+      "formula_source_sha256": "6903e1686782ebf731d2304c84ad942048338145b045d7968df5094bf5c19fd0",
+      "index": 5,
+      "task_id": "letter_env_005",
+      "world_canonical_sha256": "746ba3992879f56da7d90c52dbd0d8c5dbd87a408bcb84a93e64b123dfc19259",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_5.pkl",
+      "world_pickle_sha256": "681af0d3f2ab1cd00440763d4abade4392d488f191210f813587d8c878c1b3da"
+    },
+    {
+      "formula": "(!a U (l & (!d U i)))",
+      "formula_atoms": [
+        "a",
+        "d",
+        "i",
+        "l"
+      ],
+      "formula_source_sha256": "eae07973e196591eafdf98c2a308ffea804c647a7cd8f16a3c1847581d92b3c2",
+      "index": 6,
+      "task_id": "letter_env_006",
+      "world_canonical_sha256": "896267b83fe8791af1e5229243b0158fbb746d819f0e88297f974a9b588757f0",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_6.pkl",
+      "world_pickle_sha256": "f5d98589ccf77b0d9303f789799386dd205fad9446d48e75288e37cd83a149f8"
+    },
+    {
+      "formula": "(!i U (h & (!f U d)))",
+      "formula_atoms": [
+        "d",
+        "f",
+        "h",
+        "i"
+      ],
+      "formula_source_sha256": "d600e9175e4fe9050ffdee8b8d06c7171ad62462690dd711aa5c87eae2e07ad4",
+      "index": 7,
+      "task_id": "letter_env_007",
+      "world_canonical_sha256": "122ea15f8770a2bbe8f02a86a6a8a8da0190fb210b5018c67f081790df087972",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_7.pkl",
+      "world_pickle_sha256": "2c885addfb522e55a0d57e351d5a9c137c024ee6404c8efaf6d4380549e252ad"
+    },
+    {
+      "formula": "F (h & F (d & F k))",
+      "formula_atoms": [
+        "d",
+        "h",
+        "k"
+      ],
+      "formula_source_sha256": "465cef19e1555e4e7637fc95d565bc62dcfc2b0352f01527ad1e1124b5daeabb",
+      "index": 8,
+      "task_id": "letter_env_008",
+      "world_canonical_sha256": "f33008c65c39f181e5b48910c14b856758a648a05ae90be5d53cd3b5bcab20b1",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_8.pkl",
+      "world_pickle_sha256": "44f82a0eb7b251d727b4fb669d8ecdc82c0eccf0a15eeb819c6845a646a12856"
+    },
+    {
+      "formula": "(!g U (a & (!b U i)))",
+      "formula_atoms": [
+        "a",
+        "b",
+        "g",
+        "i"
+      ],
+      "formula_source_sha256": "ca0dbdb474940b5da890bc50d18b20be30fc125455f09922ab37d889fabb8a43",
+      "index": 9,
+      "task_id": "letter_env_009",
+      "world_canonical_sha256": "a69929e0aea882a0aa2de3cec538d203866ff7efe70c21642c938469b2f6417e",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_9.pkl",
+      "world_pickle_sha256": "62f02fbeed8412c304560e4ad27da8a32c0216979312eef99cab93cc199ead2d"
+    },
+    {
+      "formula": "F (e & F (l & F k))",
+      "formula_atoms": [
+        "e",
+        "k",
+        "l"
+      ],
+      "formula_source_sha256": "201de5f09bf69fd057be31726dabef299cf73559b1197c170840b9f6f962402c",
+      "index": 10,
+      "task_id": "letter_env_010",
+      "world_canonical_sha256": "c13d1155c32d6b710b3d9661fcb351c7917e8b2661c0c2941d712e137ef0d069",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_10.pkl",
+      "world_pickle_sha256": "ac48dc75d683ee4790510ef29157e9f0ce50ead118083999a4a8983f02dc1d31"
+    },
+    {
+      "formula": "F (l & F (f & F l))",
+      "formula_atoms": [
+        "f",
+        "l"
+      ],
+      "formula_source_sha256": "a6fe9f225b92dc1c99bb5751dc982e4aa13de3ae7cbf7f145a3a74baca910948",
+      "index": 11,
+      "task_id": "letter_env_011",
+      "world_canonical_sha256": "962ae7b3fb0fea244e90d83d67709cf308027ef55138afa48ffe02e3e2c5c5d6",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_11.pkl",
+      "world_pickle_sha256": "107155e5a5a982df78e244d0ea9cda9f1b8c319e0e11e905c471875cb6425218"
+    },
+    {
+      "formula": "(!k U (i & (!e U d)))",
+      "formula_atoms": [
+        "d",
+        "e",
+        "i",
+        "k"
+      ],
+      "formula_source_sha256": "4430553e5ef2683d2c2f8e8096f460ca3830cb191146c80a80ea76b4a9a94b3a",
+      "index": 12,
+      "task_id": "letter_env_012",
+      "world_canonical_sha256": "56092e04499864288a86fe51ff14265965388be91f8cceb55e6b4bfc09606662",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_12.pkl",
+      "world_pickle_sha256": "bae4adc8df782e849bb9f7447b4424397255673aba22499c01cb11dd1f7542b8"
+    },
+    {
+      "formula": "(!h U (j & (!g U i)))",
+      "formula_atoms": [
+        "g",
+        "h",
+        "i",
+        "j"
+      ],
+      "formula_source_sha256": "8e35703040588d8dbcdfe2804f83941a5777326057ee63b5dab257bbc6709d8b",
+      "index": 13,
+      "task_id": "letter_env_013",
+      "world_canonical_sha256": "0c0ca71283599be432ac6f535ca1f47cfbf2bf7ecdba1484f6cde02c0df41ba5",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_13.pkl",
+      "world_pickle_sha256": "f79e8d960d7e2eef1f0280ebddb923651bd7a94689d9978ab7245d2c2e8832f4"
+    },
+    {
+      "formula": "F (l & F (d & F h))",
+      "formula_atoms": [
+        "d",
+        "h",
+        "l"
+      ],
+      "formula_source_sha256": "12e510bce1d9a12e642bcf411847358faef6c3d8f986fb91d08758ed941cfe72",
+      "index": 14,
+      "task_id": "letter_env_014",
+      "world_canonical_sha256": "945dc656c4e2a68c70645bf2748edf474a3c2146fa09760f471b4a1cf6eb6af6",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_14.pkl",
+      "world_pickle_sha256": "3e47a492aba872f3a0865696a3ec86cbb6db43fd39d6db83c23e4fbfbb1f94d3"
+    },
+    {
+      "formula": "(!k U (g & (!f U c)))",
+      "formula_atoms": [
+        "c",
+        "f",
+        "g",
+        "k"
+      ],
+      "formula_source_sha256": "06e1de27a6b950ea91368fa3e665da6aad70f6277d152c8389285ed7ae34cc20",
+      "index": 15,
+      "task_id": "letter_env_015",
+      "world_canonical_sha256": "4beb4f0d6c8f0b3640b019c20324adaa26c1dcc880a8a5690727af99c7981fc0",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_15.pkl",
+      "world_pickle_sha256": "7bedd562e44e9df1eb7c1d05f788f129a8f01e680f4db9582036c4629961e867"
+    },
+    {
+      "formula": "(!h U (b & (!l U i)))",
+      "formula_atoms": [
+        "b",
+        "h",
+        "i",
+        "l"
+      ],
+      "formula_source_sha256": "db06d9de293f1ce4deb48689723bc8412a05c0e1a94143d4d6ae9fc15ad849e4",
+      "index": 16,
+      "task_id": "letter_env_016",
+      "world_canonical_sha256": "d4d7e401668d521f9e01c01796ba40a3dca1a8cd10aa0c8515535ee23da39ceb",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_16.pkl",
+      "world_pickle_sha256": "30a6989446355c3243b6b2ea087f45d00f2dd23d86d08f3a28b1c246da4f715e"
+    },
+    {
+      "formula": "F (f & F (g & F i))",
+      "formula_atoms": [
+        "f",
+        "g",
+        "i"
+      ],
+      "formula_source_sha256": "36af6ab08a7e133fcdbb6f1e21ac53c938d8ba64f1f54ae980a11c9a08fa9bb7",
+      "index": 17,
+      "task_id": "letter_env_017",
+      "world_canonical_sha256": "bd043e929236fa34a82ebfccd160771b46b50a36300eb425aeec0df43a5d9a9d",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_17.pkl",
+      "world_pickle_sha256": "7f3a36a6c2adca2194a6757637a65e4b060e834393880f34c749f7d9f3119939"
+    },
+    {
+      "formula": "(!a U (l & (!k U h)))",
+      "formula_atoms": [
+        "a",
+        "h",
+        "k",
+        "l"
+      ],
+      "formula_source_sha256": "477cd5bf04e346f3b763e6e2c5e478378263a56e2e2af3d5fc539620ec552192",
+      "index": 18,
+      "task_id": "letter_env_018",
+      "world_canonical_sha256": "0a2662fa18fc32ebba3b2be600d051ea8af77d87a3d93f22f3e59d65602499a5",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_18.pkl",
+      "world_pickle_sha256": "8e80777d3a2ee5a098cd61e98f73527fccf7cc9cf7a9b355b0c055328c226c10"
+    },
+    {
+      "formula": "(!j U (l & (!g U k)))",
+      "formula_atoms": [
+        "g",
+        "j",
+        "k",
+        "l"
+      ],
+      "formula_source_sha256": "733bf9c8d6640f4b103492717408b1eda7d6a749e2f2c4e7e0a4f3a998e7c655",
+      "index": 19,
+      "task_id": "letter_env_019",
+      "world_canonical_sha256": "4ea1b7b99dbd5df1a564cdcdaf93fb920b41cb4719927ca1384cd972a9699ee1",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_19.pkl",
+      "world_pickle_sha256": "b6e7d7b09a7cd0ecdf7d4cd0df0df3b4f0b28b47d831ce35719d7a0c6209a72b"
+    },
+    {
+      "formula": "F (d & F (i & F c))",
+      "formula_atoms": [
+        "c",
+        "d",
+        "i"
+      ],
+      "formula_source_sha256": "70e7942bd1a1bd886f737cec5bc73f2d9afb30e7fd79bd0e6de99acbc6adea6a",
+      "index": 20,
+      "task_id": "letter_env_020",
+      "world_canonical_sha256": "b02193c1e963fbc3fcce86339ef506454e90e2fb29f3fe219f68cc08a192e8f7",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_20.pkl",
+      "world_pickle_sha256": "ae3d79864924bbec2d15d1e4ce657abe9383569355eb57a18c4ad753fe599387"
+    },
+    {
+      "formula": "F (d & F (i & F d))",
+      "formula_atoms": [
+        "d",
+        "i"
+      ],
+      "formula_source_sha256": "82e594179aea4259d63f622c8d89aad126a7fa91f447dca4f406de71a85899e6",
+      "index": 21,
+      "task_id": "letter_env_021",
+      "world_canonical_sha256": "051ce2c3919f67eea56bd8e3559759f1c9d5f9357c19ed7d7ca8623f567a8a36",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_21.pkl",
+      "world_pickle_sha256": "1b439862f8223a41de6396b1464264f629465c6ea549b063c7975fcd401a9e0f"
+    },
+    {
+      "formula": "(!f U (i & (!k U j)))",
+      "formula_atoms": [
+        "f",
+        "i",
+        "j",
+        "k"
+      ],
+      "formula_source_sha256": "73c9dea345aef15d5bc2a929e34219151a2caca5347888d22dc436a8172782f0",
+      "index": 22,
+      "task_id": "letter_env_022",
+      "world_canonical_sha256": "88887f562572ca33898f5b1d2aa3c62f0f5cdff14477016f42a8d5562b4c2c4c",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_22.pkl",
+      "world_pickle_sha256": "521d995190898476bea75b3f439c2dc68ead15c1537e77737d18d353ab8e2b11"
+    },
+    {
+      "formula": "(!k U (e & (!a U i)))",
+      "formula_atoms": [
+        "a",
+        "e",
+        "i",
+        "k"
+      ],
+      "formula_source_sha256": "a336deb1e3e2af542897b7ed7e77a850a0ef7786838f7c003e6a269d21dfb2a7",
+      "index": 23,
+      "task_id": "letter_env_023",
+      "world_canonical_sha256": "b65eb1b645792bc3b32735c2c1c7937f9e375c36d5025653fbe9bf4370b7ec41",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_23.pkl",
+      "world_pickle_sha256": "b814634a90b494b9d836af342dc2e0f8dd66b3dd60bec12721ca66c8ce06802f"
+    },
+    {
+      "formula": "(!i U (l & (!k U c)))",
+      "formula_atoms": [
+        "c",
+        "i",
+        "k",
+        "l"
+      ],
+      "formula_source_sha256": "7ebbcd7e926c1fad2797c0aadb8fbb272074a334ce39dea91560b8bb700e0478",
+      "index": 24,
+      "task_id": "letter_env_024",
+      "world_canonical_sha256": "4cf2f4997478b134b55b8449f63248908616ef5c9a7e316379b52772e6fe134b",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_24.pkl",
+      "world_pickle_sha256": "2b253b3ee809ce8b79be66a494b8f5746075252cd3db410f5d9f9e6008eab947"
+    },
+    {
+      "formula": "F (h & F (a & F g))",
+      "formula_atoms": [
+        "a",
+        "g",
+        "h"
+      ],
+      "formula_source_sha256": "3258999df468efa86c434ef9639f29ed8413c907ac88074ae1f230943763988a",
+      "index": 25,
+      "task_id": "letter_env_025",
+      "world_canonical_sha256": "f8a22688a76dec4d8d8e8ce368e6c3ebeb298c37d23eca1247bea76c3d77f000",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_25.pkl",
+      "world_pickle_sha256": "3a5c0049f7ec81594148e999643b90adacb49c924a75095f962cd6dc2deb7948"
+    },
+    {
+      "formula": "(!i U (j & (!k U d)))",
+      "formula_atoms": [
+        "d",
+        "i",
+        "j",
+        "k"
+      ],
+      "formula_source_sha256": "e618a8f49caae746a6217790d3c99a40ed5f21a6596032f624c3e445e8f58313",
+      "index": 26,
+      "task_id": "letter_env_026",
+      "world_canonical_sha256": "aea06842e04964595903c05cb7f325a5da1a6519f7473f8bdd2b034bf070c71b",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_26.pkl",
+      "world_pickle_sha256": "e9a870c810c744a965c6ea2dc96d259ee734342aa08fed8f6dd2f1ae3148c284"
+    },
+    {
+      "formula": "(!f U (h & (!k U g)))",
+      "formula_atoms": [
+        "f",
+        "g",
+        "h",
+        "k"
+      ],
+      "formula_source_sha256": "0a5107fadb2f028f5b884c3dac85e0eaeda67a4f38f526d3ece75df9e188d68e",
+      "index": 27,
+      "task_id": "letter_env_027",
+      "world_canonical_sha256": "bb53f8b772837a58e891eeaf62156dd56343226f7232db447893ea45b1bcee68",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_27.pkl",
+      "world_pickle_sha256": "92b5634c0f132b8660fd00fa716d01f8939bbf07fee274b35162d651f2b18b59"
+    },
+    {
+      "formula": "F (f & F (j & F i))",
+      "formula_atoms": [
+        "f",
+        "i",
+        "j"
+      ],
+      "formula_source_sha256": "c1ad6199348440edb2285801f570cab314ae7b506bd2b8dbf92e8becbc1ae6e7",
+      "index": 28,
+      "task_id": "letter_env_028",
+      "world_canonical_sha256": "eb1dada0dc2a8b429e957e484dc329cb06dac2e05863612acf2fab04a5b76513",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_28.pkl",
+      "world_pickle_sha256": "c659d5dd6146eafa8ed5249f0e63fdb60646a407fc9c8837728498c1c120f206"
+    },
+    {
+      "formula": "(!a U (j & (!c U d)))",
+      "formula_atoms": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "formula_source_sha256": "53d1a5d486a68cd2b82ba005ead159278b57b2ceeada32d7ca82228172e0003b",
+      "index": 29,
+      "task_id": "letter_env_029",
+      "world_canonical_sha256": "d94002c0b2dd1f00c27451f2809829de8089e950499b4c93751bcb83d02c793a",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_29.pkl",
+      "world_pickle_sha256": "08731e1dddbab5fa3c9e87c6743f1ed7a07edb3906eb49804d640c4cdcf3b020"
+    },
+    {
+      "formula": "F (e & F (i & F b))",
+      "formula_atoms": [
+        "b",
+        "e",
+        "i"
+      ],
+      "formula_source_sha256": "166e540df3799e517a886f0271c0410e9733c0ac06d6cad5b459cc1bedc09f7c",
+      "index": 30,
+      "task_id": "letter_env_030",
+      "world_canonical_sha256": "a9a6a9206fb7c45f2b184a1c70b318eed312eb48b9fccd2c90144e476cc3840f",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_30.pkl",
+      "world_pickle_sha256": "b7d1a0f15f09ca434ddfcd2003d24e889163959cbbfb67a8194558d0a13ad097"
+    },
+    {
+      "formula": "F (a & F (b & F k))",
+      "formula_atoms": [
+        "a",
+        "b",
+        "k"
+      ],
+      "formula_source_sha256": "7f66a62f2415d2fed00fc1c2f21999a21616e8626917e2d4237c370926085066",
+      "index": 31,
+      "task_id": "letter_env_031",
+      "world_canonical_sha256": "b19b6863af5cca4d7697c1440f32308814e2ebdce7e5768d33a876b85bf156d6",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_31.pkl",
+      "world_pickle_sha256": "cf20a654cb79fc4ec6997def090a1b1d6bf7b05d2ea4c6e4fc3c139c466f1879"
+    },
+    {
+      "formula": "(!e U (a & (!k U d)))",
+      "formula_atoms": [
+        "a",
+        "d",
+        "e",
+        "k"
+      ],
+      "formula_source_sha256": "e380c2fe97411633862d6f3d9f7c74d307d415761f45d3a0ff920c235c0909c3",
+      "index": 32,
+      "task_id": "letter_env_032",
+      "world_canonical_sha256": "f42319fdbe48fa178b6fed0410ed05a71594e75d29692847da50ae1dfa8a8d3d",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_32.pkl",
+      "world_pickle_sha256": "d912c1b8795b2a238c76be2f7b59892975ad4afe498f1925bbcf3d02e599098a"
+    },
+    {
+      "formula": "F (f & F (c & F j))",
+      "formula_atoms": [
+        "c",
+        "f",
+        "j"
+      ],
+      "formula_source_sha256": "b7e43d82555bc081a3c4d717fa622f38aa3d28444e074cbe72733ca58175f208",
+      "index": 33,
+      "task_id": "letter_env_033",
+      "world_canonical_sha256": "4abbef28bd795cf1f1c8f71ef05d8787ea7d32a8ec788f4020f47a2a5904a484",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_33.pkl",
+      "world_pickle_sha256": "8a3922960fcb4109903d1524676c1ad2ae3524331aa8587118f73890555e592e"
+    },
+    {
+      "formula": "(!c U (b & (!e U k)))",
+      "formula_atoms": [
+        "b",
+        "c",
+        "e",
+        "k"
+      ],
+      "formula_source_sha256": "2fa89ff2d41c2f56843d34468190569dc45b2e2321aeed8318fdccf1f1800207",
+      "index": 34,
+      "task_id": "letter_env_034",
+      "world_canonical_sha256": "4047fc49fec1a9b61b2b814e742a9a86b8e5902dc86b01fb6d0269263e85fdcf",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_34.pkl",
+      "world_pickle_sha256": "7d443d4ffc4b0c157d9f3601da6afd673b0291fe83f87bd82c89ac3510957ce6"
+    },
+    {
+      "formula": "F (k & F (e & F k))",
+      "formula_atoms": [
+        "e",
+        "k"
+      ],
+      "formula_source_sha256": "a379e4b90e051a8a010fde8b483f7734357d8a4d0ad47e2a422e5ee2af45208d",
+      "index": 35,
+      "task_id": "letter_env_035",
+      "world_canonical_sha256": "7f38b70de59d17cacac0e4caba871f4b95e3c014b0ae6735fe8e34c5e187d6e9",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_35.pkl",
+      "world_pickle_sha256": "eb6ced1ae2c8cab9ed0e405ae00af6d307b794bc7126f2e160d3a2d107120d18"
+    },
+    {
+      "formula": "(!f U (h & (!j U l)))",
+      "formula_atoms": [
+        "f",
+        "h",
+        "j",
+        "l"
+      ],
+      "formula_source_sha256": "615361ade04f2f47874e5bfb207add326bd2c49b93e576cc2507620e9fcad2c2",
+      "index": 36,
+      "task_id": "letter_env_036",
+      "world_canonical_sha256": "389db69c31ed35138d2a45c773a731e861ecd4e19428a68c5c151a3abfb4fb09",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_36.pkl",
+      "world_pickle_sha256": "6bb9d1959b99aa6f1edf63e94cf3734a42816aa48b4c403da72a62dd3fcc6f7e"
+    },
+    {
+      "formula": "F (g & F (e & F a))",
+      "formula_atoms": [
+        "a",
+        "e",
+        "g"
+      ],
+      "formula_source_sha256": "945dc456709402e74fe3e15bb3279ca63125145431cef7d142eab78302d2ba5f",
+      "index": 37,
+      "task_id": "letter_env_037",
+      "world_canonical_sha256": "a48a2a0e7cdd0ae5a6aa661af9078fad25348361d3c904f4fe5bb8cbb5191eca",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_37.pkl",
+      "world_pickle_sha256": "fbd78d7f846e4f5325eecb546455a5ee040fbe07afb804c61e0aca450f62d7d1"
+    },
+    {
+      "formula": "(!d U (g & (!b U e)))",
+      "formula_atoms": [
+        "b",
+        "d",
+        "e",
+        "g"
+      ],
+      "formula_source_sha256": "c0e11f01c766763c682841a458c0e0a349aa3287a562b91e4f0e30fbfcdec74e",
+      "index": 38,
+      "task_id": "letter_env_038",
+      "world_canonical_sha256": "64c60cbdb7dab47c3f456dae9a9c58adaa08e49556b570f3a7e4d8be67699f74",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_38.pkl",
+      "world_pickle_sha256": "100d858cb06c4683fa05d50a8c6a0558986f5a875e086beef765af46eddf172a"
+    },
+    {
+      "formula": "(!i U (l & (!g U d)))",
+      "formula_atoms": [
+        "d",
+        "g",
+        "i",
+        "l"
+      ],
+      "formula_source_sha256": "0f1fcf8ca24ec7bfc3cd962a68cfba6377ff1e47ac60251de0708b7c4fde1d31",
+      "index": 39,
+      "task_id": "letter_env_039",
+      "world_canonical_sha256": "898448e8613a5221d493c8a768fb40bd6b98b16a3c5f9bcc133d03582b172d5f",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_39.pkl",
+      "world_pickle_sha256": "038fe767c0279cbcbb423e5e9823a55c9ddd4396a0f9474de37434050bc776b4"
+    },
+    {
+      "formula": "F (g & F (a & F d))",
+      "formula_atoms": [
+        "a",
+        "d",
+        "g"
+      ],
+      "formula_source_sha256": "1c5395125fcdb943942e4752674225d8fc31f905f495731e880e44f1b48494f7",
+      "index": 40,
+      "task_id": "letter_env_040",
+      "world_canonical_sha256": "991ea35d1b78bab33f5294689caba1973c1c2b4caf411595f4df6f698f07a504",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_40.pkl",
+      "world_pickle_sha256": "3eef7a2b29eea51089b3f2f367eafd847a41c5cb571964465d1499fe948dfcca"
+    },
+    {
+      "formula": "F (c & F (l & F a))",
+      "formula_atoms": [
+        "a",
+        "c",
+        "l"
+      ],
+      "formula_source_sha256": "ee1139049f8d65371a71c3f6cdea192423899759c7f8805c9037ccfd5c1d9ec4",
+      "index": 41,
+      "task_id": "letter_env_041",
+      "world_canonical_sha256": "b3ed2dab0ed461ad5e3460a9e1ea6b93500eed3e183a809c90b84c3a46d46de5",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_41.pkl",
+      "world_pickle_sha256": "b3166d11411bc9f1eb1d23d0144e3fc5e3e5a8c9db419324d2a27f7f316ee0a4"
+    },
+    {
+      "formula": "(!i U (l & (!k U g)))",
+      "formula_atoms": [
+        "g",
+        "i",
+        "k",
+        "l"
+      ],
+      "formula_source_sha256": "f202b86196c7fa8ead96ba03f254d2c0e8f01d4a61be53db40fd3192b72101c1",
+      "index": 42,
+      "task_id": "letter_env_042",
+      "world_canonical_sha256": "082e4534b990606bd3f9e229934145b1a2f2022085e7d6be8259904c6e153e7b",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_42.pkl",
+      "world_pickle_sha256": "c0424045e3d3272753a28d3d348fb0ee84bb8b10b12c3f05a3a407af047417e2"
+    },
+    {
+      "formula": "F (i & F (l & F k))",
+      "formula_atoms": [
+        "i",
+        "k",
+        "l"
+      ],
+      "formula_source_sha256": "5fd0d8cf311e912bb89bb617e336e2fde40a615ac77775169a43e93896911f00",
+      "index": 43,
+      "task_id": "letter_env_043",
+      "world_canonical_sha256": "70808c061735aafd4c8641c232a5c4171e9cbf2214adfdfc20233056d494e1ce",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_43.pkl",
+      "world_pickle_sha256": "685ff38e66abf63d969aa7514e05c5b827a57272a5a24ff613c0851724a5b8eb"
+    },
+    {
+      "formula": "(!i U (d & (!g U a)))",
+      "formula_atoms": [
+        "a",
+        "d",
+        "g",
+        "i"
+      ],
+      "formula_source_sha256": "ffd0c2caf7cb9981b6e4e981869ba0355d91e16345a307ddc4741215ce022f64",
+      "index": 44,
+      "task_id": "letter_env_044",
+      "world_canonical_sha256": "e15ac1dc3a4ad07459d9d5e976bf11920daf39b3fa4e5d81c3e7ec20adb3d568",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_44.pkl",
+      "world_pickle_sha256": "69a04345bfdc7b97dd1e28881bf7e59364869e4d2cea10b7d34c2c5af4144998"
+    },
+    {
+      "formula": "(!l U (k & (!a U g)))",
+      "formula_atoms": [
+        "a",
+        "g",
+        "k",
+        "l"
+      ],
+      "formula_source_sha256": "32138dd2095ae3b50af152d88b2532c985be4aefbb741bc50a0c494d32227ed4",
+      "index": 45,
+      "task_id": "letter_env_045",
+      "world_canonical_sha256": "b83f813dc17c65ee3505650e8d6a7646720a1128e7a5d4dfa88bfa51889d19e9",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_45.pkl",
+      "world_pickle_sha256": "c1410526e250bdddc1e9e45bfd4ac407d078e8a8242908ee2217447ce033188c"
+    },
+    {
+      "formula": "(!d U (c & (!e U a)))",
+      "formula_atoms": [
+        "a",
+        "c",
+        "d",
+        "e"
+      ],
+      "formula_source_sha256": "65f5bdb73a1a2203ec8959aba75303fc6a036877d08e25c3f1afeee9addddc5f",
+      "index": 46,
+      "task_id": "letter_env_046",
+      "world_canonical_sha256": "4606f8ff3beef6c2f127fd6c0a9bb0ff03d61c8e228ca9caf2f39b20ce48cf2f",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_46.pkl",
+      "world_pickle_sha256": "2b2d66e053cf6390fe7191bdbb44147087dad96310eb236becb4821a9885d575"
+    },
+    {
+      "formula": "F (l & F (e & F b))",
+      "formula_atoms": [
+        "b",
+        "e",
+        "l"
+      ],
+      "formula_source_sha256": "9bbc1c792399f643747f2fcfab34352cd15eaeb603804d1bbe1ad9e6c59eb7c5",
+      "index": 47,
+      "task_id": "letter_env_047",
+      "world_canonical_sha256": "e8f4941f43bc4b3316383df66be88c322622b915127ca6e0f4ce7af4131c497e",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_47.pkl",
+      "world_pickle_sha256": "2eb02a5cb8ebced73e29d063757ee926a1554fe8abde2d83573f5f07abeadbf9"
+    },
+    {
+      "formula": "F (e & F (j & F g))",
+      "formula_atoms": [
+        "e",
+        "g",
+        "j"
+      ],
+      "formula_source_sha256": "d93572a74ebbc782500ac116c96293fda3d5a54ea8d77c393375d81f421def12",
+      "index": 48,
+      "task_id": "letter_env_048",
+      "world_canonical_sha256": "2d935515fc0a8f84f351916af104f47bd7cd99ba011843baa1e07205e0e106e3",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_48.pkl",
+      "world_pickle_sha256": "fdaa59b53cbfe4c694b66f75d089ba213ad1fc90fc0df87188fa35e110b835aa"
+    },
+    {
+      "formula": "F (a & F (i & F a))",
+      "formula_atoms": [
+        "a",
+        "i"
+      ],
+      "formula_source_sha256": "359e8e18590c1f53159d1554bb4190507e53b3054b99780fc2d0fe372b507f5c",
+      "index": 49,
+      "task_id": "letter_env_049",
+      "world_canonical_sha256": "c052b4ea2054fc5d5aa1bba120f708b73ab1a033103977e9227fdc439bbc6aca",
+      "world_letter_counts": {
+        "a": 2,
+        "b": 2,
+        "c": 2,
+        "d": 2,
+        "e": 2,
+        "f": 2,
+        "g": 2,
+        "h": 2,
+        "i": 2,
+        "j": 2,
+        "k": 2,
+        "l": 2
+      },
+      "world_occupied_cells": 24,
+      "world_path": "eval_datasets/LetterEnv-v0/worlds/world_info_49.pkl",
+      "world_pickle_sha256": "dc42d65008fb3a5745f2ab6e16b45042f636502cbc1dfc5f4ec923c79d2a7659"
+    }
+  ],
+  "schema_version": "tlrl-letter-env-corpus-freeze/1",
+  "scope": "published_formulas_worlds_and_grounding_sources_only",
+  "status": "formula_world_corpus_frozen",
+  "training_executed": false,
+  "upstream": {
+    "commit": "3157200b5910cd7f5c493ffba8913994f2207eaf",
+    "patch_scope": {
+      "src/ltl/automata/rabinizer.py": "native Rabinizer 4 jar invocation",
+      "src/utils/logging/file_logger.py": "Windows-compatible exclusive file locking"
+    },
+    "repository": "https://github.com/mathiasj33/deep-ltl",
+    "semantic_source_sha256": {
+      "src/envs/env_utils.py": "b67e5c01efd3b2f6f5deb5de79c1a7256fc232cc4e16b8022d2e4587a449617f",
+      "src/envs/ldba_wrapper.py": "dc170f975f6ff11f2c42a29dc1430c166c6ab4b9b0b0f0c6bcb0442a076fda4b",
+      "src/envs/letter_world/__init__.py": "2abc31950986960185a3cfd588ea49c1359fe1543851e02923b1a96d64256b75",
+      "src/envs/letter_world/letter_env.py": "2c9a8e58393352efa4b932c2d35de43ae2c3ddd3ae559819445ea8c961cdc858",
+      "src/evaluation/create_eval_dataset.py": "64a268c451ac76316b496f7a0c1c0ea433b13f1f3627b601d83f01402b1bcf03",
+      "src/evaluation/eval_sync_env.py": "3ee4ea09e44d164a831ecf5e86e66c47f7efecf5586920f59a6eb4ed9648d486"
+    },
+    "tracked_patch_paths": [
+      "src/ltl/automata/rabinizer.py",
+      "src/utils/logging/file_logger.py"
+    ],
+    "tracked_patch_sha256": "2e65ceb9a02a6870b17d7959c78881f10ac75abc0328c0e51f1ff66b317eb7e6"
+  },
+  "world_corpus": {
+    "copies_per_letter": 2,
+    "count": 50,
+    "directory": "eval_datasets/LetterEnv-v0/worlds",
+    "grid_size": 7,
+    "occupied_cells_per_world": 24,
+    "selection": "the position-matched world_info_N.pkl for every formula line N"
+  }
+}

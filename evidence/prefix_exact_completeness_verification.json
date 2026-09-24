@@ -1,0 +1,57 @@
+{
+  "schema_version": "prefix-exact-completeness-verification/2",
+  "purpose": "Confirms the exact continuation-aware status procedure (the fix for the G(Xp)-style completeness defect found via the operator-generality stress test) agrees with a separately implemented reachability checker across all real corpus formulas, and reproduces the stored prefix_status for every frozen PointLTL confirmatory record. The checker shares the production progression and reference-evaluation primitives but implements the reachability traversal separately. Mismatches, checker bound hits, or incomplete production decisions are verification failures.",
+  "corpus_sweep": {
+    "total_trials": 2980,
+    "total_mismatches": 0,
+    "mismatches": [],
+    "checker_bound_hit_count": 0,
+    "checker_bound_hits": [],
+    "incomplete_decision_count": 0,
+    "incomplete_decisions": [],
+    "decision_origin_counts": {
+      "exact_search": 1630,
+      "syntactic_collapse": 1350
+    },
+    "checker_status_counts": {
+      "definitely_satisfied": 632,
+      "definitely_violated": 718,
+      "open": 1630
+    },
+    "per_corpus": {
+      "deepltl_point": {
+        "num_formulas": 50,
+        "trials": 1000
+      },
+      "letter_env": {
+        "num_formulas": 50,
+        "trials": 1000
+      },
+      "flatworld": {
+        "num_formulas": 49,
+        "trials": 980
+      }
+    },
+    "trace_lengths": [
+      1,
+      2,
+      3,
+      6,
+      10
+    ],
+    "trials_per_length": 4,
+    "seed": 7
+  },
+  "pointltl_record_replay": {
+    "source": "deepltl_point_full_confirmatory_semantic_records.jsonl",
+    "source_sha256": "3e96946ffddd34a7404d3b12dbf7a2460c0a3f0bfde9ef6f23ec5d2dcf5758e5",
+    "total_records": 5000,
+    "mismatches": [],
+    "decision_origin_counts": {
+      "exact_search": 475,
+      "syntactic_collapse": 4525
+    },
+    "incomplete_decision_count": 0,
+    "incomplete_decisions": []
+  }
+}

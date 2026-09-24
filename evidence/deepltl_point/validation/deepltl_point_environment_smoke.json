@@ -1,0 +1,36 @@
+{
+  "checked_steps": 250,
+  "environment_id": "PointLtl2-v0",
+  "episodes_touched": 1,
+  "geometry_info_mismatches": 0,
+  "label_counts": {
+    "<empty>": 250
+  },
+  "positive_contact_probes": {
+    "blue": [
+      "blue"
+    ],
+    "green": [
+      "green"
+    ],
+    "magenta": [
+      "magenta"
+    ],
+    "yellow": [
+      "yellow"
+    ]
+  },
+  "requested_steps": 250,
+  "runtime": {
+    "gymnasium": "0.28.1",
+    "mujoco": "2.3.3",
+    "numpy": "1.23.5",
+    "python": "3.10.21",
+    "safety_gymnasium": "1.2.0"
+  },
+  "schema_version": "tlrl-deepltl-point-environment-smoke/1",
+  "scope": "development_only_schema_and_grounding_no_policy_no_utility",
+  "seed": 314159,
+  "status": "passed",
+  "upstream_commit": "3157200b5910cd7f5c493ffba8913994f2207eaf"
+}

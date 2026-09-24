@@ -1,0 +1,189 @@
+{
+  "benchmark_id": "deepltl-pointworld-official-eval-50",
+  "contamination_controls": {
+    "confirmatory_usefulness_evaluation_authorized": false,
+    "development_training_authorized": true,
+    "utility_outcomes_inspected": false,
+    "v2_dependency": false
+  },
+  "formula_corpus": {
+    "atoms": [
+      "blue",
+      "green",
+      "magenta",
+      "yellow"
+    ],
+    "count": 50,
+    "families": {
+      "avoidance_until": 30,
+      "ordered_eventuality": 20
+    },
+    "normalized_lf_sha256": "20c87b5ba134443e91e06db892a54ff330551e480d04643f3a3eeb3d311144ea",
+    "packaged_file_sha256": "20c87b5ba134443e91e06db892a54ff330551e480d04643f3a3eeb3d311144ea",
+    "selection": "all tasks in the upstream official evaluation dataset"
+  },
+  "grounding": {
+    "adapter_sha256": "5537dffc97b7582fed39f4cb5e7f6e01c76adede434909a81315cf4870aa5594",
+    "label_timing": "post_action_before_ldba_transition",
+    "official_output_cross_check": "required at every retained step",
+    "real_environment_smoke": {
+      "checked_steps": 250,
+      "geometry_info_mismatches": 0,
+      "path": "evidence/deepltl_point/validation/deepltl_point_environment_smoke.json",
+      "positive_contact_probes": {
+        "blue": [
+          "blue"
+        ],
+        "green": [
+          "green"
+        ],
+        "magenta": [
+          "magenta"
+        ],
+        "yellow": [
+          "yellow"
+        ]
+      },
+      "runtime": {
+        "gymnasium": "0.28.1",
+        "mujoco": "2.3.3",
+        "numpy": "1.23.5",
+        "python": "3.10.21",
+        "safety_gymnasium": "1.2.0"
+      },
+      "sha256": "4949e6a589e56b26e1c3bb614d7a1ac6662dfd4a882e8f22c7e627987320f162"
+    },
+    "rule": "color is true iff Euclidean agent-to-zone-center distance <= zone radius",
+    "zone_radius": 0.4,
+    "zones_per_color": 2
+  },
+  "official_runtime": {
+    "compatibility_patch": {
+      "path": "benchmarks/deep_ltl_runtime/patches/deepltl-rabinizer-java25.patch",
+      "scope": "process_boundary_only",
+      "sha256": "7cad0e2002669f01eae552cce5961161b513a6c8ec46151c3e2ad9b4203f068f",
+      "shared_with": [
+        "letter_env"
+      ]
+    },
+    "official_ldba_environment_smoke": {
+      "checked_steps": 32,
+      "forced_ordered_eventuality_probe": [
+        {
+          "accepting": false,
+          "color": "green",
+          "ldba_state": 2,
+          "terminated": false
+        },
+        {
+          "accepting": false,
+          "color": "yellow",
+          "ldba_state": 1,
+          "terminated": false
+        },
+        {
+          "accepting": true,
+          "color": "yellow",
+          "ldba_state": 1,
+          "terminated": true
+        }
+      ],
+      "geometry_info_mismatches": 0,
+      "ldba_valid": true,
+      "path": "evidence/deepltl_point/validation/deepltl_point_official_ldba_env_smoke.json",
+      "runtime": {
+        "gymnasium": "0.28.1",
+        "mujoco": "2.3.3",
+        "numpy": "1.23.5",
+        "python": "3.10.21",
+        "safety_gymnasium": "1.2.0"
+      },
+      "sha256": "24663b616a6ab4805f383f2335c0c6cf61b265b41f4a377315b6565b62514fc5",
+      "termination_truncation_preserved": true
+    },
+    "ppo_gpu_smoke": {
+      "algorithm": "formula_conditioned_recurrent_ppo",
+      "checkpoint_complete": true,
+      "methodology_outcomes_inspected": false,
+      "num_steps": 2048,
+      "num_updates": 1,
+      "path": "evidence/deepltl_point/validation/deepltl_point_ppo_gpu_smoke.json",
+      "runtime": {
+        "cuda_available": true,
+        "cuda_device_count": 2,
+        "cuda_devices": [
+          "NVIDIA RTX 6000 Ada Generation",
+          "NVIDIA RTX 6000 Ada Generation"
+        ],
+        "cuda_runtime": "12.1",
+        "python": "3.10.21",
+        "python_utf8_mode_required": true,
+        "torch": "2.2.2+cu121"
+      },
+      "sha256": "7ab8c9315b83f2a800d6eb629318e1f6c958e67a33594145a68c0a134ae29904"
+    },
+    "rabinizer_verification": {
+      "all_upstream_ldba_checks_valid": true,
+      "flags": [
+        "-p",
+        "-e"
+      ],
+      "java_version": "java version \"25.0.1\" 2025-10-21 LTS\nJava(TM) SE Runtime Environment (build 25.0.1+8-LTS-27)\nJava HotSpot(TM) 64-Bit Server VM (build 25.0.1+8-LTS-27, mixed mode, sharing)",
+      "obsolete_flag_omitted": "-d",
+      "path": "evidence/deepltl_point/validation/deepltl_point_rabinizer_verification.json",
+      "rabinizer_jar_sha256": "46efc53d769d1016c75b6b76f7cb2db259d4426053591993a62aa874f3ef486d",
+      "sha256": "64fc91d38b3cf89821656b03943bc380bf8941ded2b6f2c62f081051f0b5d2bc",
+      "task_count": 50
+    },
+    "windows_file_lock_patch": {
+      "path": "benchmarks/deep_ltl_runtime/patches/deepltl-windows-file-lock.patch",
+      "scope": "cross_platform_logging_only",
+      "sha256": "ba829ed001d0f96d598f365b623a9bbee88981297965d131a1aaae2a47fd4e7e",
+      "shared_with": [
+        "letter_env"
+      ]
+    }
+  },
+  "official_subject": {
+    "algorithm": "formula-conditioned recurrent PPO",
+    "batch_size": 2048,
+    "discount": 0.998,
+    "entropy_coefficient": 0.003,
+    "epochs": 10,
+    "learning_rate": 0.0003,
+    "num_processes": 16,
+    "steps": 15000000,
+    "steps_per_process": 4096
+  },
+  "open_gates": [
+    "freeze the post-smoke PPO development-pilot budget and train independent seeds",
+    "freeze any second deep-RL algorithm as a separately justified comparison subject",
+    "freeze audit/held-out splits and usefulness endpoint before inspecting outcomes"
+  ],
+  "outcomes": {
+    "collection_api": "bypass only upstream RemoveTruncWrapper and retain TimeLimit's terminated/truncated booleans",
+    "official_success": "decided satisfaction, independently checked",
+    "official_violation": "decided violation, independently checked",
+    "other_environment_termination": "separate non-semantic outcome",
+    "time_limit_truncation": "censored; never silently counted as violation"
+  },
+  "schema_version": "tlrl-benchmark-design/1",
+  "semantic_engine": {
+    "semantics_version": "future-ltlf-operational-provenance/1",
+    "source_sha256": "9010148258f2860cee0dd321e83d3fe04fa741eb87399851a5c6f5452c196d6e",
+    "version": "0.3.0"
+  },
+  "status": "runtime_qualified_for_development_training_not_confirmatory_utility",
+  "upstream": {
+    "commit": "3157200b5910cd7f5c493ffba8913994f2207eaf",
+    "environment_id": "PointLtl2-v0",
+    "license": {
+      "deep_ltl": "MIT",
+      "vendored_safety_gymnasium_fork": "Apache-2.0"
+    },
+    "repository": "https://github.com/mathiasj33/deep-ltl",
+    "task_source": "eval_datasets/PointLtl2-v0/tasks.txt",
+    "task_source_raw_sha256": "0eb487d76bbbcae2e6698abefa1f6f6e03b0cca68d02d5cebdd3ba652af902bb",
+    "task_source_url": "https://raw.githubusercontent.com/mathiasj33/deep-ltl/main/eval_datasets/PointLtl2-v0/tasks.txt"
+  }
+}

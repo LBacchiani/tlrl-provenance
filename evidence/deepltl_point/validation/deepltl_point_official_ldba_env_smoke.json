@@ -1,0 +1,48 @@
+{
+  "accepting_steps": 0,
+  "checked_steps": 32,
+  "environment_id": "PointLtl2-v0",
+  "environment_terminations": 0,
+  "forced_ordered_eventuality_probe": [
+    {
+      "accepting": false,
+      "color": "green",
+      "ldba_state": 2,
+      "terminated": false
+    },
+    {
+      "accepting": false,
+      "color": "yellow",
+      "ldba_state": 1,
+      "terminated": false
+    },
+    {
+      "accepting": true,
+      "color": "yellow",
+      "ldba_state": 1,
+      "terminated": true
+    }
+  ],
+  "formula": "F (green & F yellow)",
+  "geometry_info_mismatches": 0,
+  "ldba_state_changes": 0,
+  "ldba_states": 3,
+  "ldba_transitions": 5,
+  "ldba_valid": true,
+  "observed_positive_labels": [],
+  "rabinizer_jar_sha256": "46efc53d769d1016c75b6b76f7cb2db259d4426053591993a62aa874f3ef486d",
+  "runtime": {
+    "gymnasium": "0.28.1",
+    "mujoco": "2.3.3",
+    "numpy": "1.23.5",
+    "python": "3.10.21",
+    "safety_gymnasium": "1.2.0"
+  },
+  "schema_version": "tlrl-deepltl-point-official-ldba-env-smoke/1",
+  "scope": "development_only_official_wrapper_no_learned_policy_no_utility",
+  "seed": 271828,
+  "status": "passed",
+  "termination_truncation_preserved": true,
+  "time_limit_truncations": 0,
+  "upstream_commit": "3157200b5910cd7f5c493ffba8913994f2207eaf"
+}

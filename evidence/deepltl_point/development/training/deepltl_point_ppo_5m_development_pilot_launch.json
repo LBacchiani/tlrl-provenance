@@ -1,0 +1,18 @@
+{
+  "confirmatory_usefulness_evaluation_authorized": false,
+  "expected_final_steps_due_to_batch_boundary": 5046272,
+  "experiment_name": "v3_dev_ppo_5m_seed_910001",
+  "launched_epoch_seconds": 1788165422.4390936,
+  "manifest_path": "evidence/deepltl_point_ppo_5m_development_pilot_manifest.json",
+  "manifest_sha256": "75e8ab3eccd5f43fd29acb0022b8feff006ac0ddeee938c4e3e8a24d0290b157",
+  "pid": 67072,
+  "run_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_dev_ppo_5m_seed_910001\\910001",
+  "schema_version": "tlrl-deepltl-point-ppo-development-pilot-launch/1",
+  "scope": "development_training_only_no_confirmatory_usefulness_evaluation",
+  "seed": 910001,
+  "status": "launched",
+  "stderr_path": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_dev_ppo_5m_seed_910001\\910001\\launch.stderr.log",
+  "stdout_path": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_dev_ppo_5m_seed_910001\\910001\\launch.stdout.log",
+  "target_steps": 5000000,
+  "utility_outcomes_inspected_before_launch": false
+}

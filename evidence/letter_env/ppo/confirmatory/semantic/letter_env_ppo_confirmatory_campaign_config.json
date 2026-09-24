@@ -1,0 +1,55 @@
+{
+  "schema_version": "tlrl-confirmatory-semantic-campaign/1",
+  "campaign_id": "letter_env_ppo_full_confirmatory_semantic_5seed_2026",
+  "benchmark_id": "deepltl-letterenv-ppo-official-eval-50",
+  "adapter": "tlrl_benchmarks.letter_env.confirmatory_ppo:LetterEnvPPOConfirmatoryAdapter",
+  "adapter_config": {
+    "upstream": ".runtime/deep-ltl",
+    "rabinizer_jar": "rabinizer-4/lib/rabinizer.jar",
+    "subjects": [
+      {"training_seed": 940001, "experiment": "v3_confirm_ppo_5m_letter_env_seed_940001", "checkpoint_steps": 4816896, "subject_id": "ppo_seed_940001"},
+      {"training_seed": 940002, "experiment": "v3_confirm_ppo_5m_letter_env_seed_940002", "checkpoint_steps": 4816896, "subject_id": "ppo_seed_940002"},
+      {"training_seed": 940003, "experiment": "v3_confirm_ppo_5m_letter_env_seed_940003", "checkpoint_steps": 4816896, "subject_id": "ppo_seed_940003"},
+      {"training_seed": 940004, "experiment": "v3_confirm_ppo_5m_letter_env_seed_940004", "checkpoint_steps": 4816896, "subject_id": "ppo_seed_940004"},
+      {"training_seed": 940005, "experiment": "v3_confirm_ppo_5m_letter_env_seed_940005", "checkpoint_steps": 4816896, "subject_id": "ppo_seed_940005"}
+    ]
+  },
+  "design": {
+    "confidence": 0.95,
+    "deterministic": true,
+    "episodes_per_task": 20,
+    "formula_selection_rule": "all_50_official_deepltl_letterenv_evaluation_formulas",
+    "interpretation_guardrails": {
+      "logical_evidence_is_not_action_causality_or_physical_robustness": true,
+      "policy_comparisons_hold_formula_and_scenario_fixed": true,
+      "primary_interpretation": "P_sat reports satisfaction frequency; provenance distinguishes continuation status, logical support, and operational non-success classes.",
+      "raw_evidence_counts_are_trace_length_confounded": true,
+      "formula_family_effects_are_descriptive_not_policy_quality": true
+    },
+    "no_interim_outcome_summary": true,
+    "policy_selection_rule": "final_checkpoint_per_training_seed",
+    "task_shard_size": 5,
+    "verification_mode": "full",
+    "workers": 4
+  },
+  "seed_namespace": {
+    "base": 21000000,
+    "subject_stride": 10000,
+    "task_stride": 100,
+    "episode_stride": 1,
+    "forbidden_values": [940000],
+    "forbidden_ranges": [[930000, 930005], [940001, 940005], [950000, 950005], [960000, 960005]]
+  },
+  "scenario_namespace": {
+    "base": 21100000,
+    "task_stride": 100,
+    "episode_stride": 1
+  },
+  "outputs": {
+    "plan": "evidence/letter_env/ppo/confirmatory/semantic/letter_env_ppo_full_confirmatory_semantic_plan.json",
+    "records": "evidence/letter_env/ppo/confirmatory/semantic/letter_env_ppo_full_confirmatory_semantic_records.jsonl",
+    "summary": "evidence/letter_env/ppo/confirmatory/semantic/letter_env_ppo_full_confirmatory_semantic_summary.json",
+    "report": "evidence/letter_env/ppo/confirmatory/semantic/letter_env_ppo_semantic_report.md",
+    "shard_directory": "evidence/letter_env/ppo/confirmatory/semantic/shards"
+  }
+}

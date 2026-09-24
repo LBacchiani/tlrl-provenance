@@ -1,0 +1,17 @@
+{
+  "schema_version": "tlrl-provenance-coq-verification/1",
+  "purpose": "Machine-checks represented-support sufficiency, exact necessary/possible evidence extraction, and the necessary-subset-possible corollary for the paper's unfolded provenance-circuit model. This is a proof of the mathematical model, not extraction or formal verification of the Python implementation.",
+  "compiler": "The Coq Proof Assistant, version 8.13.1 (February 2021)\ncompiled on Feb 23 2021 15:34:05 with OCaml 4.07.1",
+  "command": "coqc -q ProvenanceEvidence.v",
+  "source": "formal/coq/ProvenanceEvidence.v",
+  "source_sha256": "9e3d0cdf1d37ca823f34871b830fd5b657ddc48753fefdcd7ec5258482795bf2",
+  "checked_results": [
+    "represented_support_sound",
+    "necessary_exact",
+    "possible_exact",
+    "necessary_is_possible"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": ""
+}

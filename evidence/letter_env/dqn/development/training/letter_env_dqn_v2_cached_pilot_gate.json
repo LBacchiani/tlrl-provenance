@@ -1,0 +1,30 @@
+{
+  "confirmatory_seeds": [
+    930001,
+    930002,
+    930003,
+    930004,
+    930005
+  ],
+  "contamination_controls": {
+    "confirmatory_training_authorized": true,
+    "pilot_outcomes_inspected": true
+  },
+  "history": [
+    {
+      "epoch_seconds": 1788448647.0547514,
+      "status": "pilot_not_launched"
+    },
+    {
+      "epoch_seconds": 1788448647.0578673,
+      "status": "pilot_launched"
+    },
+    {
+      "epoch_seconds": 1788587758.905262,
+      "status": "confirmatory_authorized"
+    }
+  ],
+  "pilot_seed": 930000,
+  "schema_version": "tlrl-letter-env-dqn-pilot-gate/2",
+  "status": "confirmatory_authorized"
+}

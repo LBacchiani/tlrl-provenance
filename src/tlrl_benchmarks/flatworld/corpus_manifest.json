@@ -1,0 +1,661 @@
+{
+  "benchmark_id": "deepltl-flatworld",
+  "circle_geometry": {
+    "circles": [
+      {
+        "center_x": -1.4,
+        "center_y": 0.55,
+        "color": "red",
+        "radius": 0.4
+      },
+      {
+        "center_x": -1.1,
+        "center_y": 1.1,
+        "color": "magenta",
+        "radius": 0.5
+      },
+      {
+        "center_x": -1.0,
+        "center_y": -1.2,
+        "color": "yellow",
+        "radius": 0.3
+      },
+      {
+        "center_x": -1.53,
+        "center_y": -0.5,
+        "color": "orange",
+        "radius": 0.32
+      },
+      {
+        "center_x": 0.1,
+        "center_y": 0.0,
+        "color": "blue",
+        "radius": 0.8
+      },
+      {
+        "center_x": 0.5,
+        "center_y": -1.3,
+        "color": "red",
+        "radius": 0.35
+      },
+      {
+        "center_x": 0.7,
+        "center_y": 0.7,
+        "color": "green",
+        "radius": 0.5
+      },
+      {
+        "center_x": 1.5,
+        "center_y": -0.75,
+        "color": "green",
+        "radius": 0.4
+      },
+      {
+        "center_x": 0.8,
+        "center_y": 0.2,
+        "color": "aqua",
+        "radius": 0.3
+      }
+    ],
+    "colors": [
+      "aqua",
+      "blue",
+      "green",
+      "magenta",
+      "orange",
+      "red",
+      "yellow"
+    ],
+    "count": 9,
+    "matches_live_upstream_class_attribute": true,
+    "note": "unlike LetterEnv's per-episode randomized letter map or PointLtl2's disjoint-zone invariant, FlatWorld's circles are a fixed constant; different-color circles are permitted to overlap by upstream design, so more than one proposition can be simultaneously true",
+    "position_bound": 2.5,
+    "possible_assignment_count": 13
+  },
+  "contamination_controls": {
+    "deepltl_point_policy_dependency": false,
+    "learned_policy_outcomes_inspected": false,
+    "letter_env_policy_dependency": false,
+    "training_authorized_by_this_artifact": false,
+    "v2_dependency": false
+  },
+  "formula_corpus": {
+    "atoms": [
+      "aqua",
+      "blue",
+      "green",
+      "magenta",
+      "orange",
+      "red",
+      "yellow"
+    ],
+    "count": 49,
+    "eventually_chain_count": 23,
+    "normalized_lf_sha256": "a1756f3b8318307258bc3a7922d100116cd9534301eabb10f1c7455703af65e0",
+    "packaged_byte_sha256": "a1756f3b8318307258bc3a7922d100116cd9534301eabb10f1c7455703af65e0",
+    "selection": "all 49 published FlatWorld-v0 evaluation formulas in source order",
+    "source_path": "eval_datasets/FlatWorld-v0/tasks.txt",
+    "until_chain_count": 26,
+    "upstream_byte_sha256": "1934a774097b917687660d1358694be4ce52b1d22fc4aa87e844ea0da4a00c2f"
+  },
+  "formula_pairs": [
+    {
+      "formula": "F (aqua & F (magenta & F (green & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "green",
+        "magenta"
+      ],
+      "formula_source_sha256": "765e52cf1b668877837b3be6f49e47a76fffcf6c79c2d16445a06bf48b84b879",
+      "task_id": "flatworld_000"
+    },
+    {
+      "formula": "F (orange & F ((blue & aqua) & F (red & magenta)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "magenta",
+        "orange",
+        "red"
+      ],
+      "formula_source_sha256": "65fb53c7c441c894e247c226da74ef721eeab2c677e549e7280d1efc2622f070",
+      "task_id": "flatworld_001"
+    },
+    {
+      "formula": "F (red & F ((red & magenta) & F magenta))",
+      "formula_atoms": [
+        "magenta",
+        "red"
+      ],
+      "formula_source_sha256": "72ed64032eaf9c11af5bfd4ca2c7b14ce54db4763e9839b9d2236621ad26834a",
+      "task_id": "flatworld_002"
+    },
+    {
+      "formula": "(!green U (aqua & (!magenta U (green & aqua))))",
+      "formula_atoms": [
+        "aqua",
+        "green",
+        "magenta"
+      ],
+      "formula_source_sha256": "63190c717acaf5206315b19490b97220e620d3c0eb0f1f669d1c24ac702de24d",
+      "task_id": "flatworld_003"
+    },
+    {
+      "formula": "(!(blue & green & aqua) U (red & (!(blue & green) U (blue & aqua))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "red"
+      ],
+      "formula_source_sha256": "7d504959965d179565e27e3de6c6d1472ccfd329ebb0bdc2980f1e481e5b7761",
+      "task_id": "flatworld_004"
+    },
+    {
+      "formula": "F (green & F ((blue & aqua) & F orange))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "orange"
+      ],
+      "formula_source_sha256": "94cfdcaf912394f65ad31282fab31e20a25a6e09e5affa0f2532165dd0111e12",
+      "task_id": "flatworld_005"
+    },
+    {
+      "formula": "(!red U ((blue & green & aqua) & (!green U (blue & green))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "red"
+      ],
+      "formula_source_sha256": "5484b31598bec5beb17367d6008d0ceb27089d552c8c77b6a48860af32ededcf",
+      "task_id": "flatworld_006"
+    },
+    {
+      "formula": "(!(blue & green) U ((red & magenta) & (!yellow U green)))",
+      "formula_atoms": [
+        "blue",
+        "green",
+        "magenta",
+        "red",
+        "yellow"
+      ],
+      "formula_source_sha256": "d8f0606d5d42b15ca025198da78d9d717d190684c81ccfb8822349bbea7d835c",
+      "task_id": "flatworld_007"
+    },
+    {
+      "formula": "F ((red & magenta) & F (green & F (blue & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "magenta",
+        "red"
+      ],
+      "formula_source_sha256": "f07719bf5e1a8d556b5522b54cb7874e4f2f71b5275937ac856bccf6e6b4d17d",
+      "task_id": "flatworld_008"
+    },
+    {
+      "formula": "(!orange U (red & (!magenta U (blue & green))))",
+      "formula_atoms": [
+        "blue",
+        "green",
+        "magenta",
+        "orange",
+        "red"
+      ],
+      "formula_source_sha256": "7830cd5ce369e0481cf09073d6670454582ef32427d5d9c060e151f25ef37e49",
+      "task_id": "flatworld_009"
+    },
+    {
+      "formula": "F (aqua & F ((blue & green & aqua) & F (blue & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green"
+      ],
+      "formula_source_sha256": "d27b89dea5356c552e919e21c2bd2845980ea62aba3249672cfb0c3a1ce06c01",
+      "task_id": "flatworld_010"
+    },
+    {
+      "formula": "F ((blue & green & aqua) & F (yellow & F (blue & green & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "formula_source_sha256": "b90745df7e381edf478bfbe8de4ebae3287416792fb7a5d73eb5a2c08f597d9c",
+      "task_id": "flatworld_011"
+    },
+    {
+      "formula": "(!(blue & aqua) U ((blue & green) & (!aqua U green)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green"
+      ],
+      "formula_source_sha256": "49cdc17c6f6d9dca5cf033b4f35b7580ae158eec49b23c5b9e3ce1538d5bafea",
+      "task_id": "flatworld_012"
+    },
+    {
+      "formula": "(!(red & magenta) U ((green & aqua) & (!orange U (blue & green))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "magenta",
+        "orange",
+        "red"
+      ],
+      "formula_source_sha256": "1ca44512038b6b01e7cbdbc494370a8638c16741713a5ab6b06e8c4854c0c297",
+      "task_id": "flatworld_013"
+    },
+    {
+      "formula": "F ((blue & green & aqua) & F (green & F (red & magenta)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "magenta",
+        "red"
+      ],
+      "formula_source_sha256": "87804b9c3c8423ae1d2ffb0859c0882448e0d91131e10af1e156b129bc32a045",
+      "task_id": "flatworld_014"
+    },
+    {
+      "formula": "(!(blue & aqua) U (orange & (!yellow U blue)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "orange",
+        "yellow"
+      ],
+      "formula_source_sha256": "cc225caba6c97e8306f237c0a64028f85eb061a04b9c6c9eb296832a43d34de0",
+      "task_id": "flatworld_015"
+    },
+    {
+      "formula": "(!red U ((red & magenta) & (!(blue & aqua) U (blue & green & aqua))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "magenta",
+        "red"
+      ],
+      "formula_source_sha256": "88773bcd4d2370f3904710d1922150b67ad0985b2dbae016954984926358eef0",
+      "task_id": "flatworld_016"
+    },
+    {
+      "formula": "(!(green & aqua) U ((blue & green & aqua) & (!orange U (blue & aqua))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "orange"
+      ],
+      "formula_source_sha256": "55763c6f0defe289d22730708ec47fa69ba0780676c6ac7d927c9690960aa2c6",
+      "task_id": "flatworld_017"
+    },
+    {
+      "formula": "F (green & F ((blue & green) & F blue))",
+      "formula_atoms": [
+        "blue",
+        "green"
+      ],
+      "formula_source_sha256": "be7c4c809a321a101ffee4d4be8056a242c6c1aa3a440412d6a88e4eea8b6277",
+      "task_id": "flatworld_018"
+    },
+    {
+      "formula": "F (green & F ((blue & green) & F green))",
+      "formula_atoms": [
+        "blue",
+        "green"
+      ],
+      "formula_source_sha256": "3d7773feb05e811730a1d5b52c33565b9ca68c74b1c07502603391578bbcf4e7",
+      "task_id": "flatworld_019"
+    },
+    {
+      "formula": "(!yellow U ((blue & green) & (!(blue & aqua) U (green & aqua))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "formula_source_sha256": "3e0f7e0c72d83b7edf84a6d880372590e89267c602dfae21ccb009192a19cee6",
+      "task_id": "flatworld_020"
+    },
+    {
+      "formula": "(!green U ((blue & green) & (!red U orange)))",
+      "formula_atoms": [
+        "blue",
+        "green",
+        "orange",
+        "red"
+      ],
+      "formula_source_sha256": "a34005cc8930b3ce09a591226d72e669b5390cb8229ebbc954f1eb2df7e55bfd",
+      "task_id": "flatworld_021"
+    },
+    {
+      "formula": "(!(green & aqua) U (yellow & (!green U (blue & green))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "formula_source_sha256": "799cf4d7c58f1dfa10e4ad31689f90af595ed5b23ae6e943b95f86fc4e04961e",
+      "task_id": "flatworld_022"
+    },
+    {
+      "formula": "(!yellow U ((red & magenta) & (!(blue & aqua) U orange)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "magenta",
+        "orange",
+        "red",
+        "yellow"
+      ],
+      "formula_source_sha256": "5af251b88be60ddf11192ddf178c06e2b788387a825f81447a75d7e2013acd39",
+      "task_id": "flatworld_023"
+    },
+    {
+      "formula": "F (yellow & F ((green & aqua) & F (blue & green)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "formula_source_sha256": "882e6f129ff4182b0c2bd3eaa07fb581fc14482f094a24eb0e655a0183bcc1da",
+      "task_id": "flatworld_024"
+    },
+    {
+      "formula": "(!red U ((green & aqua) & (!blue U green)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "red"
+      ],
+      "formula_source_sha256": "868db66d1ed2f2488a6b3965e91861b8f610560ce8e354d367fc160b12f7a6d3",
+      "task_id": "flatworld_025"
+    },
+    {
+      "formula": "F (aqua & F ((blue & green) & F magenta))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "magenta"
+      ],
+      "formula_source_sha256": "3df517838db01079509a92281dccdeb695a5034ed660c31c09846f713161972e",
+      "task_id": "flatworld_026"
+    },
+    {
+      "formula": "F (red & F (magenta & F (blue & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "magenta",
+        "red"
+      ],
+      "formula_source_sha256": "840313064141a4433a906d3dde5da5810b632ee04a642c80dc9c8e294d49a186",
+      "task_id": "flatworld_027"
+    },
+    {
+      "formula": "(!aqua U (red & (!(blue & aqua) U green)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "red"
+      ],
+      "formula_source_sha256": "b9d8287771ccae57d0495afc14f3d5d9765c76a8b5fc2f4e7f44573703e51c17",
+      "task_id": "flatworld_028"
+    },
+    {
+      "formula": "F (yellow & F (blue & F (green & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "formula_source_sha256": "575b276831917165c17e65efc8672bfa5b53abc5fc5464fd08abf7cc04fd59bb",
+      "task_id": "flatworld_029"
+    },
+    {
+      "formula": "(!blue U (magenta & (!aqua U (blue & aqua))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "magenta"
+      ],
+      "formula_source_sha256": "dfa7483ae3e82f73c7368c29c3151a430a0e6d6ad70b3e41423fa790f90c76fa",
+      "task_id": "flatworld_030"
+    },
+    {
+      "formula": "F ((blue & aqua) & F (aqua & F (blue & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "blue"
+      ],
+      "formula_source_sha256": "7830bcc417ac6ebf8999cd18eeede5b1264bf4eeb355c3d5867ddccea6c91daa",
+      "task_id": "flatworld_031"
+    },
+    {
+      "formula": "(!yellow U ((red & magenta) & (!(green & aqua) U (blue & green & aqua))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "magenta",
+        "red",
+        "yellow"
+      ],
+      "formula_source_sha256": "d7d3a4921a002657483ffdd3599c3f9b469c973bd598920b0e6b54a814d87de7",
+      "task_id": "flatworld_032"
+    },
+    {
+      "formula": "F (orange & F (aqua & F red))",
+      "formula_atoms": [
+        "aqua",
+        "orange",
+        "red"
+      ],
+      "formula_source_sha256": "00fc6d6e5e53abc8a2c5fb02a582fabfafcfd0c109da626291d82b5767825103",
+      "task_id": "flatworld_033"
+    },
+    {
+      "formula": "(!green U (orange & (!magenta U aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "green",
+        "magenta",
+        "orange"
+      ],
+      "formula_source_sha256": "10c2d796081fb09281ea5c36fa01f8d80819e174861f2802648178b1a8185947",
+      "task_id": "flatworld_034"
+    },
+    {
+      "formula": "(!(blue & green) U ((blue & green & aqua) & (!orange U green)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "orange"
+      ],
+      "formula_source_sha256": "a0ac4662dae48e119931643b2aca1aeb394819baebae71efe7d09baa009b0e81",
+      "task_id": "flatworld_035"
+    },
+    {
+      "formula": "F (orange & F (red & F green))",
+      "formula_atoms": [
+        "green",
+        "orange",
+        "red"
+      ],
+      "formula_source_sha256": "75c236ed47c77b0a3590451d2bc03e93c029e276514ef5cbf16535446c1ae53f",
+      "task_id": "flatworld_036"
+    },
+    {
+      "formula": "F (blue & F ((blue & green & aqua) & F red))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "red"
+      ],
+      "formula_source_sha256": "33c61a00f11e80d5f48a40eab16dbcf7b147e35829050c737e8862e124204b1b",
+      "task_id": "flatworld_037"
+    },
+    {
+      "formula": "F ((blue & green) & F ((blue & green & aqua) & F (blue & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green"
+      ],
+      "formula_source_sha256": "d37f3059c960ed5b8acbb131df8b1907d6dfa9b35a0ffdf6b4d4a28510dd6bd0",
+      "task_id": "flatworld_038"
+    },
+    {
+      "formula": "(!(green & aqua) U ((blue & aqua) & (!orange U yellow)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "orange",
+        "yellow"
+      ],
+      "formula_source_sha256": "3854819d9aff48b6d84c96502ea25842ae13884dbc351cfefb1506b1f41531ae",
+      "task_id": "flatworld_039"
+    },
+    {
+      "formula": "F (blue & F (aqua & F (blue & green & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green"
+      ],
+      "formula_source_sha256": "65c4f8e0e546b9e6f342a3b894e65dfd66ec8ac5304656ac181127aebba15436",
+      "task_id": "flatworld_040"
+    },
+    {
+      "formula": "F (magenta & F (aqua & F red))",
+      "formula_atoms": [
+        "aqua",
+        "magenta",
+        "red"
+      ],
+      "formula_source_sha256": "39ea74abe5c237637e81d9c4c02ff3443943dc7794d62c60bf8f4bd54a14c587",
+      "task_id": "flatworld_041"
+    },
+    {
+      "formula": "F (blue & F ((blue & green & aqua) & F aqua))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green"
+      ],
+      "formula_source_sha256": "1e83139159e51f06780efe8c38531dfba342f9e1211917a13f5c8cd6b94a00cc",
+      "task_id": "flatworld_042"
+    },
+    {
+      "formula": "(!aqua U ((green & aqua) & (!red U blue)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "red"
+      ],
+      "formula_source_sha256": "96c821328b6968af7f5826dd7de012b6b72f470b8409b89253be914b57de5128",
+      "task_id": "flatworld_043"
+    },
+    {
+      "formula": "F ((green & aqua) & F (green & F (green & aqua)))",
+      "formula_atoms": [
+        "aqua",
+        "green"
+      ],
+      "formula_source_sha256": "ff4519d3c2c74b92123e06f4efe8f9b27b58ba459321ccaec79a3dc0fb9133dd",
+      "task_id": "flatworld_044"
+    },
+    {
+      "formula": "(!(green & aqua) U (blue & (!red U (blue & green))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "red"
+      ],
+      "formula_source_sha256": "1a40fc5ab1951db9cdc8ee0a4d8f2aceed0771b27d5c8478a3b086b029cdb160",
+      "task_id": "flatworld_045"
+    },
+    {
+      "formula": "(!yellow U (green & (!(blue & green & aqua) U magenta)))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "magenta",
+        "yellow"
+      ],
+      "formula_source_sha256": "c053d4fb2c347cbffb36a035c64857cd44683d30a4e47982ab117779a91a5432",
+      "task_id": "flatworld_046"
+    },
+    {
+      "formula": "(!green U ((green & aqua) & (!magenta U (red & magenta))))",
+      "formula_atoms": [
+        "aqua",
+        "green",
+        "magenta",
+        "red"
+      ],
+      "formula_source_sha256": "002f44161b3a398147453ed950ed91df1ee9dc4a1ca127a34ceed7bec1a77a67",
+      "task_id": "flatworld_047"
+    },
+    {
+      "formula": "(!(blue & green) U (aqua & (!red U (red & magenta))))",
+      "formula_atoms": [
+        "aqua",
+        "blue",
+        "green",
+        "magenta",
+        "red"
+      ],
+      "formula_source_sha256": "ff878d118936fccbd4292872cc2c6b5213dd33893417e3ab348fc74e3b8367df",
+      "task_id": "flatworld_048"
+    }
+  ],
+  "outcomes_inspected": false,
+  "schema_version": "tlrl-flatworld-corpus-freeze/1",
+  "scope": "published_formulas_fixed_circle_geometry_and_grounding_sources_only",
+  "status": "formula_corpus_and_geometry_frozen",
+  "training_executed": false,
+  "upstream": {
+    "commit": "3157200b5910cd7f5c493ffba8913994f2207eaf",
+    "patch_scope": {
+      "src/ltl/automata/rabinizer.py": "native Rabinizer 4 jar invocation",
+      "src/utils/logging/file_logger.py": "Windows-compatible exclusive file locking"
+    },
+    "repository": "https://github.com/mathiasj33/deep-ltl",
+    "semantic_source_sha256": {
+      "src/envs/env_utils.py": "b67e5c01efd3b2f6f5deb5de79c1a7256fc232cc4e16b8022d2e4587a449617f",
+      "src/envs/flatworld/__init__.py": "445b40e88f18249d5af7bac9f44ae869ad4ebde559949a02b955a5fcef90ec0c",
+      "src/envs/flatworld/flatworld.py": "1783d3f18717fdccb3fdceab92ce09492569793ace97056188a18506f3b89ad4",
+      "src/envs/ldba_wrapper.py": "dc170f975f6ff11f2c42a29dc1430c166c6ab4b9b0b0f0c6bcb0442a076fda4b",
+      "src/sequence/samplers/curriculum.py": "9474a007106aa5df09ea116c5f5ec00e0217275f78a3ea389b5e76e80231e575"
+    },
+    "tracked_patch_paths": [
+      "src/ltl/automata/rabinizer.py",
+      "src/utils/logging/file_logger.py"
+    ],
+    "tracked_patch_sha256": "2e65ceb9a02a6870b17d7959c78881f10ac75abc0328c0e51f1ff66b317eb7e6"
+  }
+}

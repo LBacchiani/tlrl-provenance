@@ -1,0 +1,56 @@
+{
+    "model_config": {
+        "name": "FlatWorld-v0",
+        "config": {
+            "actor": {
+                "layers": [
+                    64,
+                    64,
+                    64
+                ],
+                "activation": "ReLU",
+                "state_dependent_std": false
+            },
+            "critic": {
+                "layers": [
+                    64,
+                    64
+                ],
+                "activation": "ReLU"
+            },
+            "ltl_embedding_dim": 16,
+            "num_rnn_layers": 1,
+            "env_net": {
+                "layers": [
+                    16,
+                    16
+                ],
+                "activation": "ReLU"
+            },
+            "set_net": {
+                "layers": [
+                    32,
+                    16
+                ],
+                "activation": "ReLU"
+            }
+        }
+    },
+    "curriculum": "FlatWorld-v0",
+    "log_csv": true,
+    "log_wandb": false,
+    "save": true,
+    "ppo": {
+        "epochs": 10,
+        "batch_size": 2048,
+        "steps_per_process": 4096,
+        "discount": 0.98,
+        "lr": 0.0003,
+        "gae_lambda": 0.95,
+        "entropy_coef": 0.003,
+        "value_loss_coef": 0.5,
+        "max_grad_norm": 0.5,
+        "optim_eps": 1e-08,
+        "clip_eps": 0.2
+    }
+}

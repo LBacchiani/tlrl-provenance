@@ -1,0 +1,133 @@
+{
+  "bounded_partial_support_enumeration_stress": {
+    "complete": false,
+    "formula": "F(a) and F(b) and F(c) and F(d)",
+    "intermediate_limit": 16,
+    "mode": "bounded_partial",
+    "returned_supports": 640,
+    "trace_positions": 40,
+    "truncated_node_ids": [
+      238,
+      357
+    ],
+    "truncation_reasons": [
+      "intermediate_limit"
+    ],
+    "work_done": 3950,
+    "work_limit": 100000
+  },
+  "exhaustive_trace_count_per_formula": 84,
+  "formula_operator_suite_count": 16,
+  "gfold_support_enumeration_stress": {
+    "complete": false,
+    "elapsed_seconds": 0.006373300100676715,
+    "formula": "(G(not(collision)) and G((hazard -> (((((safe and X(safe)) or X((safe and X(safe)))) or X(X((safe and X(safe))))) or X(X(X((safe and X(safe)))))) or X(X(X(X((safe and X(safe))))))))))",
+    "intermediate_limit": 16,
+    "mode": "bounded_partial",
+    "returned_supports": 16,
+    "trace_positions": 21,
+    "truncated_node_ids": [
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208
+    ],
+    "truncation_reasons": [
+      "intermediate_limit"
+    ],
+    "work_done": 1888,
+    "work_limit": 100000
+  },
+  "linear_temporal_support_regression": {
+    "F p": {
+      "bounded_partial": {
+        "complete": true,
+        "returned_supports": 40,
+        "work_done": 819
+      },
+      "exact": {
+        "complete": true,
+        "returned_supports": 40,
+        "work_done": 819
+      }
+    },
+    "G(not p)": {
+      "bounded_partial": {
+        "complete": true,
+        "returned_supports": 40,
+        "work_done": 819
+      },
+      "exact": {
+        "complete": true,
+        "returned_supports": 40,
+        "work_done": 819
+      }
+    },
+    "p U q": {
+      "bounded_partial": {
+        "complete": true,
+        "returned_supports": 40,
+        "work_done": 22139
+      },
+      "exact": {
+        "complete": true,
+        "returned_supports": 40,
+        "work_done": 22139
+      }
+    },
+    "p W q": {
+      "bounded_partial": {
+        "complete": true,
+        "returned_supports": 41,
+        "work_done": 23740
+      },
+      "exact": {
+        "complete": true,
+        "returned_supports": 41,
+        "work_done": 23740
+      }
+    }
+  },
+  "random_nested_formula_count": 500,
+  "random_seed": 99002140,
+  "runtime": {
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.2"
+  },
+  "schema": "tlrl-semantic-kernel-verification/3",
+  "source_sha256": "1d3a0bf183c48000f0973252a82eae2058a38537e8f6fd6498844e5d2cff5678",
+  "status": "pass",
+  "support_enumeration_stress": {
+    "complete": false,
+    "elapsed_seconds": 0.15230109996628016,
+    "formula": "F(a) and F(b) and F(c) and F(d)",
+    "intermediate_limit": null,
+    "mode": "exact",
+    "returned_supports": 10000,
+    "tiny_work_limit_checked": 50,
+    "trace_positions": 40,
+    "truncated_node_ids": [
+      357,
+      436
+    ],
+    "truncation_reasons": [
+      "output_limit"
+    ],
+    "work_done": 24878,
+    "work_limit": 100000
+  },
+  "verified_cell_count": 21421,
+  "verified_certificate_count": 1844,
+  "verified_support_count": 2293
+}

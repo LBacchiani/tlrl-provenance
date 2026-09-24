@@ -1,0 +1,131 @@
+{
+  "benchmark_id": "deepltl-pointworld-official-eval-50",
+  "command": [
+    "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deepltl-py310\\python.exe",
+    "src/train/train_ppo.py",
+    "--env",
+    "PointLtl2-v0",
+    "--steps_per_process",
+    "4096",
+    "--batch_size",
+    "2048",
+    "--lr",
+    "0.0003",
+    "--discount",
+    "0.998",
+    "--entropy_coef",
+    "0.003",
+    "--log_interval",
+    "1",
+    "--save_interval",
+    "1",
+    "--epochs",
+    "10",
+    "--num_steps",
+    "5000000",
+    "--model_config",
+    "PointLtl2-v0",
+    "--curriculum",
+    "PointLtl2-v0",
+    "--name",
+    "v3_dev_ppo_5m_seed_910001",
+    "--seed",
+    "910001",
+    "--device",
+    "gpu",
+    "--num_procs",
+    "16",
+    "--log_csv",
+    "--save",
+    "--no-log_wandb"
+  ],
+  "contamination_controls": {
+    "confirmatory_training_authorized": false,
+    "confirmatory_usefulness_evaluation_authorized": false,
+    "run_directory_must_not_exist_before_launch": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl\\experiments\\ppo\\PointLtl2-v0\\v3_dev_ppo_5m_seed_910001\\910001",
+    "uses_reserved_development_seed": true,
+    "utility_outcomes_inspected_before_launch": false,
+    "v2_dependency": false
+  },
+  "created_local_time": "2026-08-31T10:35:36.5014662+02:00",
+  "prelaunch_evidence": {
+    "benchmark_manifest": {
+      "path": "src/tlrl_benchmarks/deepltl_point/manifest.json",
+      "sha256": "568216a0ac35fbf0180221c3afa13d0c3248582d7faaaa9cb14217ca96f2dc1d"
+    },
+    "official_ldba_environment_smoke": {
+      "path": "evidence/deepltl_point_official_ldba_env_smoke.json",
+      "sha256": "24663b616a6ab4805f383f2335c0c6cf61b265b41f4a377315b6565b62514fc5"
+    },
+    "ppo_gpu_smoke": {
+      "path": "evidence/deepltl_point_ppo_gpu_smoke.json",
+      "sha256": "7ab8c9315b83f2a800d6eb629318e1f6c958e67a33594145a68c0a134ae29904"
+    },
+    "rabinizer_verification": {
+      "path": "evidence/deepltl_point_rabinizer_verification.json",
+      "sha256": "64fc91d38b3cf89821656b03943bc380bf8941ded2b6f2c62f081051f0b5d2bc"
+    }
+  },
+  "runtime": {
+    "python": "3.14.2",
+    "python_executable": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deepltl-py310\\python.exe",
+    "rabinizer_jar": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\rabinizer-4\\lib\\rabinizer.jar",
+    "rabinizer_jar_sha256": "46efc53d769d1016c75b6b76f7cb2db259d4426053591993a62aa874f3ef486d",
+    "required_environment": {
+      "PYTHONPATH": "src/",
+      "PYTHONUTF8": "1",
+      "RABINIZER_JAR": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\rabinizer-4\\lib\\rabinizer.jar"
+    },
+    "stderr_path": "v3.0/.runtime/deep-ltl/experiments/ppo/PointLtl2-v0/v3_dev_ppo_5m_seed_910001/910001/launch.stderr.log",
+    "stdout_path": "v3.0/.runtime/deep-ltl/experiments/ppo/PointLtl2-v0/v3_dev_ppo_5m_seed_910001/910001/launch.stdout.log",
+    "working_directory": "C:\\Users\\lorenzo.bacchiani2\\Desktop\\private-RL-project\\v3.0\\.runtime\\deep-ltl"
+  },
+  "schema_version": "tlrl-deepltl-point-ppo-development-pilot/1",
+  "scope": "development_training_only_no_confirmatory_usefulness_evaluation",
+  "status": "frozen_not_launched",
+  "training": {
+    "algorithm": "formula_conditioned_recurrent_ppo",
+    "batch_size": 2048,
+    "batch_steps": 65536,
+    "device": "gpu",
+    "discount": 0.998,
+    "entropy_coefficient": 0.003,
+    "environment_seeds": [
+      91000100,
+      91000101,
+      91000102,
+      91000103,
+      91000104,
+      91000105,
+      91000106,
+      91000107,
+      91000108,
+      91000109,
+      91000110,
+      91000111,
+      91000112,
+      91000113,
+      91000114,
+      91000115
+    ],
+    "epochs": 10,
+    "expected_final_steps_due_to_batch_boundary": 5046272,
+    "expected_updates": 77,
+    "experiment_name": "v3_dev_ppo_5m_seed_910001",
+    "learning_rate": 0.0003,
+    "log_csv": true,
+    "log_interval_updates": 1,
+    "log_wandb": false,
+    "num_processes": 16,
+    "save": true,
+    "save_interval_updates": 1,
+    "seed": 910001,
+    "steps_per_process": 4096,
+    "target_steps": 5000000
+  },
+  "upstream": {
+    "commit": "3157200b5910cd7f5c493ffba8913994f2207eaf",
+    "environment_id": "PointLtl2-v0",
+    "repository": "https://github.com/mathiasj33/deep-ltl"
+  }
+}

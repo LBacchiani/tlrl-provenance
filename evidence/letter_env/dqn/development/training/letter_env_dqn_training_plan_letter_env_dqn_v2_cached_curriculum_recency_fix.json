@@ -1,0 +1,77 @@
+{
+  "algorithm": {
+    "curriculum": "official DeepLTL LETTER_CURRICULUM",
+    "environment": "LetterEnv-v0",
+    "implementation": "v3.0/scripts/train_letter_env_dqn.py",
+    "name": "Double DQN",
+    "network": "DeepLTL LetterEnv convolutional encoder plus LTL sequence encoder plus Q head",
+    "replay_preprocessing": "cached",
+    "reward": "official DeepLTL SequenceWrapper reach-avoid reward"
+  },
+  "benchmark_id": "deepltl-letter-env-dqn",
+  "config": {
+    "adam_eps": 1e-05,
+    "batch_size": 128,
+    "buffer_size": 200000,
+    "checkpoint_interval": 250000,
+    "device": "cuda",
+    "discount": 0.94,
+    "double_dqn": true,
+    "epsilon_decay_steps": 1000000,
+    "final_epsilon": 0.05,
+    "initial_epsilon": 1.0,
+    "learning_rate": 0.0001,
+    "learning_starts": 10000,
+    "log_interval": 10000,
+    "max_grad_norm": 10.0,
+    "name": "letter_env_dqn_v2_cached_curriculum_recency_fix",
+    "num_envs": 8,
+    "num_threads": 8,
+    "replay_preprocessing": "cached",
+    "seed": "per_subject",
+    "target_update_frequency": 10000,
+    "total_steps": 5000000,
+    "train_frequency": 4
+  },
+  "contamination_controls": {
+    "best_checkpoint_selected_after_outcomes": false,
+    "confirmatory_outcomes_inspected_before_training": false,
+    "deepltl_point_policy_dependency": false,
+    "v2_dependency": false
+  },
+  "evaluation_corpus": {
+    "episode_horizon": 75,
+    "formula_count": 50,
+    "frozen_manifest": "src/tlrl_benchmarks/letter_env/corpus_manifest.json",
+    "frozen_manifest_sha256": "7b8471f1eb2be046fdb9f1211504c1b808ba3e641619db25c00ed9f0193747e0",
+    "outcomes_inspected": false
+  },
+  "implementation_amendment": {
+    "changes_environment_distribution": false,
+    "changes_learning_rule": false,
+    "changes_network_or_hyperparameters": false,
+    "reason": "v1 replay preprocessing made the declared training budget operationally infeasible",
+    "supersedes_plan": "letter_env_dqn_training_plan.json",
+    "validation": "stock and cached collators produce bit-identical tensors and Q outputs"
+  },
+  "schema_version": "tlrl-letter-env-dqn-training-plan/2",
+  "source_hashes": {
+    "corpus_freeze_script_sha256": "2ef74f06df948f859606c7f30980a38858a57f0a952ad24ca6bee6665d07fe07",
+    "dqn_module_sha256": "5977bf6fddecc5cf246ca5fd32aa33bb9f2be050bcad2efc2693fb4aa11f7e51",
+    "preprocessing_benchmark_sha256": "98caedca11e0fb00792b2e1c7fc9ce70d51c8e0bbd91b725e135691f3eb91154",
+    "train_script_sha256": "101ee0d8c94f4ddc7200b3ed9898e0f7251887e1037c2a7d7712c9e751c70154"
+  },
+  "status": "training_protocol_frozen",
+  "subjects": {
+    "count": 5,
+    "seeds": [
+      930001,
+      930002,
+      930003,
+      930004,
+      930005
+    ],
+    "selection_rule": "all listed seeds are trained; final checkpoint is primary"
+  },
+  "training_executed": false
+}
